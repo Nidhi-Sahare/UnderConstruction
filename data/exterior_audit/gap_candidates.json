@@ -1,0 +1,8263 @@
+[
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -38.364992,
+      11.679725
+    ],
+    "end": [
+      -38.280178,
+      11.594912
+    ],
+    "distance_m": 0.119944,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0001"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -38.364992,
+      11.679725
+    ],
+    "end": [
+      -38.28017813,
+      11.59491154
+    ],
+    "distance_m": 0.119945,
+    "target_segment_id": "CAD_SEG_000933",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0002"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -38.364992,
+      11.679725
+    ],
+    "end": [
+      -38.28017813,
+      11.59491154
+    ],
+    "distance_m": 0.119945,
+    "target_segment_id": "CAD_SEG_000932",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0003"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -38.280178,
+      11.594912
+    ],
+    "end": [
+      -38.36499180300091,
+      11.67972580699907
+    ],
+    "distance_m": 0.119945,
+    "target_segment_id": "CAD_SEG_000277",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0004"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -42.357693,
+      34.293236
+    ],
+    "end": [
+      -42.237693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0005"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -43.092693,
+      34.293236
+    ],
+    "end": [
+      -43.212693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0006"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -40.182693,
+      34.293236
+    ],
+    "end": [
+      -40.062693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0007"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -40.917693,
+      34.293236
+    ],
+    "end": [
+      -41.037693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0008"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -38.007693,
+      34.293236
+    ],
+    "end": [
+      -37.887693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0009"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -38.742693,
+      34.293236
+    ],
+    "end": [
+      -38.862693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0010"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -35.832693,
+      34.293236
+    ],
+    "end": [
+      -35.712693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0011"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -36.567693,
+      34.293236
+    ],
+    "end": [
+      -36.687693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0012"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -33.657693,
+      34.293236
+    ],
+    "end": [
+      -33.537693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0013"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -34.392693,
+      34.293236
+    ],
+    "end": [
+      -34.512693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0014"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -31.482693,
+      34.293236
+    ],
+    "end": [
+      -31.362693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0015"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -32.217693,
+      34.293236
+    ],
+    "end": [
+      -32.337693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0016"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -29.307693,
+      34.293236
+    ],
+    "end": [
+      -29.187693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0017"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -30.042693,
+      34.293236
+    ],
+    "end": [
+      -30.162693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0018"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -44.532693,
+      34.293236
+    ],
+    "end": [
+      -44.412693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0019"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -44.945193,
+      33.880736
+    ],
+    "end": [
+      -44.945193,
+      33.760736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0020"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -27.132693,
+      34.293236
+    ],
+    "end": [
+      -27.012693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0021"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -27.867693,
+      34.293236
+    ],
+    "end": [
+      -27.987693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0022"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -24.957693,
+      34.293236
+    ],
+    "end": [
+      -24.837693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0023"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -25.692693,
+      34.293236
+    ],
+    "end": [
+      -25.812693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0024"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -22.782693,
+      34.293236
+    ],
+    "end": [
+      -22.662693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0025"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -23.517693,
+      34.293236
+    ],
+    "end": [
+      -23.637693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0026"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -20.607693,
+      34.293236
+    ],
+    "end": [
+      -20.487693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0027"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -21.342693,
+      34.293236
+    ],
+    "end": [
+      -21.462693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0028"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -18.432693,
+      34.293236
+    ],
+    "end": [
+      -18.312693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0029"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -19.167693,
+      34.293236
+    ],
+    "end": [
+      -19.287693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0030"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -16.257693,
+      34.293236
+    ],
+    "end": [
+      -16.137693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0031"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -16.992693,
+      34.293236
+    ],
+    "end": [
+      -17.112693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0032"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -14.082693,
+      34.293236
+    ],
+    "end": [
+      -13.962693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0033"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -14.817693,
+      34.293236
+    ],
+    "end": [
+      -14.937693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0034"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -11.907693,
+      34.293236
+    ],
+    "end": [
+      -11.787693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0035"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -12.642693,
+      34.293236
+    ],
+    "end": [
+      -12.762693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0036"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -9.732693,
+      34.293236
+    ],
+    "end": [
+      -9.612693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0037"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -10.467693,
+      34.293236
+    ],
+    "end": [
+      -10.587693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0038"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -7.557693,
+      34.293236
+    ],
+    "end": [
+      -7.437693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0039"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -8.292693,
+      34.293236
+    ],
+    "end": [
+      -8.412693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0040"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -5.382693,
+      34.293236
+    ],
+    "end": [
+      -5.262693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0041"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -6.117693,
+      34.293236
+    ],
+    "end": [
+      -6.237693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0042"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -3.207693,
+      34.293236
+    ],
+    "end": [
+      -3.087693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0043"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -3.942693,
+      34.293236
+    ],
+    "end": [
+      -4.062693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0044"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      31.705736
+    ],
+    "end": [
+      -1.355193,
+      31.585736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0045"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      32.440736
+    ],
+    "end": [
+      -1.355193,
+      32.560736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0046"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      29.530736
+    ],
+    "end": [
+      -1.355193,
+      29.410736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0047"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      30.265736
+    ],
+    "end": [
+      -1.355193,
+      30.385736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0048"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      27.093236
+    ],
+    "end": [
+      -1.355193,
+      26.973236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0049"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      28.090736
+    ],
+    "end": [
+      -1.355193,
+      28.210736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0050"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      24.655736
+    ],
+    "end": [
+      -1.355193,
+      24.535736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0051"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      25.653236
+    ],
+    "end": [
+      -1.355193,
+      25.773236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0052"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      22.480736
+    ],
+    "end": [
+      -1.355193,
+      22.360736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0053"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      23.215736
+    ],
+    "end": [
+      -1.355193,
+      23.335736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0054"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      20.305736
+    ],
+    "end": [
+      -1.355193,
+      20.185736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0055"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      21.040736
+    ],
+    "end": [
+      -1.355193,
+      21.160736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0056"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.767693,
+      34.293236
+    ],
+    "end": [
+      -1.887693,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0057"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      33.880736
+    ],
+    "end": [
+      -1.355193,
+      33.760736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0058"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.767693,
+      1.053236
+    ],
+    "end": [
+      -1.887693,
+      1.053236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0059"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      1.465736
+    ],
+    "end": [
+      -1.355193,
+      1.585736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0060"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -34.392693,
+      9.753236
+    ],
+    "end": [
+      -34.512693,
+      9.753236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0061"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -33.657693,
+      9.753236
+    ],
+    "end": [
+      -33.537693,
+      9.753236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0062"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -40.422673,
+      13.737406
+    ],
+    "end": [
+      -40.507526,
+      13.822259
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0063"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -39.902949,
+      13.217683
+    ],
+    "end": [
+      -39.818097,
+      13.13283
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0064"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -41.96063,
+      15.275363
+    ],
+    "end": [
+      -42.045483,
+      15.360216
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0065"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -41.440907,
+      14.75564
+    ],
+    "end": [
+      -41.356054,
+      14.670787
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0066"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -43.498587,
+      16.813321
+    ],
+    "end": [
+      -43.58344,
+      16.898174
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0067"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -42.978864,
+      16.293597
+    ],
+    "end": [
+      -42.894011,
+      16.208744
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0068"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -44.945193,
+      21.040736
+    ],
+    "end": [
+      -44.945193,
+      21.160736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0069"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -44.945193,
+      20.305736
+    ],
+    "end": [
+      -44.945193,
+      20.185736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0070"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -44.945193,
+      25.653236
+    ],
+    "end": [
+      -44.945193,
+      25.773236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0071"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -44.945193,
+      22.480736
+    ],
+    "end": [
+      -44.945193,
+      22.360736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0072"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -44.945193,
+      30.265736
+    ],
+    "end": [
+      -44.945193,
+      30.385736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0073"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -44.945193,
+      27.093236
+    ],
+    "end": [
+      -44.945193,
+      26.973236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0074"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -44.945193,
+      32.440736
+    ],
+    "end": [
+      -44.945193,
+      32.560736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0075"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -44.945193,
+      31.705736
+    ],
+    "end": [
+      -44.945193,
+      31.585736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0076"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -32.217693,
+      9.753236
+    ],
+    "end": [
+      -32.337693,
+      9.753236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0077"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -31.482693,
+      9.753236
+    ],
+    "end": [
+      -31.362693,
+      9.753236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0078"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -30.042693,
+      9.753236
+    ],
+    "end": [
+      -30.162693,
+      9.753236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0079"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -29.307693,
+      9.753236
+    ],
+    "end": [
+      -29.187693,
+      9.753236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0080"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -27.867693,
+      9.753236
+    ],
+    "end": [
+      -27.987693,
+      9.753236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0081"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -27.132693,
+      9.753236
+    ],
+    "end": [
+      -27.012693,
+      9.753236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0082"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -25.692693,
+      9.753236
+    ],
+    "end": [
+      -25.812693,
+      9.753236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0083"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -24.957693,
+      9.753236
+    ],
+    "end": [
+      -24.837693,
+      9.753236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0084"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -23.517693,
+      9.753236
+    ],
+    "end": [
+      -23.637693,
+      9.753236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0085"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -22.782693,
+      9.753236
+    ],
+    "end": [
+      -22.662693,
+      9.753236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0086"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -21.342693,
+      9.753236
+    ],
+    "end": [
+      -21.462693,
+      9.753236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0087"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -20.607693,
+      9.753236
+    ],
+    "end": [
+      -20.487693,
+      9.753236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0088"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -19.167693,
+      9.753236
+    ],
+    "end": [
+      -19.287693,
+      9.753236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0089"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -18.432693,
+      9.753236
+    ],
+    "end": [
+      -18.312693,
+      9.753236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0090"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -16.020193,
+      5.815736
+    ],
+    "end": [
+      -16.020193,
+      5.935736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0091"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -16.020193,
+      5.080736
+    ],
+    "end": [
+      -16.020193,
+      4.960736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0092"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -16.020193,
+      3.640736
+    ],
+    "end": [
+      -16.020193,
+      3.760736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0093"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -16.020193,
+      2.905736
+    ],
+    "end": [
+      -16.020193,
+      2.785736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0094"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      18.130736
+    ],
+    "end": [
+      -1.355193,
+      18.010736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0095"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      18.865736
+    ],
+    "end": [
+      -1.355193,
+      18.985736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0096"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      15.955736
+    ],
+    "end": [
+      -1.355193,
+      15.835736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0097"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      16.690736
+    ],
+    "end": [
+      -1.355193,
+      16.810736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0098"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      13.780736
+    ],
+    "end": [
+      -1.355193,
+      13.660736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0099"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      14.515736
+    ],
+    "end": [
+      -1.355193,
+      14.635736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0100"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      11.605736
+    ],
+    "end": [
+      -1.355193,
+      11.485736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0101"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      12.340736
+    ],
+    "end": [
+      -1.355193,
+      12.460736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0102"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      9.430736
+    ],
+    "end": [
+      -1.355193,
+      9.310736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0103"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      10.165736
+    ],
+    "end": [
+      -1.355193,
+      10.285736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0104"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      7.255736
+    ],
+    "end": [
+      -1.355193,
+      7.135736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0105"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      7.990736
+    ],
+    "end": [
+      -1.355193,
+      8.110736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0106"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      5.080736
+    ],
+    "end": [
+      -1.355193,
+      4.960736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0107"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      5.815736
+    ],
+    "end": [
+      -1.355193,
+      5.935736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0108"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      2.905736
+    ],
+    "end": [
+      -1.355193,
+      2.785736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0109"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -1.355193,
+      3.640736
+    ],
+    "end": [
+      -1.355193,
+      3.760736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0110"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -38.884716,
+      12.199449
+    ],
+    "end": [
+      -38.969568,
+      12.284302
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0111"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -44.516821,
+      17.831555
+    ],
+    "end": [
+      -44.431968,
+      17.746702
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0112"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -44.945193,
+      18.865736
+    ],
+    "end": [
+      -44.945193,
+      18.985736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0113"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -16.992693,
+      9.753236
+    ],
+    "end": [
+      -17.112693,
+      9.753236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0114"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -16.020193,
+      7.255736
+    ],
+    "end": [
+      -16.020193,
+      7.135736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0115"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -14.082693,
+      1.053236
+    ],
+    "end": [
+      -13.962693,
+      1.053236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0116"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -16.020193,
+      1.465736
+    ],
+    "end": [
+      -16.020193,
+      1.585736
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0117"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -3.207693,
+      1.053236
+    ],
+    "end": [
+      -3.087693,
+      1.053236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0118"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -3.942693,
+      1.053236
+    ],
+    "end": [
+      -4.062693,
+      1.053236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0119"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -5.382693,
+      1.053236
+    ],
+    "end": [
+      -5.262693,
+      1.053236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0120"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -7.557693,
+      1.053236
+    ],
+    "end": [
+      -7.437693,
+      1.053236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0121"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -8.292693,
+      1.053236
+    ],
+    "end": [
+      -8.412693,
+      1.053236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0122"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -9.732693,
+      1.053236
+    ],
+    "end": [
+      -9.612693,
+      1.053236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0123"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -10.467693,
+      1.053236
+    ],
+    "end": [
+      -10.587693,
+      1.053236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0124"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -11.907693,
+      1.053236
+    ],
+    "end": [
+      -11.787693,
+      1.053236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0125"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -12.642693,
+      1.053236
+    ],
+    "end": [
+      -12.762693,
+      1.053236
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0126"
+  },
+  {
+    "type": "endpoint_to_endpoint",
+    "start": [
+      -37.346797,
+      10.661531
+    ],
+    "end": [
+      -37.43165,
+      10.746383
+    ],
+    "distance_m": 0.12,
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0127"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -42.357693,
+      34.293236
+    ],
+    "end": [
+      -42.23769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000848",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0128"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -42.357693,
+      34.293236
+    ],
+    "end": [
+      -42.23769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000849",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0129"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -43.092693,
+      34.293236
+    ],
+    "end": [
+      -43.21269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000851",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0130"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -43.092693,
+      34.293236
+    ],
+    "end": [
+      -43.21269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000850",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0131"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -40.182693,
+      34.293236
+    ],
+    "end": [
+      -40.06269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000847",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0132"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -40.182693,
+      34.293236
+    ],
+    "end": [
+      -40.06269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000846",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0133"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -40.917693,
+      34.293236
+    ],
+    "end": [
+      -41.03769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000848",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0134"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -40.917693,
+      34.293236
+    ],
+    "end": [
+      -41.03769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000849",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0135"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -38.007693,
+      34.293236
+    ],
+    "end": [
+      -37.88769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000845",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0136"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -38.007693,
+      34.293236
+    ],
+    "end": [
+      -37.88769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000844",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0137"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -38.742693,
+      34.293236
+    ],
+    "end": [
+      -38.86269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000847",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0138"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -38.742693,
+      34.293236
+    ],
+    "end": [
+      -38.86269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000846",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0139"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -35.832693,
+      34.293236
+    ],
+    "end": [
+      -35.71269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000842",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0140"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -35.832693,
+      34.293236
+    ],
+    "end": [
+      -35.71269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000843",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0141"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -36.567693,
+      34.293236
+    ],
+    "end": [
+      -36.68769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000845",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0142"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -36.567693,
+      34.293236
+    ],
+    "end": [
+      -36.68769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000844",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0143"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -33.657693,
+      34.293236
+    ],
+    "end": [
+      -33.53769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000841",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0144"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -33.657693,
+      34.293236
+    ],
+    "end": [
+      -33.53769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000840",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0145"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -34.392693,
+      34.293236
+    ],
+    "end": [
+      -34.51269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000842",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0146"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -34.392693,
+      34.293236
+    ],
+    "end": [
+      -34.51269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000843",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0147"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -31.482693,
+      34.293236
+    ],
+    "end": [
+      -31.36269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000839",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0148"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -31.482693,
+      34.293236
+    ],
+    "end": [
+      -31.36269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000838",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0149"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -32.217693,
+      34.293236
+    ],
+    "end": [
+      -32.33769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000841",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0150"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -32.217693,
+      34.293236
+    ],
+    "end": [
+      -32.33769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000840",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0151"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -29.307693,
+      34.293236
+    ],
+    "end": [
+      -29.18769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000836",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0152"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -29.307693,
+      34.293236
+    ],
+    "end": [
+      -29.18769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000837",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0153"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -30.042693,
+      34.293236
+    ],
+    "end": [
+      -30.16269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000839",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0154"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -30.042693,
+      34.293236
+    ],
+    "end": [
+      -30.16269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000838",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0155"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.532693,
+      34.293236
+    ],
+    "end": [
+      -44.41269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000851",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0156"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.532693,
+      34.293236
+    ],
+    "end": [
+      -44.41269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000850",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0157"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      33.880736
+    ],
+    "end": [
+      -44.94519304,
+      33.76073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000878",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0158"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      33.880736
+    ],
+    "end": [
+      -44.94519304,
+      33.76073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000879",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0159"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -27.132693,
+      34.293236
+    ],
+    "end": [
+      -27.01269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000835",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0160"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -27.132693,
+      34.293236
+    ],
+    "end": [
+      -27.01269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000834",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0161"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -27.867693,
+      34.293236
+    ],
+    "end": [
+      -27.98769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000836",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0162"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -27.867693,
+      34.293236
+    ],
+    "end": [
+      -27.98769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000837",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0163"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -24.957693,
+      34.293236
+    ],
+    "end": [
+      -24.83769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000832",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0164"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -24.957693,
+      34.293236
+    ],
+    "end": [
+      -24.83769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000833",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0165"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -25.692693,
+      34.293236
+    ],
+    "end": [
+      -25.81269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000835",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0166"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -25.692693,
+      34.293236
+    ],
+    "end": [
+      -25.81269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000834",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0167"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -22.782693,
+      34.293236
+    ],
+    "end": [
+      -22.66269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000830",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0168"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -22.782693,
+      34.293236
+    ],
+    "end": [
+      -22.66269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000831",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0169"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -23.517693,
+      34.293236
+    ],
+    "end": [
+      -23.63769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000832",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0170"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -23.517693,
+      34.293236
+    ],
+    "end": [
+      -23.63769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000833",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0171"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -20.607693,
+      34.293236
+    ],
+    "end": [
+      -20.48769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000829",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0172"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -20.607693,
+      34.293236
+    ],
+    "end": [
+      -20.48769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000828",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0173"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -21.342693,
+      34.293236
+    ],
+    "end": [
+      -21.46269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000830",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0174"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -21.342693,
+      34.293236
+    ],
+    "end": [
+      -21.46269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000831",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0175"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -18.432693,
+      34.293236
+    ],
+    "end": [
+      -18.31269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000827",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0176"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -18.432693,
+      34.293236
+    ],
+    "end": [
+      -18.31269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000826",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0177"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -19.167693,
+      34.293236
+    ],
+    "end": [
+      -19.28769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000829",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0178"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -19.167693,
+      34.293236
+    ],
+    "end": [
+      -19.28769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000828",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0179"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.257693,
+      34.293236
+    ],
+    "end": [
+      -16.13769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000865",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0180"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.257693,
+      34.293236
+    ],
+    "end": [
+      -16.13769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000864",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0181"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.992693,
+      34.293236
+    ],
+    "end": [
+      -17.11269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000827",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0182"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.992693,
+      34.293236
+    ],
+    "end": [
+      -17.11269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000826",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0183"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -14.082693,
+      34.293236
+    ],
+    "end": [
+      -13.96269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000862",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0184"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -14.082693,
+      34.293236
+    ],
+    "end": [
+      -13.96269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000863",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0185"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -14.817693,
+      34.293236
+    ],
+    "end": [
+      -14.93769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000865",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0186"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -14.817693,
+      34.293236
+    ],
+    "end": [
+      -14.93769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000864",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0187"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -11.907693,
+      34.293236
+    ],
+    "end": [
+      -11.78769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000860",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0188"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -11.907693,
+      34.293236
+    ],
+    "end": [
+      -11.78769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000861",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0189"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -12.642693,
+      34.293236
+    ],
+    "end": [
+      -12.76269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000862",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0190"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -12.642693,
+      34.293236
+    ],
+    "end": [
+      -12.76269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000863",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0191"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -9.732693,
+      34.293236
+    ],
+    "end": [
+      -9.61269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000858",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0192"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -9.732693,
+      34.293236
+    ],
+    "end": [
+      -9.61269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000859",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0193"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -10.467693,
+      34.293236
+    ],
+    "end": [
+      -10.58769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000860",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0194"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -10.467693,
+      34.293236
+    ],
+    "end": [
+      -10.58769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000861",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0195"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -7.557693,
+      34.293236
+    ],
+    "end": [
+      -7.43769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000857",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0196"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -7.557693,
+      34.293236
+    ],
+    "end": [
+      -7.43769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000856",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0197"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -8.292693,
+      34.293236
+    ],
+    "end": [
+      -8.41269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000858",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0198"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -8.292693,
+      34.293236
+    ],
+    "end": [
+      -8.41269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000859",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0199"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -5.382693,
+      34.293236
+    ],
+    "end": [
+      -5.26269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000854",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0200"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -5.382693,
+      34.293236
+    ],
+    "end": [
+      -5.26269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000855",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0201"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -6.117693,
+      34.293236
+    ],
+    "end": [
+      -6.23769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000857",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0202"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -6.117693,
+      34.293236
+    ],
+    "end": [
+      -6.23769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000856",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0203"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -3.207693,
+      34.293236
+    ],
+    "end": [
+      -3.08769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000853",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0204"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -3.207693,
+      34.293236
+    ],
+    "end": [
+      -3.08769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000852",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0205"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -3.942693,
+      34.293236
+    ],
+    "end": [
+      -4.06269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000854",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0206"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -3.942693,
+      34.293236
+    ],
+    "end": [
+      -4.06269311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000855",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0207"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      31.705736
+    ],
+    "end": [
+      -1.35519315,
+      31.58573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000886",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0208"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      31.705736
+    ],
+    "end": [
+      -1.35519315,
+      31.58573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000887",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0209"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      32.440736
+    ],
+    "end": [
+      -1.35519315,
+      32.56073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000888",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0210"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      32.440736
+    ],
+    "end": [
+      -1.35519315,
+      32.56073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000889",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0211"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      29.530736
+    ],
+    "end": [
+      -1.35519315,
+      29.41073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000893",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0212"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      29.530736
+    ],
+    "end": [
+      -1.35519315,
+      29.41073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000892",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0213"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      30.265736
+    ],
+    "end": [
+      -1.35519315,
+      30.38573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000886",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0214"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      30.265736
+    ],
+    "end": [
+      -1.35519315,
+      30.38573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000887",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0215"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      27.093236
+    ],
+    "end": [
+      -1.35519315,
+      26.97323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000884",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0216"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      27.093236
+    ],
+    "end": [
+      -1.35519315,
+      26.97323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000885",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0217"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      28.090736
+    ],
+    "end": [
+      -1.35519315,
+      28.21073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000893",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0218"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      28.090736
+    ],
+    "end": [
+      -1.35519315,
+      28.21073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000892",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0219"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      24.655736
+    ],
+    "end": [
+      -1.35519315,
+      24.53573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000891",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0220"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      24.655736
+    ],
+    "end": [
+      -1.35519315,
+      24.53573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000890",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0221"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      25.653236
+    ],
+    "end": [
+      -1.35519315,
+      25.77323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000884",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0222"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      25.653236
+    ],
+    "end": [
+      -1.35519315,
+      25.77323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000885",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0223"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      22.480736
+    ],
+    "end": [
+      -1.35519315,
+      22.36073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000882",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0224"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      22.480736
+    ],
+    "end": [
+      -1.35519315,
+      22.36073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000883",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0225"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      23.215736
+    ],
+    "end": [
+      -1.35519315,
+      23.33573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000891",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0226"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      23.215736
+    ],
+    "end": [
+      -1.35519315,
+      23.33573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000890",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0227"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      20.305736
+    ],
+    "end": [
+      -1.35519315,
+      20.18573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000881",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0228"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      20.305736
+    ],
+    "end": [
+      -1.35519315,
+      20.18573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000880",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0229"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      21.040736
+    ],
+    "end": [
+      -1.35519315,
+      21.16073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000882",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0230"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      21.040736
+    ],
+    "end": [
+      -1.35519315,
+      21.16073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000883",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0231"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.767693,
+      34.293236
+    ],
+    "end": [
+      -1.88769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000853",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0232"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.767693,
+      34.293236
+    ],
+    "end": [
+      -1.88769311,
+      34.29323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000852",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0233"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      33.880736
+    ],
+    "end": [
+      -1.35519315,
+      33.76073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000888",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0234"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      33.880736
+    ],
+    "end": [
+      -1.35519315,
+      33.76073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000889",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0235"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.767693,
+      1.053236
+    ],
+    "end": [
+      -1.88769311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000934",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0236"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.767693,
+      1.053236
+    ],
+    "end": [
+      -1.88769311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000935",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0237"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      1.465736
+    ],
+    "end": [
+      -1.35519311,
+      1.58573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000925",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0238"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      1.465736
+    ],
+    "end": [
+      -1.35519311,
+      1.58573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000924",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0239"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -34.392693,
+      9.753236
+    ],
+    "end": [
+      -34.51269311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000895",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0240"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -34.392693,
+      9.753236
+    ],
+    "end": [
+      -34.51269311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000894",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0241"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -33.657693,
+      9.753236
+    ],
+    "end": [
+      -33.53769311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000867",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0242"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -33.657693,
+      9.753236
+    ],
+    "end": [
+      -33.53769311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000866",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0243"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -40.422673,
+      13.737406
+    ],
+    "end": [
+      -40.50752566,
+      13.82225904
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000928",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0244"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -40.422673,
+      13.737406
+    ],
+    "end": [
+      -40.50752566,
+      13.82225904
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000929",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0245"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -39.902949,
+      13.217683
+    ],
+    "end": [
+      -39.81809653,
+      13.13282995
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000931",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0246"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -39.902949,
+      13.217683
+    ],
+    "end": [
+      -39.81809653,
+      13.13282995
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000930",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0247"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -41.96063,
+      15.275363
+    ],
+    "end": [
+      -42.04548293,
+      15.36021627
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000926",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0248"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -41.96063,
+      15.275363
+    ],
+    "end": [
+      -42.04548293,
+      15.36021627
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000927",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0249"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -41.440907,
+      14.75564
+    ],
+    "end": [
+      -41.35605378,
+      14.6707872
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000928",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0250"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -41.440907,
+      14.75564
+    ],
+    "end": [
+      -41.35605378,
+      14.6707872
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000929",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0251"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -43.498587,
+      16.813321
+    ],
+    "end": [
+      -43.58344016,
+      16.89817354
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000868",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0252"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -43.498587,
+      16.813321
+    ],
+    "end": [
+      -43.58344016,
+      16.89817354
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000869",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0253"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -42.978864,
+      16.293597
+    ],
+    "end": [
+      -42.89401105,
+      16.20874442
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000926",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0254"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -42.978864,
+      16.293597
+    ],
+    "end": [
+      -42.89401105,
+      16.20874442
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000927",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0255"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      21.040736
+    ],
+    "end": [
+      -44.94519304,
+      21.16073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000872",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0256"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      21.040736
+    ],
+    "end": [
+      -44.94519304,
+      21.16073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000873",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0257"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      20.305736
+    ],
+    "end": [
+      -44.94519304,
+      20.18573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000870",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0258"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      20.305736
+    ],
+    "end": [
+      -44.94519304,
+      20.18573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000871",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0259"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      25.653236
+    ],
+    "end": [
+      -44.94519304,
+      25.77323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000874",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0260"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      25.653236
+    ],
+    "end": [
+      -44.94519304,
+      25.77323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000875",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0261"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      22.480736
+    ],
+    "end": [
+      -44.94519304,
+      22.36073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000872",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0262"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      22.480736
+    ],
+    "end": [
+      -44.94519304,
+      22.36073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000873",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0263"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      30.265736
+    ],
+    "end": [
+      -44.94519304,
+      30.38573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000876",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0264"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      30.265736
+    ],
+    "end": [
+      -44.94519304,
+      30.38573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000877",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0265"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      27.093236
+    ],
+    "end": [
+      -44.94519304,
+      26.97323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000874",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0266"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      27.093236
+    ],
+    "end": [
+      -44.94519304,
+      26.97323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000875",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0267"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      32.440736
+    ],
+    "end": [
+      -44.94519304,
+      32.56073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000878",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0268"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      32.440736
+    ],
+    "end": [
+      -44.94519304,
+      32.56073602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000879",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0269"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      31.705736
+    ],
+    "end": [
+      -44.94519304,
+      31.58573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000876",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0270"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      31.705736
+    ],
+    "end": [
+      -44.94519304,
+      31.58573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000877",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0271"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -32.217693,
+      9.753236
+    ],
+    "end": [
+      -32.33769311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000867",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0272"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -32.217693,
+      9.753236
+    ],
+    "end": [
+      -32.33769311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000866",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0273"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -31.482693,
+      9.753236
+    ],
+    "end": [
+      -31.36269311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000896",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0274"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -31.482693,
+      9.753236
+    ],
+    "end": [
+      -31.36269311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000897",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0275"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -30.042693,
+      9.753236
+    ],
+    "end": [
+      -30.16269311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000896",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0276"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -30.042693,
+      9.753236
+    ],
+    "end": [
+      -30.16269311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000897",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0277"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -29.307693,
+      9.753236
+    ],
+    "end": [
+      -29.18769311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000899",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0278"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -29.307693,
+      9.753236
+    ],
+    "end": [
+      -29.18769311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000898",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0279"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -27.867693,
+      9.753236
+    ],
+    "end": [
+      -27.98769311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000899",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0280"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -27.867693,
+      9.753236
+    ],
+    "end": [
+      -27.98769311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000898",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0281"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -27.132693,
+      9.753236
+    ],
+    "end": [
+      -27.01269311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000901",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0282"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -27.132693,
+      9.753236
+    ],
+    "end": [
+      -27.01269311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000900",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0283"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -25.692693,
+      9.753236
+    ],
+    "end": [
+      -25.81269311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000901",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0284"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -25.692693,
+      9.753236
+    ],
+    "end": [
+      -25.81269311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000900",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0285"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -24.957693,
+      9.753236
+    ],
+    "end": [
+      -24.83769311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000902",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0286"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -24.957693,
+      9.753236
+    ],
+    "end": [
+      -24.83769311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000903",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0287"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -23.517693,
+      9.753236
+    ],
+    "end": [
+      -23.63769311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000902",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0288"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -23.517693,
+      9.753236
+    ],
+    "end": [
+      -23.63769311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000903",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0289"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -22.782693,
+      9.753236
+    ],
+    "end": [
+      -22.66269311,
+      9.75323598
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000904",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0290"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -22.782693,
+      9.753236
+    ],
+    "end": [
+      -22.66269311,
+      9.75323598
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000905",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0291"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -21.342693,
+      9.753236
+    ],
+    "end": [
+      -21.46269311,
+      9.75323598
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000904",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0292"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -21.342693,
+      9.753236
+    ],
+    "end": [
+      -21.46269311,
+      9.75323598
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000905",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0293"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -20.607693,
+      9.753236
+    ],
+    "end": [
+      -20.48769311,
+      9.75323598
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000906",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0294"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -20.607693,
+      9.753236
+    ],
+    "end": [
+      -20.48769311,
+      9.75323598
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000907",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0295"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -19.167693,
+      9.753236
+    ],
+    "end": [
+      -19.28769311,
+      9.75323598
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000906",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0296"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -19.167693,
+      9.753236
+    ],
+    "end": [
+      -19.28769311,
+      9.75323598
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000907",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0297"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -18.432693,
+      9.753236
+    ],
+    "end": [
+      -18.31269311,
+      9.75323598
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000909",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0298"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -18.432693,
+      9.753236
+    ],
+    "end": [
+      -18.31269311,
+      9.75323598
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000908",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0299"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      5.815736
+    ],
+    "end": [
+      -16.02019311,
+      5.93573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000951",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0300"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      5.815736
+    ],
+    "end": [
+      -16.02019311,
+      5.93573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000950",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0301"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      5.080736
+    ],
+    "end": [
+      -16.02019315,
+      4.96073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000949",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0302"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      5.080736
+    ],
+    "end": [
+      -16.02019315,
+      4.96073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000948",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0303"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      3.640736
+    ],
+    "end": [
+      -16.02019315,
+      3.76073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000949",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0304"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      3.640736
+    ],
+    "end": [
+      -16.02019315,
+      3.76073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000948",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0305"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      2.905736
+    ],
+    "end": [
+      -16.02019315,
+      2.78573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000947",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0306"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      2.905736
+    ],
+    "end": [
+      -16.02019315,
+      2.78573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000946",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0307"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      18.130736
+    ],
+    "end": [
+      -1.35519311,
+      18.01073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000910",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0308"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      18.130736
+    ],
+    "end": [
+      -1.35519311,
+      18.01073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000911",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0309"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      18.865736
+    ],
+    "end": [
+      -1.35519315,
+      18.98573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000881",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0310"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      18.865736
+    ],
+    "end": [
+      -1.35519315,
+      18.98573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000880",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0311"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      15.955736
+    ],
+    "end": [
+      -1.35519311,
+      15.83573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000913",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0312"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      15.955736
+    ],
+    "end": [
+      -1.35519311,
+      15.83573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000912",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0313"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      16.690736
+    ],
+    "end": [
+      -1.35519311,
+      16.81073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000910",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0314"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      16.690736
+    ],
+    "end": [
+      -1.35519311,
+      16.81073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000911",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0315"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      13.780736
+    ],
+    "end": [
+      -1.35519311,
+      13.66073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000914",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0316"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      13.780736
+    ],
+    "end": [
+      -1.35519311,
+      13.66073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000915",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0317"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      14.515736
+    ],
+    "end": [
+      -1.35519311,
+      14.63573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000913",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0318"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      14.515736
+    ],
+    "end": [
+      -1.35519311,
+      14.63573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000912",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0319"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      11.605736
+    ],
+    "end": [
+      -1.35519311,
+      11.48573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000917",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0320"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      11.605736
+    ],
+    "end": [
+      -1.35519311,
+      11.48573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000916",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0321"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      12.340736
+    ],
+    "end": [
+      -1.35519311,
+      12.46073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000914",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0322"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      12.340736
+    ],
+    "end": [
+      -1.35519311,
+      12.46073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000915",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0323"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      9.430736
+    ],
+    "end": [
+      -1.35519311,
+      9.31073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000919",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0324"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      9.430736
+    ],
+    "end": [
+      -1.35519311,
+      9.31073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000918",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0325"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      10.165736
+    ],
+    "end": [
+      -1.35519311,
+      10.28573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000917",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0326"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      10.165736
+    ],
+    "end": [
+      -1.35519311,
+      10.28573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000916",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0327"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      7.255736
+    ],
+    "end": [
+      -1.35519311,
+      7.13573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000921",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0328"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      7.255736
+    ],
+    "end": [
+      -1.35519311,
+      7.13573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000920",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0329"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      7.990736
+    ],
+    "end": [
+      -1.35519311,
+      8.11073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000919",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0330"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      7.990736
+    ],
+    "end": [
+      -1.35519311,
+      8.11073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000918",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0331"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      5.080736
+    ],
+    "end": [
+      -1.35519311,
+      4.96073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000923",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0332"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      5.080736
+    ],
+    "end": [
+      -1.35519311,
+      4.96073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000922",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0333"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      5.815736
+    ],
+    "end": [
+      -1.35519311,
+      5.93573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000921",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0334"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      5.815736
+    ],
+    "end": [
+      -1.35519311,
+      5.93573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000920",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0335"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      2.905736
+    ],
+    "end": [
+      -1.35519311,
+      2.78573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000925",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0336"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      2.905736
+    ],
+    "end": [
+      -1.35519311,
+      2.78573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000924",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0337"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      3.640736
+    ],
+    "end": [
+      -1.35519311,
+      3.76073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000923",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0338"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      3.640736
+    ],
+    "end": [
+      -1.35519311,
+      3.76073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000922",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0339"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -38.884716,
+      12.199449
+    ],
+    "end": [
+      -38.96956841,
+      12.28430179
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000931",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0340"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -38.884716,
+      12.199449
+    ],
+    "end": [
+      -38.96956841,
+      12.28430179
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000930",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0341"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.516821,
+      17.831555
+    ],
+    "end": [
+      -44.43196828,
+      17.74670169
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000868",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0342"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.516821,
+      17.831555
+    ],
+    "end": [
+      -44.43196828,
+      17.74670169
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000869",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0343"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      18.865736
+    ],
+    "end": [
+      -44.94519304,
+      18.98573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000870",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0344"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      18.865736
+    ],
+    "end": [
+      -44.94519304,
+      18.98573602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000871",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0345"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.992693,
+      9.753236
+    ],
+    "end": [
+      -17.11269311,
+      9.75323598
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000909",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0346"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.992693,
+      9.753236
+    ],
+    "end": [
+      -17.11269311,
+      9.75323598
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000908",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0347"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      7.255736
+    ],
+    "end": [
+      -16.02019311,
+      7.13573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000951",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0348"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      7.255736
+    ],
+    "end": [
+      -16.02019311,
+      7.13573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000950",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0349"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -14.082693,
+      1.053236
+    ],
+    "end": [
+      -13.96269311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000944",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0350"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -14.082693,
+      1.053236
+    ],
+    "end": [
+      -13.96269311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000945",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0351"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      1.465736
+    ],
+    "end": [
+      -16.02019315,
+      1.58573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000947",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0352"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      1.465736
+    ],
+    "end": [
+      -16.02019315,
+      1.58573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000946",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0353"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -3.207693,
+      1.053236
+    ],
+    "end": [
+      -3.08769311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000934",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0354"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -3.207693,
+      1.053236
+    ],
+    "end": [
+      -3.08769311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000935",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0355"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -3.942693,
+      1.053236
+    ],
+    "end": [
+      -4.06269311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000936",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0356"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -3.942693,
+      1.053236
+    ],
+    "end": [
+      -4.06269311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000937",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0357"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -5.382693,
+      1.053236
+    ],
+    "end": [
+      -5.26269311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000936",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0358"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -5.382693,
+      1.053236
+    ],
+    "end": [
+      -5.26269311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000937",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0359"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -7.557693,
+      1.053236
+    ],
+    "end": [
+      -7.43769311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000938",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0360"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -7.557693,
+      1.053236
+    ],
+    "end": [
+      -7.43769311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000939",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0361"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -8.292693,
+      1.053236
+    ],
+    "end": [
+      -8.41269311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000940",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0362"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -8.292693,
+      1.053236
+    ],
+    "end": [
+      -8.41269311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000941",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0363"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -9.732693,
+      1.053236
+    ],
+    "end": [
+      -9.61269311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000940",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0364"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -9.732693,
+      1.053236
+    ],
+    "end": [
+      -9.61269311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000941",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0365"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -10.467693,
+      1.053236
+    ],
+    "end": [
+      -10.58769311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000943",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0366"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -10.467693,
+      1.053236
+    ],
+    "end": [
+      -10.58769311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000942",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0367"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -11.907693,
+      1.053236
+    ],
+    "end": [
+      -11.78769311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000943",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0368"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -11.907693,
+      1.053236
+    ],
+    "end": [
+      -11.78769311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000942",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0369"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -12.642693,
+      1.053236
+    ],
+    "end": [
+      -12.76269311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000944",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0370"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -12.642693,
+      1.053236
+    ],
+    "end": [
+      -12.76269311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000945",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0371"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -37.346797,
+      10.661531
+    ],
+    "end": [
+      -37.43165001,
+      10.74638339
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000933",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0372"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -37.346797,
+      10.661531
+    ],
+    "end": [
+      -37.43165001,
+      10.74638339
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000932",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0373"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -17.112693,
+      34.293236
+    ],
+    "end": [
+      -16.99269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000086",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0374"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -18.312693,
+      34.293236
+    ],
+    "end": [
+      -18.43269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000082",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0375"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -19.287693,
+      34.293236
+    ],
+    "end": [
+      -19.16769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000083",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0376"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -20.487693,
+      34.293236
+    ],
+    "end": [
+      -20.60769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000079",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0377"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -21.462693,
+      34.293236
+    ],
+    "end": [
+      -21.34269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000080",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0378"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -22.662693,
+      34.293236
+    ],
+    "end": [
+      -22.78269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000076",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0379"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -23.637693,
+      34.293236
+    ],
+    "end": [
+      -23.51769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000077",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0380"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -24.837693,
+      34.293236
+    ],
+    "end": [
+      -24.95769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000073",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0381"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -25.812693,
+      34.293236
+    ],
+    "end": [
+      -25.69269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000074",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0382"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -27.012693,
+      34.293236
+    ],
+    "end": [
+      -27.13269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000070",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0383"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -27.987693,
+      34.293236
+    ],
+    "end": [
+      -27.86769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000071",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0384"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -29.187693,
+      34.293236
+    ],
+    "end": [
+      -29.30769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000063",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0385"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -30.162693,
+      34.293236
+    ],
+    "end": [
+      -30.04269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000064",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0386"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -31.362693,
+      34.293236
+    ],
+    "end": [
+      -31.48269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000060",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0387"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -32.337693,
+      34.293236
+    ],
+    "end": [
+      -32.21769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000061",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0388"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -33.537693,
+      34.293236
+    ],
+    "end": [
+      -33.65769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000057",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0389"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -34.512693,
+      34.293236
+    ],
+    "end": [
+      -34.39269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000058",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0390"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -35.712693,
+      34.293236
+    ],
+    "end": [
+      -35.83269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000054",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0391"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -36.687693,
+      34.293236
+    ],
+    "end": [
+      -36.56769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000055",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0392"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -37.887693,
+      34.293236
+    ],
+    "end": [
+      -38.00769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000051",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0393"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -38.862693,
+      34.293236
+    ],
+    "end": [
+      -38.74269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000052",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0394"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -40.062693,
+      34.293236
+    ],
+    "end": [
+      -40.18269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000048",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0395"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -41.037693,
+      34.293236
+    ],
+    "end": [
+      -40.91769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000049",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0396"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -42.237693,
+      34.293236
+    ],
+    "end": [
+      -42.35769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000045",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0397"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -43.212693,
+      34.293236
+    ],
+    "end": [
+      -43.09269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000046",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0398"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.412693,
+      34.293236
+    ],
+    "end": [
+      -44.53269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000067",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0399"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.887693,
+      34.293236
+    ],
+    "end": [
+      -1.76769307,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000123",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0400"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -3.087693,
+      34.293236
+    ],
+    "end": [
+      -3.20769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000103",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0401"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -4.062693,
+      34.293236
+    ],
+    "end": [
+      -3.94269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000104",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0402"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -5.262693,
+      34.293236
+    ],
+    "end": [
+      -5.38269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000100",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0403"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -6.237693,
+      34.293236
+    ],
+    "end": [
+      -6.11769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000101",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0404"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -7.437693,
+      34.293236
+    ],
+    "end": [
+      -7.55769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000097",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0405"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -8.412693,
+      34.293236
+    ],
+    "end": [
+      -8.29269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000098",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0406"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -9.612693,
+      34.293236
+    ],
+    "end": [
+      -9.73269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000094",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0407"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -10.587693,
+      34.293236
+    ],
+    "end": [
+      -10.46769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000095",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0408"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -11.787693,
+      34.293236
+    ],
+    "end": [
+      -11.90769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000091",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0409"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -12.762693,
+      34.293236
+    ],
+    "end": [
+      -12.64269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000092",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0410"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -13.962693,
+      34.293236
+    ],
+    "end": [
+      -14.08269311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000088",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0411"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -14.937693,
+      34.293236
+    ],
+    "end": [
+      -14.81769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000089",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0412"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.137693,
+      34.293236
+    ],
+    "end": [
+      -16.25769311,
+      34.293236
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000085",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0413"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -32.337693,
+      9.753236
+    ],
+    "end": [
+      -32.21769311,
+      9.75323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000225",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0414"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -33.537693,
+      9.753236
+    ],
+    "end": [
+      -33.65769311,
+      9.75323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000133",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0415"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -43.58344,
+      16.898174
+    ],
+    "end": [
+      -43.498587035,
+      16.813321034999998
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000141",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0416"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.431968,
+      17.746702
+    ],
+    "end": [
+      -44.5168208,
+      17.831554800000003
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000278",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0417"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      20.185736
+    ],
+    "end": [
+      -44.945193,
+      20.30573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000145",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0418"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      18.985736
+    ],
+    "end": [
+      -44.945193,
+      18.86573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000281",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0419"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      22.360736
+    ],
+    "end": [
+      -44.945193,
+      22.48073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000148",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0420"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      21.160736
+    ],
+    "end": [
+      -44.945193,
+      21.04073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000144",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0421"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      26.973236
+    ],
+    "end": [
+      -44.945193,
+      27.09323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000151",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0422"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      25.773236
+    ],
+    "end": [
+      -44.945193,
+      25.65323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000147",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0423"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      31.585736
+    ],
+    "end": [
+      -44.945193,
+      31.70573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000154",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0424"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      30.385736
+    ],
+    "end": [
+      -44.945193,
+      30.26573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000150",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0425"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      33.760736
+    ],
+    "end": [
+      -44.945193,
+      33.88073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000068",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0426"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      32.560736
+    ],
+    "end": [
+      -44.945193,
+      32.44073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000153",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0427"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      20.185736
+    ],
+    "end": [
+      -1.35519311,
+      20.30573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000121",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0428"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      18.985736
+    ],
+    "end": [
+      -1.35519311,
+      18.86573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000253",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0429"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      22.360736
+    ],
+    "end": [
+      -1.35519311,
+      22.48073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000118",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0430"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      21.160736
+    ],
+    "end": [
+      -1.35519311,
+      21.04073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000122",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0431"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      26.973236
+    ],
+    "end": [
+      -1.35519311,
+      27.09323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000112",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0432"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      25.773236
+    ],
+    "end": [
+      -1.35519311,
+      25.65323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000116",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0433"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      31.585736
+    ],
+    "end": [
+      -1.35519311,
+      31.70573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000106",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0434"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      30.385736
+    ],
+    "end": [
+      -1.35519311,
+      30.26573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000110",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0435"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      33.760736
+    ],
+    "end": [
+      -1.35519307,
+      33.88073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000126",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0436"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      32.560736
+    ],
+    "end": [
+      -1.35519311,
+      32.44073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000107",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0437"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      24.535736
+    ],
+    "end": [
+      -1.35519311,
+      24.65573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000115",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0438"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      23.335736
+    ],
+    "end": [
+      -1.35519311,
+      23.21573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000119",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0439"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      29.410736
+    ],
+    "end": [
+      -1.35519311,
+      29.53073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000109",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0440"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      28.210736
+    ],
+    "end": [
+      -1.35519311,
+      28.09073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000113",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0441"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -34.512693,
+      9.753236
+    ],
+    "end": [
+      -34.39269311,
+      9.75323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000132",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0442"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -35.712693,
+      9.753236
+    ],
+    "end": [
+      -35.83269311,
+      9.75323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000306",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0443"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -35.712693,
+      9.753236
+    ],
+    "end": [
+      -35.83269304698584,
+      9.753322988057258
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000307",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0444"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -30.162693,
+      9.753236
+    ],
+    "end": [
+      -30.04269311,
+      9.75323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000228",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0445"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -31.362693,
+      9.753236
+    ],
+    "end": [
+      -31.48269311,
+      9.75323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000226",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0446"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -27.987693,
+      9.753236
+    ],
+    "end": [
+      -27.86769311,
+      9.75323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000231",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0447"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -29.187693,
+      9.753236
+    ],
+    "end": [
+      -29.30769311,
+      9.75323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000229",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0448"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -25.812693,
+      9.753236
+    ],
+    "end": [
+      -25.69269311,
+      9.75323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000234",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0449"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -27.012693,
+      9.753236
+    ],
+    "end": [
+      -27.13269311,
+      9.75323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000232",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0450"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -23.637693,
+      9.753236
+    ],
+    "end": [
+      -23.51769311,
+      9.75323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000237",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0451"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -24.837693,
+      9.753236
+    ],
+    "end": [
+      -24.95769311,
+      9.75323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000235",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0452"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -21.462693,
+      9.753236
+    ],
+    "end": [
+      -21.34269311,
+      9.75323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000240",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0453"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -22.662693,
+      9.753236
+    ],
+    "end": [
+      -22.78269311,
+      9.75323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000238",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0454"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -19.287693,
+      9.753236
+    ],
+    "end": [
+      -19.16769311,
+      9.75323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000243",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0455"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -20.487693,
+      9.753236
+    ],
+    "end": [
+      -20.60769311,
+      9.75323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000241",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0456"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -17.112693,
+      9.753236
+    ],
+    "end": [
+      -16.992693110000005,
+      9.753236007999991
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000284",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0457"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -18.312693,
+      9.753236
+    ],
+    "end": [
+      -18.43269311,
+      9.75323602
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000244",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0458"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      18.010736
+    ],
+    "end": [
+      -1.35519311,
+      18.13073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000252",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0459"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      16.810736
+    ],
+    "end": [
+      -1.35519311,
+      16.69073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000256",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0460"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      15.835736
+    ],
+    "end": [
+      -1.35519311,
+      15.95573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000255",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0461"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      14.635736
+    ],
+    "end": [
+      -1.35519311,
+      14.51573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000259",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0462"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      13.660736
+    ],
+    "end": [
+      -1.35519311,
+      13.78073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000258",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0463"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      12.460736
+    ],
+    "end": [
+      -1.35519311,
+      12.34073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000262",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0464"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      11.485736
+    ],
+    "end": [
+      -1.35519311,
+      11.60573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000261",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0465"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      10.285736
+    ],
+    "end": [
+      -1.35519311,
+      10.16573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000265",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0466"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      9.310736
+    ],
+    "end": [
+      -1.35519311,
+      9.43073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000264",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0467"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      8.110736
+    ],
+    "end": [
+      -1.35519311,
+      7.99073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000268",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0468"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      7.135736
+    ],
+    "end": [
+      -1.35519311,
+      7.25573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000267",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0469"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      5.935736
+    ],
+    "end": [
+      -1.35519311,
+      5.81573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000271",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0470"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      4.960736
+    ],
+    "end": [
+      -1.35519311,
+      5.08073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000270",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0471"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      3.760736
+    ],
+    "end": [
+      -1.35519311,
+      3.64073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000274",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0472"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      2.785736
+    ],
+    "end": [
+      -1.35519311,
+      2.90573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000273",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0473"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.355193,
+      1.585736
+    ],
+    "end": [
+      -1.35519311,
+      1.46573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000130",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0474"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -42.045483,
+      15.360216
+    ],
+    "end": [
+      -41.9606301,
+      15.27536347
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000138",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0475"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -42.894011,
+      16.208744
+    ],
+    "end": [
+      -42.97886386,
+      16.29359724
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000142",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0476"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -40.507526,
+      13.822259
+    ],
+    "end": [
+      -40.42267285,
+      13.73740622
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000135",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0477"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -41.356054,
+      14.670787
+    ],
+    "end": [
+      -41.44090661,
+      14.75563999
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000139",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0478"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -38.969568,
+      12.284302
+    ],
+    "end": [
+      -38.88471528300001,
+      12.199449287000004
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000276",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0479"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -39.818097,
+      13.13283
+    ],
+    "end": [
+      -39.90294937,
+      13.21768274
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000136",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0480"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -37.43165,
+      10.746383
+    ],
+    "end": [
+      -37.34679718,
+      10.66153059
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000310",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0481"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -3.087693,
+      1.053236
+    ],
+    "end": [
+      -3.20769311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000291",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0482"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.887693,
+      1.053236
+    ],
+    "end": [
+      -1.76769311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000129",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0483"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -5.262693,
+      1.053236
+    ],
+    "end": [
+      -5.38269311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000295",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0484"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -4.062693,
+      1.053236
+    ],
+    "end": [
+      -3.94269311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000293",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0485"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -7.437693,
+      1.053236
+    ],
+    "end": [
+      -7.55769311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000297",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0486"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -9.612693,
+      1.053236
+    ],
+    "end": [
+      -9.73269311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000300",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0487"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -8.412693,
+      1.053236
+    ],
+    "end": [
+      -8.29269311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000299",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0488"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -11.787693,
+      1.053236
+    ],
+    "end": [
+      -11.90769311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000303",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0489"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -10.587693,
+      1.053236
+    ],
+    "end": [
+      -10.46769311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000302",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0490"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -13.962693,
+      1.053236
+    ],
+    "end": [
+      -14.08269311,
+      1.05323603
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000287",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0491"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -12.762693,
+      1.053236
+    ],
+    "end": [
+      -12.64269311,
+      1.05323606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000305",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0492"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      2.785736
+    ],
+    "end": [
+      -16.020193,
+      2.90573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000250",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0493"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      1.585736
+    ],
+    "end": [
+      -16.020193,
+      1.46573603
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000290",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0494"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      4.960736
+    ],
+    "end": [
+      -16.020193,
+      5.08073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000247",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0495"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      3.760736
+    ],
+    "end": [
+      -16.020193,
+      3.64073606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000249",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0496"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      7.135736
+    ],
+    "end": [
+      -16.020193,
+      7.25573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000285",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0497"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      5.935736
+    ],
+    "end": [
+      -16.020193,
+      5.81573606
+    ],
+    "distance_m": 0.12,
+    "target_segment_id": "CAD_SEG_000246",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0498"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -42.357693,
+      34.293236
+    ],
+    "end": [
+      -42.35769311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000044",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0499"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -43.092693,
+      34.293236
+    ],
+    "end": [
+      -43.092693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000044",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0500"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -40.182693,
+      34.293236
+    ],
+    "end": [
+      -40.18269311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000047",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0501"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -40.917693,
+      34.293236
+    ],
+    "end": [
+      -40.917693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000047",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0502"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -38.007693,
+      34.293236
+    ],
+    "end": [
+      -38.00769311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000050",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0503"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -38.742693,
+      34.293236
+    ],
+    "end": [
+      -38.742693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000050",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0504"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -35.832693,
+      34.293236
+    ],
+    "end": [
+      -35.83269311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000053",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0505"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -36.567693,
+      34.293236
+    ],
+    "end": [
+      -36.567693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000053",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0506"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -33.657693,
+      34.293236
+    ],
+    "end": [
+      -33.65769311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000056",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0507"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -34.392693,
+      34.293236
+    ],
+    "end": [
+      -34.392693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000056",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0508"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -31.482693,
+      34.293236
+    ],
+    "end": [
+      -31.48269311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000059",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0509"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -32.217693,
+      34.293236
+    ],
+    "end": [
+      -32.217693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000059",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0510"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -29.307693,
+      34.293236
+    ],
+    "end": [
+      -29.30769311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000062",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0511"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -30.042693,
+      34.293236
+    ],
+    "end": [
+      -30.042693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000062",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0512"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.532693,
+      34.293236
+    ],
+    "end": [
+      -44.53269311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000066",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0513"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      33.880736
+    ],
+    "end": [
+      -44.64519311,
+      33.88073606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000065",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0514"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -27.132693,
+      34.293236
+    ],
+    "end": [
+      -27.13269311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000069",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0515"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -27.867693,
+      34.293236
+    ],
+    "end": [
+      -27.867693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000069",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0516"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -24.957693,
+      34.293236
+    ],
+    "end": [
+      -24.95769311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000072",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0517"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -25.692693,
+      34.293236
+    ],
+    "end": [
+      -25.692693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000072",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0518"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -22.782693,
+      34.293236
+    ],
+    "end": [
+      -22.78269311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000075",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0519"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -23.517693,
+      34.293236
+    ],
+    "end": [
+      -23.517693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000075",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0520"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -20.607693,
+      34.293236
+    ],
+    "end": [
+      -20.60769311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000078",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0521"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -21.342693,
+      34.293236
+    ],
+    "end": [
+      -21.342693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000078",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0522"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -18.432693,
+      34.293236
+    ],
+    "end": [
+      -18.43269311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000081",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0523"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -19.167693,
+      34.293236
+    ],
+    "end": [
+      -19.167693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000081",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0524"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.257693,
+      34.293236
+    ],
+    "end": [
+      -16.25769311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000084",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0525"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.992693,
+      34.293236
+    ],
+    "end": [
+      -16.992693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000084",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0526"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -14.082693,
+      34.293236
+    ],
+    "end": [
+      -14.08269311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000087",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0527"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -14.817693,
+      34.293236
+    ],
+    "end": [
+      -14.817693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000087",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0528"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -11.907693,
+      34.293236
+    ],
+    "end": [
+      -11.90769311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000090",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0529"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -12.642693,
+      34.293236
+    ],
+    "end": [
+      -12.642693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000090",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0530"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -9.732693,
+      34.293236
+    ],
+    "end": [
+      -9.73269311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000093",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0531"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -10.467693,
+      34.293236
+    ],
+    "end": [
+      -10.467693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000093",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0532"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -7.557693,
+      34.293236
+    ],
+    "end": [
+      -7.55769311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000096",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0533"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -8.292693,
+      34.293236
+    ],
+    "end": [
+      -8.292693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000096",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0534"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -5.382693,
+      34.293236
+    ],
+    "end": [
+      -5.38269311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000099",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0535"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -6.117693,
+      34.293236
+    ],
+    "end": [
+      -6.117693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000099",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0536"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -3.207693,
+      34.293236
+    ],
+    "end": [
+      -3.20769311,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000102",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0537"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -3.942693,
+      34.293236
+    ],
+    "end": [
+      -3.942693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000102",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0538"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -1.767693,
+      34.293236
+    ],
+    "end": [
+      -1.767693,
+      33.99323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000124",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0539"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -39.902949,
+      13.217683
+    ],
+    "end": [
+      -39.69081733,
+      13.42981477
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000134",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0540"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -43.498587,
+      16.813321
+    ],
+    "end": [
+      -43.28645527295919,
+      17.025452722959187
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000140",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0541"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      21.040736
+    ],
+    "end": [
+      -44.64519311,
+      21.040736
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000143",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0542"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      20.305736
+    ],
+    "end": [
+      -44.64519311,
+      20.30573606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000143",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0543"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      25.653236
+    ],
+    "end": [
+      -44.64519311,
+      25.653236
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000146",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0544"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      22.480736
+    ],
+    "end": [
+      -44.64519311,
+      22.48073606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000146",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0545"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      30.265736
+    ],
+    "end": [
+      -44.64519311,
+      30.265736
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000149",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0546"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      27.093236
+    ],
+    "end": [
+      -44.64519311,
+      27.09323606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000149",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0547"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      32.440736
+    ],
+    "end": [
+      -44.64519311,
+      32.440736
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000152",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0548"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      31.705736
+    ],
+    "end": [
+      -44.64519311,
+      31.70573606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000152",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0549"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      5.815736
+    ],
+    "end": [
+      -15.72019315,
+      5.815736
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000245",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0550"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      5.080736
+    ],
+    "end": [
+      -15.72019315,
+      5.08073606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000245",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0551"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      3.640736
+    ],
+    "end": [
+      -15.72019315,
+      3.640736
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000248",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0552"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      2.905736
+    ],
+    "end": [
+      -15.72019315,
+      2.90573606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000248",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0553"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.516821,
+      17.831555
+    ],
+    "end": [
+      -44.30468925311497,
+      18.043686753114965
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000279",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0554"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -44.945193,
+      18.865736
+    ],
+    "end": [
+      -44.64519311,
+      18.865736
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000280",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0555"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.992693,
+      9.753236
+    ],
+    "end": [
+      -16.992693023575637,
+      10.053235980000009
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000283",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0556"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      7.255736
+    ],
+    "end": [
+      -15.72019311,
+      7.25573606
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000286",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0557"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -16.020193,
+      1.465736
+    ],
+    "end": [
+      -15.72019311,
+      1.465736
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000289",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0558"
+  },
+  {
+    "type": "endpoint_to_segment",
+    "start": [
+      -37.346797,
+      10.661531
+    ],
+    "end": [
+      -37.13462629,
+      10.87362378
+    ],
+    "distance_m": 0.3,
+    "target_segment_id": "CAD_SEG_000309",
+    "status": "unverified_gap_candidate",
+    "id": "GAP_0559"
+  }
+]

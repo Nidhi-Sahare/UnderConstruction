@@ -1,0 +1,313 @@
+{
+  "step": 141,
+  "units": "metres",
+  "source_walls": "floor_2_wall_meshes.json",
+  "source_recovery": "floor_2_wall_recovery.json",
+  "source_dxf": "data/floorplans/floor_2.dxf",
+  "parameters": {
+    "min_gap_m": 0.025,
+    "max_gap_m": 0.75,
+    "max_lateral_offset_m": 0.06,
+    "max_angle_degrees": 4.0,
+    "opening_search_distance_m": 0.18
+  },
+  "interpretation": "Candidate geometric joins only. Absence of nearby door/window CAD strokes does not establish that a gap is safe to fill.",
+  "summary": {
+    "source_wall_runs": 255,
+    "opening_cad_strokes": 2390,
+    "raw_connection_candidates": 21,
+    "selected_review_connections": 12,
+    "connection_status_counts": {
+      "NO_OPENING_STROKE_FOUND": 11,
+      "OPENING_CAD_EVIDENCE_NEAR_GAP": 1
+    },
+    "automatic_bridges_approved": 0,
+    "automatic_wall_cuts": 0
+  },
+  "connections": [
+    {
+      "run_a": "PAIRED_WALL_0023",
+      "run_b": "PAIRED_WALL_0068",
+      "layer": "015 Innenwände",
+      "start": [
+        -43.67519,
+        25.59074
+      ],
+      "end": [
+        -43.62719,
+        25.59074
+      ],
+      "gap_m": 0.048,
+      "lateral_offset_m": 0.0,
+      "endpoint_distance_m": 0.048,
+      "opening_evidence": {
+        "categories": [],
+        "source_handles": []
+      },
+      "status": "NO_OPENING_STROKE_FOUND",
+      "approved_to_bridge": false,
+      "id": "GAP_0001"
+    },
+    {
+      "run_a": "PAIRED_WALL_0036",
+      "run_b": "PAIRED_WALL_0069",
+      "layer": "015 Innenwände",
+      "start": [
+        -15.78268,
+        15.30324
+      ],
+      "end": [
+        -15.78268,
+        15.25524
+      ],
+      "gap_m": 0.048,
+      "lateral_offset_m": 0.0,
+      "endpoint_distance_m": 0.048,
+      "opening_evidence": {
+        "categories": [],
+        "source_handles": []
+      },
+      "status": "NO_OPENING_STROKE_FOUND",
+      "approved_to_bridge": false,
+      "id": "GAP_0002"
+    },
+    {
+      "run_a": "RECOVERY_0082",
+      "run_b": "RECOVERY_0085",
+      "layer": "015 Innenwände",
+      "start": [
+        -15.73518,
+        15.25524
+      ],
+      "end": [
+        -15.73518,
+        15.30324
+      ],
+      "gap_m": 0.048,
+      "lateral_offset_m": 0.0,
+      "endpoint_distance_m": 0.048,
+      "opening_evidence": {
+        "categories": [],
+        "source_handles": []
+      },
+      "status": "NO_OPENING_STROKE_FOUND",
+      "approved_to_bridge": false,
+      "id": "GAP_0003"
+    },
+    {
+      "run_a": "RECOVERY_0083",
+      "run_b": "RECOVERY_0084",
+      "layer": "015 Innenwände",
+      "start": [
+        -15.83018,
+        15.25524
+      ],
+      "end": [
+        -15.83018,
+        15.30324
+      ],
+      "gap_m": 0.048,
+      "lateral_offset_m": 0.0,
+      "endpoint_distance_m": 0.048,
+      "opening_evidence": {
+        "categories": [],
+        "source_handles": []
+      },
+      "status": "NO_OPENING_STROKE_FOUND",
+      "approved_to_bridge": false,
+      "id": "GAP_0004"
+    },
+    {
+      "run_a": "PAIRED_WALL_0019",
+      "run_b": "PAIRED_WALL_0028",
+      "layer": "015 Innenwände",
+      "start": [
+        -27.88119,
+        27.81046
+      ],
+      "end": [
+        -27.83318,
+        27.81058
+      ],
+      "gap_m": 0.04801,
+      "lateral_offset_m": 0.00054,
+      "endpoint_distance_m": 0.04801,
+      "opening_evidence": {
+        "categories": [],
+        "source_handles": []
+      },
+      "status": "NO_OPENING_STROKE_FOUND",
+      "approved_to_bridge": false,
+      "id": "GAP_0005"
+    },
+    {
+      "run_a": "PAIRED_WALL_0022",
+      "run_b": "PAIRED_WALL_0070",
+      "layer": "015 Innenwände",
+      "start": [
+        -15.78268,
+        11.02324
+      ],
+      "end": [
+        -15.77518,
+        11.07124
+      ],
+      "gap_m": 0.048,
+      "lateral_offset_m": 0.0075,
+      "endpoint_distance_m": 0.04858,
+      "opening_evidence": {
+        "categories": [],
+        "source_handles": []
+      },
+      "status": "NO_OPENING_STROKE_FOUND",
+      "approved_to_bridge": false,
+      "id": "GAP_0006"
+    },
+    {
+      "run_a": "PAIRED_WALL_0037",
+      "run_b": "PAIRED_WALL_0071",
+      "layer": "015 Innenwände",
+      "start": [
+        -39.39519,
+        25.59074
+      ],
+      "end": [
+        -39.44319,
+        25.59824
+      ],
+      "gap_m": 0.048,
+      "lateral_offset_m": 0.0075,
+      "endpoint_distance_m": 0.04858,
+      "opening_evidence": {
+        "categories": [],
+        "source_handles": []
+      },
+      "status": "NO_OPENING_STROKE_FOUND",
+      "approved_to_bridge": false,
+      "id": "GAP_0007"
+    },
+    {
+      "run_a": "PAIRED_WALL_0020",
+      "run_b": "PAIRED_WALL_0027",
+      "layer": "015 Innenwände",
+      "start": [
+        -22.76919,
+        27.81042
+      ],
+      "end": [
+        -22.81719,
+        27.81803
+      ],
+      "gap_m": 0.048,
+      "lateral_offset_m": 0.00811,
+      "endpoint_distance_m": 0.0486,
+      "opening_evidence": {
+        "categories": [],
+        "source_handles": []
+      },
+      "status": "NO_OPENING_STROKE_FOUND",
+      "approved_to_bridge": false,
+      "id": "GAP_0008"
+    },
+    {
+      "run_a": "PAIRED_WALL_0016",
+      "run_b": "PAIRED_WALL_0025",
+      "layer": "015 Innenwände",
+      "start": [
+        -18.80019,
+        24.14824
+      ],
+      "end": [
+        -18.80019,
+        24.44824
+      ],
+      "gap_m": 0.3,
+      "lateral_offset_m": 0.0,
+      "endpoint_distance_m": 0.3,
+      "opening_evidence": {
+        "categories": [],
+        "source_handles": []
+      },
+      "status": "NO_OPENING_STROKE_FOUND",
+      "approved_to_bridge": false,
+      "id": "GAP_0009"
+    },
+    {
+      "run_a": "PAIRED_WALL_0017",
+      "run_b": "PAIRED_WALL_0024",
+      "layer": "015 Innenwände",
+      "start": [
+        -27.50019,
+        24.14824
+      ],
+      "end": [
+        -27.50019,
+        24.44824
+      ],
+      "gap_m": 0.3,
+      "lateral_offset_m": 0.0,
+      "endpoint_distance_m": 0.3,
+      "opening_evidence": {
+        "categories": [],
+        "source_handles": []
+      },
+      "status": "NO_OPENING_STROKE_FOUND",
+      "approved_to_bridge": false,
+      "id": "GAP_0010"
+    },
+    {
+      "run_a": "RECOVERY_0030",
+      "run_b": "RECOVERY_0037",
+      "layer": "015 Innenwände",
+      "start": [
+        -27.35019,
+        21.79824
+      ],
+      "end": [
+        -27.65019,
+        21.79824
+      ],
+      "gap_m": 0.3,
+      "lateral_offset_m": 0.0,
+      "endpoint_distance_m": 0.3,
+      "opening_evidence": {
+        "categories": [],
+        "source_handles": []
+      },
+      "status": "NO_OPENING_STROKE_FOUND",
+      "approved_to_bridge": false,
+      "id": "GAP_0011"
+    },
+    {
+      "run_a": "RECOVERY_0027",
+      "run_b": "PAIRED_WALL_0035",
+      "layer": "015 Innenwände",
+      "start": [
+        -21.80019,
+        21.99824
+      ],
+      "end": [
+        -21.50019,
+        21.94824
+      ],
+      "gap_m": 0.3,
+      "lateral_offset_m": 0.05,
+      "endpoint_distance_m": 0.30414,
+      "opening_evidence": {
+        "categories": [
+          "DOOR_CAD"
+        ],
+        "source_handles": [
+          "1D1",
+          "1D2",
+          "1D3",
+          "1D4",
+          "1D5"
+        ]
+      },
+      "status": "OPENING_CAD_EVIDENCE_NEAR_GAP",
+      "approved_to_bridge": false,
+      "id": "GAP_0012"
+    }
+  ]
+}

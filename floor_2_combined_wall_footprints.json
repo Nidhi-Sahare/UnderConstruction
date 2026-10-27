@@ -1,0 +1,4080 @@
+{
+  "step": "COMBINED_WALL_FOOTPRINT_AUDIT",
+  "units": "metres",
+  "source_baseline": "floor_2_paired_wall_reconstruction.json",
+  "source_interval": "floor_2_interval_wall_reconstruction.json",
+  "geometry_status": "PROVISIONAL_COMBINED_CAD_WALL_FOOTPRINTS",
+  "automatic_integration_approved": false,
+  "wall_cuts_authorized": 0,
+  "summary": {
+    "baseline_wall_records": 77,
+    "interval_wall_records": 71,
+    "new_wall_pieces": 34,
+    "combined_wall_pieces": 111,
+    "baseline_union_area_m2": 26.365005,
+    "added_union_area_m2": 7.930604,
+    "combined_union_area_m2": 34.295609,
+    "rejection_counts": {
+      "ALREADY_COVERED": 36,
+      "NO_EXPORTABLE_ADDITION": 1
+    }
+  },
+  "walls": [
+    {
+      "id": "PAIRED_WALL_0001",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "CA",
+        "CC"
+      ],
+      "source_edge_ids": [
+        "CA_0",
+        "CC_0"
+      ],
+      "outline_xy": [
+        [
+          -31.00019,
+          18.45324
+        ],
+        [
+          -15.30019,
+          18.45324
+        ],
+        [
+          -15.30019,
+          18.75324
+        ],
+        [
+          -31.00019,
+          18.75324
+        ]
+      ],
+      "area_m2": 4.71,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0001",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0002",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "CF",
+        "D0"
+      ],
+      "source_edge_ids": [
+        "CF_0",
+        "D0_0"
+      ],
+      "outline_xy": [
+        [
+          -5.81769,
+          1.35324
+        ],
+        [
+          -5.81769,
+          7.60324
+        ],
+        [
+          -6.11769,
+          7.60324
+        ],
+        [
+          -6.11769,
+          1.35324
+        ]
+      ],
+      "area_m2": 1.875,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0002",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0003",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "5B4",
+        "5BA"
+      ],
+      "source_edge_ids": [
+        "5B4_0",
+        "5BA_0"
+      ],
+      "outline_xy": [
+        [
+          -20.91269,
+          28.24822
+        ],
+        [
+          -20.91269,
+          33.99324
+        ],
+        [
+          -21.03769,
+          33.99324
+        ],
+        [
+          -21.03769,
+          28.24822
+        ]
+      ],
+      "area_m2": 0.718128,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0003",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0004",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "206",
+        "207"
+      ],
+      "source_edge_ids": [
+        "206_0",
+        "207_0"
+      ],
+      "outline_xy": [
+        [
+          -30.70019,
+          22.09824
+        ],
+        [
+          -30.70019,
+          25.39824
+        ],
+        [
+          -31.00019,
+          25.39824
+        ],
+        [
+          -31.00019,
+          22.09824
+        ]
+      ],
+      "area_m2": 0.99,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0004",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0005",
+      "layer": "019 Vormauerungen",
+      "source_handles": [
+        "106",
+        "10B"
+      ],
+      "source_edge_ids": [
+        "106_0",
+        "10B_0"
+      ],
+      "outline_xy": [
+        [
+          -30.55019,
+          22.09824
+        ],
+        [
+          -30.55019,
+          25.39824
+        ],
+        [
+          -30.70019,
+          25.39824
+        ],
+        [
+          -30.70019,
+          22.09824
+        ]
+      ],
+      "area_m2": 0.495,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0005",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0006",
+      "layer": "019 Vormauerungen",
+      "source_handles": [
+        "FB",
+        "100"
+      ],
+      "source_edge_ids": [
+        "FB_0",
+        "100_0"
+      ],
+      "outline_xy": [
+        [
+          -27.65019,
+          22.09824
+        ],
+        [
+          -27.65019,
+          25.39824
+        ],
+        [
+          -27.87519,
+          25.39824
+        ],
+        [
+          -27.87519,
+          22.09824
+        ]
+      ],
+      "area_m2": 0.7425,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0006",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0007",
+      "layer": "019 Vormauerungen",
+      "source_handles": [
+        "111",
+        "116"
+      ],
+      "source_edge_ids": [
+        "111_0",
+        "116_0"
+      ],
+      "outline_xy": [
+        [
+          -18.42519,
+          22.09824
+        ],
+        [
+          -18.42519,
+          25.39823
+        ],
+        [
+          -18.65019,
+          25.39823
+        ],
+        [
+          -18.65019,
+          22.09824
+        ]
+      ],
+      "area_m2": 0.742498,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0007",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0008",
+      "layer": "019 Vormauerungen",
+      "source_handles": [
+        "34A",
+        "34F"
+      ],
+      "source_edge_ids": [
+        "34A_0",
+        "34F_0"
+      ],
+      "outline_xy": [
+        [
+          -15.60019,
+          22.09824
+        ],
+        [
+          -15.60019,
+          25.39823
+        ],
+        [
+          -15.75019,
+          25.39823
+        ],
+        [
+          -15.75019,
+          22.09824
+        ]
+      ],
+      "area_m2": 0.494999,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0008",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0009",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "284",
+        "285"
+      ],
+      "source_edge_ids": [
+        "284_0",
+        "285_0"
+      ],
+      "outline_xy": [
+        [
+          -15.30019,
+          22.09824
+        ],
+        [
+          -15.30019,
+          25.39823
+        ],
+        [
+          -15.60019,
+          25.39823
+        ],
+        [
+          -15.60019,
+          22.09824
+        ]
+      ],
+      "area_m2": 0.989997,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0009",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0010",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "208",
+        "20B"
+      ],
+      "source_edge_ids": [
+        "208_0",
+        "20B_0"
+      ],
+      "outline_xy": [
+        [
+          -30.70019,
+          25.39824
+        ],
+        [
+          -27.65019,
+          25.39824
+        ],
+        [
+          -27.65019,
+          25.69824
+        ],
+        [
+          -30.70019,
+          25.69824
+        ]
+      ],
+      "area_m2": 0.915,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0010",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0011",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "287",
+        "288"
+      ],
+      "source_edge_ids": [
+        "287_0",
+        "288_0"
+      ],
+      "outline_xy": [
+        [
+          -18.65019,
+          25.39823
+        ],
+        [
+          -15.60019,
+          25.39823
+        ],
+        [
+          -15.60019,
+          25.69823
+        ],
+        [
+          -18.65019,
+          25.69823
+        ]
+      ],
+      "area_m2": 0.915,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0011",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0012",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "51C",
+        "51F"
+      ],
+      "source_edge_ids": [
+        "51C_0",
+        "51F_0"
+      ],
+      "outline_xy": [
+        [
+          -44.64519,
+          22.48073
+        ],
+        [
+          -41.59769,
+          22.48073
+        ],
+        [
+          -41.59769,
+          22.60573
+        ],
+        [
+          -44.64519,
+          22.60573
+        ]
+      ],
+      "area_m2": 0.380937,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0012",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0013",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "647",
+        "64A"
+      ],
+      "source_edge_ids": [
+        "647_0",
+        "64A_0"
+      ],
+      "outline_xy": [
+        [
+          -18.73769,
+          10.05324
+        ],
+        [
+          -18.73769,
+          13.10074
+        ],
+        [
+          -18.86269,
+          13.10074
+        ],
+        [
+          -18.86269,
+          10.05324
+        ]
+      ],
+      "area_m2": 0.380937,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0013",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0014",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "18E",
+        "18F"
+      ],
+      "source_edge_ids": [
+        "18E_0",
+        "18F_0"
+      ],
+      "outline_xy": [
+        [
+          -24.60019,
+          24.14824
+        ],
+        [
+          -21.80019,
+          24.14824
+        ],
+        [
+          -21.80019,
+          24.44824
+        ],
+        [
+          -24.60019,
+          24.44824
+        ]
+      ],
+      "area_m2": 0.84,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0014",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0015",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "D5",
+        "D6"
+      ],
+      "source_edge_ids": [
+        "D5_0",
+        "D6_0"
+      ],
+      "outline_xy": [
+        [
+          -5.81769,
+          7.60324
+        ],
+        [
+          -3.35519,
+          7.60324
+        ],
+        [
+          -3.35519,
+          7.90324
+        ],
+        [
+          -5.81769,
+          7.90324
+        ]
+      ],
+      "area_m2": 0.73875,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0015",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0016",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "27F",
+        "280"
+      ],
+      "source_edge_ids": [
+        "27F_0",
+        "280_0"
+      ],
+      "outline_xy": [
+        [
+          -18.65019,
+          22.09824
+        ],
+        [
+          -18.65019,
+          24.14824
+        ],
+        [
+          -18.95019,
+          24.14824
+        ],
+        [
+          -18.95019,
+          22.09824
+        ]
+      ],
+      "area_m2": 0.615,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0016",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0017",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "18B",
+        "18C"
+      ],
+      "source_edge_ids": [
+        "18B_0",
+        "18C_0"
+      ],
+      "outline_xy": [
+        [
+          -27.35019,
+          22.09824
+        ],
+        [
+          -27.35019,
+          24.14824
+        ],
+        [
+          -27.65019,
+          24.14824
+        ],
+        [
+          -27.65019,
+          22.09824
+        ]
+      ],
+      "area_m2": 0.615,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0017",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0018",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "218",
+        "21B"
+      ],
+      "source_edge_ids": [
+        "218_0",
+        "21B_0"
+      ],
+      "outline_xy": [
+        [
+          -18.65019,
+          21.79824
+        ],
+        [
+          -16.98019,
+          21.79824
+        ],
+        [
+          -16.98019,
+          22.09824
+        ],
+        [
+          -18.65019,
+          22.09824
+        ]
+      ],
+      "area_m2": 0.501,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0018",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0019",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "5A4",
+        "5AA"
+      ],
+      "source_edge_ids": [
+        "5A4_0",
+        "5AA_0"
+      ],
+      "outline_xy": [
+        [
+          -29.23779,
+          27.74822
+        ],
+        [
+          -27.8812,
+          27.74796
+        ],
+        [
+          -27.88118,
+          27.87296
+        ],
+        [
+          -29.23776,
+          27.87322
+        ]
+      ],
+      "area_m2": 0.169573,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0019",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0020",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "5AC",
+        "5AD"
+      ],
+      "source_edge_ids": [
+        "5AC_0",
+        "5AD_0"
+      ],
+      "outline_xy": [
+        [
+          -22.76918,
+          27.74792
+        ],
+        [
+          -21.41269,
+          27.74822
+        ],
+        [
+          -21.41271,
+          27.87322
+        ],
+        [
+          -22.76921,
+          27.87292
+        ]
+      ],
+      "area_m2": 0.169562,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0020",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0021",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "2CA",
+        "181E"
+      ],
+      "source_edge_ids": [
+        "2CA_0",
+        "181E_0"
+      ],
+      "outline_xy": [
+        [
+          -13.96269,
+          1.35324
+        ],
+        [
+          -12.76269,
+          1.35324
+        ],
+        [
+          -12.76269,
+          1.05324
+        ],
+        [
+          -13.96269,
+          1.05324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0021",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0022",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "634",
+        "639"
+      ],
+      "source_edge_ids": [
+        "634_0",
+        "639_0"
+      ],
+      "outline_xy": [
+        [
+          -15.72018,
+          10.05323
+        ],
+        [
+          -15.72018,
+          11.02324
+        ],
+        [
+          -15.84518,
+          11.02324
+        ],
+        [
+          -15.84518,
+          10.05323
+        ]
+      ],
+      "area_m2": 0.121251,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0022",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0023",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "509",
+        "50E"
+      ],
+      "source_edge_ids": [
+        "509_0",
+        "50E_0"
+      ],
+      "outline_xy": [
+        [
+          -44.64519,
+          25.52824
+        ],
+        [
+          -43.67519,
+          25.52824
+        ],
+        [
+          -43.67519,
+          25.65324
+        ],
+        [
+          -44.64519,
+          25.65324
+        ]
+      ],
+      "area_m2": 0.12125,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0023",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0024",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "20C",
+        "20D"
+      ],
+      "source_edge_ids": [
+        "20C_0",
+        "20D_0"
+      ],
+      "outline_xy": [
+        [
+          -27.35019,
+          24.44824
+        ],
+        [
+          -27.35019,
+          25.39824
+        ],
+        [
+          -27.65019,
+          25.39824
+        ],
+        [
+          -27.65019,
+          24.44824
+        ]
+      ],
+      "area_m2": 0.285,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0024",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0025",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "27D",
+        "27E"
+      ],
+      "source_edge_ids": [
+        "27D_0",
+        "27E_0"
+      ],
+      "outline_xy": [
+        [
+          -18.65019,
+          24.44824
+        ],
+        [
+          -18.65019,
+          25.39823
+        ],
+        [
+          -18.95019,
+          25.39823
+        ],
+        [
+          -18.95019,
+          24.44824
+        ]
+      ],
+      "area_m2": 0.284997,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0025",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0026",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "5DB",
+        "5DE"
+      ],
+      "source_edge_ids": [
+        "5DB_0",
+        "5DE_0"
+      ],
+      "outline_xy": [
+        [
+          -25.72519,
+          27.74834
+        ],
+        [
+          -24.92519,
+          27.74834
+        ],
+        [
+          -24.92519,
+          27.87334
+        ],
+        [
+          -25.72519,
+          27.87334
+        ]
+      ],
+      "area_m2": 0.1,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0026",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0027",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "61A",
+        "61C"
+      ],
+      "source_edge_ids": [
+        "61A_0",
+        "61C_0"
+      ],
+      "outline_xy": [
+        [
+          -23.61719,
+          27.76334
+        ],
+        [
+          -22.81721,
+          27.76303
+        ],
+        [
+          -22.81717,
+          27.87303
+        ],
+        [
+          -23.61715,
+          27.87334
+        ]
+      ],
+      "area_m2": 0.087998,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0027",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0028",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "625",
+        "626"
+      ],
+      "source_edge_ids": [
+        "625_0",
+        "626_0"
+      ],
+      "outline_xy": [
+        [
+          -27.83316,
+          27.76308
+        ],
+        [
+          -27.03319,
+          27.76334
+        ],
+        [
+          -27.03322,
+          27.85834
+        ],
+        [
+          -27.83319,
+          27.85808
+        ]
+      ],
+      "area_m2": 0.075997,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0028",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0029",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "627",
+        "62B"
+      ],
+      "source_edge_ids": [
+        "627_0",
+        "62B_0"
+      ],
+      "outline_xy": [
+        [
+          -27.83315,
+          27.74808
+        ],
+        [
+          -27.03319,
+          27.74834
+        ],
+        [
+          -27.03323,
+          27.87334
+        ],
+        [
+          -27.83319,
+          27.87308
+        ]
+      ],
+      "area_m2": 0.099995,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0029",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0030",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "15E",
+        "14DC"
+      ],
+      "source_edge_ids": [
+        "15E_0",
+        "14DC_0"
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          28.21074
+        ],
+        [
+          -1.65519,
+          29.08824
+        ],
+        [
+          -1.35519,
+          29.08824
+        ],
+        [
+          -1.35519,
+          28.21074
+        ]
+      ],
+      "area_m2": 0.26325,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0030",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0031",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "161",
+        "145C"
+      ],
+      "source_edge_ids": [
+        "161_0",
+        "145C_0"
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          25.77324
+        ],
+        [
+          -1.65519,
+          26.65074
+        ],
+        [
+          -1.35519,
+          26.65074
+        ],
+        [
+          -1.35519,
+          25.77324
+        ]
+      ],
+      "area_m2": 0.26325,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0031",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0032",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "543",
+        "546"
+      ],
+      "source_edge_ids": [
+        "543_0",
+        "546_0"
+      ],
+      "outline_xy": [
+        [
+          -41.88719,
+          25.52824
+        ],
+        [
+          -41.18319,
+          25.52824
+        ],
+        [
+          -41.18319,
+          25.65324
+        ],
+        [
+          -41.88719,
+          25.65324
+        ]
+      ],
+      "area_m2": 0.088,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0032",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0033",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "66E",
+        "671"
+      ],
+      "source_edge_ids": [
+        "66E_0",
+        "671_0"
+      ],
+      "outline_xy": [
+        [
+          -15.72018,
+          12.81124
+        ],
+        [
+          -15.72018,
+          13.51524
+        ],
+        [
+          -15.84518,
+          13.51524
+        ],
+        [
+          -15.84518,
+          12.81124
+        ]
+      ],
+      "area_m2": 0.088,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0033",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0034",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "199",
+        "19C"
+      ],
+      "source_edge_ids": [
+        "199_0",
+        "19C_0"
+      ],
+      "outline_xy": [
+        [
+          -24.90019,
+          21.99824
+        ],
+        [
+          -24.24719,
+          21.99824
+        ],
+        [
+          -24.24719,
+          21.79824
+        ],
+        [
+          -24.90019,
+          21.79824
+        ]
+      ],
+      "area_m2": 0.1306,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0034",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0035",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "217",
+        "21D"
+      ],
+      "source_edge_ids": [
+        "217_0",
+        "21D_0"
+      ],
+      "outline_xy": [
+        [
+          -21.50019,
+          21.79824
+        ],
+        [
+          -20.90019,
+          21.79824
+        ],
+        [
+          -20.90019,
+          22.09824
+        ],
+        [
+          -21.50019,
+          22.09824
+        ]
+      ],
+      "area_m2": 0.18,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0035",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0036",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "6B5",
+        "6B6"
+      ],
+      "source_edge_ids": [
+        "6B5_0",
+        "6B6_0"
+      ],
+      "outline_xy": [
+        [
+          -15.72018,
+          15.30324
+        ],
+        [
+          -15.72018,
+          15.90322
+        ],
+        [
+          -15.84518,
+          15.90322
+        ],
+        [
+          -15.84518,
+          15.30324
+        ]
+      ],
+      "area_m2": 0.074997,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0036",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0037",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "58A",
+        "58B"
+      ],
+      "source_edge_ids": [
+        "58A_0",
+        "58B_0"
+      ],
+      "outline_xy": [
+        [
+          -39.39519,
+          25.52824
+        ],
+        [
+          -38.82519,
+          25.52824
+        ],
+        [
+          -38.82519,
+          25.65324
+        ],
+        [
+          -39.39519,
+          25.65324
+        ]
+      ],
+      "area_m2": 0.07125,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0037",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0038",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "588",
+        "589"
+      ],
+      "source_edge_ids": [
+        "588_0",
+        "589_0"
+      ],
+      "outline_xy": [
+        [
+          -39.39519,
+          25.54324
+        ],
+        [
+          -38.82519,
+          25.54324
+        ],
+        [
+          -38.82519,
+          25.63824
+        ],
+        [
+          -39.39519,
+          25.63824
+        ]
+      ],
+      "area_m2": 0.05415,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0038",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0039",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "2BD",
+        "175C"
+      ],
+      "source_edge_ids": [
+        "2BD_0",
+        "175C_0"
+      ],
+      "outline_xy": [
+        [
+          -38.06805,
+          11.80704
+        ],
+        [
+          -37.63314,
+          11.37213
+        ],
+        [
+          -37.84527,
+          11.16
+        ],
+        [
+          -38.28018,
+          11.59491
+        ]
+      ],
+      "area_m2": 0.184515,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0039",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0040",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "158",
+        "149C"
+      ],
+      "source_edge_ids": [
+        "158_0",
+        "149C_0"
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          32.56074
+        ],
+        [
+          -1.65519,
+          33.17574
+        ],
+        [
+          -1.35519,
+          33.17574
+        ],
+        [
+          -1.35519,
+          32.56074
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0040",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0041",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "15B",
+        "147C"
+      ],
+      "source_edge_ids": [
+        "15B_0",
+        "147C_0"
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          30.38574
+        ],
+        [
+          -1.65519,
+          31.00074
+        ],
+        [
+          -1.35519,
+          31.00074
+        ],
+        [
+          -1.35519,
+          30.38574
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0041",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0042",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "164",
+        "14BC"
+      ],
+      "source_edge_ids": [
+        "164_0",
+        "14BC_0"
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          23.33574
+        ],
+        [
+          -1.65519,
+          23.95074
+        ],
+        [
+          -1.35519,
+          23.95074
+        ],
+        [
+          -1.35519,
+          23.33574
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0042",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0043",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "167",
+        "143C"
+      ],
+      "source_edge_ids": [
+        "167_0",
+        "143C_0"
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          21.16074
+        ],
+        [
+          -1.65519,
+          21.77574
+        ],
+        [
+          -1.35519,
+          21.77574
+        ],
+        [
+          -1.35519,
+          21.16074
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0043",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0044",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "2A5",
+        "141C"
+      ],
+      "source_edge_ids": [
+        "2A5_0",
+        "141C_0"
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          18.98574
+        ],
+        [
+          -1.65519,
+          19.60074
+        ],
+        [
+          -1.35519,
+          19.60074
+        ],
+        [
+          -1.35519,
+          18.98574
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0044",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0045",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "175",
+        "173C"
+      ],
+      "source_edge_ids": [
+        "175_0",
+        "173C_0"
+      ],
+      "outline_xy": [
+        [
+          -39.60596,
+          13.34496
+        ],
+        [
+          -39.17109,
+          12.91009
+        ],
+        [
+          -39.38323,
+          12.69796
+        ],
+        [
+          -39.8181,
+          13.13283
+        ]
+      ],
+      "area_m2": 0.184502,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0045",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0046",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "17B",
+        "16FC"
+      ],
+      "source_edge_ids": [
+        "17B_0",
+        "16FC_0"
+      ],
+      "outline_xy": [
+        [
+          -42.68188,
+          16.42088
+        ],
+        [
+          -42.24701,
+          15.98601
+        ],
+        [
+          -42.45914,
+          15.77387
+        ],
+        [
+          -42.89401,
+          16.20874
+        ]
+      ],
+      "area_m2": 0.184502,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0046",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0047",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "2AE",
+        "163C"
+      ],
+      "source_edge_ids": [
+        "2AE_0",
+        "163C_0"
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          12.46074
+        ],
+        [
+          -1.65519,
+          13.07574
+        ],
+        [
+          -1.35519,
+          13.07574
+        ],
+        [
+          -1.35519,
+          12.46074
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0047",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0048",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "2B4",
+        "167C"
+      ],
+      "source_edge_ids": [
+        "2B4_0",
+        "167C_0"
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          8.11074
+        ],
+        [
+          -1.65519,
+          8.72574
+        ],
+        [
+          -1.35519,
+          8.72574
+        ],
+        [
+          -1.35519,
+          8.11074
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0048",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0049",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "2B1",
+        "165C"
+      ],
+      "source_edge_ids": [
+        "2B1_0",
+        "165C_0"
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          10.28574
+        ],
+        [
+          -1.65519,
+          10.90074
+        ],
+        [
+          -1.35519,
+          10.90074
+        ],
+        [
+          -1.35519,
+          10.28574
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0049",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0050",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "178",
+        "171C"
+      ],
+      "source_edge_ids": [
+        "178_0",
+        "171C_0"
+      ],
+      "outline_xy": [
+        [
+          -41.14392,
+          14.88292
+        ],
+        [
+          -40.70905,
+          14.44805
+        ],
+        [
+          -40.92118,
+          14.23592
+        ],
+        [
+          -41.35605,
+          14.67079
+        ]
+      ],
+      "area_m2": 0.184498,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0050",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0051",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "2BA",
+        "16BC"
+      ],
+      "source_edge_ids": [
+        "2BA_0",
+        "16BC_0"
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          3.76074
+        ],
+        [
+          -1.65519,
+          4.37574
+        ],
+        [
+          -1.35519,
+          4.37574
+        ],
+        [
+          -1.35519,
+          3.76074
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0051",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0052",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "2B7",
+        "169C"
+      ],
+      "source_edge_ids": [
+        "2B7_0",
+        "169C_0"
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          5.93574
+        ],
+        [
+          -1.65519,
+          6.55074
+        ],
+        [
+          -1.35519,
+          6.55074
+        ],
+        [
+          -1.35519,
+          5.93574
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0052",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0053",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "2CE",
+        "177C"
+      ],
+      "source_edge_ids": [
+        "2CE_0",
+        "177C_0"
+      ],
+      "outline_xy": [
+        [
+          -3.08769,
+          1.35324
+        ],
+        [
+          -2.47269,
+          1.35324
+        ],
+        [
+          -2.47269,
+          1.05324
+        ],
+        [
+          -3.08769,
+          1.05324
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0053",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0054",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "2DA",
+        "17FE"
+      ],
+      "source_edge_ids": [
+        "2DA_0",
+        "17FE_0"
+      ],
+      "outline_xy": [
+        [
+          -11.78769,
+          1.35324
+        ],
+        [
+          -11.17269,
+          1.35324
+        ],
+        [
+          -11.17269,
+          1.05324
+        ],
+        [
+          -11.78769,
+          1.05324
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0054",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0055",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "2D4",
+        "17BE"
+      ],
+      "source_edge_ids": [
+        "2D4_0",
+        "17BE_0"
+      ],
+      "outline_xy": [
+        [
+          -7.43769,
+          1.35324
+        ],
+        [
+          -6.82269,
+          1.35324
+        ],
+        [
+          -6.82269,
+          1.05324
+        ],
+        [
+          -7.43769,
+          1.05324
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0055",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0056",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "2D7",
+        "17DE"
+      ],
+      "source_edge_ids": [
+        "2D7_0",
+        "17DE_0"
+      ],
+      "outline_xy": [
+        [
+          -9.61269,
+          1.35324
+        ],
+        [
+          -8.99769,
+          1.35324
+        ],
+        [
+          -8.99769,
+          1.05324
+        ],
+        [
+          -9.61269,
+          1.05324
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0056",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0057",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "2AB",
+        "161C"
+      ],
+      "source_edge_ids": [
+        "2AB_0",
+        "161C_0"
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          14.63574
+        ],
+        [
+          -1.65519,
+          15.25074
+        ],
+        [
+          -1.35519,
+          15.25074
+        ],
+        [
+          -1.35519,
+          14.63574
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0057",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0058",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "28D",
+        "153C"
+      ],
+      "source_edge_ids": [
+        "28D_0",
+        "153C_0"
+      ],
+      "outline_xy": [
+        [
+          -29.18769,
+          10.05324
+        ],
+        [
+          -28.57269,
+          10.05324
+        ],
+        [
+          -28.57269,
+          9.75324
+        ],
+        [
+          -29.18769,
+          9.75324
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0058",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0059",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "28A",
+        "151C"
+      ],
+      "source_edge_ids": [
+        "28A_0",
+        "151C_0"
+      ],
+      "outline_xy": [
+        [
+          -31.36269,
+          10.05324
+        ],
+        [
+          -30.74769,
+          10.05324
+        ],
+        [
+          -30.74769,
+          9.75324
+        ],
+        [
+          -31.36269,
+          9.75324
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0059",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0060",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "299",
+        "15BC"
+      ],
+      "source_edge_ids": [
+        "299_0",
+        "15BC_0"
+      ],
+      "outline_xy": [
+        [
+          -20.48769,
+          10.05324
+        ],
+        [
+          -19.87269,
+          10.05324
+        ],
+        [
+          -19.87269,
+          9.75324
+        ],
+        [
+          -20.48769,
+          9.75324
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0060",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0061",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "2A8",
+        "15FC"
+      ],
+      "source_edge_ids": [
+        "2A8_0",
+        "15FC_0"
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          16.81074
+        ],
+        [
+          -1.65519,
+          17.42574
+        ],
+        [
+          -1.35519,
+          17.42574
+        ],
+        [
+          -1.35519,
+          16.81074
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0061",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0062",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "290",
+        "155C"
+      ],
+      "source_edge_ids": [
+        "290_0",
+        "155C_0"
+      ],
+      "outline_xy": [
+        [
+          -27.01269,
+          10.05324
+        ],
+        [
+          -26.39769,
+          10.05324
+        ],
+        [
+          -26.39769,
+          9.75324
+        ],
+        [
+          -27.01269,
+          9.75324
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0062",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0063",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "293",
+        "157C"
+      ],
+      "source_edge_ids": [
+        "293_0",
+        "157C_0"
+      ],
+      "outline_xy": [
+        [
+          -24.83769,
+          10.05324
+        ],
+        [
+          -24.22269,
+          10.05324
+        ],
+        [
+          -24.22269,
+          9.75324
+        ],
+        [
+          -24.83769,
+          9.75324
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0063",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0064",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "296",
+        "159C"
+      ],
+      "source_edge_ids": [
+        "296_0",
+        "159C_0"
+      ],
+      "outline_xy": [
+        [
+          -22.66269,
+          10.05324
+        ],
+        [
+          -22.04769,
+          10.05324
+        ],
+        [
+          -22.04769,
+          9.75324
+        ],
+        [
+          -22.66269,
+          9.75324
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0064",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0065",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "29C",
+        "15DC"
+      ],
+      "source_edge_ids": [
+        "29C_0",
+        "15DC_0"
+      ],
+      "outline_xy": [
+        [
+          -18.31269,
+          10.05324
+        ],
+        [
+          -17.69769,
+          10.05324
+        ],
+        [
+          -17.69769,
+          9.75324
+        ],
+        [
+          -18.31269,
+          9.75324
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0065",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0066",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "172",
+        "133C"
+      ],
+      "source_edge_ids": [
+        "172_0",
+        "133C_0"
+      ],
+      "outline_xy": [
+        [
+          -33.53769,
+          10.05324
+        ],
+        [
+          -32.92269,
+          10.05324
+        ],
+        [
+          -32.92269,
+          9.75324
+        ],
+        [
+          -33.53769,
+          9.75324
+        ]
+      ],
+      "area_m2": 0.1845,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0066",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0067",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "2DC",
+        "2DE"
+      ],
+      "source_edge_ids": [
+        "2DC_0",
+        "2DE_0"
+      ],
+      "outline_xy": [
+        [
+          -36.31441,
+          9.75359
+        ],
+        [
+          -35.83269,
+          9.75324
+        ],
+        [
+          -35.83248,
+          10.05324
+        ],
+        [
+          -36.31419,
+          10.05359
+        ]
+      ],
+      "area_m2": 0.144515,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0067",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0068",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "597",
+        "598"
+      ],
+      "source_edge_ids": [
+        "597_0",
+        "598_0"
+      ],
+      "outline_xy": [
+        [
+          -43.62719,
+          25.52824
+        ],
+        [
+          -43.19519,
+          25.52824
+        ],
+        [
+          -43.19519,
+          25.65324
+        ],
+        [
+          -43.62719,
+          25.65324
+        ]
+      ],
+      "area_m2": 0.054,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0068",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0069",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "6AF",
+        "6B0"
+      ],
+      "source_edge_ids": [
+        "6AF_0",
+        "6B0_0"
+      ],
+      "outline_xy": [
+        [
+          -15.84518,
+          15.25524
+        ],
+        [
+          -15.84518,
+          14.82324
+        ],
+        [
+          -15.72018,
+          14.82324
+        ],
+        [
+          -15.72018,
+          15.25524
+        ]
+      ],
+      "area_m2": 0.054,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0069",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0070",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "6C2",
+        "6C3"
+      ],
+      "source_edge_ids": [
+        "6C2_0",
+        "6C3_0"
+      ],
+      "outline_xy": [
+        [
+          -15.83018,
+          11.50324
+        ],
+        [
+          -15.83018,
+          11.07124
+        ],
+        [
+          -15.72018,
+          11.07124
+        ],
+        [
+          -15.72018,
+          11.50324
+        ]
+      ],
+      "area_m2": 0.04752,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0070",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0071",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "583",
+        "584"
+      ],
+      "source_edge_ids": [
+        "583_0",
+        "584_0"
+      ],
+      "outline_xy": [
+        [
+          -39.87519,
+          25.54324
+        ],
+        [
+          -39.44319,
+          25.54324
+        ],
+        [
+          -39.44319,
+          25.65324
+        ],
+        [
+          -39.87519,
+          25.65324
+        ]
+      ],
+      "area_m2": 0.04752,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0071",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0072",
+      "layer": "019 Vormauerungen",
+      "source_handles": [
+        "458",
+        "459"
+      ],
+      "source_edge_ids": [
+        "458_0",
+        "459_0"
+      ],
+      "outline_xy": [
+        [
+          -35.60019,
+          25.34824
+        ],
+        [
+          -35.60019,
+          25.74824
+        ],
+        [
+          -35.67519,
+          25.74824
+        ],
+        [
+          -35.67519,
+          25.34824
+        ]
+      ],
+      "area_m2": 0.03,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0072",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0073",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "515",
+        "594"
+      ],
+      "source_edge_ids": [
+        "515_0",
+        "594_0"
+      ],
+      "outline_xy": [
+        [
+          -38.45019,
+          24.77624
+        ],
+        [
+          -38.45019,
+          25.15324
+        ],
+        [
+          -38.32519,
+          25.15324
+        ],
+        [
+          -38.32519,
+          24.77624
+        ]
+      ],
+      "area_m2": 0.047125,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0073",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0074",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "640",
+        "6C0"
+      ],
+      "source_edge_ids": [
+        "640_0",
+        "6C0_0"
+      ],
+      "outline_xy": [
+        [
+          -16.59718,
+          16.40321
+        ],
+        [
+          -16.22018,
+          16.40321
+        ],
+        [
+          -16.22018,
+          16.27821
+        ],
+        [
+          -16.59718,
+          16.27822
+        ]
+      ],
+      "area_m2": 0.047123,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0074",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0075",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "592",
+        "593"
+      ],
+      "source_edge_ids": [
+        "592_0",
+        "593_0"
+      ],
+      "outline_xy": [
+        [
+          -38.34019,
+          24.77624
+        ],
+        [
+          -38.34019,
+          25.15324
+        ],
+        [
+          -38.45019,
+          25.15324
+        ],
+        [
+          -38.45019,
+          24.77624
+        ]
+      ],
+      "area_m2": 0.04147,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0075",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0076",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "6BD",
+        "6BE"
+      ],
+      "source_edge_ids": [
+        "6BD_0",
+        "6BE_0"
+      ],
+      "outline_xy": [
+        [
+          -16.59718,
+          16.29322
+        ],
+        [
+          -16.22018,
+          16.29322
+        ],
+        [
+          -16.22018,
+          16.38822
+        ],
+        [
+          -16.59718,
+          16.38822
+        ]
+      ],
+      "area_m2": 0.035815,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0076",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "PAIRED_WALL_0077",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "2C1",
+        "135C"
+      ],
+      "source_edge_ids": [
+        "2C1_0",
+        "135C_0"
+      ],
+      "outline_xy": [
+        [
+          -44.21984,
+          17.95883
+        ],
+        [
+          -43.96418,
+          17.70318
+        ],
+        [
+          -44.17632,
+          17.49105
+        ],
+        [
+          -44.43197,
+          17.7467
+        ]
+      ],
+      "area_m2": 0.108464,
+      "status": "BASELINE_PROVISIONAL_WALL",
+      "source_wall_id": "PAIRED_WALL_0077",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0001",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "5BF",
+        "5C5"
+      ],
+      "source_edge_ids": [
+        "5BF_0",
+        "5C5_0"
+      ],
+      "outline_xy": [
+        [
+          -25.38769,
+          33.99324
+        ],
+        [
+          -25.26269,
+          33.99324
+        ],
+        [
+          -25.26269,
+          27.87334
+        ],
+        [
+          -25.38769,
+          27.87334
+        ]
+      ],
+      "area_m2": 0.764988,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0003",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0002",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "59C",
+        "59D"
+      ],
+      "source_edge_ids": [
+        "59C_0",
+        "59D_0"
+      ],
+      "outline_xy": [
+        [
+          -29.73769,
+          33.99324
+        ],
+        [
+          -29.61269,
+          33.99324
+        ],
+        [
+          -29.61269,
+          28.24822
+        ],
+        [
+          -29.73769,
+          28.24822
+        ]
+      ],
+      "area_m2": 0.718128,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0005",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0003",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "529",
+        "52D"
+      ],
+      "source_edge_ids": [
+        "529_0",
+        "52D_0"
+      ],
+      "outline_xy": [
+        [
+          -41.59769,
+          25.52822
+        ],
+        [
+          -41.47269,
+          25.52822
+        ],
+        [
+          -41.47269,
+          22.60573
+        ],
+        [
+          -41.59769,
+          22.60573
+        ]
+      ],
+      "area_m2": 0.365311,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0016",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0004",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "654",
+        "658"
+      ],
+      "source_edge_ids": [
+        "654_0",
+        "658_0"
+      ],
+      "outline_xy": [
+        [
+          -15.84519,
+          13.22574
+        ],
+        [
+          -15.84519,
+          13.10074
+        ],
+        [
+          -18.73769,
+          13.10074
+        ],
+        [
+          -18.73769,
+          13.22574
+        ]
+      ],
+      "area_m2": 0.361563,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0017",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0005",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "649",
+        "64A"
+      ],
+      "source_edge_ids": [
+        "649_0",
+        "64A_0"
+      ],
+      "outline_xy": [
+        [
+          -18.86269,
+          13.22574
+        ],
+        [
+          -18.86269,
+          15.90324
+        ],
+        [
+          -18.73769,
+          15.90324
+        ],
+        [
+          -18.73769,
+          13.22574
+        ]
+      ],
+      "area_m2": 0.334688,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0019",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0006",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "51C",
+        "51D"
+      ],
+      "source_edge_ids": [
+        "51C_0",
+        "51D_0"
+      ],
+      "outline_xy": [
+        [
+          -38.82519,
+          22.60573
+        ],
+        [
+          -38.82519,
+          22.48073
+        ],
+        [
+          -41.47269,
+          22.48073
+        ],
+        [
+          -41.47269,
+          22.60573
+        ]
+      ],
+      "area_m2": 0.330938,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0020",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0007",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "281",
+        "282"
+      ],
+      "source_edge_ids": [
+        "281_0",
+        "282_0"
+      ],
+      "outline_xy": [
+        [
+          -18.95019,
+          24.44824
+        ],
+        [
+          -18.95019,
+          24.14824
+        ],
+        [
+          -21.50019,
+          24.14824
+        ],
+        [
+          -21.50019,
+          24.44824
+        ]
+      ],
+      "area_m2": 0.765,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0021",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0008",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "18D",
+        "18F"
+      ],
+      "source_edge_ids": [
+        "18D_0",
+        "18F_0"
+      ],
+      "outline_xy": [
+        [
+          -24.90019,
+          24.44824
+        ],
+        [
+          -24.90019,
+          24.14824
+        ],
+        [
+          -27.35019,
+          24.14824
+        ],
+        [
+          -27.35019,
+          24.44824
+        ]
+      ],
+      "area_m2": 0.735,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0023",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0009",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "202",
+        "203"
+      ],
+      "source_edge_ids": [
+        "202_0",
+        "203_0"
+      ],
+      "outline_xy": [
+        [
+          -24.90019,
+          24.14824
+        ],
+        [
+          -24.60019,
+          24.14824
+        ],
+        [
+          -24.60019,
+          21.99824
+        ],
+        [
+          -24.90019,
+          21.99824
+        ]
+      ],
+      "area_m2": 0.645,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0024",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0010",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "191",
+        "192"
+      ],
+      "source_edge_ids": [
+        "191_0",
+        "192_0"
+      ],
+      "outline_xy": [
+        [
+          -21.80019,
+          24.14824
+        ],
+        [
+          -21.50019,
+          24.14824
+        ],
+        [
+          -21.50019,
+          22.09824
+        ],
+        [
+          -21.80019,
+          22.09824
+        ]
+      ],
+      "area_m2": 0.615,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0025",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0011",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "515",
+        "516"
+      ],
+      "source_edge_ids": [
+        "515_0",
+        "516_0"
+      ],
+      "outline_xy": [
+        [
+          -38.45019,
+          24.72824
+        ],
+        [
+          -38.32519,
+          24.72824
+        ],
+        [
+          -38.32519,
+          22.98073
+        ],
+        [
+          -38.45019,
+          22.98073
+        ]
+      ],
+      "area_m2": 0.218439,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0028",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0012",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "640",
+        "641"
+      ],
+      "source_edge_ids": [
+        "640_0",
+        "641_0"
+      ],
+      "outline_xy": [
+        [
+          -16.64518,
+          16.40322
+        ],
+        [
+          -16.64518,
+          16.27822
+        ],
+        [
+          -18.36269,
+          16.27824
+        ],
+        [
+          -18.36269,
+          16.40324
+        ]
+      ],
+      "area_m2": 0.214689,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0029",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0013",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "25C",
+        "25F"
+      ],
+      "source_edge_ids": [
+        "25C_0",
+        "25F_0"
+      ],
+      "outline_xy": [
+        [
+          -27.87519,
+          22.09824
+        ],
+        [
+          -27.65019,
+          22.09824
+        ],
+        [
+          -27.65019,
+          21.79824
+        ],
+        [
+          -29.32019,
+          21.79824
+        ],
+        [
+          -29.32019,
+          22.09824
+        ]
+      ],
+      "area_m2": 0.501,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0031",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0014",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "218",
+        "21C"
+      ],
+      "source_edge_ids": [
+        "218_0",
+        "21C_0"
+      ],
+      "outline_xy": [
+        [
+          -18.95019,
+          21.79824
+        ],
+        [
+          -19.80019,
+          21.79824
+        ],
+        [
+          -19.80019,
+          22.09824
+        ],
+        [
+          -18.95019,
+          22.09824
+        ]
+      ],
+      "area_m2": 0.255,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0038",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0015",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "61C",
+        "620"
+      ],
+      "source_edge_ids": [
+        "61C_0",
+        "620_0"
+      ],
+      "outline_xy": [
+        [
+          -23.61715,
+          27.87334
+        ],
+        [
+          -23.61719,
+          27.76334
+        ],
+        [
+          -22.81721,
+          27.76303
+        ],
+        [
+          -22.81722,
+          27.74803
+        ],
+        [
+          -23.61722,
+          27.74834
+        ],
+        [
+          -23.61717,
+          27.87334
+        ]
+      ],
+      "area_m2": 0.012002,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0040",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0016",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "198",
+        "19C"
+      ],
+      "source_edge_ids": [
+        "198_0",
+        "19C_0"
+      ],
+      "outline_xy": [
+        [
+          -23.88619,
+          21.99824
+        ],
+        [
+          -23.88619,
+          21.79824
+        ],
+        [
+          -24.24719,
+          21.79824
+        ],
+        [
+          -24.24719,
+          21.99824
+        ]
+      ],
+      "area_m2": 0.0722,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0042",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0017",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "199",
+        "19C"
+      ],
+      "source_edge_ids": [
+        "199_0",
+        "19C_0"
+      ],
+      "outline_xy": [
+        [
+          -24.90019,
+          21.99824
+        ],
+        [
+          -24.90019,
+          21.79824
+        ],
+        [
+          -25.55319,
+          21.79824
+        ],
+        [
+          -25.55319,
+          21.99824
+        ]
+      ],
+      "area_m2": 0.1306,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0045",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0018",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "197",
+        "19D"
+      ],
+      "source_edge_ids": [
+        "197_0",
+        "19D_0"
+      ],
+      "outline_xy": [
+        [
+          -21.80019,
+          21.99824
+        ],
+        [
+          -21.80019,
+          21.79824
+        ],
+        [
+          -22.40619,
+          21.79824
+        ],
+        [
+          -22.40619,
+          21.99824
+        ]
+      ],
+      "area_m2": 0.1212,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0046",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0019",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "19A",
+        "19B"
+      ],
+      "source_edge_ids": [
+        "19A_0",
+        "19B_0"
+      ],
+      "outline_xy": [
+        [
+          -26.83319,
+          21.99824
+        ],
+        [
+          -26.83319,
+          21.79824
+        ],
+        [
+          -27.35019,
+          21.79824
+        ],
+        [
+          -27.35019,
+          21.99824
+        ]
+      ],
+      "area_m2": 0.1034,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0050",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0020",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "584",
+        "585"
+      ],
+      "source_edge_ids": [
+        "584_0",
+        "585_0"
+      ],
+      "outline_xy": [
+        [
+          -39.44319,
+          25.52824
+        ],
+        [
+          -39.87519,
+          25.52824
+        ],
+        [
+          -39.87519,
+          25.54324
+        ],
+        [
+          -39.44319,
+          25.54324
+        ]
+      ],
+      "area_m2": 0.00648,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0052",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0021",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "6C3",
+        "6C4"
+      ],
+      "source_edge_ids": [
+        "6C3_0",
+        "6C4_0"
+      ],
+      "outline_xy": [
+        [
+          -15.84518,
+          11.07124
+        ],
+        [
+          -15.84518,
+          11.50324
+        ],
+        [
+          -15.83018,
+          11.50324
+        ],
+        [
+          -15.83018,
+          11.07124
+        ]
+      ],
+      "area_m2": 0.00648,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0053",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0022",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "286",
+        "288"
+      ],
+      "source_edge_ids": [
+        "286_0",
+        "288_0"
+      ],
+      "outline_xy": [
+        [
+          -19.25019,
+          25.39823
+        ],
+        [
+          -19.25019,
+          25.69823
+        ],
+        [
+          -18.95019,
+          25.69823
+        ],
+        [
+          -18.95019,
+          25.39823
+        ]
+      ],
+      "area_m2": 0.09,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0059",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0023",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "209",
+        "20B"
+      ],
+      "source_edge_ids": [
+        "209_0",
+        "20B_0"
+      ],
+      "outline_xy": [
+        [
+          -27.35019,
+          25.69824
+        ],
+        [
+          -27.05019,
+          25.69824
+        ],
+        [
+          -27.05019,
+          25.39824
+        ],
+        [
+          -27.35019,
+          25.39824
+        ]
+      ],
+      "area_m2": 0.09,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0060",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0024",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "219",
+        "21A"
+      ],
+      "source_edge_ids": [
+        "219_0",
+        "21A_0"
+      ],
+      "outline_xy": [
+        [
+          -15.60019,
+          21.79824
+        ],
+        [
+          -15.88019,
+          21.79824
+        ],
+        [
+          -15.88019,
+          22.09824
+        ],
+        [
+          -15.75019,
+          22.09824
+        ],
+        [
+          -15.60019,
+          22.09824
+        ]
+      ],
+      "area_m2": 0.084,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0061",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0025",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "25D",
+        "25E"
+      ],
+      "source_edge_ids": [
+        "25D_0",
+        "25E_0"
+      ],
+      "outline_xy": [
+        [
+          -30.55019,
+          22.09824
+        ],
+        [
+          -30.42019,
+          22.09824
+        ],
+        [
+          -30.42019,
+          21.79824
+        ],
+        [
+          -30.70019,
+          21.79824
+        ],
+        [
+          -30.70019,
+          22.09824
+        ]
+      ],
+      "area_m2": 0.084,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0062",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0026",
+      "layer": "019 Vormauerungen",
+      "source_handles": [
+        "45A",
+        "45B"
+      ],
+      "source_edge_ids": [
+        "45A_0",
+        "45B_0"
+      ],
+      "outline_xy": [
+        [
+          -35.67519,
+          25.82324
+        ],
+        [
+          -35.67519,
+          25.74824
+        ],
+        [
+          -35.92519,
+          25.74824
+        ],
+        [
+          -35.92519,
+          25.82324
+        ]
+      ],
+      "area_m2": 0.01875,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0063",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0027",
+      "layer": "019 Vormauerungen",
+      "source_handles": [
+        "45D",
+        "462"
+      ],
+      "source_edge_ids": [
+        "45D_0",
+        "462_0"
+      ],
+      "outline_xy": [
+        [
+          -10.62519,
+          25.74824
+        ],
+        [
+          -10.37519,
+          25.74824
+        ],
+        [
+          -10.37519,
+          25.34824
+        ],
+        [
+          -10.62519,
+          25.34824
+        ]
+      ],
+      "area_m2": 0.1,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0064",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0028",
+      "layer": "019 Vormauerungen",
+      "source_handles": [
+        "46A",
+        "46B"
+      ],
+      "source_edge_ids": [
+        "46A_0",
+        "46B_0"
+      ],
+      "outline_xy": [
+        [
+          -9.57519,
+          10.17824
+        ],
+        [
+          -9.57519,
+          10.10324
+        ],
+        [
+          -9.82519,
+          10.10324
+        ],
+        [
+          -9.82519,
+          10.17824
+        ]
+      ],
+      "area_m2": 0.01875,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0065",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0029",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "5DA",
+        "5DF"
+      ],
+      "source_edge_ids": [
+        "5DA_0",
+        "5DF_0"
+      ],
+      "outline_xy": [
+        [
+          -26.98519,
+          27.87334
+        ],
+        [
+          -26.76119,
+          27.87334
+        ],
+        [
+          -26.76119,
+          27.74834
+        ],
+        [
+          -26.98519,
+          27.74834
+        ]
+      ],
+      "area_m2": 0.028,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0066",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0030",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "5DC",
+        "5DD"
+      ],
+      "source_edge_ids": [
+        "5DC_0",
+        "5DD_0"
+      ],
+      "outline_xy": [
+        [
+          -23.88919,
+          27.87334
+        ],
+        [
+          -23.66519,
+          27.87334
+        ],
+        [
+          -23.66519,
+          27.74834
+        ],
+        [
+          -23.88919,
+          27.74834
+        ]
+      ],
+      "area_m2": 0.028,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0067",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0031",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "544",
+        "545"
+      ],
+      "source_edge_ids": [
+        "544_0",
+        "545_0"
+      ],
+      "outline_xy": [
+        [
+          -40.14719,
+          25.65324
+        ],
+        [
+          -39.92319,
+          25.65324
+        ],
+        [
+          -39.92319,
+          25.52824
+        ],
+        [
+          -40.14719,
+          25.52824
+        ]
+      ],
+      "area_m2": 0.028,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0068",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0032",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "66F",
+        "670"
+      ],
+      "source_edge_ids": [
+        "66F_0",
+        "670_0"
+      ],
+      "outline_xy": [
+        [
+          -15.84518,
+          14.55124
+        ],
+        [
+          -15.84518,
+          14.77524
+        ],
+        [
+          -15.72018,
+          14.77524
+        ],
+        [
+          -15.72018,
+          14.55124
+        ]
+      ],
+      "area_m2": 0.028,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0069",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0033",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "66D",
+        "672"
+      ],
+      "source_edge_ids": [
+        "66D_0",
+        "672_0"
+      ],
+      "outline_xy": [
+        [
+          -15.84518,
+          11.55124
+        ],
+        [
+          -15.84518,
+          11.77524
+        ],
+        [
+          -15.72018,
+          11.77524
+        ],
+        [
+          -15.72018,
+          11.55124
+        ]
+      ],
+      "area_m2": 0.028,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0070",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "ADDED_WALL_0034",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "542",
+        "547"
+      ],
+      "source_edge_ids": [
+        "542_0",
+        "547_0"
+      ],
+      "outline_xy": [
+        [
+          -43.14719,
+          25.65324
+        ],
+        [
+          -42.92319,
+          25.65324
+        ],
+        [
+          -42.92319,
+          25.52824
+        ],
+        [
+          -43.14719,
+          25.52824
+        ]
+      ],
+      "area_m2": 0.028,
+      "status": "NEW_UNVERIFIED_INTERVAL_WALL_AREA",
+      "source_wall_id": "INTERVAL_WALL_0071",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    }
+  ],
+  "rejected": [
+    {
+      "id": "INTERVAL_WALL_0001",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0002",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0004",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0006",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0007",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0008",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0009",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0010",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0011",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0012",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0013",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0014",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0015",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0018",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0022",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0026",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0027",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0030",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0032",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0033",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0034",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0035",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0036",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0037",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0039",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0041",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0043",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0044",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0047",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0048",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0049",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0051",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0054",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0055",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0056",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0057",
+      "reason": "ALREADY_COVERED"
+    },
+    {
+      "id": "INTERVAL_WALL_0058",
+      "reason": "NO_EXPORTABLE_ADDITION"
+    }
+  ],
+  "warning": "Baseline footprints are preserved. Added geometry comes from interval-based CAD boundary pairing, but has not been independently verified as walls. No wall heights, openings, or construction progress are verified."
+}

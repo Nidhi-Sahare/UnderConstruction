@@ -1,0 +1,38 @@
+{
+  "model_id": "underconstruction-seg-v0",
+  "task": "segment",
+  "source_weights": "C:\\Users\\Nidhi\\OneDrive\\Desktop\\BuildProgress\\runs\\segment\\data\\model_training\\runs\\baseline_cpu_20epochs\\weights\\best.pt",
+  "source_weights_sha256": "a55842cf266382e0637f60b377d2d4025ce6a3dd0becde7f0e81d1089cd000b6",
+  "onnx_filename": "underconstruction_seg_v0.onnx",
+  "onnx_sha256": "1434e9bdab410005befa159d2037304601935e45d7370f2e90551a7a8e6bd0ab",
+  "onnx_size_bytes": 11584227,
+  "imgsz": 512,
+  "num_classes": 4,
+  "class_names": [
+    "concrete",
+    "formwork",
+    "rebar",
+    "tiles"
+  ],
+  "export": {
+    "format": "onnx",
+    "opset": 12,
+    "dynamic": false,
+    "simplify": false,
+    "nms": false,
+    "half": false,
+    "device": "cpu"
+  },
+  "environment": {
+    "python": "3.14.3",
+    "opencv": "5.0.0",
+    "numpy": "2.5.4",
+    "torch": "2.14.1+cpu",
+    "ultralytics": "8.4.183"
+  },
+  "evaluation": {
+    "independent_accuracy_verified": false,
+    "note": "Original dataset has confirmed cross-split base-frame overlap. Historical validation metrics are not evidence of independent-site generalization."
+  },
+  "created_at": "2026-10-23T06:28:01.675423+00:00"
+}

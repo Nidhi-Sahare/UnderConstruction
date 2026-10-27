@@ -1,0 +1,2395 @@
+{
+  "schema_version": "1.0",
+  "floor": 3,
+  "source": "Hilti real ROS 2 recording",
+  "source_database": "data\\hilti_recordings\\floor_3\\rosbag.db3",
+  "camera_topic": "/cam0/image_raw/compressed",
+  "camera": "cam0",
+  "message_type": "sensor_msgs/msg/CompressedImage",
+  "recording_start_timestamp_ns": 10000000000000,
+  "sample_interval_target_seconds": 0.5,
+  "sampled_frame_count": 237,
+  "source_camera_message_count": 3546,
+  "image_width": 1472,
+  "image_height": 1440,
+  "duration_seconds_sampled": 118.118043,
+  "decode_failures": 0,
+  "photographs_real": true,
+  "camera_trajectory_connected": false,
+  "cad_registration_verified": false,
+  "component_correspondence_verified": false,
+  "construction_progress_verified": false,
+  "generated_utc": "2026-10-26T17:19:02.534765+00:00",
+  "frames": [
+    {
+      "index": 0,
+      "filename": "frame_0001.jpg",
+      "relative_path": "frames/frame_0001.jpg",
+      "time_seconds": 0.0,
+      "bag_timestamp_ns": 10000000000000,
+      "header_timestamp_ns": 10000000000000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 0
+    },
+    {
+      "index": 1,
+      "filename": "frame_0002.jpg",
+      "relative_path": "frames/frame_0002.jpg",
+      "time_seconds": 0.500512,
+      "bag_timestamp_ns": 10000500512000,
+      "header_timestamp_ns": 10000500512000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 15
+    },
+    {
+      "index": 2,
+      "filename": "frame_0003.jpg",
+      "relative_path": "frames/frame_0003.jpg",
+      "time_seconds": 1.001016,
+      "bag_timestamp_ns": 10001001016000,
+      "header_timestamp_ns": 10001001016000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 30
+    },
+    {
+      "index": 3,
+      "filename": "frame_0004.jpg",
+      "relative_path": "frames/frame_0004.jpg",
+      "time_seconds": 1.501522,
+      "bag_timestamp_ns": 10001501522000,
+      "header_timestamp_ns": 10001501522000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 45
+    },
+    {
+      "index": 4,
+      "filename": "frame_0005.jpg",
+      "relative_path": "frames/frame_0005.jpg",
+      "time_seconds": 2.002014,
+      "bag_timestamp_ns": 10002002013999,
+      "header_timestamp_ns": 10002002013999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 60
+    },
+    {
+      "index": 5,
+      "filename": "frame_0006.jpg",
+      "relative_path": "frames/frame_0006.jpg",
+      "time_seconds": 2.50251,
+      "bag_timestamp_ns": 10002502510000,
+      "header_timestamp_ns": 10002502510000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 75
+    },
+    {
+      "index": 6,
+      "filename": "frame_0007.jpg",
+      "relative_path": "frames/frame_0007.jpg",
+      "time_seconds": 3.003018,
+      "bag_timestamp_ns": 10003003017999,
+      "header_timestamp_ns": 10003003017999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 90
+    },
+    {
+      "index": 7,
+      "filename": "frame_0008.jpg",
+      "relative_path": "frames/frame_0008.jpg",
+      "time_seconds": 3.503512,
+      "bag_timestamp_ns": 10003503511999,
+      "header_timestamp_ns": 10003503511999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 105
+    },
+    {
+      "index": 8,
+      "filename": "frame_0009.jpg",
+      "relative_path": "frames/frame_0009.jpg",
+      "time_seconds": 4.00401,
+      "bag_timestamp_ns": 10004004010000,
+      "header_timestamp_ns": 10004004010000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 120
+    },
+    {
+      "index": 9,
+      "filename": "frame_0010.jpg",
+      "relative_path": "frames/frame_0010.jpg",
+      "time_seconds": 4.504503,
+      "bag_timestamp_ns": 10004504503000,
+      "header_timestamp_ns": 10004504503000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 135
+    },
+    {
+      "index": 10,
+      "filename": "frame_0011.jpg",
+      "relative_path": "frames/frame_0011.jpg",
+      "time_seconds": 5.00501,
+      "bag_timestamp_ns": 10005005010000,
+      "header_timestamp_ns": 10005005010000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 150
+    },
+    {
+      "index": 11,
+      "filename": "frame_0012.jpg",
+      "relative_path": "frames/frame_0012.jpg",
+      "time_seconds": 5.505513,
+      "bag_timestamp_ns": 10005505513000,
+      "header_timestamp_ns": 10005505513000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 165
+    },
+    {
+      "index": 12,
+      "filename": "frame_0013.jpg",
+      "relative_path": "frames/frame_0013.jpg",
+      "time_seconds": 6.00602,
+      "bag_timestamp_ns": 10006006020000,
+      "header_timestamp_ns": 10006006020000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 180
+    },
+    {
+      "index": 13,
+      "filename": "frame_0014.jpg",
+      "relative_path": "frames/frame_0014.jpg",
+      "time_seconds": 6.506527,
+      "bag_timestamp_ns": 10006506526999,
+      "header_timestamp_ns": 10006506526999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 195
+    },
+    {
+      "index": 14,
+      "filename": "frame_0015.jpg",
+      "relative_path": "frames/frame_0015.jpg",
+      "time_seconds": 7.007023,
+      "bag_timestamp_ns": 10007007023000,
+      "header_timestamp_ns": 10007007023000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 210
+    },
+    {
+      "index": 15,
+      "filename": "frame_0016.jpg",
+      "relative_path": "frames/frame_0016.jpg",
+      "time_seconds": 7.507512,
+      "bag_timestamp_ns": 10007507512000,
+      "header_timestamp_ns": 10007507512000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 225
+    },
+    {
+      "index": 16,
+      "filename": "frame_0017.jpg",
+      "relative_path": "frames/frame_0017.jpg",
+      "time_seconds": 8.008042,
+      "bag_timestamp_ns": 10008008041999,
+      "header_timestamp_ns": 10008008041999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 240
+    },
+    {
+      "index": 17,
+      "filename": "frame_0018.jpg",
+      "relative_path": "frames/frame_0018.jpg",
+      "time_seconds": 8.508514,
+      "bag_timestamp_ns": 10008508513999,
+      "header_timestamp_ns": 10008508513999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 255
+    },
+    {
+      "index": 18,
+      "filename": "frame_0019.jpg",
+      "relative_path": "frames/frame_0019.jpg",
+      "time_seconds": 9.009014,
+      "bag_timestamp_ns": 10009009013999,
+      "header_timestamp_ns": 10009009013999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 270
+    },
+    {
+      "index": 19,
+      "filename": "frame_0020.jpg",
+      "relative_path": "frames/frame_0020.jpg",
+      "time_seconds": 9.509511,
+      "bag_timestamp_ns": 10009509511000,
+      "header_timestamp_ns": 10009509511000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 285
+    },
+    {
+      "index": 20,
+      "filename": "frame_0021.jpg",
+      "relative_path": "frames/frame_0021.jpg",
+      "time_seconds": 10.010021,
+      "bag_timestamp_ns": 10010010021000,
+      "header_timestamp_ns": 10010010021000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 300
+    },
+    {
+      "index": 21,
+      "filename": "frame_0022.jpg",
+      "relative_path": "frames/frame_0022.jpg",
+      "time_seconds": 10.51051,
+      "bag_timestamp_ns": 10010510510000,
+      "header_timestamp_ns": 10010510510000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 315
+    },
+    {
+      "index": 22,
+      "filename": "frame_0023.jpg",
+      "relative_path": "frames/frame_0023.jpg",
+      "time_seconds": 11.011013,
+      "bag_timestamp_ns": 10011011012999,
+      "header_timestamp_ns": 10011011012999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 330
+    },
+    {
+      "index": 23,
+      "filename": "frame_0024.jpg",
+      "relative_path": "frames/frame_0024.jpg",
+      "time_seconds": 11.511507,
+      "bag_timestamp_ns": 10011511506999,
+      "header_timestamp_ns": 10011511506999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 345
+    },
+    {
+      "index": 24,
+      "filename": "frame_0025.jpg",
+      "relative_path": "frames/frame_0025.jpg",
+      "time_seconds": 12.012008,
+      "bag_timestamp_ns": 10012012007999,
+      "header_timestamp_ns": 10012012007999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 360
+    },
+    {
+      "index": 25,
+      "filename": "frame_0026.jpg",
+      "relative_path": "frames/frame_0026.jpg",
+      "time_seconds": 12.512509,
+      "bag_timestamp_ns": 10012512509000,
+      "header_timestamp_ns": 10012512509000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 375
+    },
+    {
+      "index": 26,
+      "filename": "frame_0027.jpg",
+      "relative_path": "frames/frame_0027.jpg",
+      "time_seconds": 13.013008,
+      "bag_timestamp_ns": 10013013007999,
+      "header_timestamp_ns": 10013013007999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 390
+    },
+    {
+      "index": 27,
+      "filename": "frame_0028.jpg",
+      "relative_path": "frames/frame_0028.jpg",
+      "time_seconds": 13.513509,
+      "bag_timestamp_ns": 10013513509000,
+      "header_timestamp_ns": 10013513509000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 405
+    },
+    {
+      "index": 28,
+      "filename": "frame_0029.jpg",
+      "relative_path": "frames/frame_0029.jpg",
+      "time_seconds": 14.014009,
+      "bag_timestamp_ns": 10014014009000,
+      "header_timestamp_ns": 10014014009000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 420
+    },
+    {
+      "index": 29,
+      "filename": "frame_0030.jpg",
+      "relative_path": "frames/frame_0030.jpg",
+      "time_seconds": 14.514507,
+      "bag_timestamp_ns": 10014514506999,
+      "header_timestamp_ns": 10014514506999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 435
+    },
+    {
+      "index": 30,
+      "filename": "frame_0031.jpg",
+      "relative_path": "frames/frame_0031.jpg",
+      "time_seconds": 15.015009,
+      "bag_timestamp_ns": 10015015009000,
+      "header_timestamp_ns": 10015015009000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 450
+    },
+    {
+      "index": 31,
+      "filename": "frame_0032.jpg",
+      "relative_path": "frames/frame_0032.jpg",
+      "time_seconds": 15.515506,
+      "bag_timestamp_ns": 10015515505999,
+      "header_timestamp_ns": 10015515505999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 465
+    },
+    {
+      "index": 32,
+      "filename": "frame_0033.jpg",
+      "relative_path": "frames/frame_0033.jpg",
+      "time_seconds": 16.016007,
+      "bag_timestamp_ns": 10016016007000,
+      "header_timestamp_ns": 10016016007000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 480
+    },
+    {
+      "index": 33,
+      "filename": "frame_0034.jpg",
+      "relative_path": "frames/frame_0034.jpg",
+      "time_seconds": 16.516516,
+      "bag_timestamp_ns": 10016516515999,
+      "header_timestamp_ns": 10016516515999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 495
+    },
+    {
+      "index": 34,
+      "filename": "frame_0035.jpg",
+      "relative_path": "frames/frame_0035.jpg",
+      "time_seconds": 17.017024,
+      "bag_timestamp_ns": 10017017024000,
+      "header_timestamp_ns": 10017017024000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 510
+    },
+    {
+      "index": 35,
+      "filename": "frame_0036.jpg",
+      "relative_path": "frames/frame_0036.jpg",
+      "time_seconds": 17.517523,
+      "bag_timestamp_ns": 10017517523000,
+      "header_timestamp_ns": 10017517523000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 525
+    },
+    {
+      "index": 36,
+      "filename": "frame_0037.jpg",
+      "relative_path": "frames/frame_0037.jpg",
+      "time_seconds": 18.018045,
+      "bag_timestamp_ns": 10018018045000,
+      "header_timestamp_ns": 10018018045000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 540
+    },
+    {
+      "index": 37,
+      "filename": "frame_0038.jpg",
+      "relative_path": "frames/frame_0038.jpg",
+      "time_seconds": 18.518535,
+      "bag_timestamp_ns": 10018518534999,
+      "header_timestamp_ns": 10018518534999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 555
+    },
+    {
+      "index": 38,
+      "filename": "frame_0039.jpg",
+      "relative_path": "frames/frame_0039.jpg",
+      "time_seconds": 19.019032,
+      "bag_timestamp_ns": 10019019032000,
+      "header_timestamp_ns": 10019019032000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 570
+    },
+    {
+      "index": 39,
+      "filename": "frame_0040.jpg",
+      "relative_path": "frames/frame_0040.jpg",
+      "time_seconds": 19.51954,
+      "bag_timestamp_ns": 10019519539999,
+      "header_timestamp_ns": 10019519539999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 585
+    },
+    {
+      "index": 40,
+      "filename": "frame_0041.jpg",
+      "relative_path": "frames/frame_0041.jpg",
+      "time_seconds": 20.020018,
+      "bag_timestamp_ns": 10020020017999,
+      "header_timestamp_ns": 10020020017999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 600
+    },
+    {
+      "index": 41,
+      "filename": "frame_0042.jpg",
+      "relative_path": "frames/frame_0042.jpg",
+      "time_seconds": 20.520512,
+      "bag_timestamp_ns": 10020520511999,
+      "header_timestamp_ns": 10020520511999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 615
+    },
+    {
+      "index": 42,
+      "filename": "frame_0043.jpg",
+      "relative_path": "frames/frame_0043.jpg",
+      "time_seconds": 21.021007,
+      "bag_timestamp_ns": 10021021006999,
+      "header_timestamp_ns": 10021021006999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 630
+    },
+    {
+      "index": 43,
+      "filename": "frame_0044.jpg",
+      "relative_path": "frames/frame_0044.jpg",
+      "time_seconds": 21.521517,
+      "bag_timestamp_ns": 10021521516999,
+      "header_timestamp_ns": 10021521516999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 645
+    },
+    {
+      "index": 44,
+      "filename": "frame_0045.jpg",
+      "relative_path": "frames/frame_0045.jpg",
+      "time_seconds": 22.022016,
+      "bag_timestamp_ns": 10022022016000,
+      "header_timestamp_ns": 10022022016000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 660
+    },
+    {
+      "index": 45,
+      "filename": "frame_0046.jpg",
+      "relative_path": "frames/frame_0046.jpg",
+      "time_seconds": 22.522506,
+      "bag_timestamp_ns": 10022522505999,
+      "header_timestamp_ns": 10022522505999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 675
+    },
+    {
+      "index": 46,
+      "filename": "frame_0047.jpg",
+      "relative_path": "frames/frame_0047.jpg",
+      "time_seconds": 23.023008,
+      "bag_timestamp_ns": 10023023008000,
+      "header_timestamp_ns": 10023023008000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 690
+    },
+    {
+      "index": 47,
+      "filename": "frame_0048.jpg",
+      "relative_path": "frames/frame_0048.jpg",
+      "time_seconds": 23.52351,
+      "bag_timestamp_ns": 10023523510000,
+      "header_timestamp_ns": 10023523510000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 705
+    },
+    {
+      "index": 48,
+      "filename": "frame_0049.jpg",
+      "relative_path": "frames/frame_0049.jpg",
+      "time_seconds": 24.024003,
+      "bag_timestamp_ns": 10024024003000,
+      "header_timestamp_ns": 10024024003000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 720
+    },
+    {
+      "index": 49,
+      "filename": "frame_0050.jpg",
+      "relative_path": "frames/frame_0050.jpg",
+      "time_seconds": 24.524509,
+      "bag_timestamp_ns": 10024524509000,
+      "header_timestamp_ns": 10024524509000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 735
+    },
+    {
+      "index": 50,
+      "filename": "frame_0051.jpg",
+      "relative_path": "frames/frame_0051.jpg",
+      "time_seconds": 25.025007,
+      "bag_timestamp_ns": 10025025007000,
+      "header_timestamp_ns": 10025025007000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 750
+    },
+    {
+      "index": 51,
+      "filename": "frame_0052.jpg",
+      "relative_path": "frames/frame_0052.jpg",
+      "time_seconds": 25.525514,
+      "bag_timestamp_ns": 10025525514000,
+      "header_timestamp_ns": 10025525514000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 765
+    },
+    {
+      "index": 52,
+      "filename": "frame_0053.jpg",
+      "relative_path": "frames/frame_0053.jpg",
+      "time_seconds": 26.026016,
+      "bag_timestamp_ns": 10026026015999,
+      "header_timestamp_ns": 10026026015999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 780
+    },
+    {
+      "index": 53,
+      "filename": "frame_0054.jpg",
+      "relative_path": "frames/frame_0054.jpg",
+      "time_seconds": 26.526529,
+      "bag_timestamp_ns": 10026526529000,
+      "header_timestamp_ns": 10026526529000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 795
+    },
+    {
+      "index": 54,
+      "filename": "frame_0055.jpg",
+      "relative_path": "frames/frame_0055.jpg",
+      "time_seconds": 27.027032,
+      "bag_timestamp_ns": 10027027031999,
+      "header_timestamp_ns": 10027027031999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 810
+    },
+    {
+      "index": 55,
+      "filename": "frame_0056.jpg",
+      "relative_path": "frames/frame_0056.jpg",
+      "time_seconds": 27.527515,
+      "bag_timestamp_ns": 10027527514999,
+      "header_timestamp_ns": 10027527514999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 825
+    },
+    {
+      "index": 56,
+      "filename": "frame_0057.jpg",
+      "relative_path": "frames/frame_0057.jpg",
+      "time_seconds": 28.028013,
+      "bag_timestamp_ns": 10028028012999,
+      "header_timestamp_ns": 10028028012999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 840
+    },
+    {
+      "index": 57,
+      "filename": "frame_0058.jpg",
+      "relative_path": "frames/frame_0058.jpg",
+      "time_seconds": 28.528533,
+      "bag_timestamp_ns": 10028528533000,
+      "header_timestamp_ns": 10028528533000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 855
+    },
+    {
+      "index": 58,
+      "filename": "frame_0059.jpg",
+      "relative_path": "frames/frame_0059.jpg",
+      "time_seconds": 29.02901,
+      "bag_timestamp_ns": 10029029010000,
+      "header_timestamp_ns": 10029029010000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 870
+    },
+    {
+      "index": 59,
+      "filename": "frame_0060.jpg",
+      "relative_path": "frames/frame_0060.jpg",
+      "time_seconds": 29.529509,
+      "bag_timestamp_ns": 10029529508999,
+      "header_timestamp_ns": 10029529508999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 885
+    },
+    {
+      "index": 60,
+      "filename": "frame_0061.jpg",
+      "relative_path": "frames/frame_0061.jpg",
+      "time_seconds": 30.030016,
+      "bag_timestamp_ns": 10030030016000,
+      "header_timestamp_ns": 10030030016000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 900
+    },
+    {
+      "index": 61,
+      "filename": "frame_0062.jpg",
+      "relative_path": "frames/frame_0062.jpg",
+      "time_seconds": 30.530507,
+      "bag_timestamp_ns": 10030530506999,
+      "header_timestamp_ns": 10030530506999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 915
+    },
+    {
+      "index": 62,
+      "filename": "frame_0063.jpg",
+      "relative_path": "frames/frame_0063.jpg",
+      "time_seconds": 31.031011,
+      "bag_timestamp_ns": 10031031010999,
+      "header_timestamp_ns": 10031031010999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 930
+    },
+    {
+      "index": 63,
+      "filename": "frame_0064.jpg",
+      "relative_path": "frames/frame_0064.jpg",
+      "time_seconds": 31.531506,
+      "bag_timestamp_ns": 10031531505999,
+      "header_timestamp_ns": 10031531505999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 945
+    },
+    {
+      "index": 64,
+      "filename": "frame_0065.jpg",
+      "relative_path": "frames/frame_0065.jpg",
+      "time_seconds": 32.032009,
+      "bag_timestamp_ns": 10032032009000,
+      "header_timestamp_ns": 10032032009000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 960
+    },
+    {
+      "index": 65,
+      "filename": "frame_0066.jpg",
+      "relative_path": "frames/frame_0066.jpg",
+      "time_seconds": 32.532512,
+      "bag_timestamp_ns": 10032532511999,
+      "header_timestamp_ns": 10032532511999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 975
+    },
+    {
+      "index": 66,
+      "filename": "frame_0067.jpg",
+      "relative_path": "frames/frame_0067.jpg",
+      "time_seconds": 33.033028,
+      "bag_timestamp_ns": 10033033027999,
+      "header_timestamp_ns": 10033033027999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 990
+    },
+    {
+      "index": 67,
+      "filename": "frame_0068.jpg",
+      "relative_path": "frames/frame_0068.jpg",
+      "time_seconds": 33.533506,
+      "bag_timestamp_ns": 10033533505999,
+      "header_timestamp_ns": 10033533505999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1005
+    },
+    {
+      "index": 68,
+      "filename": "frame_0069.jpg",
+      "relative_path": "frames/frame_0069.jpg",
+      "time_seconds": 34.034012,
+      "bag_timestamp_ns": 10034034012000,
+      "header_timestamp_ns": 10034034012000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1020
+    },
+    {
+      "index": 69,
+      "filename": "frame_0070.jpg",
+      "relative_path": "frames/frame_0070.jpg",
+      "time_seconds": 34.534508,
+      "bag_timestamp_ns": 10034534508000,
+      "header_timestamp_ns": 10034534508000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1035
+    },
+    {
+      "index": 70,
+      "filename": "frame_0071.jpg",
+      "relative_path": "frames/frame_0071.jpg",
+      "time_seconds": 35.03501,
+      "bag_timestamp_ns": 10035035009999,
+      "header_timestamp_ns": 10035035009999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1050
+    },
+    {
+      "index": 71,
+      "filename": "frame_0072.jpg",
+      "relative_path": "frames/frame_0072.jpg",
+      "time_seconds": 35.535507,
+      "bag_timestamp_ns": 10035535507000,
+      "header_timestamp_ns": 10035535507000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1065
+    },
+    {
+      "index": 72,
+      "filename": "frame_0073.jpg",
+      "relative_path": "frames/frame_0073.jpg",
+      "time_seconds": 36.036009,
+      "bag_timestamp_ns": 10036036008999,
+      "header_timestamp_ns": 10036036008999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1080
+    },
+    {
+      "index": 73,
+      "filename": "frame_0074.jpg",
+      "relative_path": "frames/frame_0074.jpg",
+      "time_seconds": 36.536521,
+      "bag_timestamp_ns": 10036536520999,
+      "header_timestamp_ns": 10036536520999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1095
+    },
+    {
+      "index": 74,
+      "filename": "frame_0075.jpg",
+      "relative_path": "frames/frame_0075.jpg",
+      "time_seconds": 37.037025,
+      "bag_timestamp_ns": 10037037024999,
+      "header_timestamp_ns": 10037037024999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1110
+    },
+    {
+      "index": 75,
+      "filename": "frame_0076.jpg",
+      "relative_path": "frames/frame_0076.jpg",
+      "time_seconds": 37.537533,
+      "bag_timestamp_ns": 10037537533000,
+      "header_timestamp_ns": 10037537533000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1125
+    },
+    {
+      "index": 76,
+      "filename": "frame_0077.jpg",
+      "relative_path": "frames/frame_0077.jpg",
+      "time_seconds": 38.03803,
+      "bag_timestamp_ns": 10038038029999,
+      "header_timestamp_ns": 10038038029999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1140
+    },
+    {
+      "index": 77,
+      "filename": "frame_0078.jpg",
+      "relative_path": "frames/frame_0078.jpg",
+      "time_seconds": 38.538542,
+      "bag_timestamp_ns": 10038538542000,
+      "header_timestamp_ns": 10038538542000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1155
+    },
+    {
+      "index": 78,
+      "filename": "frame_0079.jpg",
+      "relative_path": "frames/frame_0079.jpg",
+      "time_seconds": 39.039039,
+      "bag_timestamp_ns": 10039039038999,
+      "header_timestamp_ns": 10039039038999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1170
+    },
+    {
+      "index": 79,
+      "filename": "frame_0080.jpg",
+      "relative_path": "frames/frame_0080.jpg",
+      "time_seconds": 39.539514,
+      "bag_timestamp_ns": 10039539514000,
+      "header_timestamp_ns": 10039539514000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1185
+    },
+    {
+      "index": 80,
+      "filename": "frame_0081.jpg",
+      "relative_path": "frames/frame_0081.jpg",
+      "time_seconds": 40.040021,
+      "bag_timestamp_ns": 10040040021000,
+      "header_timestamp_ns": 10040040021000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1200
+    },
+    {
+      "index": 81,
+      "filename": "frame_0082.jpg",
+      "relative_path": "frames/frame_0082.jpg",
+      "time_seconds": 40.540545,
+      "bag_timestamp_ns": 10040540544999,
+      "header_timestamp_ns": 10040540544999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1215
+    },
+    {
+      "index": 82,
+      "filename": "frame_0083.jpg",
+      "relative_path": "frames/frame_0083.jpg",
+      "time_seconds": 41.04101,
+      "bag_timestamp_ns": 10041041010000,
+      "header_timestamp_ns": 10041041010000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1230
+    },
+    {
+      "index": 83,
+      "filename": "frame_0084.jpg",
+      "relative_path": "frames/frame_0084.jpg",
+      "time_seconds": 41.541507,
+      "bag_timestamp_ns": 10041541506999,
+      "header_timestamp_ns": 10041541506999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1245
+    },
+    {
+      "index": 84,
+      "filename": "frame_0085.jpg",
+      "relative_path": "frames/frame_0085.jpg",
+      "time_seconds": 42.042015,
+      "bag_timestamp_ns": 10042042014999,
+      "header_timestamp_ns": 10042042014999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1260
+    },
+    {
+      "index": 85,
+      "filename": "frame_0086.jpg",
+      "relative_path": "frames/frame_0086.jpg",
+      "time_seconds": 42.542505,
+      "bag_timestamp_ns": 10042542504999,
+      "header_timestamp_ns": 10042542504999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1275
+    },
+    {
+      "index": 86,
+      "filename": "frame_0087.jpg",
+      "relative_path": "frames/frame_0087.jpg",
+      "time_seconds": 43.043006,
+      "bag_timestamp_ns": 10043043005999,
+      "header_timestamp_ns": 10043043005999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1290
+    },
+    {
+      "index": 87,
+      "filename": "frame_0088.jpg",
+      "relative_path": "frames/frame_0088.jpg",
+      "time_seconds": 43.543516,
+      "bag_timestamp_ns": 10043543515999,
+      "header_timestamp_ns": 10043543515999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1305
+    },
+    {
+      "index": 88,
+      "filename": "frame_0089.jpg",
+      "relative_path": "frames/frame_0089.jpg",
+      "time_seconds": 44.044012,
+      "bag_timestamp_ns": 10044044012000,
+      "header_timestamp_ns": 10044044012000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1320
+    },
+    {
+      "index": 89,
+      "filename": "frame_0090.jpg",
+      "relative_path": "frames/frame_0090.jpg",
+      "time_seconds": 44.544504,
+      "bag_timestamp_ns": 10044544503999,
+      "header_timestamp_ns": 10044544503999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1335
+    },
+    {
+      "index": 90,
+      "filename": "frame_0091.jpg",
+      "relative_path": "frames/frame_0091.jpg",
+      "time_seconds": 45.04501,
+      "bag_timestamp_ns": 10045045009999,
+      "header_timestamp_ns": 10045045009999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1350
+    },
+    {
+      "index": 91,
+      "filename": "frame_0092.jpg",
+      "relative_path": "frames/frame_0092.jpg",
+      "time_seconds": 45.545509,
+      "bag_timestamp_ns": 10045545508999,
+      "header_timestamp_ns": 10045545508999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1365
+    },
+    {
+      "index": 92,
+      "filename": "frame_0093.jpg",
+      "relative_path": "frames/frame_0093.jpg",
+      "time_seconds": 46.046019,
+      "bag_timestamp_ns": 10046046018999,
+      "header_timestamp_ns": 10046046018999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1380
+    },
+    {
+      "index": 93,
+      "filename": "frame_0094.jpg",
+      "relative_path": "frames/frame_0094.jpg",
+      "time_seconds": 46.546514,
+      "bag_timestamp_ns": 10046546513999,
+      "header_timestamp_ns": 10046546513999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1395
+    },
+    {
+      "index": 94,
+      "filename": "frame_0095.jpg",
+      "relative_path": "frames/frame_0095.jpg",
+      "time_seconds": 47.047016,
+      "bag_timestamp_ns": 10047047016000,
+      "header_timestamp_ns": 10047047016000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1410
+    },
+    {
+      "index": 95,
+      "filename": "frame_0096.jpg",
+      "relative_path": "frames/frame_0096.jpg",
+      "time_seconds": 47.547528,
+      "bag_timestamp_ns": 10047547527999,
+      "header_timestamp_ns": 10047547527999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1425
+    },
+    {
+      "index": 96,
+      "filename": "frame_0097.jpg",
+      "relative_path": "frames/frame_0097.jpg",
+      "time_seconds": 48.048014,
+      "bag_timestamp_ns": 10048048013999,
+      "header_timestamp_ns": 10048048013999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1440
+    },
+    {
+      "index": 97,
+      "filename": "frame_0098.jpg",
+      "relative_path": "frames/frame_0098.jpg",
+      "time_seconds": 48.54851,
+      "bag_timestamp_ns": 10048548510000,
+      "header_timestamp_ns": 10048548510000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1455
+    },
+    {
+      "index": 98,
+      "filename": "frame_0099.jpg",
+      "relative_path": "frames/frame_0099.jpg",
+      "time_seconds": 49.049014,
+      "bag_timestamp_ns": 10049049014000,
+      "header_timestamp_ns": 10049049014000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1470
+    },
+    {
+      "index": 99,
+      "filename": "frame_0100.jpg",
+      "relative_path": "frames/frame_0100.jpg",
+      "time_seconds": 49.549506,
+      "bag_timestamp_ns": 10049549505999,
+      "header_timestamp_ns": 10049549505999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1485
+    },
+    {
+      "index": 100,
+      "filename": "frame_0101.jpg",
+      "relative_path": "frames/frame_0101.jpg",
+      "time_seconds": 50.050012,
+      "bag_timestamp_ns": 10050050011999,
+      "header_timestamp_ns": 10050050011999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1500
+    },
+    {
+      "index": 101,
+      "filename": "frame_0102.jpg",
+      "relative_path": "frames/frame_0102.jpg",
+      "time_seconds": 50.550508,
+      "bag_timestamp_ns": 10050550508000,
+      "header_timestamp_ns": 10050550508000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1515
+    },
+    {
+      "index": 102,
+      "filename": "frame_0103.jpg",
+      "relative_path": "frames/frame_0103.jpg",
+      "time_seconds": 51.051017,
+      "bag_timestamp_ns": 10051051016999,
+      "header_timestamp_ns": 10051051016999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1530
+    },
+    {
+      "index": 103,
+      "filename": "frame_0104.jpg",
+      "relative_path": "frames/frame_0104.jpg",
+      "time_seconds": 51.551508,
+      "bag_timestamp_ns": 10051551508000,
+      "header_timestamp_ns": 10051551508000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1545
+    },
+    {
+      "index": 104,
+      "filename": "frame_0105.jpg",
+      "relative_path": "frames/frame_0105.jpg",
+      "time_seconds": 52.052008,
+      "bag_timestamp_ns": 10052052008000,
+      "header_timestamp_ns": 10052052008000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1560
+    },
+    {
+      "index": 105,
+      "filename": "frame_0106.jpg",
+      "relative_path": "frames/frame_0106.jpg",
+      "time_seconds": 52.552506,
+      "bag_timestamp_ns": 10052552505999,
+      "header_timestamp_ns": 10052552505999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1575
+    },
+    {
+      "index": 106,
+      "filename": "frame_0107.jpg",
+      "relative_path": "frames/frame_0107.jpg",
+      "time_seconds": 53.053011,
+      "bag_timestamp_ns": 10053053010999,
+      "header_timestamp_ns": 10053053010999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1590
+    },
+    {
+      "index": 107,
+      "filename": "frame_0108.jpg",
+      "relative_path": "frames/frame_0108.jpg",
+      "time_seconds": 53.553505,
+      "bag_timestamp_ns": 10053553504999,
+      "header_timestamp_ns": 10053553504999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1605
+    },
+    {
+      "index": 108,
+      "filename": "frame_0109.jpg",
+      "relative_path": "frames/frame_0109.jpg",
+      "time_seconds": 54.054013,
+      "bag_timestamp_ns": 10054054013000,
+      "header_timestamp_ns": 10054054013000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1620
+    },
+    {
+      "index": 109,
+      "filename": "frame_0110.jpg",
+      "relative_path": "frames/frame_0110.jpg",
+      "time_seconds": 54.554512,
+      "bag_timestamp_ns": 10054554512000,
+      "header_timestamp_ns": 10054554512000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1635
+    },
+    {
+      "index": 110,
+      "filename": "frame_0111.jpg",
+      "relative_path": "frames/frame_0111.jpg",
+      "time_seconds": 55.055004,
+      "bag_timestamp_ns": 10055055003999,
+      "header_timestamp_ns": 10055055003999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1650
+    },
+    {
+      "index": 111,
+      "filename": "frame_0112.jpg",
+      "relative_path": "frames/frame_0112.jpg",
+      "time_seconds": 55.555507,
+      "bag_timestamp_ns": 10055555506999,
+      "header_timestamp_ns": 10055555506999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1665
+    },
+    {
+      "index": 112,
+      "filename": "frame_0113.jpg",
+      "relative_path": "frames/frame_0113.jpg",
+      "time_seconds": 56.056006,
+      "bag_timestamp_ns": 10056056006000,
+      "header_timestamp_ns": 10056056006000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1680
+    },
+    {
+      "index": 113,
+      "filename": "frame_0114.jpg",
+      "relative_path": "frames/frame_0114.jpg",
+      "time_seconds": 56.556514,
+      "bag_timestamp_ns": 10056556513999,
+      "header_timestamp_ns": 10056556513999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1695
+    },
+    {
+      "index": 114,
+      "filename": "frame_0115.jpg",
+      "relative_path": "frames/frame_0115.jpg",
+      "time_seconds": 57.057037,
+      "bag_timestamp_ns": 10057057037000,
+      "header_timestamp_ns": 10057057037000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1710
+    },
+    {
+      "index": 115,
+      "filename": "frame_0116.jpg",
+      "relative_path": "frames/frame_0116.jpg",
+      "time_seconds": 57.557538,
+      "bag_timestamp_ns": 10057557537999,
+      "header_timestamp_ns": 10057557537999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1725
+    },
+    {
+      "index": 116,
+      "filename": "frame_0117.jpg",
+      "relative_path": "frames/frame_0117.jpg",
+      "time_seconds": 58.058027,
+      "bag_timestamp_ns": 10058058026999,
+      "header_timestamp_ns": 10058058026999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1740
+    },
+    {
+      "index": 117,
+      "filename": "frame_0118.jpg",
+      "relative_path": "frames/frame_0118.jpg",
+      "time_seconds": 58.558546,
+      "bag_timestamp_ns": 10058558546000,
+      "header_timestamp_ns": 10058558546000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1755
+    },
+    {
+      "index": 118,
+      "filename": "frame_0119.jpg",
+      "relative_path": "frames/frame_0119.jpg",
+      "time_seconds": 59.059037,
+      "bag_timestamp_ns": 10059059037000,
+      "header_timestamp_ns": 10059059037000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1770
+    },
+    {
+      "index": 119,
+      "filename": "frame_0120.jpg",
+      "relative_path": "frames/frame_0120.jpg",
+      "time_seconds": 59.559533,
+      "bag_timestamp_ns": 10059559532999,
+      "header_timestamp_ns": 10059559532999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1785
+    },
+    {
+      "index": 120,
+      "filename": "frame_0121.jpg",
+      "relative_path": "frames/frame_0121.jpg",
+      "time_seconds": 60.060011,
+      "bag_timestamp_ns": 10060060010999,
+      "header_timestamp_ns": 10060060010999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1800
+    },
+    {
+      "index": 121,
+      "filename": "frame_0122.jpg",
+      "relative_path": "frames/frame_0122.jpg",
+      "time_seconds": 60.560525,
+      "bag_timestamp_ns": 10060560525000,
+      "header_timestamp_ns": 10060560525000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1815
+    },
+    {
+      "index": 122,
+      "filename": "frame_0123.jpg",
+      "relative_path": "frames/frame_0123.jpg",
+      "time_seconds": 61.061017,
+      "bag_timestamp_ns": 10061061016999,
+      "header_timestamp_ns": 10061061016999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1830
+    },
+    {
+      "index": 123,
+      "filename": "frame_0124.jpg",
+      "relative_path": "frames/frame_0124.jpg",
+      "time_seconds": 61.561504,
+      "bag_timestamp_ns": 10061561503999,
+      "header_timestamp_ns": 10061561503999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1845
+    },
+    {
+      "index": 124,
+      "filename": "frame_0125.jpg",
+      "relative_path": "frames/frame_0125.jpg",
+      "time_seconds": 62.062012,
+      "bag_timestamp_ns": 10062062012000,
+      "header_timestamp_ns": 10062062012000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1860
+    },
+    {
+      "index": 125,
+      "filename": "frame_0126.jpg",
+      "relative_path": "frames/frame_0126.jpg",
+      "time_seconds": 62.562519,
+      "bag_timestamp_ns": 10062562518999,
+      "header_timestamp_ns": 10062562518999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1875
+    },
+    {
+      "index": 126,
+      "filename": "frame_0127.jpg",
+      "relative_path": "frames/frame_0127.jpg",
+      "time_seconds": 63.063006,
+      "bag_timestamp_ns": 10063063006000,
+      "header_timestamp_ns": 10063063006000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1890
+    },
+    {
+      "index": 127,
+      "filename": "frame_0128.jpg",
+      "relative_path": "frames/frame_0128.jpg",
+      "time_seconds": 63.563508,
+      "bag_timestamp_ns": 10063563507999,
+      "header_timestamp_ns": 10063563507999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1905
+    },
+    {
+      "index": 128,
+      "filename": "frame_0129.jpg",
+      "relative_path": "frames/frame_0129.jpg",
+      "time_seconds": 64.064003,
+      "bag_timestamp_ns": 10064064002999,
+      "header_timestamp_ns": 10064064002999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1920
+    },
+    {
+      "index": 129,
+      "filename": "frame_0130.jpg",
+      "relative_path": "frames/frame_0130.jpg",
+      "time_seconds": 64.564508,
+      "bag_timestamp_ns": 10064564507999,
+      "header_timestamp_ns": 10064564507999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1935
+    },
+    {
+      "index": 130,
+      "filename": "frame_0131.jpg",
+      "relative_path": "frames/frame_0131.jpg",
+      "time_seconds": 65.065003,
+      "bag_timestamp_ns": 10065065002999,
+      "header_timestamp_ns": 10065065002999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1950
+    },
+    {
+      "index": 131,
+      "filename": "frame_0132.jpg",
+      "relative_path": "frames/frame_0132.jpg",
+      "time_seconds": 65.565515,
+      "bag_timestamp_ns": 10065565515000,
+      "header_timestamp_ns": 10065565515000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1965
+    },
+    {
+      "index": 132,
+      "filename": "frame_0133.jpg",
+      "relative_path": "frames/frame_0133.jpg",
+      "time_seconds": 66.066012,
+      "bag_timestamp_ns": 10066066011999,
+      "header_timestamp_ns": 10066066011999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1980
+    },
+    {
+      "index": 133,
+      "filename": "frame_0134.jpg",
+      "relative_path": "frames/frame_0134.jpg",
+      "time_seconds": 66.566524,
+      "bag_timestamp_ns": 10066566523999,
+      "header_timestamp_ns": 10066566523999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 1995
+    },
+    {
+      "index": 134,
+      "filename": "frame_0135.jpg",
+      "relative_path": "frames/frame_0135.jpg",
+      "time_seconds": 67.067015,
+      "bag_timestamp_ns": 10067067015000,
+      "header_timestamp_ns": 10067067015000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2010
+    },
+    {
+      "index": 135,
+      "filename": "frame_0136.jpg",
+      "relative_path": "frames/frame_0136.jpg",
+      "time_seconds": 67.567519,
+      "bag_timestamp_ns": 10067567519000,
+      "header_timestamp_ns": 10067567519000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2025
+    },
+    {
+      "index": 136,
+      "filename": "frame_0137.jpg",
+      "relative_path": "frames/frame_0137.jpg",
+      "time_seconds": 68.068027,
+      "bag_timestamp_ns": 10068068026999,
+      "header_timestamp_ns": 10068068026999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2040
+    },
+    {
+      "index": 137,
+      "filename": "frame_0138.jpg",
+      "relative_path": "frames/frame_0138.jpg",
+      "time_seconds": 68.568535,
+      "bag_timestamp_ns": 10068568535000,
+      "header_timestamp_ns": 10068568535000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2055
+    },
+    {
+      "index": 138,
+      "filename": "frame_0139.jpg",
+      "relative_path": "frames/frame_0139.jpg",
+      "time_seconds": 69.069012,
+      "bag_timestamp_ns": 10069069011999,
+      "header_timestamp_ns": 10069069011999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2070
+    },
+    {
+      "index": 139,
+      "filename": "frame_0140.jpg",
+      "relative_path": "frames/frame_0140.jpg",
+      "time_seconds": 69.569511,
+      "bag_timestamp_ns": 10069569510999,
+      "header_timestamp_ns": 10069569510999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2085
+    },
+    {
+      "index": 140,
+      "filename": "frame_0141.jpg",
+      "relative_path": "frames/frame_0141.jpg",
+      "time_seconds": 70.070019,
+      "bag_timestamp_ns": 10070070019000,
+      "header_timestamp_ns": 10070070019000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2100
+    },
+    {
+      "index": 141,
+      "filename": "frame_0142.jpg",
+      "relative_path": "frames/frame_0142.jpg",
+      "time_seconds": 70.570514,
+      "bag_timestamp_ns": 10070570513999,
+      "header_timestamp_ns": 10070570513999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2115
+    },
+    {
+      "index": 142,
+      "filename": "frame_0143.jpg",
+      "relative_path": "frames/frame_0143.jpg",
+      "time_seconds": 71.071014,
+      "bag_timestamp_ns": 10071071013999,
+      "header_timestamp_ns": 10071071013999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2130
+    },
+    {
+      "index": 143,
+      "filename": "frame_0144.jpg",
+      "relative_path": "frames/frame_0144.jpg",
+      "time_seconds": 71.571514,
+      "bag_timestamp_ns": 10071571513999,
+      "header_timestamp_ns": 10071571513999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2145
+    },
+    {
+      "index": 144,
+      "filename": "frame_0145.jpg",
+      "relative_path": "frames/frame_0145.jpg",
+      "time_seconds": 72.072014,
+      "bag_timestamp_ns": 10072072013999,
+      "header_timestamp_ns": 10072072013999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2160
+    },
+    {
+      "index": 145,
+      "filename": "frame_0146.jpg",
+      "relative_path": "frames/frame_0146.jpg",
+      "time_seconds": 72.572513,
+      "bag_timestamp_ns": 10072572512999,
+      "header_timestamp_ns": 10072572512999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2175
+    },
+    {
+      "index": 146,
+      "filename": "frame_0147.jpg",
+      "relative_path": "frames/frame_0147.jpg",
+      "time_seconds": 73.073015,
+      "bag_timestamp_ns": 10073073014999,
+      "header_timestamp_ns": 10073073014999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2190
+    },
+    {
+      "index": 147,
+      "filename": "frame_0148.jpg",
+      "relative_path": "frames/frame_0148.jpg",
+      "time_seconds": 73.573511,
+      "bag_timestamp_ns": 10073573511000,
+      "header_timestamp_ns": 10073573511000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2205
+    },
+    {
+      "index": 148,
+      "filename": "frame_0149.jpg",
+      "relative_path": "frames/frame_0149.jpg",
+      "time_seconds": 74.074022,
+      "bag_timestamp_ns": 10074074022000,
+      "header_timestamp_ns": 10074074022000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2220
+    },
+    {
+      "index": 149,
+      "filename": "frame_0150.jpg",
+      "relative_path": "frames/frame_0150.jpg",
+      "time_seconds": 74.574508,
+      "bag_timestamp_ns": 10074574507999,
+      "header_timestamp_ns": 10074574507999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2235
+    },
+    {
+      "index": 150,
+      "filename": "frame_0151.jpg",
+      "relative_path": "frames/frame_0151.jpg",
+      "time_seconds": 75.075009,
+      "bag_timestamp_ns": 10075075009000,
+      "header_timestamp_ns": 10075075009000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2250
+    },
+    {
+      "index": 151,
+      "filename": "frame_0152.jpg",
+      "relative_path": "frames/frame_0152.jpg",
+      "time_seconds": 75.575512,
+      "bag_timestamp_ns": 10075575511999,
+      "header_timestamp_ns": 10075575511999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2265
+    },
+    {
+      "index": 152,
+      "filename": "frame_0153.jpg",
+      "relative_path": "frames/frame_0153.jpg",
+      "time_seconds": 76.076016,
+      "bag_timestamp_ns": 10076076016000,
+      "header_timestamp_ns": 10076076016000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2280
+    },
+    {
+      "index": 153,
+      "filename": "frame_0154.jpg",
+      "relative_path": "frames/frame_0154.jpg",
+      "time_seconds": 76.576518,
+      "bag_timestamp_ns": 10076576517999,
+      "header_timestamp_ns": 10076576517999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2295
+    },
+    {
+      "index": 154,
+      "filename": "frame_0155.jpg",
+      "relative_path": "frames/frame_0155.jpg",
+      "time_seconds": 77.07702,
+      "bag_timestamp_ns": 10077077020000,
+      "header_timestamp_ns": 10077077020000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2310
+    },
+    {
+      "index": 155,
+      "filename": "frame_0156.jpg",
+      "relative_path": "frames/frame_0156.jpg",
+      "time_seconds": 77.577563,
+      "bag_timestamp_ns": 10077577563000,
+      "header_timestamp_ns": 10077577563000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2325
+    },
+    {
+      "index": 156,
+      "filename": "frame_0157.jpg",
+      "relative_path": "frames/frame_0157.jpg",
+      "time_seconds": 78.078034,
+      "bag_timestamp_ns": 10078078034000,
+      "header_timestamp_ns": 10078078034000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2340
+    },
+    {
+      "index": 157,
+      "filename": "frame_0158.jpg",
+      "relative_path": "frames/frame_0158.jpg",
+      "time_seconds": 78.578534,
+      "bag_timestamp_ns": 10078578534000,
+      "header_timestamp_ns": 10078578534000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2355
+    },
+    {
+      "index": 158,
+      "filename": "frame_0159.jpg",
+      "relative_path": "frames/frame_0159.jpg",
+      "time_seconds": 79.07904,
+      "bag_timestamp_ns": 10079079040000,
+      "header_timestamp_ns": 10079079040000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2370
+    },
+    {
+      "index": 159,
+      "filename": "frame_0160.jpg",
+      "relative_path": "frames/frame_0160.jpg",
+      "time_seconds": 79.579523,
+      "bag_timestamp_ns": 10079579523000,
+      "header_timestamp_ns": 10079579523000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2385
+    },
+    {
+      "index": 160,
+      "filename": "frame_0161.jpg",
+      "relative_path": "frames/frame_0161.jpg",
+      "time_seconds": 80.080017,
+      "bag_timestamp_ns": 10080080017000,
+      "header_timestamp_ns": 10080080017000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2400
+    },
+    {
+      "index": 161,
+      "filename": "frame_0162.jpg",
+      "relative_path": "frames/frame_0162.jpg",
+      "time_seconds": 80.580508,
+      "bag_timestamp_ns": 10080580507999,
+      "header_timestamp_ns": 10080580507999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2415
+    },
+    {
+      "index": 162,
+      "filename": "frame_0163.jpg",
+      "relative_path": "frames/frame_0163.jpg",
+      "time_seconds": 81.08102,
+      "bag_timestamp_ns": 10081081019999,
+      "header_timestamp_ns": 10081081019999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2430
+    },
+    {
+      "index": 163,
+      "filename": "frame_0164.jpg",
+      "relative_path": "frames/frame_0164.jpg",
+      "time_seconds": 81.581516,
+      "bag_timestamp_ns": 10081581516000,
+      "header_timestamp_ns": 10081581516000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2445
+    },
+    {
+      "index": 164,
+      "filename": "frame_0165.jpg",
+      "relative_path": "frames/frame_0165.jpg",
+      "time_seconds": 82.082005,
+      "bag_timestamp_ns": 10082082005000,
+      "header_timestamp_ns": 10082082005000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2460
+    },
+    {
+      "index": 165,
+      "filename": "frame_0166.jpg",
+      "relative_path": "frames/frame_0166.jpg",
+      "time_seconds": 82.582506,
+      "bag_timestamp_ns": 10082582506000,
+      "header_timestamp_ns": 10082582506000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2475
+    },
+    {
+      "index": 166,
+      "filename": "frame_0167.jpg",
+      "relative_path": "frames/frame_0167.jpg",
+      "time_seconds": 83.083005,
+      "bag_timestamp_ns": 10083083005000,
+      "header_timestamp_ns": 10083083005000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2490
+    },
+    {
+      "index": 167,
+      "filename": "frame_0168.jpg",
+      "relative_path": "frames/frame_0168.jpg",
+      "time_seconds": 83.583504,
+      "bag_timestamp_ns": 10083583504000,
+      "header_timestamp_ns": 10083583504000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2505
+    },
+    {
+      "index": 168,
+      "filename": "frame_0169.jpg",
+      "relative_path": "frames/frame_0169.jpg",
+      "time_seconds": 84.08401,
+      "bag_timestamp_ns": 10084084010000,
+      "header_timestamp_ns": 10084084010000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2520
+    },
+    {
+      "index": 169,
+      "filename": "frame_0170.jpg",
+      "relative_path": "frames/frame_0170.jpg",
+      "time_seconds": 84.584511,
+      "bag_timestamp_ns": 10084584510999,
+      "header_timestamp_ns": 10084584510999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2535
+    },
+    {
+      "index": 170,
+      "filename": "frame_0171.jpg",
+      "relative_path": "frames/frame_0171.jpg",
+      "time_seconds": 85.085009,
+      "bag_timestamp_ns": 10085085009000,
+      "header_timestamp_ns": 10085085009000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2550
+    },
+    {
+      "index": 171,
+      "filename": "frame_0172.jpg",
+      "relative_path": "frames/frame_0172.jpg",
+      "time_seconds": 85.585515,
+      "bag_timestamp_ns": 10085585515000,
+      "header_timestamp_ns": 10085585515000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2565
+    },
+    {
+      "index": 172,
+      "filename": "frame_0173.jpg",
+      "relative_path": "frames/frame_0173.jpg",
+      "time_seconds": 86.086024,
+      "bag_timestamp_ns": 10086086024000,
+      "header_timestamp_ns": 10086086024000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2580
+    },
+    {
+      "index": 173,
+      "filename": "frame_0174.jpg",
+      "relative_path": "frames/frame_0174.jpg",
+      "time_seconds": 86.586523,
+      "bag_timestamp_ns": 10086586522999,
+      "header_timestamp_ns": 10086586522999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2595
+    },
+    {
+      "index": 174,
+      "filename": "frame_0175.jpg",
+      "relative_path": "frames/frame_0175.jpg",
+      "time_seconds": 87.08701,
+      "bag_timestamp_ns": 10087087009999,
+      "header_timestamp_ns": 10087087009999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2610
+    },
+    {
+      "index": 175,
+      "filename": "frame_0176.jpg",
+      "relative_path": "frames/frame_0176.jpg",
+      "time_seconds": 87.587514,
+      "bag_timestamp_ns": 10087587514000,
+      "header_timestamp_ns": 10087587514000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2625
+    },
+    {
+      "index": 176,
+      "filename": "frame_0177.jpg",
+      "relative_path": "frames/frame_0177.jpg",
+      "time_seconds": 88.088035,
+      "bag_timestamp_ns": 10088088035000,
+      "header_timestamp_ns": 10088088035000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2640
+    },
+    {
+      "index": 177,
+      "filename": "frame_0178.jpg",
+      "relative_path": "frames/frame_0178.jpg",
+      "time_seconds": 88.588511,
+      "bag_timestamp_ns": 10088588510999,
+      "header_timestamp_ns": 10088588510999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2655
+    },
+    {
+      "index": 178,
+      "filename": "frame_0179.jpg",
+      "relative_path": "frames/frame_0179.jpg",
+      "time_seconds": 89.089028,
+      "bag_timestamp_ns": 10089089028000,
+      "header_timestamp_ns": 10089089028000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2670
+    },
+    {
+      "index": 179,
+      "filename": "frame_0180.jpg",
+      "relative_path": "frames/frame_0180.jpg",
+      "time_seconds": 89.58951,
+      "bag_timestamp_ns": 10089589509999,
+      "header_timestamp_ns": 10089589509999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2685
+    },
+    {
+      "index": 180,
+      "filename": "frame_0181.jpg",
+      "relative_path": "frames/frame_0181.jpg",
+      "time_seconds": 90.090009,
+      "bag_timestamp_ns": 10090090008999,
+      "header_timestamp_ns": 10090090008999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2700
+    },
+    {
+      "index": 181,
+      "filename": "frame_0182.jpg",
+      "relative_path": "frames/frame_0182.jpg",
+      "time_seconds": 90.590509,
+      "bag_timestamp_ns": 10090590508999,
+      "header_timestamp_ns": 10090590508999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2715
+    },
+    {
+      "index": 182,
+      "filename": "frame_0183.jpg",
+      "relative_path": "frames/frame_0183.jpg",
+      "time_seconds": 91.091022,
+      "bag_timestamp_ns": 10091091022000,
+      "header_timestamp_ns": 10091091022000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2730
+    },
+    {
+      "index": 183,
+      "filename": "frame_0184.jpg",
+      "relative_path": "frames/frame_0184.jpg",
+      "time_seconds": 91.591505,
+      "bag_timestamp_ns": 10091591505000,
+      "header_timestamp_ns": 10091591505000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2745
+    },
+    {
+      "index": 184,
+      "filename": "frame_0185.jpg",
+      "relative_path": "frames/frame_0185.jpg",
+      "time_seconds": 92.092012,
+      "bag_timestamp_ns": 10092092011999,
+      "header_timestamp_ns": 10092092011999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2760
+    },
+    {
+      "index": 185,
+      "filename": "frame_0186.jpg",
+      "relative_path": "frames/frame_0186.jpg",
+      "time_seconds": 92.59251,
+      "bag_timestamp_ns": 10092592510000,
+      "header_timestamp_ns": 10092592510000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2775
+    },
+    {
+      "index": 186,
+      "filename": "frame_0187.jpg",
+      "relative_path": "frames/frame_0187.jpg",
+      "time_seconds": 93.093024,
+      "bag_timestamp_ns": 10093093023999,
+      "header_timestamp_ns": 10093093023999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2790
+    },
+    {
+      "index": 187,
+      "filename": "frame_0188.jpg",
+      "relative_path": "frames/frame_0188.jpg",
+      "time_seconds": 93.593508,
+      "bag_timestamp_ns": 10093593507999,
+      "header_timestamp_ns": 10093593507999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2805
+    },
+    {
+      "index": 188,
+      "filename": "frame_0189.jpg",
+      "relative_path": "frames/frame_0189.jpg",
+      "time_seconds": 94.094009,
+      "bag_timestamp_ns": 10094094009000,
+      "header_timestamp_ns": 10094094009000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2820
+    },
+    {
+      "index": 189,
+      "filename": "frame_0190.jpg",
+      "relative_path": "frames/frame_0190.jpg",
+      "time_seconds": 94.594508,
+      "bag_timestamp_ns": 10094594508000,
+      "header_timestamp_ns": 10094594508000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2835
+    },
+    {
+      "index": 190,
+      "filename": "frame_0191.jpg",
+      "relative_path": "frames/frame_0191.jpg",
+      "time_seconds": 95.095009,
+      "bag_timestamp_ns": 10095095009000,
+      "header_timestamp_ns": 10095095009000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2850
+    },
+    {
+      "index": 191,
+      "filename": "frame_0192.jpg",
+      "relative_path": "frames/frame_0192.jpg",
+      "time_seconds": 95.595505,
+      "bag_timestamp_ns": 10095595504999,
+      "header_timestamp_ns": 10095595504999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2865
+    },
+    {
+      "index": 192,
+      "filename": "frame_0193.jpg",
+      "relative_path": "frames/frame_0193.jpg",
+      "time_seconds": 96.096011,
+      "bag_timestamp_ns": 10096096010999,
+      "header_timestamp_ns": 10096096010999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2880
+    },
+    {
+      "index": 193,
+      "filename": "frame_0194.jpg",
+      "relative_path": "frames/frame_0194.jpg",
+      "time_seconds": 96.596515,
+      "bag_timestamp_ns": 10096596514999,
+      "header_timestamp_ns": 10096596514999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2895
+    },
+    {
+      "index": 194,
+      "filename": "frame_0195.jpg",
+      "relative_path": "frames/frame_0195.jpg",
+      "time_seconds": 97.097027,
+      "bag_timestamp_ns": 10097097026999,
+      "header_timestamp_ns": 10097097026999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2910
+    },
+    {
+      "index": 195,
+      "filename": "frame_0196.jpg",
+      "relative_path": "frames/frame_0196.jpg",
+      "time_seconds": 97.597537,
+      "bag_timestamp_ns": 10097597536999,
+      "header_timestamp_ns": 10097597536999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2925
+    },
+    {
+      "index": 196,
+      "filename": "frame_0197.jpg",
+      "relative_path": "frames/frame_0197.jpg",
+      "time_seconds": 98.098038,
+      "bag_timestamp_ns": 10098098038000,
+      "header_timestamp_ns": 10098098038000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2940
+    },
+    {
+      "index": 197,
+      "filename": "frame_0198.jpg",
+      "relative_path": "frames/frame_0198.jpg",
+      "time_seconds": 98.598524,
+      "bag_timestamp_ns": 10098598523999,
+      "header_timestamp_ns": 10098598523999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2955
+    },
+    {
+      "index": 198,
+      "filename": "frame_0199.jpg",
+      "relative_path": "frames/frame_0199.jpg",
+      "time_seconds": 99.099027,
+      "bag_timestamp_ns": 10099099027000,
+      "header_timestamp_ns": 10099099027000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2970
+    },
+    {
+      "index": 199,
+      "filename": "frame_0200.jpg",
+      "relative_path": "frames/frame_0200.jpg",
+      "time_seconds": 99.599559,
+      "bag_timestamp_ns": 10099599559000,
+      "header_timestamp_ns": 10099599559000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 2985
+    },
+    {
+      "index": 200,
+      "filename": "frame_0201.jpg",
+      "relative_path": "frames/frame_0201.jpg",
+      "time_seconds": 100.100016,
+      "bag_timestamp_ns": 10100100016000,
+      "header_timestamp_ns": 10100100016000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3000
+    },
+    {
+      "index": 201,
+      "filename": "frame_0202.jpg",
+      "relative_path": "frames/frame_0202.jpg",
+      "time_seconds": 100.600512,
+      "bag_timestamp_ns": 10100600512000,
+      "header_timestamp_ns": 10100600512000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3015
+    },
+    {
+      "index": 202,
+      "filename": "frame_0203.jpg",
+      "relative_path": "frames/frame_0203.jpg",
+      "time_seconds": 101.101023,
+      "bag_timestamp_ns": 10101101022999,
+      "header_timestamp_ns": 10101101022999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3030
+    },
+    {
+      "index": 203,
+      "filename": "frame_0204.jpg",
+      "relative_path": "frames/frame_0204.jpg",
+      "time_seconds": 101.601515,
+      "bag_timestamp_ns": 10101601515000,
+      "header_timestamp_ns": 10101601515000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3045
+    },
+    {
+      "index": 204,
+      "filename": "frame_0205.jpg",
+      "relative_path": "frames/frame_0205.jpg",
+      "time_seconds": 102.102018,
+      "bag_timestamp_ns": 10102102017999,
+      "header_timestamp_ns": 10102102017999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3060
+    },
+    {
+      "index": 205,
+      "filename": "frame_0206.jpg",
+      "relative_path": "frames/frame_0206.jpg",
+      "time_seconds": 102.602509,
+      "bag_timestamp_ns": 10102602509000,
+      "header_timestamp_ns": 10102602509000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3075
+    },
+    {
+      "index": 206,
+      "filename": "frame_0207.jpg",
+      "relative_path": "frames/frame_0207.jpg",
+      "time_seconds": 103.103012,
+      "bag_timestamp_ns": 10103103011999,
+      "header_timestamp_ns": 10103103011999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3090
+    },
+    {
+      "index": 207,
+      "filename": "frame_0208.jpg",
+      "relative_path": "frames/frame_0208.jpg",
+      "time_seconds": 103.603515,
+      "bag_timestamp_ns": 10103603515000,
+      "header_timestamp_ns": 10103603515000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3105
+    },
+    {
+      "index": 208,
+      "filename": "frame_0209.jpg",
+      "relative_path": "frames/frame_0209.jpg",
+      "time_seconds": 104.104009,
+      "bag_timestamp_ns": 10104104009000,
+      "header_timestamp_ns": 10104104009000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3120
+    },
+    {
+      "index": 209,
+      "filename": "frame_0210.jpg",
+      "relative_path": "frames/frame_0210.jpg",
+      "time_seconds": 104.604507,
+      "bag_timestamp_ns": 10104604507000,
+      "header_timestamp_ns": 10104604507000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3135
+    },
+    {
+      "index": 210,
+      "filename": "frame_0211.jpg",
+      "relative_path": "frames/frame_0211.jpg",
+      "time_seconds": 105.105018,
+      "bag_timestamp_ns": 10105105018000,
+      "header_timestamp_ns": 10105105018000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3150
+    },
+    {
+      "index": 211,
+      "filename": "frame_0212.jpg",
+      "relative_path": "frames/frame_0212.jpg",
+      "time_seconds": 105.605514,
+      "bag_timestamp_ns": 10105605514000,
+      "header_timestamp_ns": 10105605514000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3165
+    },
+    {
+      "index": 212,
+      "filename": "frame_0213.jpg",
+      "relative_path": "frames/frame_0213.jpg",
+      "time_seconds": 106.106019,
+      "bag_timestamp_ns": 10106106019000,
+      "header_timestamp_ns": 10106106019000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3180
+    },
+    {
+      "index": 213,
+      "filename": "frame_0214.jpg",
+      "relative_path": "frames/frame_0214.jpg",
+      "time_seconds": 106.606533,
+      "bag_timestamp_ns": 10106606533000,
+      "header_timestamp_ns": 10106606533000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3195
+    },
+    {
+      "index": 214,
+      "filename": "frame_0215.jpg",
+      "relative_path": "frames/frame_0215.jpg",
+      "time_seconds": 107.107034,
+      "bag_timestamp_ns": 10107107034000,
+      "header_timestamp_ns": 10107107034000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3210
+    },
+    {
+      "index": 215,
+      "filename": "frame_0216.jpg",
+      "relative_path": "frames/frame_0216.jpg",
+      "time_seconds": 107.607515,
+      "bag_timestamp_ns": 10107607514999,
+      "header_timestamp_ns": 10107607514999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3225
+    },
+    {
+      "index": 216,
+      "filename": "frame_0217.jpg",
+      "relative_path": "frames/frame_0217.jpg",
+      "time_seconds": 108.108033,
+      "bag_timestamp_ns": 10108108033000,
+      "header_timestamp_ns": 10108108033000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3240
+    },
+    {
+      "index": 217,
+      "filename": "frame_0218.jpg",
+      "relative_path": "frames/frame_0218.jpg",
+      "time_seconds": 108.608516,
+      "bag_timestamp_ns": 10108608516000,
+      "header_timestamp_ns": 10108608516000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3255
+    },
+    {
+      "index": 218,
+      "filename": "frame_0219.jpg",
+      "relative_path": "frames/frame_0219.jpg",
+      "time_seconds": 109.109012,
+      "bag_timestamp_ns": 10109109012000,
+      "header_timestamp_ns": 10109109012000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3270
+    },
+    {
+      "index": 219,
+      "filename": "frame_0220.jpg",
+      "relative_path": "frames/frame_0220.jpg",
+      "time_seconds": 109.609526,
+      "bag_timestamp_ns": 10109609526000,
+      "header_timestamp_ns": 10109609526000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3285
+    },
+    {
+      "index": 220,
+      "filename": "frame_0221.jpg",
+      "relative_path": "frames/frame_0221.jpg",
+      "time_seconds": 110.110022,
+      "bag_timestamp_ns": 10110110022000,
+      "header_timestamp_ns": 10110110022000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3300
+    },
+    {
+      "index": 221,
+      "filename": "frame_0222.jpg",
+      "relative_path": "frames/frame_0222.jpg",
+      "time_seconds": 110.610507,
+      "bag_timestamp_ns": 10110610506999,
+      "header_timestamp_ns": 10110610506999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3315
+    },
+    {
+      "index": 222,
+      "filename": "frame_0223.jpg",
+      "relative_path": "frames/frame_0223.jpg",
+      "time_seconds": 111.111009,
+      "bag_timestamp_ns": 10111111009000,
+      "header_timestamp_ns": 10111111009000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3330
+    },
+    {
+      "index": 223,
+      "filename": "frame_0224.jpg",
+      "relative_path": "frames/frame_0224.jpg",
+      "time_seconds": 111.611509,
+      "bag_timestamp_ns": 10111611509000,
+      "header_timestamp_ns": 10111611509000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3345
+    },
+    {
+      "index": 224,
+      "filename": "frame_0225.jpg",
+      "relative_path": "frames/frame_0225.jpg",
+      "time_seconds": 112.112011,
+      "bag_timestamp_ns": 10112112010999,
+      "header_timestamp_ns": 10112112010999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3360
+    },
+    {
+      "index": 225,
+      "filename": "frame_0226.jpg",
+      "relative_path": "frames/frame_0226.jpg",
+      "time_seconds": 112.612506,
+      "bag_timestamp_ns": 10112612505999,
+      "header_timestamp_ns": 10112612505999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3375
+    },
+    {
+      "index": 226,
+      "filename": "frame_0227.jpg",
+      "relative_path": "frames/frame_0227.jpg",
+      "time_seconds": 113.113006,
+      "bag_timestamp_ns": 10113113005999,
+      "header_timestamp_ns": 10113113005999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3390
+    },
+    {
+      "index": 227,
+      "filename": "frame_0228.jpg",
+      "relative_path": "frames/frame_0228.jpg",
+      "time_seconds": 113.613509,
+      "bag_timestamp_ns": 10113613509000,
+      "header_timestamp_ns": 10113613509000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3405
+    },
+    {
+      "index": 228,
+      "filename": "frame_0229.jpg",
+      "relative_path": "frames/frame_0229.jpg",
+      "time_seconds": 114.114005,
+      "bag_timestamp_ns": 10114114004999,
+      "header_timestamp_ns": 10114114004999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3420
+    },
+    {
+      "index": 229,
+      "filename": "frame_0230.jpg",
+      "relative_path": "frames/frame_0230.jpg",
+      "time_seconds": 114.614507,
+      "bag_timestamp_ns": 10114614507000,
+      "header_timestamp_ns": 10114614507000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3435
+    },
+    {
+      "index": 230,
+      "filename": "frame_0231.jpg",
+      "relative_path": "frames/frame_0231.jpg",
+      "time_seconds": 115.11501,
+      "bag_timestamp_ns": 10115115009999,
+      "header_timestamp_ns": 10115115009999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3450
+    },
+    {
+      "index": 231,
+      "filename": "frame_0232.jpg",
+      "relative_path": "frames/frame_0232.jpg",
+      "time_seconds": 115.615506,
+      "bag_timestamp_ns": 10115615506000,
+      "header_timestamp_ns": 10115615506000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3465
+    },
+    {
+      "index": 232,
+      "filename": "frame_0233.jpg",
+      "relative_path": "frames/frame_0233.jpg",
+      "time_seconds": 116.116005,
+      "bag_timestamp_ns": 10116116004999,
+      "header_timestamp_ns": 10116116004999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3480
+    },
+    {
+      "index": 233,
+      "filename": "frame_0234.jpg",
+      "relative_path": "frames/frame_0234.jpg",
+      "time_seconds": 116.616514,
+      "bag_timestamp_ns": 10116616513999,
+      "header_timestamp_ns": 10116616513999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3495
+    },
+    {
+      "index": 234,
+      "filename": "frame_0235.jpg",
+      "relative_path": "frames/frame_0235.jpg",
+      "time_seconds": 117.117022,
+      "bag_timestamp_ns": 10117117022000,
+      "header_timestamp_ns": 10117117022000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3510
+    },
+    {
+      "index": 235,
+      "filename": "frame_0236.jpg",
+      "relative_path": "frames/frame_0236.jpg",
+      "time_seconds": 117.617529,
+      "bag_timestamp_ns": 10117617528999,
+      "header_timestamp_ns": 10117617528999,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3525
+    },
+    {
+      "index": 236,
+      "filename": "frame_0237.jpg",
+      "relative_path": "frames/frame_0237.jpg",
+      "time_seconds": 118.118043,
+      "bag_timestamp_ns": 10118118043000,
+      "header_timestamp_ns": 10118118043000,
+      "camera_frame_id": "cam0",
+      "source_message_index": 3540
+    }
+  ]
+}

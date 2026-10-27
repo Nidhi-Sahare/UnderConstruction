@@ -1,0 +1,35 @@
+{
+  "input": "C:\\Users\\Nidhi\\OneDrive\\Desktop\\BuildProgress\\data\\geometry\\normalized_segments.json",
+  "selected_collection": "$.segments",
+  "candidate_collections": [
+    {
+      "path": "$.segments",
+      "records": 951,
+      "sample_matches": 20
+    },
+    {
+      "path": "$.noded_network",
+      "records": 950,
+      "sample_matches": 20
+    }
+  ],
+  "wall_elements": 888,
+  "rejected_records": 0,
+  "duplicate_records": 63,
+  "categories": {
+    "interior": 492,
+    "lining": 72,
+    "exterior": 260,
+    "partition": 64
+  },
+  "length_statistics_m": {
+    "minimum": 0.00011780999999899677,
+    "median": 0.22399999000000026,
+    "maximum": 15.699999859999998
+  },
+  "assumptions": {
+    "height_m": 3.0,
+    "thickness_m": 0.15,
+    "geometry": "Every segment is represented by a rectangular prism. This does not reconstruct exact wall solids."
+  }
+}

@@ -1,0 +1,671 @@
+{
+  "schema_version": "wall-topology-1.0",
+  "source_dxf": "C:\\Users\\Nidhi\\OneDrive\\Desktop\\BuildProgress\\data\\floorplans\\floor_2.dxf",
+  "units": "meters",
+  "parameters": {
+    "curve_flattening_m": 0.01,
+    "endpoint_neighbor_radius_m": 0.1,
+    "endpoint_coincidence_m": 0.001,
+    "parallel_angle_tolerance_deg": 3.0,
+    "parallel_search_radius_m": 0.6,
+    "minimum_parallel_overlap_m": 0.2
+  },
+  "segment_count": 951,
+  "length_statistics": {
+    "count": 951,
+    "min_m": 0.00011781395254928384,
+    "median_m": 0.2999999999999954,
+    "p90_m": 1.20000000000001,
+    "max_m": 15.699999856246349
+  },
+  "endpoint_statistics": {
+    "total_segment_endpoints": 1902,
+    "unmatched_endpoints": 179,
+    "nearby_gap_count": 63,
+    "median_nearby_gap_m": 0.03249752604391518,
+    "smallest_nearby_gaps_m": [
+      0.012499999999992184,
+      0.012499999999992184,
+      0.012500000000001066,
+      0.012500000000001066,
+      0.014999973618131884,
+      0.014999973629830571,
+      0.01499997362984123,
+      0.014999974412239747,
+      0.014999976607150287,
+      0.014999976607150287,
+      0.014999976692799457,
+      0.014999977340573211,
+      0.014999977426440575,
+      0.014999977426442351,
+      0.014999977854572022,
+      0.014999984543151903,
+      0.014999998732973844,
+      0.015000014995854433,
+      0.015000026190303046,
+      0.02499996403003972,
+      0.02499996403003972,
+      0.024999964030041497,
+      0.024999964030041497,
+      0.024999967462273977,
+      0.024999967462273977,
+      0.024999980416988293,
+      0.024999980416988293,
+      0.025000001555579132,
+      0.025000001555579132,
+      0.025000001555579132
+    ]
+  },
+  "parallel_edge_statistics": {
+    "pair_count": 121,
+    "distance_median_m": 0.12499997656506778,
+    "distance_percentiles_m": {
+      "p10": 0.015000005738054059,
+      "p25": 0.0949999892351084,
+      "p50": 0.12499997656506778,
+      "p75": 0.19999999999999216,
+      "p90": 0.3000000000000007
+    },
+    "examples": [
+      {
+        "distance_m": 0.01499996130714051,
+        "category": "interior",
+        "overlap_m": 0.7999800832044627,
+        "handles": [
+          "626",
+          "62B"
+        ]
+      },
+      {
+        "distance_m": 0.014999964317639666,
+        "category": "interior",
+        "overlap_m": 0.7999820312901488,
+        "handles": [
+          "61B",
+          "61C"
+        ]
+      },
+      {
+        "distance_m": 0.014999970561010852,
+        "category": "interior",
+        "overlap_m": 0.4319999972184006,
+        "handles": [
+          "6AE",
+          "6AF"
+        ]
+      },
+      {
+        "distance_m": 0.014999972258570103,
+        "category": "interior",
+        "overlap_m": 0.4319999991088625,
+        "handles": [
+          "6C2",
+          "6C4"
+        ]
+      },
+      {
+        "distance_m": 0.014999972258578985,
+        "category": "interior",
+        "overlap_m": 0.43199999910886455,
+        "handles": [
+          "596",
+          "597"
+        ]
+      },
+      {
+        "distance_m": 0.014999975780948931,
+        "category": "interior",
+        "overlap_m": 0.569999979767346,
+        "handles": [
+          "589",
+          "58B"
+        ]
+      },
+      {
+        "distance_m": 0.014999976607150243,
+        "category": "interior",
+        "overlap_m": 0.37699999888242886,
+        "handles": [
+          "592",
+          "594"
+        ]
+      },
+      {
+        "distance_m": 0.014999976607150243,
+        "category": "interior",
+        "overlap_m": 0.37699999888242175,
+        "handles": [
+          "6BE",
+          "6BF"
+        ]
+      },
+      {
+        "distance_m": 0.014999976692799242,
+        "category": "interior",
+        "overlap_m": 0.43199999732906935,
+        "handles": [
+          "583",
+          "585"
+        ]
+      },
+      {
+        "distance_m": 0.014999977077297234,
+        "category": "interior",
+        "overlap_m": 0.5999790722666383,
+        "handles": [
+          "6B4",
+          "6B5"
+        ]
+      },
+      {
+        "distance_m": 0.015000003002548303,
+        "category": "interior",
+        "overlap_m": 0.43199999707620984,
+        "handles": [
+          "582",
+          "584"
+        ]
+      },
+      {
+        "distance_m": 0.015000003512946863,
+        "category": "interior",
+        "overlap_m": 0.799980083008059,
+        "handles": [
+          "625",
+          "627"
+        ]
+      },
+      {
+        "distance_m": 0.015000005738054059,
+        "category": "interior",
+        "overlap_m": 0.5999790740859174,
+        "handles": [
+          "6B3",
+          "6B6"
+        ]
+      },
+      {
+        "distance_m": 0.01500000593090096,
+        "category": "interior",
+        "overlap_m": 0.43199999732908007,
+        "handles": [
+          "6AD",
+          "6B0"
+        ]
+      },
+      {
+        "distance_m": 0.015000008325259447,
+        "category": "interior",
+        "overlap_m": 0.5699999803868471,
+        "handles": [
+          "588",
+          "58A"
+        ]
+      },
+      {
+        "distance_m": 0.015000010016198217,
+        "category": "interior",
+        "overlap_m": 0.37699999888242175,
+        "handles": [
+          "6BD",
+          "6C0"
+        ]
+      },
+      {
+        "distance_m": 0.01500001001621598,
+        "category": "interior",
+        "overlap_m": 0.37699999888242886,
+        "handles": [
+          "591",
+          "593"
+        ]
+      },
+      {
+        "distance_m": 0.015000010112210322,
+        "category": "interior",
+        "overlap_m": 0.43199999902450253,
+        "handles": [
+          "6C1",
+          "6C3"
+        ]
+      },
+      {
+        "distance_m": 0.015000010112210325,
+        "category": "interior",
+        "overlap_m": 0.4319999990245092,
+        "handles": [
+          "595",
+          "598"
+        ]
+      },
+      {
+        "distance_m": 0.015000010376565683,
+        "category": "interior",
+        "overlap_m": 0.7999820314377754,
+        "handles": [
+          "61A",
+          "620"
+        ]
+      },
+      {
+        "distance_m": 0.02999999999999632,
+        "category": "partition",
+        "overlap_m": 1.2850164259616885,
+        "handles": [
+          "346",
+          "348"
+        ]
+      },
+      {
+        "distance_m": 0.02999999999999632,
+        "category": "partition",
+        "overlap_m": 1.2850164259616885,
+        "handles": [
+          "3B9",
+          "3BB"
+        ]
+      },
+      {
+        "distance_m": 0.02999999999999681,
+        "category": "partition",
+        "overlap_m": 1.284999695831126,
+        "handles": [
+          "343",
+          "345"
+        ]
+      },
+      {
+        "distance_m": 0.029999999999996814,
+        "category": "partition",
+        "overlap_m": 1.2849998408626047,
+        "handles": [
+          "3B6",
+          "3B8"
+        ]
+      },
+      {
+        "distance_m": 0.029999999999997036,
+        "category": "partition",
+        "overlap_m": 1.284999994285639,
+        "handles": [
+          "340",
+          "342"
+        ]
+      },
+      {
+        "distance_m": 0.029999999999997043,
+        "category": "partition",
+        "overlap_m": 1.2850001393171173,
+        "handles": [
+          "3B3",
+          "3B5"
+        ]
+      },
+      {
+        "distance_m": 0.07499999999998863,
+        "category": "lining",
+        "overlap_m": 0.3999999999999986,
+        "handles": [
+          "460",
+          "461"
+        ]
+      },
+      {
+        "distance_m": 0.07499999999999928,
+        "category": "lining",
+        "overlap_m": 0.3999999999999986,
+        "handles": [
+          "468",
+          "469"
+        ]
+      },
+      {
+        "distance_m": 0.07500000000000284,
+        "category": "lining",
+        "overlap_m": 0.3999999999999986,
+        "handles": [
+          "458",
+          "459"
+        ]
+      },
+      {
+        "distance_m": 0.09499998647340346,
+        "category": "interior",
+        "overlap_m": 0.799969764279196,
+        "handles": [
+          "625",
+          "626"
+        ]
+      }
+    ]
+  },
+  "layer_statistics": {
+    "interior": {
+      "entity_LWPOLYLINE": 262,
+      "open_polylines": 260,
+      "entity_LINE": 96,
+      "entity_INSERT": 26,
+      "insert_count": 26,
+      "entity_ARC": 16,
+      "closed_polylines": 2
+    },
+    "lining": {
+      "entity_INSERT": 4,
+      "insert_count": 4,
+      "entity_LWPOLYLINE": 64,
+      "open_polylines": 64,
+      "entity_LINE": 8
+    },
+    "exterior": {
+      "entity_LWPOLYLINE": 323,
+      "open_polylines": 323
+    },
+    "partition": {
+      "entity_LINE": 16,
+      "entity_LWPOLYLINE": 48,
+      "open_polylines": 48
+    }
+  },
+  "insert_examples": [
+    {
+      "handle": "FA",
+      "layer": "019 Vormauerungen",
+      "block_name": "*X4",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "105",
+      "layer": "019 Vormauerungen",
+      "block_name": "*X5",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "110",
+      "layer": "019 Vormauerungen",
+      "block_name": "*X6",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "349",
+      "layer": "019 Vormauerungen",
+      "block_name": "*X7",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "508",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X8",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "514",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X9",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "51B",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X10",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "525",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X11",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "528",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X12",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "533",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X13",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "534",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X14",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "535",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X15",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "59B",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X16",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "5A3",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X17",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "5AB",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X18",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "5B3",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X19",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "5BB",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X20",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "5BE",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X21",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "5CB",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X22",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "5CC",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X23",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "5CD",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X24",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "630",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X25",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "633",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X26",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "63F",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X27",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "646",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X28",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "650",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X29",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "653",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X30",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "65E",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X31",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "65F",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X32",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "handle": "660",
+      "layer": "015 Innenw\u00e4nde",
+      "block_name": "*X33",
+      "insert": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

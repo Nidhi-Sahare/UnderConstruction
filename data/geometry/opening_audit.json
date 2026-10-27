@@ -1,0 +1,2106 @@
+{
+  "schema_version": "cad-opening-audit-1.0",
+  "source": "C:\\Users\\Nidhi\\OneDrive\\Desktop\\BuildProgress\\data\\floorplans\\floor_2.dxf",
+  "wall_segment_count": 951,
+  "opening_segment_count": 2602,
+  "opening_category_counts": {
+    "door": 959,
+    "window": 1643
+  },
+  "unmatched_wall_endpoint_count": 150,
+  "endpoint_classifications": {
+    "near_opening_geometry": 137,
+    "unexplained": 13
+  },
+  "opening_search_radius_m": 0.3,
+  "endpoints": [
+    {
+      "point": [
+        -42.3576931,
+        34.2932361
+      ],
+      "segment_index": 44,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "11C",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "121E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -43.0926931,
+        34.2932361
+      ],
+      "segment_index": 45,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "11D",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "123E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -40.1826931,
+        34.2932361
+      ],
+      "segment_index": 47,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "11F",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "11FE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -40.9176931,
+        34.2932361
+      ],
+      "segment_index": 48,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "120",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "121E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -38.0076931,
+        34.2932361
+      ],
+      "segment_index": 50,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "122",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "11DE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -38.7426931,
+        34.2932361
+      ],
+      "segment_index": 51,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "123",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "11FE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -35.8326931,
+        34.2932361
+      ],
+      "segment_index": 53,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "125",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "11BE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -36.5676931,
+        34.2932361
+      ],
+      "segment_index": 54,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "126",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "11DE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -33.6576931,
+        34.2932361
+      ],
+      "segment_index": 56,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "128",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "119E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -34.3926931,
+        34.2932361
+      ],
+      "segment_index": 57,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "129",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "11BE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -31.4826931,
+        34.2932361
+      ],
+      "segment_index": 59,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "12B",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "117E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -32.2176931,
+        34.2932361
+      ],
+      "segment_index": 60,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "12C",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "119E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -29.3076931,
+        34.2932361
+      ],
+      "segment_index": 62,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "12E",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "115E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -30.0426931,
+        34.2932361
+      ],
+      "segment_index": 63,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "12F",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "117E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -44.5326931,
+        34.2932361
+      ],
+      "segment_index": 66,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "132",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "123E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -44.9451931,
+        33.8807361
+      ],
+      "segment_index": 67,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "133",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "13FE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -27.1326931,
+        34.2932361
+      ],
+      "segment_index": 69,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "135",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "113E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -27.8676931,
+        34.2932361
+      ],
+      "segment_index": 70,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "136",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "115E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -24.9576931,
+        34.2932361
+      ],
+      "segment_index": 72,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "138",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "111E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -25.6926931,
+        34.2932361
+      ],
+      "segment_index": 73,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "139",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "113E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -22.7826931,
+        34.2932361
+      ],
+      "segment_index": 75,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "13B",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "10FE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -23.5176931,
+        34.2932361
+      ],
+      "segment_index": 76,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "13C",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "111E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -20.6076931,
+        34.2932361
+      ],
+      "segment_index": 78,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "13E",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "10DE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -21.3426931,
+        34.2932361
+      ],
+      "segment_index": 79,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "13F",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "10FE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -18.4326931,
+        34.2932361
+      ],
+      "segment_index": 81,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "141",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "10BE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -19.1676931,
+        34.2932361
+      ],
+      "segment_index": 82,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "142",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "10DE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -16.2576931,
+        34.2932361
+      ],
+      "segment_index": 84,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "144",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "131E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -16.9926931,
+        34.2932361
+      ],
+      "segment_index": 85,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "145",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "10BE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -14.0826931,
+        34.2932361
+      ],
+      "segment_index": 87,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "147",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "12FE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -14.8176931,
+        34.2932361
+      ],
+      "segment_index": 88,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "148",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "131E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -11.9076931,
+        34.2932361
+      ],
+      "segment_index": 90,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "14A",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "12DE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -12.6426931,
+        34.2932361
+      ],
+      "segment_index": 91,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "14B",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "12FE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -9.7326931,
+        34.2932361
+      ],
+      "segment_index": 93,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "14D",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "12BE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -10.4676931,
+        34.2932361
+      ],
+      "segment_index": 94,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "14E",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "12DE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -7.5576931,
+        34.2932361
+      ],
+      "segment_index": 96,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "150",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "129E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -8.2926931,
+        34.2932361
+      ],
+      "segment_index": 97,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "151",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "12BE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -5.3826931,
+        34.2932361
+      ],
+      "segment_index": 99,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "153",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "127E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -6.1176931,
+        34.2932361
+      ],
+      "segment_index": 100,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "154",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "129E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -3.2076931,
+        34.2932361
+      ],
+      "segment_index": 102,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "156",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "125E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -3.9426931,
+        34.2932361
+      ],
+      "segment_index": 103,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "157",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "127E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        31.7057361
+      ],
+      "segment_index": 105,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "159",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "147E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        32.4407361
+      ],
+      "segment_index": 106,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "15A",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "149E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        29.5307361
+      ],
+      "segment_index": 108,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "15C",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "14DE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        30.2657361
+      ],
+      "segment_index": 109,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "15D",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "147E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        27.0932361
+      ],
+      "segment_index": 111,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "15F",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "145E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        28.0907361
+      ],
+      "segment_index": 112,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "160",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "14DE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        24.6557361
+      ],
+      "segment_index": 114,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "162",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "14BE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        25.6532361
+      ],
+      "segment_index": 115,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "163",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "145E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        22.4807361
+      ],
+      "segment_index": 117,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "165",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "143E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        23.2157361
+      ],
+      "segment_index": 118,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "166",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "14BE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        20.3057361
+      ],
+      "segment_index": 120,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "168",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "141E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        21.0407361
+      ],
+      "segment_index": 121,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "169",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "143E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.7676931,
+        34.2932361
+      ],
+      "segment_index": 122,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "16A",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "125E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        33.8807361
+      ],
+      "segment_index": 125,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "16D",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "149E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.7676931,
+        1.0532361
+      ],
+      "segment_index": 128,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "170",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "177E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        1.4657361
+      ],
+      "segment_index": 129,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "171",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "16DE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -34.3926931,
+        9.753236
+      ],
+      "segment_index": 131,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "173",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "14FE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -33.6576931,
+        9.753236
+      ],
+      "segment_index": 132,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "174",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "133E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -40.4226728,
+        13.7374062
+      ],
+      "segment_index": 134,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "176",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "171E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -39.9029494,
+        13.2176827
+      ],
+      "segment_index": 135,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "177",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "173E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -41.9606301,
+        15.2753635
+      ],
+      "segment_index": 137,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "179",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "16FE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -41.4409066,
+        14.75564
+      ],
+      "segment_index": 138,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "17A",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "171E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -43.4985873,
+        16.8133207
+      ],
+      "segment_index": 140,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "17C",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "135E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -42.9788639,
+        16.2935972
+      ],
+      "segment_index": 141,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "17D",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "16FE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -44.9451931,
+        21.0407361
+      ],
+      "segment_index": 143,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "17F",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "139E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -44.9451931,
+        20.3057361
+      ],
+      "segment_index": 144,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "180",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "137E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -44.9451931,
+        25.6532361
+      ],
+      "segment_index": 146,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "182",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "13BE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -44.9451931,
+        22.4807361
+      ],
+      "segment_index": 147,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "183",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "139E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -44.9451931,
+        30.2657361
+      ],
+      "segment_index": 149,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "185",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "13DE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -44.9451931,
+        27.0932361
+      ],
+      "segment_index": 150,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "186",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "13BE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -44.9451931,
+        32.4407361
+      ],
+      "segment_index": 152,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "188",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "13FE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -44.9451931,
+        31.7057361
+      ],
+      "segment_index": 153,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "189",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "13DE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -32.2176931,
+        9.753236
+      ],
+      "segment_index": 224,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "28B",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "133E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -31.4826931,
+        9.753236
+      ],
+      "segment_index": 225,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "28C",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "151E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -30.0426931,
+        9.753236
+      ],
+      "segment_index": 227,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "28E",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "151E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -29.3076931,
+        9.753236
+      ],
+      "segment_index": 228,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "28F",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "153E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -27.8676931,
+        9.753236
+      ],
+      "segment_index": 230,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "291",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "153E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -27.1326931,
+        9.753236
+      ],
+      "segment_index": 231,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "292",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "155E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -25.6926931,
+        9.753236
+      ],
+      "segment_index": 233,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "294",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "155E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -24.9576931,
+        9.753236
+      ],
+      "segment_index": 234,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "295",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "157E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -23.5176931,
+        9.753236
+      ],
+      "segment_index": 236,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "297",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "157E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -22.7826931,
+        9.753236
+      ],
+      "segment_index": 237,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "298",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "159E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -21.3426931,
+        9.753236
+      ],
+      "segment_index": 239,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "29A",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "159E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -20.6076931,
+        9.753236
+      ],
+      "segment_index": 240,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "29B",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "15BE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -19.1676931,
+        9.753236
+      ],
+      "segment_index": 242,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "29D",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "15BE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -18.4326931,
+        9.753236
+      ],
+      "segment_index": 243,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "29E",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "15DE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -16.0201931,
+        5.8157361
+      ],
+      "segment_index": 245,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "2A0",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "1880",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -16.0201931,
+        5.0807361
+      ],
+      "segment_index": 246,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2A1",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "1860",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -16.0201931,
+        3.6407361
+      ],
+      "segment_index": 248,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "2A3",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "1860",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -16.0201931,
+        2.9057361
+      ],
+      "segment_index": 249,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2A4",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "1840",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        18.1307361
+      ],
+      "segment_index": 251,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "2A6",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "15FE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        18.8657361
+      ],
+      "segment_index": 252,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2A7",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "141E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        15.9557361
+      ],
+      "segment_index": 254,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "2A9",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "161E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        16.6907361
+      ],
+      "segment_index": 255,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2AA",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "15FE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        13.7807361
+      ],
+      "segment_index": 257,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "2AC",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "163E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        14.5157361
+      ],
+      "segment_index": 258,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2AD",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "161E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        11.6057361
+      ],
+      "segment_index": 260,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "2AF",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "165E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        12.3407361
+      ],
+      "segment_index": 261,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2B0",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "163E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        9.4307361
+      ],
+      "segment_index": 263,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "2B2",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "167E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        10.1657361
+      ],
+      "segment_index": 264,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2B3",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "165E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        7.2557361
+      ],
+      "segment_index": 266,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "2B5",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "169E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        7.9907361
+      ],
+      "segment_index": 267,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2B6",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "167E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        5.0807361
+      ],
+      "segment_index": 269,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "2B8",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "16BE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        5.8157361
+      ],
+      "segment_index": 270,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2B9",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "169E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        2.9057361
+      ],
+      "segment_index": 272,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "2BB",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "16DE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -1.3551931,
+        3.6407361
+      ],
+      "segment_index": 273,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2BC",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "16BE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -38.8847156,
+        12.199449
+      ],
+      "segment_index": 275,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "2BE",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "173E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -38.3649921,
+        11.6797255
+      ],
+      "segment_index": 276,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2BF",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "175E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -44.5168211,
+        17.8315545
+      ],
+      "segment_index": 277,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2C0",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "135E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -44.9451931,
+        18.8657361
+      ],
+      "segment_index": 280,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "2C3",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "137E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -16.9926931,
+        9.753236
+      ],
+      "segment_index": 283,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2C6",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "15DE",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -16.0201931,
+        7.2557361
+      ],
+      "segment_index": 284,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2C7",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "1880",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -14.0826931,
+        1.053236
+      ],
+      "segment_index": 286,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2C9",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "1820",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -16.0201931,
+        1.465736
+      ],
+      "segment_index": 289,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "2CC",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "1840",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -3.2076931,
+        1.0532361
+      ],
+      "segment_index": 290,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2CD",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "177E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -3.9426931,
+        1.0532361
+      ],
+      "segment_index": 292,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "2CF",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "17A0",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -6.1176931,
+        1.0532361
+      ],
+      "segment_index": 293,
+      "endpoint": "start",
+      "category": "interior",
+      "root_handle": "2D0",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "17C0",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -5.3826931,
+        1.0532361
+      ],
+      "segment_index": 294,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2D1",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "17A0",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -7.5576931,
+        1.0532361
+      ],
+      "segment_index": 296,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2D3",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "17C0",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -8.2926931,
+        1.0532361
+      ],
+      "segment_index": 298,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "2D5",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "17E0",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -9.7326931,
+        1.0532361
+      ],
+      "segment_index": 299,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2D6",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "17E0",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -10.4676931,
+        1.0532361
+      ],
+      "segment_index": 301,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "2D8",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "1800",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -11.9076931,
+        1.0532361
+      ],
+      "segment_index": 302,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2D9",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "1800",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -12.6426931,
+        1.0532361
+      ],
+      "segment_index": 304,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "2DB",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "1820",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -36.372056,
+        9.753627
+      ],
+      "segment_index": 305,
+      "endpoint": "start",
+      "category": "exterior",
+      "root_handle": "2DC",
+      "nearest_opening": null,
+      "distance_m": null,
+      "classification": "unexplained"
+    },
+    {
+      "point": [
+        -37.3467972,
+        10.6615306
+      ],
+      "segment_index": 309,
+      "endpoint": "end",
+      "category": "exterior",
+      "root_handle": "2E0",
+      "nearest_opening": "window",
+      "distance_m": 0.0,
+      "opening_source_handle": "175E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -35.9251931,
+        25.2732361
+      ],
+      "segment_index": 393,
+      "endpoint": "start",
+      "category": "lining",
+      "root_handle": "455",
+      "nearest_opening": null,
+      "distance_m": null,
+      "classification": "unexplained"
+    },
+    {
+      "point": [
+        -35.9251931,
+        25.3482361
+      ],
+      "segment_index": 394,
+      "endpoint": "end",
+      "category": "lining",
+      "root_handle": "456",
+      "nearest_opening": null,
+      "distance_m": null,
+      "classification": "unexplained"
+    },
+    {
+      "point": [
+        -35.9251931,
+        25.8232361
+      ],
+      "segment_index": 398,
+      "endpoint": "end",
+      "category": "lining",
+      "root_handle": "45A",
+      "nearest_opening": null,
+      "distance_m": null,
+      "classification": "unexplained"
+    },
+    {
+      "point": [
+        -35.9251931,
+        25.7482361
+      ],
+      "segment_index": 399,
+      "endpoint": "start",
+      "category": "lining",
+      "root_handle": "45B",
+      "nearest_opening": null,
+      "distance_m": null,
+      "classification": "unexplained"
+    },
+    {
+      "point": [
+        -10.3751931,
+        25.3482361
+      ],
+      "segment_index": 401,
+      "endpoint": "start",
+      "category": "lining",
+      "root_handle": "45D",
+      "nearest_opening": null,
+      "distance_m": null,
+      "classification": "unexplained"
+    },
+    {
+      "point": [
+        -10.3751931,
+        25.2732361
+      ],
+      "segment_index": 402,
+      "endpoint": "end",
+      "category": "lining",
+      "root_handle": "45E",
+      "nearest_opening": null,
+      "distance_m": null,
+      "classification": "unexplained"
+    },
+    {
+      "point": [
+        -10.3751931,
+        25.7482361
+      ],
+      "segment_index": 406,
+      "endpoint": "end",
+      "category": "lining",
+      "root_handle": "462",
+      "nearest_opening": null,
+      "distance_m": null,
+      "classification": "unexplained"
+    },
+    {
+      "point": [
+        -10.3751931,
+        25.8232361
+      ],
+      "segment_index": 407,
+      "endpoint": "start",
+      "category": "lining",
+      "root_handle": "463",
+      "nearest_opening": null,
+      "distance_m": null,
+      "classification": "unexplained"
+    },
+    {
+      "point": [
+        -9.8251931,
+        9.6282361
+      ],
+      "segment_index": 409,
+      "endpoint": "start",
+      "category": "lining",
+      "root_handle": "465",
+      "nearest_opening": null,
+      "distance_m": null,
+      "classification": "unexplained"
+    },
+    {
+      "point": [
+        -9.8251931,
+        9.7032361
+      ],
+      "segment_index": 410,
+      "endpoint": "end",
+      "category": "lining",
+      "root_handle": "466",
+      "nearest_opening": null,
+      "distance_m": null,
+      "classification": "unexplained"
+    },
+    {
+      "point": [
+        -9.8251931,
+        10.1782361
+      ],
+      "segment_index": 414,
+      "endpoint": "end",
+      "category": "lining",
+      "root_handle": "46A",
+      "nearest_opening": null,
+      "distance_m": null,
+      "classification": "unexplained"
+    },
+    {
+      "point": [
+        -9.8251931,
+        10.1032361
+      ],
+      "segment_index": 415,
+      "endpoint": "start",
+      "category": "lining",
+      "root_handle": "46B",
+      "nearest_opening": null,
+      "distance_m": null,
+      "classification": "unexplained"
+    },
+    {
+      "point": [
+        -39.9231877,
+        25.628236
+      ],
+      "segment_index": 771,
+      "endpoint": "start",
+      "category": "interior",
+      "root_handle": "E2F",
+      "nearest_opening": "door",
+      "distance_m": 0.224,
+      "opening_source_handle": "55B",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -39.9231877,
+        25.553236
+      ],
+      "segment_index": 771,
+      "endpoint": "end",
+      "category": "interior",
+      "root_handle": "E2F",
+      "nearest_opening": "door",
+      "distance_m": 0.224,
+      "opening_source_handle": "558",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -43.1471877,
+        25.553236
+      ],
+      "segment_index": 779,
+      "endpoint": "start",
+      "category": "interior",
+      "root_handle": "E33",
+      "nearest_opening": "door",
+      "distance_m": 0.224,
+      "opening_source_handle": "575",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -43.1471877,
+        25.628236
+      ],
+      "segment_index": 779,
+      "endpoint": "end",
+      "category": "interior",
+      "root_handle": "E33",
+      "nearest_opening": "door",
+      "distance_m": 0.224,
+      "opening_source_handle": "578",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -23.665193,
+        27.8483361
+      ],
+      "segment_index": 790,
+      "endpoint": "start",
+      "category": "interior",
+      "root_handle": "E38",
+      "nearest_opening": "door",
+      "distance_m": 0.224,
+      "opening_source_handle": "5E9",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -23.6651931,
+        27.773336
+      ],
+      "segment_index": 790,
+      "endpoint": "end",
+      "category": "interior",
+      "root_handle": "E38",
+      "nearest_opening": "door",
+      "distance_m": 0.224,
+      "opening_source_handle": "5F4",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -26.9851931,
+        27.773336
+      ],
+      "segment_index": 796,
+      "endpoint": "start",
+      "category": "interior",
+      "root_handle": "E3A",
+      "nearest_opening": "door",
+      "distance_m": 0.224,
+      "opening_source_handle": "612",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -26.9851932,
+        27.8483361
+      ],
+      "segment_index": 796,
+      "endpoint": "end",
+      "category": "interior",
+      "root_handle": "E3A",
+      "nearest_opening": "door",
+      "distance_m": 0.224,
+      "opening_source_handle": "60E",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -15.7451777,
+        11.5512362
+      ],
+      "segment_index": 816,
+      "endpoint": "start",
+      "category": "interior",
+      "root_handle": "E42",
+      "nearest_opening": "door",
+      "distance_m": 0.224,
+      "opening_source_handle": "6A3",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -15.8201777,
+        11.5512362
+      ],
+      "segment_index": 816,
+      "endpoint": "end",
+      "category": "interior",
+      "root_handle": "E42",
+      "nearest_opening": "door",
+      "distance_m": 0.224,
+      "opening_source_handle": "6A1",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -15.8201777,
+        14.7752362
+      ],
+      "segment_index": 817,
+      "endpoint": "start",
+      "category": "interior",
+      "root_handle": "E43",
+      "nearest_opening": "door",
+      "distance_m": 0.224,
+      "opening_source_handle": "684",
+      "classification": "near_opening_geometry"
+    },
+    {
+      "point": [
+        -15.7451777,
+        14.7752362
+      ],
+      "segment_index": 817,
+      "endpoint": "end",
+      "category": "interior",
+      "root_handle": "E43",
+      "nearest_opening": "door",
+      "distance_m": 0.224,
+      "opening_source_handle": "685",
+      "classification": "near_opening_geometry"
+    }
+  ],
+  "interpretation": "Proximity to door/window geometry is only an audit signal, not a verified opening."
+}

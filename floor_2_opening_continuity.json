@@ -1,0 +1,1960 @@
+{
+  "method": "parallel_wall_line_coverage_near_window_symbol",
+  "source_dxf": "data/floorplans/floor_2.dxf",
+  "source_matches": "floor_2_wall_opening_matches.json",
+  "wall_edge_count": 851,
+  "matched_window_count": 57,
+  "counts": {
+    "PARTIAL_WALL_LINE_OVERLAP": 57
+  },
+  "safe_wall_cuts": 0,
+  "windows": [
+    {
+      "id": "WINDOWS_002",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "10BC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "10BD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_003",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "10DC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "10DD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_004",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "10FC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "10FD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_005",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "111C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "111D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_006",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "113C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "113D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_007",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "115C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "115D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_008",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "117C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "117D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_009",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "119C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "119D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_010",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "11BC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "11BD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_011",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "11DC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "11DD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_012",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "11FC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "11FD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_013",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "121C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "121D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_014",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "123C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "123D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_015",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "125C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "125D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_016",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "127C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "127D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_017",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "129C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "129D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_018",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "12BC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "12BD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_019",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "12DC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "12DD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_020",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "12FC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "12FD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_021",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "131C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "131D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_022",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "133C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "133D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_024",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "137C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "137D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_025",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "139C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "139D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_026",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "13BC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "13BD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_027",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "13DC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "13DD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_028",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "13FC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "13FD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_029",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "141C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "141D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_030",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "143C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "143D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_031",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "145C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "145D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_032",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "147C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "147D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_033",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "149C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "149D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_034",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "14BC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "14BD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_035",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "14DC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "14DD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_036",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "2DC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            0.72,
+            1.2594
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "14FC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "14FD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_037",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "151C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "151D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_038",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "153C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "153D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_039",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "155C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "155D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_040",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "157C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "157D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_041",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "159C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "159D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_042",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "15BC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "15BD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_043",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "15DC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "15DD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_044",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "15FC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "15FD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_045",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "161C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "161D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_046",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "163C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "163D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_047",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "165C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "165D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_048",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "167C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "167D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_049",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "169C",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "169D",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_050",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "16BC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "16BD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_051",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "16DC",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "16DD",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_056",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "179E",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "179F",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_057",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "17BE",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "17BF",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_058",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "17DE",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "17DF",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_059",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "17FE",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "17FF",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_060",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "181E",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "181F",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_061",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "183E",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "183F",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_062",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "185E",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "185F",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    },
+    {
+      "id": "WINDOWS_063",
+      "status": "PARTIAL_WALL_LINE_OVERLAP",
+      "window_span_m": 1.44,
+      "wall_line_coverage_fraction": 0.8333,
+      "overlapping_wall_edges": [
+        {
+          "handle": "187E",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        },
+        {
+          "handle": "187F",
+          "layer": "010 Aussenwände",
+          "interval_m": [
+            -0.6,
+            0.6
+          ],
+          "offset_m": 0.0
+        }
+      ],
+      "merged_covered_intervals_m": [
+        [
+          -0.6,
+          0.6
+        ]
+      ],
+      "safe_to_cut": false,
+      "note": "2D wall strokes do not establish 3D wall solids or opening heights"
+    }
+  ]
+}

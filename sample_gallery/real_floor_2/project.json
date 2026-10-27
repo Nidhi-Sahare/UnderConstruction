@@ -1,0 +1,16 @@
+{
+  "id": "real_floor_2",
+  "name": "Floor 2 Construction Walkthrough",
+  "subtitle": "Real construction dataset",
+  "description": "Explore the Floor 2 CAD drawing alongside real construction-site camera frames.",
+  "source": "Hilti construction dataset",
+  "data_type": "real",
+  "floor_plan": "floor_plan.dxf",
+  "frame_index": "frame_index.json",
+  "frame_count": 180,
+  "camera": "cam0",
+  "recording": "floor_2_2025-10-28_run_2",
+  "cad_video_alignment_verified": false,
+  "construction_progress_assessed": false,
+  "viewer_mode": "image_sequence"
+}

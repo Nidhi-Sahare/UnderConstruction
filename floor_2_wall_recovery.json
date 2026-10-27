@@ -1,0 +1,8197 @@
+{
+  "step": 140,
+  "units": "metres",
+  "source_dxf": "data/floorplans/floor_2.dxf",
+  "source_paired": "floor_2_paired_wall_reconstruction.json",
+  "source_export": "floor_2_wall_meshes.json",
+  "method": "unpaired_wall_edge_centered_buffer_hypotheses",
+  "warning": "Single CAD lines do not determine wall side or confirm that the stroke is a wall face. Review before 3D integration.",
+  "layer_width_estimates_m": {
+    "015 Innenwände": 0.125,
+    "019 Vormauerungen": 0.15,
+    "010 Aussenwände": 0.3
+  },
+  "summary": {
+    "eligible_source_edges": 336,
+    "paired_source_edges": 154,
+    "unpaired_source_edges": 182,
+    "existing_mesh_count": 73,
+    "inferred_candidate_pieces": 182,
+    "inferred_candidate_source_edges": 182,
+    "existing_footprint_area_m2": 26.34,
+    "additional_hypothesized_area_m2": 38.61,
+    "combined_hypothesized_area_m2": 64.95,
+    "candidate_counts_by_layer": {
+      "010 Aussenwände": 124,
+      "015 Innenwände": 42,
+      "016 Trennwände": 12,
+      "019 Vormauerungen": 4
+    },
+    "automatic_wall_additions": 0,
+    "automatic_opening_cuts": 0
+  },
+  "candidate_walls": [
+    {
+      "id": "RECOVERY_0001",
+      "source_edge_id": "11B_0",
+      "source_handle": "11B",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -43.09269,
+          33.99324
+        ],
+        [
+          -42.35769,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -42.35769,
+          33.84324
+        ],
+        [
+          -43.09269,
+          33.84324
+        ],
+        [
+          -43.09269,
+          34.14324
+        ],
+        [
+          -42.35769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0002",
+      "source_edge_id": "11E_0",
+      "source_handle": "11E",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -40.91769,
+          33.99324
+        ],
+        [
+          -40.18269,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -40.18269,
+          33.84324
+        ],
+        [
+          -40.91769,
+          33.84324
+        ],
+        [
+          -40.91769,
+          34.14324
+        ],
+        [
+          -40.18269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0003",
+      "source_edge_id": "121_0",
+      "source_handle": "121",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -38.74269,
+          33.99324
+        ],
+        [
+          -38.00769,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -38.00769,
+          33.84324
+        ],
+        [
+          -38.74269,
+          33.84324
+        ],
+        [
+          -38.74269,
+          34.14324
+        ],
+        [
+          -38.00769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0004",
+      "source_edge_id": "124_0",
+      "source_handle": "124",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -36.56769,
+          33.99324
+        ],
+        [
+          -35.83269,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -35.83269,
+          33.84324
+        ],
+        [
+          -36.56769,
+          33.84324
+        ],
+        [
+          -36.56769,
+          34.14324
+        ],
+        [
+          -35.83269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0005",
+      "source_edge_id": "127_0",
+      "source_handle": "127",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -34.39269,
+          33.99324
+        ],
+        [
+          -33.65769,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -33.65769,
+          33.84324
+        ],
+        [
+          -34.39269,
+          33.84324
+        ],
+        [
+          -34.39269,
+          34.14324
+        ],
+        [
+          -33.65769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0006",
+      "source_edge_id": "12A_0",
+      "source_handle": "12A",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -32.21769,
+          33.99324
+        ],
+        [
+          -31.48269,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -31.48269,
+          33.84324
+        ],
+        [
+          -32.21769,
+          33.84324
+        ],
+        [
+          -32.21769,
+          34.14324
+        ],
+        [
+          -31.48269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0007",
+      "source_edge_id": "12D_0",
+      "source_handle": "12D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -30.04269,
+          33.99324
+        ],
+        [
+          -29.30769,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -29.30769,
+          33.84324
+        ],
+        [
+          -30.04269,
+          33.84324
+        ],
+        [
+          -30.04269,
+          34.14324
+        ],
+        [
+          -29.30769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0008",
+      "source_edge_id": "134_0",
+      "source_handle": "134",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -27.86769,
+          33.99324
+        ],
+        [
+          -27.13269,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -27.13269,
+          33.84324
+        ],
+        [
+          -27.86769,
+          33.84324
+        ],
+        [
+          -27.86769,
+          34.14324
+        ],
+        [
+          -27.13269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0009",
+      "source_edge_id": "137_0",
+      "source_handle": "137",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -25.69269,
+          33.99324
+        ],
+        [
+          -24.95769,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -24.95769,
+          33.84324
+        ],
+        [
+          -25.69269,
+          33.84324
+        ],
+        [
+          -25.69269,
+          34.14324
+        ],
+        [
+          -24.95769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0010",
+      "source_edge_id": "13A_0",
+      "source_handle": "13A",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -23.51769,
+          33.99324
+        ],
+        [
+          -22.78269,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -22.78269,
+          33.84324
+        ],
+        [
+          -23.51769,
+          33.84324
+        ],
+        [
+          -23.51769,
+          34.14324
+        ],
+        [
+          -22.78269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0011",
+      "source_edge_id": "13D_0",
+      "source_handle": "13D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -21.34269,
+          33.99324
+        ],
+        [
+          -20.60769,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -20.60769,
+          33.84324
+        ],
+        [
+          -20.91269,
+          33.84324
+        ],
+        [
+          -20.91269,
+          33.99324
+        ],
+        [
+          -21.03769,
+          33.99324
+        ],
+        [
+          -21.03769,
+          33.84324
+        ],
+        [
+          -21.34269,
+          33.84324
+        ],
+        [
+          -21.34269,
+          34.14324
+        ],
+        [
+          -20.60769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.20175,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0012",
+      "source_edge_id": "140_0",
+      "source_handle": "140",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -19.16769,
+          33.99324
+        ],
+        [
+          -18.43269,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -18.43269,
+          33.84324
+        ],
+        [
+          -19.16769,
+          33.84324
+        ],
+        [
+          -19.16769,
+          34.14324
+        ],
+        [
+          -18.43269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0013",
+      "source_edge_id": "143_0",
+      "source_handle": "143",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -16.99269,
+          33.99324
+        ],
+        [
+          -16.25769,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -16.25769,
+          33.84324
+        ],
+        [
+          -16.99269,
+          33.84324
+        ],
+        [
+          -16.99269,
+          34.14324
+        ],
+        [
+          -16.25769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0014",
+      "source_edge_id": "146_0",
+      "source_handle": "146",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -14.81769,
+          33.99324
+        ],
+        [
+          -14.08269,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -14.08269,
+          33.84324
+        ],
+        [
+          -14.81769,
+          33.84324
+        ],
+        [
+          -14.81769,
+          34.14324
+        ],
+        [
+          -14.08269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0015",
+      "source_edge_id": "149_0",
+      "source_handle": "149",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -12.64269,
+          33.99324
+        ],
+        [
+          -11.90769,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -11.90769,
+          33.84324
+        ],
+        [
+          -12.64269,
+          33.84324
+        ],
+        [
+          -12.64269,
+          34.14324
+        ],
+        [
+          -11.90769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0016",
+      "source_edge_id": "14C_0",
+      "source_handle": "14C",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -10.46769,
+          33.99324
+        ],
+        [
+          -9.73269,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -9.73269,
+          33.84324
+        ],
+        [
+          -10.46769,
+          33.84324
+        ],
+        [
+          -10.46769,
+          34.14324
+        ],
+        [
+          -9.73269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0017",
+      "source_edge_id": "14F_0",
+      "source_handle": "14F",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -8.29269,
+          33.99324
+        ],
+        [
+          -7.55769,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -7.55769,
+          33.84324
+        ],
+        [
+          -8.29269,
+          33.84324
+        ],
+        [
+          -8.29269,
+          34.14324
+        ],
+        [
+          -7.55769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0018",
+      "source_edge_id": "152_0",
+      "source_handle": "152",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -6.11769,
+          33.99324
+        ],
+        [
+          -5.38269,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -5.38269,
+          33.84324
+        ],
+        [
+          -6.11769,
+          33.84324
+        ],
+        [
+          -6.11769,
+          34.14324
+        ],
+        [
+          -5.38269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0019",
+      "source_edge_id": "155_0",
+      "source_handle": "155",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -3.94269,
+          33.99324
+        ],
+        [
+          -3.20769,
+          33.99324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -3.20769,
+          33.84324
+        ],
+        [
+          -3.94269,
+          33.84324
+        ],
+        [
+          -3.94269,
+          34.14324
+        ],
+        [
+          -3.20769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0020",
+      "source_edge_id": "17E_0",
+      "source_handle": "17E",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -44.64519,
+          20.30574
+        ],
+        [
+          -44.64519,
+          21.04074
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -44.49519,
+          21.04074
+        ],
+        [
+          -44.49519,
+          20.30574
+        ],
+        [
+          -44.79519,
+          20.30574
+        ],
+        [
+          -44.79519,
+          21.04074
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0021",
+      "source_edge_id": "181_0",
+      "source_handle": "181",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -44.64519,
+          22.48074
+        ],
+        [
+          -44.64519,
+          25.65324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -44.64519,
+          25.65324
+        ],
+        [
+          -44.64519,
+          25.52824
+        ],
+        [
+          -44.49519,
+          25.52824
+        ],
+        [
+          -44.49519,
+          22.60573
+        ],
+        [
+          -44.64519,
+          22.60573
+        ],
+        [
+          -44.64519,
+          22.48074
+        ],
+        [
+          -44.79519,
+          22.48074
+        ],
+        [
+          -44.79519,
+          25.65324
+        ]
+      ],
+      "area_m2": 0.91425,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0022",
+      "source_edge_id": "184_0",
+      "source_handle": "184",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -44.64519,
+          27.09324
+        ],
+        [
+          -44.64519,
+          30.26574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -44.49519,
+          30.26574
+        ],
+        [
+          -44.49519,
+          27.09324
+        ],
+        [
+          -44.79519,
+          27.09324
+        ],
+        [
+          -44.79519,
+          30.26574
+        ]
+      ],
+      "area_m2": 0.95175,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0023",
+      "source_edge_id": "187_0",
+      "source_handle": "187",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -44.64519,
+          31.70574
+        ],
+        [
+          -44.64519,
+          32.44074
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -44.49519,
+          32.44074
+        ],
+        [
+          -44.49519,
+          31.70574
+        ],
+        [
+          -44.79519,
+          31.70574
+        ],
+        [
+          -44.79519,
+          32.44074
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0024",
+      "source_edge_id": "18D_0",
+      "source_handle": "18D",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -27.35019,
+          24.14824
+        ],
+        [
+          -24.90019,
+          24.14824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -24.90019,
+          24.08574
+        ],
+        [
+          -27.35019,
+          24.08574
+        ],
+        [
+          -27.35019,
+          24.14824
+        ],
+        [
+          -27.35019,
+          24.14824
+        ],
+        [
+          -27.35019,
+          24.21074
+        ],
+        [
+          -24.90019,
+          24.21074
+        ]
+      ],
+      "area_m2": 0.30625,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0025",
+      "source_edge_id": "191_0",
+      "source_handle": "191",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -21.80019,
+          24.14824
+        ],
+        [
+          -21.80019,
+          21.99824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -21.86269,
+          21.99824
+        ],
+        [
+          -21.86269,
+          24.14824
+        ],
+        [
+          -21.73769,
+          24.14824
+        ],
+        [
+          -21.73769,
+          21.99824
+        ]
+      ],
+      "area_m2": 0.26875,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0026",
+      "source_edge_id": "192_0",
+      "source_handle": "192",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -21.50019,
+          22.09824
+        ],
+        [
+          -21.50019,
+          24.14824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -21.43769,
+          24.14824
+        ],
+        [
+          -21.43769,
+          22.09824
+        ],
+        [
+          -21.50019,
+          22.09824
+        ],
+        [
+          -21.50019,
+          22.09824
+        ],
+        [
+          -21.56269,
+          22.09824
+        ],
+        [
+          -21.56269,
+          24.14824
+        ]
+      ],
+      "area_m2": 0.25625,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0027",
+      "source_edge_id": "197_0",
+      "source_handle": "197",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -21.80019,
+          21.99824
+        ],
+        [
+          -22.40619,
+          21.99824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -22.40619,
+          22.06074
+        ],
+        [
+          -21.80019,
+          22.06074
+        ],
+        [
+          -21.80019,
+          21.93574
+        ],
+        [
+          -22.40619,
+          21.93574
+        ]
+      ],
+      "area_m2": 0.07575,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0028",
+      "source_edge_id": "198_0",
+      "source_handle": "198",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -23.88619,
+          21.99824
+        ],
+        [
+          -24.60019,
+          21.99824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -24.60019,
+          22.06074
+        ],
+        [
+          -23.88619,
+          22.06074
+        ],
+        [
+          -23.88619,
+          21.93574
+        ],
+        [
+          -24.24719,
+          21.93574
+        ],
+        [
+          -24.24719,
+          21.99824
+        ],
+        [
+          -24.60019,
+          21.99824
+        ]
+      ],
+      "area_m2": 0.06719,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0029",
+      "source_edge_id": "19A_0",
+      "source_handle": "19A",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -26.83319,
+          21.99824
+        ],
+        [
+          -27.35019,
+          21.99824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -27.35019,
+          22.06074
+        ],
+        [
+          -26.83319,
+          22.06074
+        ],
+        [
+          -26.83319,
+          21.93574
+        ],
+        [
+          -27.35019,
+          21.93574
+        ]
+      ],
+      "area_m2": 0.06463,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0030",
+      "source_edge_id": "19B_0",
+      "source_handle": "19B",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -27.35019,
+          21.79824
+        ],
+        [
+          -26.83319,
+          21.79824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -26.83319,
+          21.73574
+        ],
+        [
+          -27.35019,
+          21.73574
+        ],
+        [
+          -27.35019,
+          21.86074
+        ],
+        [
+          -26.83319,
+          21.86074
+        ]
+      ],
+      "area_m2": 0.06463,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0031",
+      "source_edge_id": "19D_0",
+      "source_handle": "19D",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -22.40619,
+          21.79824
+        ],
+        [
+          -21.80019,
+          21.79824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -21.80019,
+          21.73574
+        ],
+        [
+          -22.40619,
+          21.73574
+        ],
+        [
+          -22.40619,
+          21.86074
+        ],
+        [
+          -21.80019,
+          21.86074
+        ]
+      ],
+      "area_m2": 0.07575,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0032",
+      "source_edge_id": "202_0",
+      "source_handle": "202",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -24.90019,
+          24.14824
+        ],
+        [
+          -24.90019,
+          21.99824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -24.96269,
+          21.99824
+        ],
+        [
+          -24.96269,
+          24.14824
+        ],
+        [
+          -24.83769,
+          24.14824
+        ],
+        [
+          -24.83769,
+          21.99824
+        ],
+        [
+          -24.90019,
+          21.99824
+        ],
+        [
+          -24.90019,
+          21.99824
+        ]
+      ],
+      "area_m2": 0.26875,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0033",
+      "source_edge_id": "203_0",
+      "source_handle": "203",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -24.60019,
+          21.99824
+        ],
+        [
+          -24.60019,
+          24.14824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -24.53769,
+          24.14824
+        ],
+        [
+          -24.53769,
+          21.99824
+        ],
+        [
+          -24.66269,
+          21.99824
+        ],
+        [
+          -24.66269,
+          24.14824
+        ]
+      ],
+      "area_m2": 0.26875,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0034",
+      "source_edge_id": "219_0",
+      "source_handle": "219",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -15.88019,
+          21.79824
+        ],
+        [
+          -15.30019,
+          21.79824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -15.30019,
+          21.73574
+        ],
+        [
+          -15.88019,
+          21.73574
+        ],
+        [
+          -15.88019,
+          21.86074
+        ],
+        [
+          -15.30019,
+          21.86074
+        ]
+      ],
+      "area_m2": 0.0725,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0035",
+      "source_edge_id": "21C_0",
+      "source_handle": "21C",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -18.95019,
+          22.09824
+        ],
+        [
+          -19.80019,
+          22.09824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -19.80019,
+          22.16074
+        ],
+        [
+          -18.95019,
+          22.16074
+        ],
+        [
+          -18.95019,
+          22.03574
+        ],
+        [
+          -19.80019,
+          22.03574
+        ]
+      ],
+      "area_m2": 0.10625,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0036",
+      "source_edge_id": "25C_0",
+      "source_handle": "25C",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -27.65019,
+          22.09824
+        ],
+        [
+          -29.32019,
+          22.09824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -29.32019,
+          22.16074
+        ],
+        [
+          -27.87519,
+          22.16074
+        ],
+        [
+          -27.87519,
+          22.09824
+        ],
+        [
+          -27.65019,
+          22.09824
+        ],
+        [
+          -27.65019,
+          22.03574
+        ],
+        [
+          -29.32019,
+          22.03574
+        ]
+      ],
+      "area_m2": 0.19469,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0037",
+      "source_edge_id": "25F_0",
+      "source_handle": "25F",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -29.32019,
+          21.79824
+        ],
+        [
+          -27.65019,
+          21.79824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -27.65019,
+          21.73574
+        ],
+        [
+          -29.32019,
+          21.73574
+        ],
+        [
+          -29.32019,
+          21.86074
+        ],
+        [
+          -27.65019,
+          21.86074
+        ]
+      ],
+      "area_m2": 0.20875,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0038",
+      "source_edge_id": "281_0",
+      "source_handle": "281",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -18.95019,
+          24.44824
+        ],
+        [
+          -21.50019,
+          24.44824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -21.50019,
+          24.51074
+        ],
+        [
+          -18.95019,
+          24.51074
+        ],
+        [
+          -18.95019,
+          24.38574
+        ],
+        [
+          -21.50019,
+          24.38574
+        ]
+      ],
+      "area_m2": 0.31875,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0039",
+      "source_edge_id": "282_0",
+      "source_handle": "282",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -21.50019,
+          24.14824
+        ],
+        [
+          -18.95019,
+          24.14824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -18.95019,
+          24.08574
+        ],
+        [
+          -21.50019,
+          24.08574
+        ],
+        [
+          -21.50019,
+          24.21074
+        ],
+        [
+          -18.95019,
+          24.21074
+        ]
+      ],
+      "area_m2": 0.31875,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0040",
+      "source_edge_id": "29F_0",
+      "source_handle": "29F",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -15.72019,
+          5.08074
+        ],
+        [
+          -15.72019,
+          5.81574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -15.57019,
+          5.81574
+        ],
+        [
+          -15.57019,
+          5.08074
+        ],
+        [
+          -15.87019,
+          5.08074
+        ],
+        [
+          -15.87019,
+          5.81574
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0041",
+      "source_edge_id": "2A2_0",
+      "source_handle": "2A2",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -15.72019,
+          2.90574
+        ],
+        [
+          -15.72019,
+          3.64074
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -15.57019,
+          3.64074
+        ],
+        [
+          -15.57019,
+          2.90574
+        ],
+        [
+          -15.87019,
+          2.90574
+        ],
+        [
+          -15.87019,
+          3.64074
+        ]
+      ],
+      "area_m2": 0.2205,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0042",
+      "source_edge_id": "2C2_0",
+      "source_handle": "2C2",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -44.64519,
+          18.38419
+        ],
+        [
+          -44.64519,
+          18.86574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -44.49519,
+          18.86574
+        ],
+        [
+          -44.49519,
+          18.38419
+        ],
+        [
+          -44.79519,
+          18.38419
+        ],
+        [
+          -44.79519,
+          18.86574
+        ]
+      ],
+      "area_m2": 0.14446,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0043",
+      "source_edge_id": "2C5_0",
+      "source_handle": "2C5",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -15.72019,
+          10.05324
+        ],
+        [
+          -16.99269,
+          10.05324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -16.99269,
+          10.20324
+        ],
+        [
+          -15.84518,
+          10.20324
+        ],
+        [
+          -15.84518,
+          10.05323
+        ],
+        [
+          -15.72019,
+          10.05323
+        ],
+        [
+          -15.72019,
+          9.90324
+        ],
+        [
+          -16.99269,
+          9.90324
+        ]
+      ],
+      "area_m2": 0.363,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0044",
+      "source_edge_id": "2C8_0",
+      "source_handle": "2C8",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -15.72019,
+          7.25574
+        ],
+        [
+          -15.72019,
+          9.75324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -15.57019,
+          9.75324
+        ],
+        [
+          -15.57019,
+          7.25574
+        ],
+        [
+          -15.87019,
+          7.25574
+        ],
+        [
+          -15.87019,
+          9.75324
+        ]
+      ],
+      "area_m2": 0.74925,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0045",
+      "source_edge_id": "2D2_0",
+      "source_handle": "2D2",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -5.38269,
+          1.35324
+        ],
+        [
+          -5.81769,
+          1.35324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -5.81769,
+          1.35324
+        ],
+        [
+          -5.81769,
+          1.35324
+        ],
+        [
+          -5.81769,
+          1.50324
+        ],
+        [
+          -5.38269,
+          1.50324
+        ],
+        [
+          -5.38269,
+          1.20324
+        ],
+        [
+          -5.81769,
+          1.20324
+        ]
+      ],
+      "area_m2": 0.1305,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0046",
+      "source_edge_id": "2DF_0",
+      "source_handle": "2DF",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -36.31419,
+          10.05359
+        ],
+        [
+          -37.13463,
+          10.87362
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -37.02859,
+          10.97972
+        ],
+        [
+          -36.20815,
+          10.15968
+        ],
+        [
+          -36.31419,
+          10.05359
+        ],
+        [
+          -36.31419,
+          10.05359
+        ],
+        [
+          -36.31419,
+          10.05359
+        ],
+        [
+          -36.42023,
+          9.94749
+        ],
+        [
+          -37.24067,
+          10.76753
+        ]
+      ],
+      "area_m2": 0.348,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0047",
+      "source_edge_id": "340_0",
+      "source_handle": "340",
+      "layer": "016 Trennwände",
+      "source_line_xy": [
+        [
+          -29.16019,
+          24.55823
+        ],
+        [
+          -27.87519,
+          24.55823
+        ]
+      ],
+      "width_m": 0.15,
+      "width_basis": "DEFAULT_UNMEASURED",
+      "outline_xy": [
+        [
+          -27.87519,
+          24.48323
+        ],
+        [
+          -29.16019,
+          24.48323
+        ],
+        [
+          -29.16019,
+          24.63323
+        ],
+        [
+          -27.87519,
+          24.63323
+        ]
+      ],
+      "area_m2": 0.19275,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0048",
+      "source_edge_id": "342_0",
+      "source_handle": "342",
+      "layer": "016 Trennwände",
+      "source_line_xy": [
+        [
+          -27.87519,
+          24.58823
+        ],
+        [
+          -29.16019,
+          24.58823
+        ]
+      ],
+      "width_m": 0.15,
+      "width_basis": "DEFAULT_UNMEASURED",
+      "outline_xy": [
+        [
+          -29.16019,
+          24.66323
+        ],
+        [
+          -27.87519,
+          24.66323
+        ],
+        [
+          -27.87519,
+          24.51323
+        ],
+        [
+          -29.16019,
+          24.51323
+        ]
+      ],
+      "area_m2": 0.19275,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0049",
+      "source_edge_id": "343_0",
+      "source_handle": "343",
+      "layer": "016 Trennwände",
+      "source_line_xy": [
+        [
+          -29.16019,
+          23.73322
+        ],
+        [
+          -27.87519,
+          23.73324
+        ]
+      ],
+      "width_m": 0.15,
+      "width_basis": "DEFAULT_UNMEASURED",
+      "outline_xy": [
+        [
+          -27.87519,
+          23.65824
+        ],
+        [
+          -29.16019,
+          23.65822
+        ],
+        [
+          -29.16019,
+          23.80822
+        ],
+        [
+          -27.87519,
+          23.80824
+        ]
+      ],
+      "area_m2": 0.19275,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0050",
+      "source_edge_id": "345_0",
+      "source_handle": "345",
+      "layer": "016 Trennwände",
+      "source_line_xy": [
+        [
+          -27.87519,
+          23.76324
+        ],
+        [
+          -29.16019,
+          23.76322
+        ]
+      ],
+      "width_m": 0.15,
+      "width_basis": "DEFAULT_UNMEASURED",
+      "outline_xy": [
+        [
+          -29.16019,
+          23.83822
+        ],
+        [
+          -27.87519,
+          23.83824
+        ],
+        [
+          -27.87519,
+          23.68824
+        ],
+        [
+          -29.16019,
+          23.68822
+        ]
+      ],
+      "area_m2": 0.19275,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0051",
+      "source_edge_id": "346_0",
+      "source_handle": "346",
+      "layer": "016 Trennwände",
+      "source_line_xy": [
+        [
+          -29.16019,
+          22.90822
+        ],
+        [
+          -27.87518,
+          22.90824
+        ]
+      ],
+      "width_m": 0.15,
+      "width_basis": "DEFAULT_UNMEASURED",
+      "outline_xy": [
+        [
+          -29.16019,
+          22.83322
+        ],
+        [
+          -29.16019,
+          22.98322
+        ],
+        [
+          -27.87519,
+          22.98324
+        ],
+        [
+          -27.87519,
+          22.83324
+        ]
+      ],
+      "area_m2": 0.19275,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0052",
+      "source_edge_id": "348_0",
+      "source_handle": "348",
+      "layer": "016 Trennwände",
+      "source_line_xy": [
+        [
+          -27.87518,
+          22.93824
+        ],
+        [
+          -29.16019,
+          22.93822
+        ]
+      ],
+      "width_m": 0.15,
+      "width_basis": "DEFAULT_UNMEASURED",
+      "outline_xy": [
+        [
+          -29.16019,
+          23.01322
+        ],
+        [
+          -27.87519,
+          23.01324
+        ],
+        [
+          -27.87519,
+          22.86324
+        ],
+        [
+          -29.16019,
+          22.86322
+        ]
+      ],
+      "area_m2": 0.19275,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0053",
+      "source_edge_id": "3B3_0",
+      "source_handle": "3B3",
+      "layer": "016 Trennwände",
+      "source_line_xy": [
+        [
+          -17.14019,
+          24.58823
+        ],
+        [
+          -18.42519,
+          24.58823
+        ]
+      ],
+      "width_m": 0.15,
+      "width_basis": "DEFAULT_UNMEASURED",
+      "outline_xy": [
+        [
+          -17.14019,
+          24.66323
+        ],
+        [
+          -17.14019,
+          24.51323
+        ],
+        [
+          -18.42519,
+          24.51323
+        ],
+        [
+          -18.42519,
+          24.66323
+        ]
+      ],
+      "area_m2": 0.19275,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0054",
+      "source_edge_id": "3B5_0",
+      "source_handle": "3B5",
+      "layer": "016 Trennwände",
+      "source_line_xy": [
+        [
+          -18.42519,
+          24.55823
+        ],
+        [
+          -17.14019,
+          24.55823
+        ]
+      ],
+      "width_m": 0.15,
+      "width_basis": "DEFAULT_UNMEASURED",
+      "outline_xy": [
+        [
+          -17.14019,
+          24.48323
+        ],
+        [
+          -18.42519,
+          24.48323
+        ],
+        [
+          -18.42519,
+          24.63323
+        ],
+        [
+          -17.14019,
+          24.63323
+        ]
+      ],
+      "area_m2": 0.19275,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0055",
+      "source_edge_id": "3B6_0",
+      "source_handle": "3B6",
+      "layer": "016 Trennwände",
+      "source_line_xy": [
+        [
+          -17.14019,
+          23.76322
+        ],
+        [
+          -18.42519,
+          23.76324
+        ]
+      ],
+      "width_m": 0.15,
+      "width_basis": "DEFAULT_UNMEASURED",
+      "outline_xy": [
+        [
+          -17.14019,
+          23.83822
+        ],
+        [
+          -17.14019,
+          23.68822
+        ],
+        [
+          -18.42519,
+          23.68824
+        ],
+        [
+          -18.42519,
+          23.83824
+        ]
+      ],
+      "area_m2": 0.19275,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0056",
+      "source_edge_id": "3B8_0",
+      "source_handle": "3B8",
+      "layer": "016 Trennwände",
+      "source_line_xy": [
+        [
+          -18.42519,
+          23.73324
+        ],
+        [
+          -17.14019,
+          23.73322
+        ]
+      ],
+      "width_m": 0.15,
+      "width_basis": "DEFAULT_UNMEASURED",
+      "outline_xy": [
+        [
+          -17.14019,
+          23.65822
+        ],
+        [
+          -18.42519,
+          23.65824
+        ],
+        [
+          -18.42519,
+          23.80824
+        ],
+        [
+          -17.14019,
+          23.80822
+        ]
+      ],
+      "area_m2": 0.19275,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0057",
+      "source_edge_id": "3B9_0",
+      "source_handle": "3B9",
+      "layer": "016 Trennwände",
+      "source_line_xy": [
+        [
+          -17.14019,
+          22.93822
+        ],
+        [
+          -18.42521,
+          22.93824
+        ]
+      ],
+      "width_m": 0.15,
+      "width_basis": "DEFAULT_UNMEASURED",
+      "outline_xy": [
+        [
+          -17.14019,
+          23.01322
+        ],
+        [
+          -17.14019,
+          22.86322
+        ],
+        [
+          -18.42519,
+          22.86324
+        ],
+        [
+          -18.42519,
+          23.01324
+        ]
+      ],
+      "area_m2": 0.19275,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0058",
+      "source_edge_id": "3BB_0",
+      "source_handle": "3BB",
+      "layer": "016 Trennwände",
+      "source_line_xy": [
+        [
+          -18.42521,
+          22.90824
+        ],
+        [
+          -17.14019,
+          22.90822
+        ]
+      ],
+      "width_m": 0.15,
+      "width_basis": "DEFAULT_UNMEASURED",
+      "outline_xy": [
+        [
+          -17.14019,
+          22.83322
+        ],
+        [
+          -18.42519,
+          22.83324
+        ],
+        [
+          -18.42519,
+          22.98324
+        ],
+        [
+          -17.14019,
+          22.98322
+        ]
+      ],
+      "area_m2": 0.19275,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0059",
+      "source_edge_id": "460_0",
+      "source_handle": "460",
+      "layer": "019 Vormauerungen",
+      "source_line_xy": [
+        [
+          -10.62519,
+          25.34824
+        ],
+        [
+          -10.62519,
+          25.74824
+        ]
+      ],
+      "width_m": 0.15,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -10.55019,
+          25.74824
+        ],
+        [
+          -10.55019,
+          25.34824
+        ],
+        [
+          -10.70019,
+          25.34824
+        ],
+        [
+          -10.70019,
+          25.74824
+        ]
+      ],
+      "area_m2": 0.06,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0060",
+      "source_edge_id": "461_0",
+      "source_handle": "461",
+      "layer": "019 Vormauerungen",
+      "source_line_xy": [
+        [
+          -10.70019,
+          25.82324
+        ],
+        [
+          -10.70019,
+          25.28574
+        ]
+      ],
+      "width_m": 0.15,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -10.77519,
+          25.28574
+        ],
+        [
+          -10.77519,
+          25.82324
+        ],
+        [
+          -10.62519,
+          25.82324
+        ],
+        [
+          -10.62519,
+          25.28574
+        ]
+      ],
+      "area_m2": 0.08062,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0061",
+      "source_edge_id": "468_0",
+      "source_handle": "468",
+      "layer": "019 Vormauerungen",
+      "source_line_xy": [
+        [
+          -9.50019,
+          9.64074
+        ],
+        [
+          -9.50019,
+          10.17824
+        ]
+      ],
+      "width_m": 0.15,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -9.42519,
+          10.17824
+        ],
+        [
+          -9.42519,
+          9.64074
+        ],
+        [
+          -9.57519,
+          9.64074
+        ],
+        [
+          -9.57519,
+          10.17824
+        ]
+      ],
+      "area_m2": 0.08062,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0062",
+      "source_edge_id": "469_0",
+      "source_handle": "469",
+      "layer": "019 Vormauerungen",
+      "source_line_xy": [
+        [
+          -9.57519,
+          10.10324
+        ],
+        [
+          -9.57519,
+          9.70324
+        ]
+      ],
+      "width_m": 0.15,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -9.65019,
+          9.70324
+        ],
+        [
+          -9.65019,
+          10.10324
+        ],
+        [
+          -9.50019,
+          10.10324
+        ],
+        [
+          -9.50019,
+          9.70324
+        ]
+      ],
+      "area_m2": 0.06,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0063",
+      "source_edge_id": "516_0",
+      "source_handle": "516",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -38.32519,
+          22.98073
+        ],
+        [
+          -38.32519,
+          24.72824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -38.26269,
+          24.72824
+        ],
+        [
+          -38.26269,
+          22.98073
+        ],
+        [
+          -38.38769,
+          22.98073
+        ],
+        [
+          -38.38769,
+          24.72824
+        ]
+      ],
+      "area_m2": 0.21844,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0064",
+      "source_edge_id": "51D_0",
+      "source_handle": "51D",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -38.82519,
+          22.60573
+        ],
+        [
+          -41.47269,
+          22.60573
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -41.47269,
+          22.66823
+        ],
+        [
+          -38.82519,
+          22.66823
+        ],
+        [
+          -38.82519,
+          22.54323
+        ],
+        [
+          -41.47269,
+          22.54323
+        ]
+      ],
+      "area_m2": 0.33094,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0065",
+      "source_edge_id": "529_0",
+      "source_handle": "529",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -41.59769,
+          25.52822
+        ],
+        [
+          -41.59769,
+          22.60573
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -41.66019,
+          22.60573
+        ],
+        [
+          -41.66019,
+          25.52822
+        ],
+        [
+          -41.53519,
+          25.52822
+        ],
+        [
+          -41.53519,
+          22.60573
+        ]
+      ],
+      "area_m2": 0.36531,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0066",
+      "source_edge_id": "52D_0",
+      "source_handle": "52D",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -41.47269,
+          22.60573
+        ],
+        [
+          -41.47269,
+          25.52822
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -41.41019,
+          25.52822
+        ],
+        [
+          -41.41019,
+          22.60573
+        ],
+        [
+          -41.53519,
+          22.60573
+        ],
+        [
+          -41.53519,
+          25.52822
+        ]
+      ],
+      "area_m2": 0.36531,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0067",
+      "source_edge_id": "582_0",
+      "source_handle": "582",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -39.44319,
+          25.63824
+        ],
+        [
+          -39.87519,
+          25.63824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -39.87519,
+          25.70074
+        ],
+        [
+          -39.44319,
+          25.70074
+        ],
+        [
+          -39.44319,
+          25.57574
+        ],
+        [
+          -39.44319,
+          25.57574
+        ],
+        [
+          -39.44319,
+          25.65324
+        ],
+        [
+          -39.87519,
+          25.65324
+        ]
+      ],
+      "area_m2": 0.02052,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0068",
+      "source_edge_id": "585_0",
+      "source_handle": "585",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -39.87519,
+          25.52824
+        ],
+        [
+          -39.44319,
+          25.52824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -39.44319,
+          25.46574
+        ],
+        [
+          -39.87519,
+          25.46574
+        ],
+        [
+          -39.87519,
+          25.54324
+        ],
+        [
+          -39.44319,
+          25.54324
+        ],
+        [
+          -39.44319,
+          25.59074
+        ],
+        [
+          -39.44319,
+          25.59074
+        ]
+      ],
+      "area_m2": 0.03348,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0069",
+      "source_edge_id": "591_0",
+      "source_handle": "591",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -38.43519,
+          25.15324
+        ],
+        [
+          -38.43519,
+          24.77624
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -38.49769,
+          24.77624
+        ],
+        [
+          -38.49769,
+          25.15324
+        ],
+        [
+          -38.45019,
+          25.15324
+        ],
+        [
+          -38.45019,
+          24.77624
+        ],
+        [
+          -38.37269,
+          24.77624
+        ],
+        [
+          -38.37269,
+          24.77624
+        ]
+      ],
+      "area_m2": 0.01791,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0070",
+      "source_edge_id": "595_0",
+      "source_handle": "595",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -43.19519,
+          25.63824
+        ],
+        [
+          -43.62719,
+          25.63824
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -43.62719,
+          25.70074
+        ],
+        [
+          -43.19519,
+          25.70074
+        ],
+        [
+          -43.19519,
+          25.57574
+        ],
+        [
+          -43.19519,
+          25.57574
+        ],
+        [
+          -43.19519,
+          25.65324
+        ],
+        [
+          -43.62719,
+          25.65324
+        ]
+      ],
+      "area_m2": 0.02052,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0071",
+      "source_edge_id": "596_0",
+      "source_handle": "596",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -43.62719,
+          25.54324
+        ],
+        [
+          -43.19519,
+          25.54324
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -43.19519,
+          25.48074
+        ],
+        [
+          -43.62719,
+          25.48074
+        ],
+        [
+          -43.62719,
+          25.52824
+        ],
+        [
+          -43.19519,
+          25.52824
+        ],
+        [
+          -43.19519,
+          25.60574
+        ],
+        [
+          -43.19519,
+          25.60574
+        ]
+      ],
+      "area_m2": 0.02052,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0072",
+      "source_edge_id": "59C_0",
+      "source_handle": "59C",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -29.73769,
+          33.99324
+        ],
+        [
+          -29.73769,
+          28.24822
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -29.80019,
+          28.24822
+        ],
+        [
+          -29.80019,
+          33.99324
+        ],
+        [
+          -29.67519,
+          33.99324
+        ],
+        [
+          -29.67519,
+          28.24822
+        ]
+      ],
+      "area_m2": 0.71813,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0073",
+      "source_edge_id": "59D_0",
+      "source_handle": "59D",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -29.61269,
+          28.24822
+        ],
+        [
+          -29.61269,
+          33.99324
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -29.55019,
+          33.99324
+        ],
+        [
+          -29.55019,
+          28.24822
+        ],
+        [
+          -29.67519,
+          28.24822
+        ],
+        [
+          -29.67519,
+          33.99324
+        ]
+      ],
+      "area_m2": 0.71813,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0074",
+      "source_edge_id": "5BF_0",
+      "source_handle": "5BF",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -25.38769,
+          33.99324
+        ],
+        [
+          -25.38769,
+          27.87334
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -25.45019,
+          33.99324
+        ],
+        [
+          -25.32519,
+          33.99324
+        ],
+        [
+          -25.32519,
+          27.87334
+        ],
+        [
+          -25.45019,
+          27.87334
+        ]
+      ],
+      "area_m2": 0.76499,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0075",
+      "source_edge_id": "5C5_0",
+      "source_handle": "5C5",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -25.26269,
+          27.87334
+        ],
+        [
+          -25.26269,
+          33.99324
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -25.20019,
+          33.99324
+        ],
+        [
+          -25.20019,
+          27.87334
+        ],
+        [
+          -25.32519,
+          27.87334
+        ],
+        [
+          -25.32519,
+          33.99324
+        ]
+      ],
+      "area_m2": 0.76499,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0076",
+      "source_edge_id": "61B_0",
+      "source_handle": "61B",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -22.81719,
+          27.85803
+        ],
+        [
+          -23.61718,
+          27.85834
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -23.61715,
+          27.92084
+        ],
+        [
+          -22.81717,
+          27.92053
+        ],
+        [
+          -22.81719,
+          27.87303
+        ],
+        [
+          -23.61715,
+          27.87334
+        ],
+        [
+          -23.61718,
+          27.79584
+        ],
+        [
+          -23.6172,
+          27.79584
+        ]
+      ],
+      "area_m2": 0.038,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0077",
+      "source_edge_id": "620_0",
+      "source_handle": "620",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -23.61722,
+          27.74834
+        ],
+        [
+          -22.81722,
+          27.74803
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -22.81724,
+          27.68553
+        ],
+        [
+          -23.61724,
+          27.68584
+        ],
+        [
+          -23.61719,
+          27.81084
+        ],
+        [
+          -23.61717,
+          27.81084
+        ],
+        [
+          -23.61719,
+          27.76334
+        ],
+        [
+          -22.81721,
+          27.76303
+        ]
+      ],
+      "area_m2": 0.062,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0078",
+      "source_edge_id": "641_0",
+      "source_handle": "641",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -18.36269,
+          16.27824
+        ],
+        [
+          -16.64518,
+          16.27822
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -16.64518,
+          16.21572
+        ],
+        [
+          -18.36269,
+          16.21574
+        ],
+        [
+          -18.36269,
+          16.34074
+        ],
+        [
+          -16.64518,
+          16.34072
+        ]
+      ],
+      "area_m2": 0.21469,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0079",
+      "source_edge_id": "649_0",
+      "source_handle": "649",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -18.73769,
+          13.22574
+        ],
+        [
+          -18.73769,
+          15.90324
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -18.67519,
+          15.90324
+        ],
+        [
+          -18.67519,
+          13.22574
+        ],
+        [
+          -18.80019,
+          13.22574
+        ],
+        [
+          -18.80019,
+          15.90324
+        ]
+      ],
+      "area_m2": 0.33469,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0080",
+      "source_edge_id": "654_0",
+      "source_handle": "654",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -15.84519,
+          13.22574
+        ],
+        [
+          -18.73769,
+          13.22574
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -18.73769,
+          13.28824
+        ],
+        [
+          -15.84519,
+          13.28824
+        ],
+        [
+          -15.84519,
+          13.16324
+        ],
+        [
+          -18.73769,
+          13.16324
+        ]
+      ],
+      "area_m2": 0.36156,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0081",
+      "source_edge_id": "658_0",
+      "source_handle": "658",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -18.73769,
+          13.10074
+        ],
+        [
+          -15.84519,
+          13.10074
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -15.84519,
+          13.03824
+        ],
+        [
+          -18.73769,
+          13.03824
+        ],
+        [
+          -18.73769,
+          13.10074
+        ],
+        [
+          -18.73769,
+          13.10074
+        ],
+        [
+          -18.73769,
+          13.16324
+        ],
+        [
+          -15.84519,
+          13.16324
+        ]
+      ],
+      "area_m2": 0.36156,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0082",
+      "source_edge_id": "6AD_0",
+      "source_handle": "6AD",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -15.73518,
+          14.82324
+        ],
+        [
+          -15.73518,
+          15.25524
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -15.67268,
+          15.25524
+        ],
+        [
+          -15.67268,
+          14.82324
+        ],
+        [
+          -15.79768,
+          14.82324
+        ],
+        [
+          -15.79768,
+          14.82324
+        ],
+        [
+          -15.72018,
+          14.82324
+        ],
+        [
+          -15.72018,
+          15.25524
+        ]
+      ],
+      "area_m2": 0.02052,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0083",
+      "source_edge_id": "6AE_0",
+      "source_handle": "6AE",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -15.83018,
+          15.25524
+        ],
+        [
+          -15.83018,
+          14.82324
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -15.89268,
+          14.82324
+        ],
+        [
+          -15.89268,
+          15.25524
+        ],
+        [
+          -15.84518,
+          15.25524
+        ],
+        [
+          -15.84518,
+          14.82324
+        ],
+        [
+          -15.76768,
+          14.82324
+        ],
+        [
+          -15.76768,
+          14.82324
+        ]
+      ],
+      "area_m2": 0.02052,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0084",
+      "source_edge_id": "6B3_0",
+      "source_handle": "6B3",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -15.83018,
+          15.90322
+        ],
+        [
+          -15.83018,
+          15.30324
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -15.89268,
+          15.30324
+        ],
+        [
+          -15.89268,
+          15.90322
+        ],
+        [
+          -15.84518,
+          15.90322
+        ],
+        [
+          -15.84518,
+          15.30324
+        ],
+        [
+          -15.76768,
+          15.30324
+        ],
+        [
+          -15.76768,
+          15.30324
+        ]
+      ],
+      "area_m2": 0.0285,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0085",
+      "source_edge_id": "6B4_0",
+      "source_handle": "6B4",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -15.73518,
+          15.30324
+        ],
+        [
+          -15.73518,
+          15.90322
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -15.67268,
+          15.90322
+        ],
+        [
+          -15.67268,
+          15.30324
+        ],
+        [
+          -15.79768,
+          15.30324
+        ],
+        [
+          -15.79768,
+          15.30324
+        ],
+        [
+          -15.72018,
+          15.30324
+        ],
+        [
+          -15.72018,
+          15.90322
+        ]
+      ],
+      "area_m2": 0.0285,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0086",
+      "source_edge_id": "6BF_0",
+      "source_handle": "6BF",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -16.22018,
+          16.40322
+        ],
+        [
+          -16.59718,
+          16.40322
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -16.59718,
+          16.46572
+        ],
+        [
+          -16.22018,
+          16.46572
+        ],
+        [
+          -16.22018,
+          16.34072
+        ],
+        [
+          -16.22018,
+          16.34072
+        ],
+        [
+          -16.22018,
+          16.40321
+        ],
+        [
+          -16.59718,
+          16.40321
+        ]
+      ],
+      "area_m2": 0.02356,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0087",
+      "source_edge_id": "6C1_0",
+      "source_handle": "6C1",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -15.73518,
+          11.07124
+        ],
+        [
+          -15.73518,
+          11.50324
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -15.67268,
+          11.50324
+        ],
+        [
+          -15.67268,
+          11.07124
+        ],
+        [
+          -15.79768,
+          11.07124
+        ],
+        [
+          -15.79768,
+          11.07124
+        ],
+        [
+          -15.72018,
+          11.07124
+        ],
+        [
+          -15.72018,
+          11.50324
+        ]
+      ],
+      "area_m2": 0.02052,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0088",
+      "source_edge_id": "6C4_0",
+      "source_handle": "6C4",
+      "layer": "015 Innenwände",
+      "source_line_xy": [
+        [
+          -15.84518,
+          11.50324
+        ],
+        [
+          -15.84518,
+          11.07124
+        ]
+      ],
+      "width_m": 0.125,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -15.90768,
+          11.07124
+        ],
+        [
+          -15.90768,
+          11.50324
+        ],
+        [
+          -15.83018,
+          11.50324
+        ],
+        [
+          -15.83018,
+          11.07124
+        ],
+        [
+          -15.78268,
+          11.07124
+        ],
+        [
+          -15.78268,
+          11.07124
+        ]
+      ],
+      "area_m2": 0.03348,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0089",
+      "source_edge_id": "10BC_0",
+      "source_handle": "10BC",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -17.11269,
+          34.29324
+        ],
+        [
+          -18.31269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -18.31269,
+          34.44324
+        ],
+        [
+          -17.11269,
+          34.44324
+        ],
+        [
+          -17.11269,
+          34.14324
+        ],
+        [
+          -18.31269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0090",
+      "source_edge_id": "10BD_0",
+      "source_handle": "10BD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -18.31269,
+          34.29324
+        ],
+        [
+          -17.11269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -17.11269,
+          34.14324
+        ],
+        [
+          -18.31269,
+          34.14324
+        ],
+        [
+          -18.31269,
+          34.44324
+        ],
+        [
+          -17.11269,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0091",
+      "source_edge_id": "10DC_0",
+      "source_handle": "10DC",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -19.28769,
+          34.29324
+        ],
+        [
+          -20.48769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -20.48769,
+          34.44324
+        ],
+        [
+          -19.28769,
+          34.44324
+        ],
+        [
+          -19.28769,
+          34.14324
+        ],
+        [
+          -20.48769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0092",
+      "source_edge_id": "10DD_0",
+      "source_handle": "10DD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -20.48769,
+          34.29324
+        ],
+        [
+          -19.28769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -19.28769,
+          34.14324
+        ],
+        [
+          -20.48769,
+          34.14324
+        ],
+        [
+          -20.48769,
+          34.44324
+        ],
+        [
+          -19.28769,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0093",
+      "source_edge_id": "10FC_0",
+      "source_handle": "10FC",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -21.46269,
+          34.29324
+        ],
+        [
+          -22.66269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -22.66269,
+          34.44324
+        ],
+        [
+          -21.46269,
+          34.44324
+        ],
+        [
+          -21.46269,
+          34.14324
+        ],
+        [
+          -22.66269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0094",
+      "source_edge_id": "10FD_0",
+      "source_handle": "10FD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -22.66269,
+          34.29324
+        ],
+        [
+          -21.46269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -21.46269,
+          34.14324
+        ],
+        [
+          -22.66269,
+          34.14324
+        ],
+        [
+          -22.66269,
+          34.44324
+        ],
+        [
+          -21.46269,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0095",
+      "source_edge_id": "111C_0",
+      "source_handle": "111C",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -23.63769,
+          34.29324
+        ],
+        [
+          -24.83769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -24.83769,
+          34.44324
+        ],
+        [
+          -23.63769,
+          34.44324
+        ],
+        [
+          -23.63769,
+          34.14324
+        ],
+        [
+          -24.83769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0096",
+      "source_edge_id": "111D_0",
+      "source_handle": "111D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -24.83769,
+          34.29324
+        ],
+        [
+          -23.63769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -23.63769,
+          34.14324
+        ],
+        [
+          -24.83769,
+          34.14324
+        ],
+        [
+          -24.83769,
+          34.44324
+        ],
+        [
+          -23.63769,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0097",
+      "source_edge_id": "113C_0",
+      "source_handle": "113C",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -25.81269,
+          34.29324
+        ],
+        [
+          -27.01269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -27.01269,
+          34.44324
+        ],
+        [
+          -25.81269,
+          34.44324
+        ],
+        [
+          -25.81269,
+          34.14324
+        ],
+        [
+          -27.01269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0098",
+      "source_edge_id": "113D_0",
+      "source_handle": "113D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -27.01269,
+          34.29324
+        ],
+        [
+          -25.81269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -25.81269,
+          34.14324
+        ],
+        [
+          -27.01269,
+          34.14324
+        ],
+        [
+          -27.01269,
+          34.44324
+        ],
+        [
+          -25.81269,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0099",
+      "source_edge_id": "115C_0",
+      "source_handle": "115C",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -27.98769,
+          34.29324
+        ],
+        [
+          -29.18769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -29.18769,
+          34.44324
+        ],
+        [
+          -27.98769,
+          34.44324
+        ],
+        [
+          -27.98769,
+          34.14324
+        ],
+        [
+          -29.18769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0100",
+      "source_edge_id": "115D_0",
+      "source_handle": "115D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -29.18769,
+          34.29324
+        ],
+        [
+          -27.98769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -27.98769,
+          34.14324
+        ],
+        [
+          -29.18769,
+          34.14324
+        ],
+        [
+          -29.18769,
+          34.44324
+        ],
+        [
+          -27.98769,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0101",
+      "source_edge_id": "117C_0",
+      "source_handle": "117C",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -30.16269,
+          34.29324
+        ],
+        [
+          -31.36269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -31.36269,
+          34.44324
+        ],
+        [
+          -30.16269,
+          34.44324
+        ],
+        [
+          -30.16269,
+          34.14324
+        ],
+        [
+          -31.36269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0102",
+      "source_edge_id": "117D_0",
+      "source_handle": "117D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -31.36269,
+          34.29324
+        ],
+        [
+          -30.16269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -30.16269,
+          34.14324
+        ],
+        [
+          -31.36269,
+          34.14324
+        ],
+        [
+          -31.36269,
+          34.44324
+        ],
+        [
+          -30.16269,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0103",
+      "source_edge_id": "119C_0",
+      "source_handle": "119C",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -32.33769,
+          34.29324
+        ],
+        [
+          -33.53769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -33.53769,
+          34.44324
+        ],
+        [
+          -32.33769,
+          34.44324
+        ],
+        [
+          -32.33769,
+          34.14324
+        ],
+        [
+          -33.53769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0104",
+      "source_edge_id": "119D_0",
+      "source_handle": "119D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -33.53769,
+          34.29324
+        ],
+        [
+          -32.33769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -32.33769,
+          34.14324
+        ],
+        [
+          -33.53769,
+          34.14324
+        ],
+        [
+          -33.53769,
+          34.44324
+        ],
+        [
+          -32.33769,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0105",
+      "source_edge_id": "11BC_0",
+      "source_handle": "11BC",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -34.51269,
+          34.29324
+        ],
+        [
+          -35.71269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -35.71269,
+          34.44324
+        ],
+        [
+          -34.51269,
+          34.44324
+        ],
+        [
+          -34.51269,
+          34.14324
+        ],
+        [
+          -35.71269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0106",
+      "source_edge_id": "11BD_0",
+      "source_handle": "11BD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -35.71269,
+          34.29324
+        ],
+        [
+          -34.51269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -34.51269,
+          34.14324
+        ],
+        [
+          -35.71269,
+          34.14324
+        ],
+        [
+          -35.71269,
+          34.44324
+        ],
+        [
+          -34.51269,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0107",
+      "source_edge_id": "11DC_0",
+      "source_handle": "11DC",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -36.68769,
+          34.29324
+        ],
+        [
+          -37.88769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -37.88769,
+          34.44324
+        ],
+        [
+          -36.68769,
+          34.44324
+        ],
+        [
+          -36.68769,
+          34.14324
+        ],
+        [
+          -37.88769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0108",
+      "source_edge_id": "11DD_0",
+      "source_handle": "11DD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -37.88769,
+          34.29324
+        ],
+        [
+          -36.68769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -36.68769,
+          34.14324
+        ],
+        [
+          -37.88769,
+          34.14324
+        ],
+        [
+          -37.88769,
+          34.44324
+        ],
+        [
+          -36.68769,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0109",
+      "source_edge_id": "11FC_0",
+      "source_handle": "11FC",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -38.86269,
+          34.29324
+        ],
+        [
+          -40.06269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -40.06269,
+          34.44324
+        ],
+        [
+          -38.86269,
+          34.44324
+        ],
+        [
+          -38.86269,
+          34.14324
+        ],
+        [
+          -40.06269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0110",
+      "source_edge_id": "11FD_0",
+      "source_handle": "11FD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -40.06269,
+          34.29324
+        ],
+        [
+          -38.86269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -38.86269,
+          34.14324
+        ],
+        [
+          -40.06269,
+          34.14324
+        ],
+        [
+          -40.06269,
+          34.44324
+        ],
+        [
+          -38.86269,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0111",
+      "source_edge_id": "121C_0",
+      "source_handle": "121C",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -41.03769,
+          34.29324
+        ],
+        [
+          -42.23769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -42.23769,
+          34.44324
+        ],
+        [
+          -41.03769,
+          34.44324
+        ],
+        [
+          -41.03769,
+          34.14324
+        ],
+        [
+          -42.23769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0112",
+      "source_edge_id": "121D_0",
+      "source_handle": "121D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -42.23769,
+          34.29324
+        ],
+        [
+          -41.03769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -41.03769,
+          34.14324
+        ],
+        [
+          -42.23769,
+          34.14324
+        ],
+        [
+          -42.23769,
+          34.44324
+        ],
+        [
+          -41.03769,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0113",
+      "source_edge_id": "123C_0",
+      "source_handle": "123C",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -43.21269,
+          34.29324
+        ],
+        [
+          -44.41269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -44.41269,
+          34.44324
+        ],
+        [
+          -43.21269,
+          34.44324
+        ],
+        [
+          -43.21269,
+          34.14324
+        ],
+        [
+          -44.41269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0114",
+      "source_edge_id": "123D_0",
+      "source_handle": "123D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -44.41269,
+          34.29324
+        ],
+        [
+          -43.21269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -43.21269,
+          34.14324
+        ],
+        [
+          -44.41269,
+          34.14324
+        ],
+        [
+          -44.41269,
+          34.44324
+        ],
+        [
+          -43.21269,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0115",
+      "source_edge_id": "125C_0",
+      "source_handle": "125C",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -1.88769,
+          34.29324
+        ],
+        [
+          -3.08769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -3.08769,
+          34.44324
+        ],
+        [
+          -1.88769,
+          34.44324
+        ],
+        [
+          -1.88769,
+          34.14324
+        ],
+        [
+          -3.08769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0116",
+      "source_edge_id": "125D_0",
+      "source_handle": "125D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -3.08769,
+          34.29324
+        ],
+        [
+          -1.88769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -1.88769,
+          34.14324
+        ],
+        [
+          -3.08769,
+          34.14324
+        ],
+        [
+          -3.08769,
+          34.44324
+        ],
+        [
+          -1.88769,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0117",
+      "source_edge_id": "127C_0",
+      "source_handle": "127C",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -4.06269,
+          34.29324
+        ],
+        [
+          -5.26269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -5.26269,
+          34.44324
+        ],
+        [
+          -4.06269,
+          34.44324
+        ],
+        [
+          -4.06269,
+          34.14324
+        ],
+        [
+          -5.26269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0118",
+      "source_edge_id": "127D_0",
+      "source_handle": "127D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -5.26269,
+          34.29324
+        ],
+        [
+          -4.06269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -4.06269,
+          34.14324
+        ],
+        [
+          -5.26269,
+          34.14324
+        ],
+        [
+          -5.26269,
+          34.44324
+        ],
+        [
+          -4.06269,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0119",
+      "source_edge_id": "129C_0",
+      "source_handle": "129C",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -6.23769,
+          34.29324
+        ],
+        [
+          -7.43769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -7.43769,
+          34.44324
+        ],
+        [
+          -6.23769,
+          34.44324
+        ],
+        [
+          -6.23769,
+          34.14324
+        ],
+        [
+          -7.43769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0120",
+      "source_edge_id": "129D_0",
+      "source_handle": "129D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -7.43769,
+          34.29324
+        ],
+        [
+          -6.23769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -6.23769,
+          34.14324
+        ],
+        [
+          -7.43769,
+          34.14324
+        ],
+        [
+          -7.43769,
+          34.44324
+        ],
+        [
+          -6.23769,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0121",
+      "source_edge_id": "12BC_0",
+      "source_handle": "12BC",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -8.41269,
+          34.29324
+        ],
+        [
+          -9.61269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -9.61269,
+          34.44324
+        ],
+        [
+          -8.41269,
+          34.44324
+        ],
+        [
+          -8.41269,
+          34.14324
+        ],
+        [
+          -9.61269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0122",
+      "source_edge_id": "12BD_0",
+      "source_handle": "12BD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -9.61269,
+          34.29324
+        ],
+        [
+          -8.41269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -8.41269,
+          34.14324
+        ],
+        [
+          -9.61269,
+          34.14324
+        ],
+        [
+          -9.61269,
+          34.44324
+        ],
+        [
+          -8.41269,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0123",
+      "source_edge_id": "12DC_0",
+      "source_handle": "12DC",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -10.58769,
+          34.29324
+        ],
+        [
+          -11.78769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -11.78769,
+          34.44324
+        ],
+        [
+          -10.58769,
+          34.44324
+        ],
+        [
+          -10.58769,
+          34.14324
+        ],
+        [
+          -11.78769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0124",
+      "source_edge_id": "12DD_0",
+      "source_handle": "12DD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -11.78769,
+          34.29324
+        ],
+        [
+          -10.58769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -10.58769,
+          34.14324
+        ],
+        [
+          -11.78769,
+          34.14324
+        ],
+        [
+          -11.78769,
+          34.44324
+        ],
+        [
+          -10.58769,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0125",
+      "source_edge_id": "12FC_0",
+      "source_handle": "12FC",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -12.76269,
+          34.29324
+        ],
+        [
+          -13.96269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -13.96269,
+          34.44324
+        ],
+        [
+          -12.76269,
+          34.44324
+        ],
+        [
+          -12.76269,
+          34.14324
+        ],
+        [
+          -13.96269,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0126",
+      "source_edge_id": "12FD_0",
+      "source_handle": "12FD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -13.96269,
+          34.29324
+        ],
+        [
+          -12.76269,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -12.76269,
+          34.14324
+        ],
+        [
+          -13.96269,
+          34.14324
+        ],
+        [
+          -13.96269,
+          34.44324
+        ],
+        [
+          -12.76269,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0127",
+      "source_edge_id": "131C_0",
+      "source_handle": "131C",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -14.93769,
+          34.29324
+        ],
+        [
+          -16.13769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -16.13769,
+          34.44324
+        ],
+        [
+          -14.93769,
+          34.44324
+        ],
+        [
+          -14.93769,
+          34.14324
+        ],
+        [
+          -16.13769,
+          34.14324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0128",
+      "source_edge_id": "131D_0",
+      "source_handle": "131D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -16.13769,
+          34.29324
+        ],
+        [
+          -14.93769,
+          34.29324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -14.93769,
+          34.14324
+        ],
+        [
+          -16.13769,
+          34.14324
+        ],
+        [
+          -16.13769,
+          34.44324
+        ],
+        [
+          -14.93769,
+          34.44324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0129",
+      "source_edge_id": "133D_0",
+      "source_handle": "133D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -33.53769,
+          9.75324
+        ],
+        [
+          -32.33769,
+          9.75324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -32.33769,
+          9.60324
+        ],
+        [
+          -33.53769,
+          9.60324
+        ],
+        [
+          -33.53769,
+          9.90324
+        ],
+        [
+          -33.53769,
+          9.90324
+        ],
+        [
+          -33.53769,
+          9.75324
+        ],
+        [
+          -32.92269,
+          9.75324
+        ],
+        [
+          -32.92269,
+          9.90324
+        ],
+        [
+          -32.33769,
+          9.90324
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0130",
+      "source_edge_id": "135D_0",
+      "source_handle": "135D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -44.43197,
+          17.7467
+        ],
+        [
+          -43.58344,
+          16.89817
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -43.68951,
+          16.79211
+        ],
+        [
+          -44.53803,
+          17.64064
+        ],
+        [
+          -44.43197,
+          17.7467
+        ],
+        [
+          -44.17632,
+          17.49105
+        ],
+        [
+          -44.07025,
+          17.59712
+        ],
+        [
+          -43.47737,
+          17.00424
+        ]
+      ],
+      "area_m2": 0.30577,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0131",
+      "source_edge_id": "137C_0",
+      "source_handle": "137C",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -44.94519,
+          20.18574
+        ],
+        [
+          -44.94519,
+          18.98574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -45.09519,
+          18.98574
+        ],
+        [
+          -45.09519,
+          20.18574
+        ],
+        [
+          -44.79519,
+          20.18574
+        ],
+        [
+          -44.79519,
+          18.98574
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0132",
+      "source_edge_id": "137D_0",
+      "source_handle": "137D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -44.94519,
+          18.98574
+        ],
+        [
+          -44.94519,
+          20.18574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -44.79519,
+          20.18574
+        ],
+        [
+          -44.79519,
+          18.98574
+        ],
+        [
+          -45.09519,
+          18.98574
+        ],
+        [
+          -45.09519,
+          20.18574
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0133",
+      "source_edge_id": "139C_0",
+      "source_handle": "139C",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -44.94519,
+          22.36074
+        ],
+        [
+          -44.94519,
+          21.16074
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -45.09519,
+          21.16074
+        ],
+        [
+          -45.09519,
+          22.36074
+        ],
+        [
+          -44.79519,
+          22.36074
+        ],
+        [
+          -44.79519,
+          21.16074
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0134",
+      "source_edge_id": "139D_0",
+      "source_handle": "139D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -44.94519,
+          21.16074
+        ],
+        [
+          -44.94519,
+          22.36074
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -44.79519,
+          22.36074
+        ],
+        [
+          -44.79519,
+          21.16074
+        ],
+        [
+          -45.09519,
+          21.16074
+        ],
+        [
+          -45.09519,
+          22.36074
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0135",
+      "source_edge_id": "13BC_0",
+      "source_handle": "13BC",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -44.94519,
+          26.97324
+        ],
+        [
+          -44.94519,
+          25.77324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -45.09519,
+          25.77324
+        ],
+        [
+          -45.09519,
+          26.97324
+        ],
+        [
+          -44.79519,
+          26.97324
+        ],
+        [
+          -44.79519,
+          25.77324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0136",
+      "source_edge_id": "13BD_0",
+      "source_handle": "13BD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -44.94519,
+          25.77324
+        ],
+        [
+          -44.94519,
+          26.97324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -44.79519,
+          26.97324
+        ],
+        [
+          -44.79519,
+          25.77324
+        ],
+        [
+          -45.09519,
+          25.77324
+        ],
+        [
+          -45.09519,
+          26.97324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0137",
+      "source_edge_id": "13DC_0",
+      "source_handle": "13DC",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -44.94519,
+          31.58574
+        ],
+        [
+          -44.94519,
+          30.38574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -45.09519,
+          30.38574
+        ],
+        [
+          -45.09519,
+          31.58574
+        ],
+        [
+          -44.79519,
+          31.58574
+        ],
+        [
+          -44.79519,
+          30.38574
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0138",
+      "source_edge_id": "13DD_0",
+      "source_handle": "13DD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -44.94519,
+          30.38574
+        ],
+        [
+          -44.94519,
+          31.58574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -44.79519,
+          31.58574
+        ],
+        [
+          -44.79519,
+          30.38574
+        ],
+        [
+          -45.09519,
+          30.38574
+        ],
+        [
+          -45.09519,
+          31.58574
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0139",
+      "source_edge_id": "13FC_0",
+      "source_handle": "13FC",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -44.94519,
+          33.76074
+        ],
+        [
+          -44.94519,
+          32.56074
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -45.09519,
+          32.56074
+        ],
+        [
+          -45.09519,
+          33.76074
+        ],
+        [
+          -44.79519,
+          33.76074
+        ],
+        [
+          -44.79519,
+          32.56074
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0140",
+      "source_edge_id": "13FD_0",
+      "source_handle": "13FD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -44.94519,
+          32.56074
+        ],
+        [
+          -44.94519,
+          33.76074
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -44.79519,
+          33.76074
+        ],
+        [
+          -44.79519,
+          32.56074
+        ],
+        [
+          -45.09519,
+          32.56074
+        ],
+        [
+          -45.09519,
+          33.76074
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0141",
+      "source_edge_id": "141D_0",
+      "source_handle": "141D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -1.35519,
+          18.98574
+        ],
+        [
+          -1.35519,
+          20.18574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -1.20519,
+          20.18574
+        ],
+        [
+          -1.20519,
+          18.98574
+        ],
+        [
+          -1.50519,
+          18.98574
+        ],
+        [
+          -1.50519,
+          18.98574
+        ],
+        [
+          -1.35519,
+          18.98574
+        ],
+        [
+          -1.35519,
+          19.60074
+        ],
+        [
+          -1.50519,
+          19.60074
+        ],
+        [
+          -1.50519,
+          20.18574
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0142",
+      "source_edge_id": "143D_0",
+      "source_handle": "143D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -1.35519,
+          21.16074
+        ],
+        [
+          -1.35519,
+          22.36074
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -1.20519,
+          22.36074
+        ],
+        [
+          -1.20519,
+          21.16074
+        ],
+        [
+          -1.50519,
+          21.16074
+        ],
+        [
+          -1.50519,
+          21.16074
+        ],
+        [
+          -1.35519,
+          21.16074
+        ],
+        [
+          -1.35519,
+          21.77574
+        ],
+        [
+          -1.50519,
+          21.77574
+        ],
+        [
+          -1.50519,
+          22.36074
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0143",
+      "source_edge_id": "145D_0",
+      "source_handle": "145D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -1.35519,
+          25.77324
+        ],
+        [
+          -1.35519,
+          26.97324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -1.20519,
+          26.97324
+        ],
+        [
+          -1.20519,
+          25.77324
+        ],
+        [
+          -1.50519,
+          25.77324
+        ],
+        [
+          -1.50519,
+          25.77324
+        ],
+        [
+          -1.35519,
+          25.77324
+        ],
+        [
+          -1.35519,
+          26.65074
+        ],
+        [
+          -1.50519,
+          26.65074
+        ],
+        [
+          -1.50519,
+          26.97324
+        ]
+      ],
+      "area_m2": 0.22837,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0144",
+      "source_edge_id": "147D_0",
+      "source_handle": "147D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -1.35519,
+          30.38574
+        ],
+        [
+          -1.35519,
+          31.58574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -1.20519,
+          31.58574
+        ],
+        [
+          -1.20519,
+          30.38574
+        ],
+        [
+          -1.50519,
+          30.38574
+        ],
+        [
+          -1.50519,
+          30.38574
+        ],
+        [
+          -1.35519,
+          30.38574
+        ],
+        [
+          -1.35519,
+          31.00074
+        ],
+        [
+          -1.50519,
+          31.00074
+        ],
+        [
+          -1.50519,
+          31.58574
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0145",
+      "source_edge_id": "149D_0",
+      "source_handle": "149D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -1.35519,
+          32.56074
+        ],
+        [
+          -1.35519,
+          33.76074
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -1.20519,
+          33.76074
+        ],
+        [
+          -1.20519,
+          32.56074
+        ],
+        [
+          -1.50519,
+          32.56074
+        ],
+        [
+          -1.50519,
+          32.56074
+        ],
+        [
+          -1.35519,
+          32.56074
+        ],
+        [
+          -1.35519,
+          33.17574
+        ],
+        [
+          -1.50519,
+          33.17574
+        ],
+        [
+          -1.50519,
+          33.76074
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0146",
+      "source_edge_id": "14BD_0",
+      "source_handle": "14BD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -1.35519,
+          23.33574
+        ],
+        [
+          -1.35519,
+          24.53574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -1.20519,
+          24.53574
+        ],
+        [
+          -1.20519,
+          23.33574
+        ],
+        [
+          -1.50519,
+          23.33574
+        ],
+        [
+          -1.50519,
+          23.33574
+        ],
+        [
+          -1.35519,
+          23.33574
+        ],
+        [
+          -1.35519,
+          23.95074
+        ],
+        [
+          -1.50519,
+          23.95074
+        ],
+        [
+          -1.50519,
+          24.53574
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0147",
+      "source_edge_id": "14DD_0",
+      "source_handle": "14DD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -1.35519,
+          28.21074
+        ],
+        [
+          -1.35519,
+          29.41074
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -1.20519,
+          29.41074
+        ],
+        [
+          -1.20519,
+          28.21074
+        ],
+        [
+          -1.50519,
+          28.21074
+        ],
+        [
+          -1.50519,
+          28.21074
+        ],
+        [
+          -1.35519,
+          28.21074
+        ],
+        [
+          -1.35519,
+          29.08824
+        ],
+        [
+          -1.50519,
+          29.08824
+        ],
+        [
+          -1.50519,
+          29.41074
+        ]
+      ],
+      "area_m2": 0.22837,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0148",
+      "source_edge_id": "14FC_0",
+      "source_handle": "14FC",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -34.51269,
+          9.75324
+        ],
+        [
+          -35.71269,
+          9.75324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -35.71269,
+          9.90324
+        ],
+        [
+          -34.51269,
+          9.90324
+        ],
+        [
+          -34.51269,
+          9.60324
+        ],
+        [
+          -35.71269,
+          9.60324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0149",
+      "source_edge_id": "14FD_0",
+      "source_handle": "14FD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -35.71269,
+          9.75324
+        ],
+        [
+          -34.51269,
+          9.75324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -34.51269,
+          9.60324
+        ],
+        [
+          -35.71269,
+          9.60324
+        ],
+        [
+          -35.71269,
+          9.90324
+        ],
+        [
+          -34.51269,
+          9.90324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0150",
+      "source_edge_id": "151D_0",
+      "source_handle": "151D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -31.36269,
+          9.75324
+        ],
+        [
+          -30.16269,
+          9.75324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -30.16269,
+          9.60324
+        ],
+        [
+          -31.36269,
+          9.60324
+        ],
+        [
+          -31.36269,
+          9.90324
+        ],
+        [
+          -31.36269,
+          9.90324
+        ],
+        [
+          -31.36269,
+          9.75324
+        ],
+        [
+          -30.74769,
+          9.75324
+        ],
+        [
+          -30.74769,
+          9.90324
+        ],
+        [
+          -30.16269,
+          9.90324
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0151",
+      "source_edge_id": "153D_0",
+      "source_handle": "153D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -29.18769,
+          9.75324
+        ],
+        [
+          -27.98769,
+          9.75324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -27.98769,
+          9.60324
+        ],
+        [
+          -29.18769,
+          9.60324
+        ],
+        [
+          -29.18769,
+          9.90324
+        ],
+        [
+          -29.18769,
+          9.90324
+        ],
+        [
+          -29.18769,
+          9.75324
+        ],
+        [
+          -28.57269,
+          9.75324
+        ],
+        [
+          -28.57269,
+          9.90324
+        ],
+        [
+          -27.98769,
+          9.90324
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0152",
+      "source_edge_id": "155D_0",
+      "source_handle": "155D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -27.01269,
+          9.75324
+        ],
+        [
+          -25.81269,
+          9.75324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -25.81269,
+          9.60324
+        ],
+        [
+          -27.01269,
+          9.60324
+        ],
+        [
+          -27.01269,
+          9.90324
+        ],
+        [
+          -27.01269,
+          9.90324
+        ],
+        [
+          -27.01269,
+          9.75324
+        ],
+        [
+          -26.39769,
+          9.75324
+        ],
+        [
+          -26.39769,
+          9.90324
+        ],
+        [
+          -25.81269,
+          9.90324
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0153",
+      "source_edge_id": "157D_0",
+      "source_handle": "157D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -24.83769,
+          9.75324
+        ],
+        [
+          -23.63769,
+          9.75324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -23.63769,
+          9.60324
+        ],
+        [
+          -24.83769,
+          9.60324
+        ],
+        [
+          -24.83769,
+          9.90324
+        ],
+        [
+          -24.83769,
+          9.90324
+        ],
+        [
+          -24.83769,
+          9.75324
+        ],
+        [
+          -24.22269,
+          9.75324
+        ],
+        [
+          -24.22269,
+          9.90324
+        ],
+        [
+          -23.63769,
+          9.90324
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0154",
+      "source_edge_id": "159D_0",
+      "source_handle": "159D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -22.66269,
+          9.75324
+        ],
+        [
+          -21.46269,
+          9.75324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -21.46269,
+          9.60324
+        ],
+        [
+          -22.66269,
+          9.60324
+        ],
+        [
+          -22.66269,
+          9.90324
+        ],
+        [
+          -22.66269,
+          9.90324
+        ],
+        [
+          -22.66269,
+          9.75324
+        ],
+        [
+          -22.04769,
+          9.75324
+        ],
+        [
+          -22.04769,
+          9.90324
+        ],
+        [
+          -21.46269,
+          9.90324
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0155",
+      "source_edge_id": "15BD_0",
+      "source_handle": "15BD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -20.48769,
+          9.75324
+        ],
+        [
+          -19.28769,
+          9.75324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -19.28769,
+          9.60324
+        ],
+        [
+          -20.48769,
+          9.60324
+        ],
+        [
+          -20.48769,
+          9.90324
+        ],
+        [
+          -20.48769,
+          9.90324
+        ],
+        [
+          -20.48769,
+          9.75324
+        ],
+        [
+          -19.87269,
+          9.75324
+        ],
+        [
+          -19.87269,
+          9.90324
+        ],
+        [
+          -19.28769,
+          9.90324
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0156",
+      "source_edge_id": "15DD_0",
+      "source_handle": "15DD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -18.31269,
+          9.75324
+        ],
+        [
+          -17.11269,
+          9.75324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -17.11269,
+          9.60324
+        ],
+        [
+          -18.31269,
+          9.60324
+        ],
+        [
+          -18.31269,
+          9.90324
+        ],
+        [
+          -18.31269,
+          9.90324
+        ],
+        [
+          -18.31269,
+          9.75324
+        ],
+        [
+          -17.69769,
+          9.75324
+        ],
+        [
+          -17.69769,
+          9.90324
+        ],
+        [
+          -17.11269,
+          9.90324
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0157",
+      "source_edge_id": "15FD_0",
+      "source_handle": "15FD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -1.35519,
+          16.81074
+        ],
+        [
+          -1.35519,
+          18.01074
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -1.20519,
+          18.01074
+        ],
+        [
+          -1.20519,
+          16.81074
+        ],
+        [
+          -1.50519,
+          16.81074
+        ],
+        [
+          -1.50519,
+          16.81074
+        ],
+        [
+          -1.35519,
+          16.81074
+        ],
+        [
+          -1.35519,
+          17.42574
+        ],
+        [
+          -1.50519,
+          17.42574
+        ],
+        [
+          -1.50519,
+          18.01074
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0158",
+      "source_edge_id": "161D_0",
+      "source_handle": "161D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -1.35519,
+          14.63574
+        ],
+        [
+          -1.35519,
+          15.83574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -1.20519,
+          15.83574
+        ],
+        [
+          -1.20519,
+          14.63574
+        ],
+        [
+          -1.50519,
+          14.63574
+        ],
+        [
+          -1.50519,
+          14.63574
+        ],
+        [
+          -1.35519,
+          14.63574
+        ],
+        [
+          -1.35519,
+          15.25074
+        ],
+        [
+          -1.50519,
+          15.25074
+        ],
+        [
+          -1.50519,
+          15.83574
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0159",
+      "source_edge_id": "163D_0",
+      "source_handle": "163D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -1.35519,
+          12.46074
+        ],
+        [
+          -1.35519,
+          13.66074
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -1.20519,
+          13.66074
+        ],
+        [
+          -1.20519,
+          12.46074
+        ],
+        [
+          -1.50519,
+          12.46074
+        ],
+        [
+          -1.50519,
+          12.46074
+        ],
+        [
+          -1.35519,
+          12.46074
+        ],
+        [
+          -1.35519,
+          13.07574
+        ],
+        [
+          -1.50519,
+          13.07574
+        ],
+        [
+          -1.50519,
+          13.66074
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0160",
+      "source_edge_id": "165D_0",
+      "source_handle": "165D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -1.35519,
+          10.28574
+        ],
+        [
+          -1.35519,
+          11.48574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -1.20519,
+          11.48574
+        ],
+        [
+          -1.20519,
+          10.28574
+        ],
+        [
+          -1.50519,
+          10.28574
+        ],
+        [
+          -1.50519,
+          10.28574
+        ],
+        [
+          -1.35519,
+          10.28574
+        ],
+        [
+          -1.35519,
+          10.90074
+        ],
+        [
+          -1.50519,
+          10.90074
+        ],
+        [
+          -1.50519,
+          11.48574
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0161",
+      "source_edge_id": "167D_0",
+      "source_handle": "167D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -1.35519,
+          8.11074
+        ],
+        [
+          -1.35519,
+          9.31074
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -1.20519,
+          9.31074
+        ],
+        [
+          -1.20519,
+          8.11074
+        ],
+        [
+          -1.50519,
+          8.11074
+        ],
+        [
+          -1.50519,
+          8.11074
+        ],
+        [
+          -1.35519,
+          8.11074
+        ],
+        [
+          -1.35519,
+          8.72574
+        ],
+        [
+          -1.50519,
+          8.72574
+        ],
+        [
+          -1.50519,
+          9.31074
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0162",
+      "source_edge_id": "169D_0",
+      "source_handle": "169D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -1.35519,
+          5.93574
+        ],
+        [
+          -1.35519,
+          7.13574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -1.20519,
+          7.13574
+        ],
+        [
+          -1.20519,
+          5.93574
+        ],
+        [
+          -1.50519,
+          5.93574
+        ],
+        [
+          -1.50519,
+          5.93574
+        ],
+        [
+          -1.35519,
+          5.93574
+        ],
+        [
+          -1.35519,
+          6.55074
+        ],
+        [
+          -1.50519,
+          6.55074
+        ],
+        [
+          -1.50519,
+          7.13574
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0163",
+      "source_edge_id": "16BD_0",
+      "source_handle": "16BD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -1.35519,
+          3.76074
+        ],
+        [
+          -1.35519,
+          4.96074
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -1.20519,
+          4.96074
+        ],
+        [
+          -1.20519,
+          3.76074
+        ],
+        [
+          -1.50519,
+          3.76074
+        ],
+        [
+          -1.50519,
+          3.76074
+        ],
+        [
+          -1.35519,
+          3.76074
+        ],
+        [
+          -1.35519,
+          4.37574
+        ],
+        [
+          -1.50519,
+          4.37574
+        ],
+        [
+          -1.50519,
+          4.96074
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0164",
+      "source_edge_id": "16DC_0",
+      "source_handle": "16DC",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -1.35519,
+          2.78574
+        ],
+        [
+          -1.35519,
+          1.58574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -1.50519,
+          1.58574
+        ],
+        [
+          -1.50519,
+          2.78574
+        ],
+        [
+          -1.20519,
+          2.78574
+        ],
+        [
+          -1.20519,
+          1.58574
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0165",
+      "source_edge_id": "16DD_0",
+      "source_handle": "16DD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -1.35519,
+          1.58574
+        ],
+        [
+          -1.35519,
+          2.78574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -1.20519,
+          2.78574
+        ],
+        [
+          -1.20519,
+          1.58574
+        ],
+        [
+          -1.50519,
+          1.58574
+        ],
+        [
+          -1.50519,
+          2.78574
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0166",
+      "source_edge_id": "16FD_0",
+      "source_handle": "16FD",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -42.89401,
+          16.20874
+        ],
+        [
+          -42.04548,
+          15.36022
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -42.15155,
+          15.25415
+        ],
+        [
+          -43.00008,
+          16.10268
+        ],
+        [
+          -42.78795,
+          16.31481
+        ],
+        [
+          -42.78794,
+          16.31481
+        ],
+        [
+          -42.89401,
+          16.20874
+        ],
+        [
+          -42.45914,
+          15.77387
+        ],
+        [
+          -42.35307,
+          15.87994
+        ],
+        [
+          -41.93942,
+          15.46628
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0167",
+      "source_edge_id": "171D_0",
+      "source_handle": "171D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -41.35605,
+          14.67079
+        ],
+        [
+          -40.50753,
+          13.82226
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -40.61359,
+          13.71619
+        ],
+        [
+          -41.46212,
+          14.56472
+        ],
+        [
+          -41.24999,
+          14.77685
+        ],
+        [
+          -41.24999,
+          14.77685
+        ],
+        [
+          -41.35605,
+          14.67079
+        ],
+        [
+          -40.92118,
+          14.23592
+        ],
+        [
+          -40.81512,
+          14.34198
+        ],
+        [
+          -40.40146,
+          13.92833
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0168",
+      "source_edge_id": "173D_0",
+      "source_handle": "173D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -39.8181,
+          13.13283
+        ],
+        [
+          -38.96957,
+          12.2843
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -39.07563,
+          12.17824
+        ],
+        [
+          -39.92416,
+          13.02676
+        ],
+        [
+          -39.8181,
+          13.13283
+        ],
+        [
+          -39.38323,
+          12.69796
+        ],
+        [
+          -39.27716,
+          12.80403
+        ],
+        [
+          -38.8635,
+          12.39037
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0169",
+      "source_edge_id": "175D_0",
+      "source_handle": "175D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -38.28018,
+          11.59491
+        ],
+        [
+          -37.43165,
+          10.74638
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -37.53772,
+          10.64032
+        ],
+        [
+          -38.38624,
+          11.48885
+        ],
+        [
+          -38.28018,
+          11.59491
+        ],
+        [
+          -37.84527,
+          11.16
+        ],
+        [
+          -37.7392,
+          11.26607
+        ],
+        [
+          -37.32558,
+          10.85245
+        ]
+      ],
+      "area_m2": 0.26774,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0170",
+      "source_edge_id": "177D_0",
+      "source_handle": "177D",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -1.88769,
+          1.05324
+        ],
+        [
+          -3.08769,
+          1.05324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -3.08769,
+          1.20324
+        ],
+        [
+          -3.08769,
+          1.20324
+        ],
+        [
+          -3.08769,
+          1.05324
+        ],
+        [
+          -2.47269,
+          1.05324
+        ],
+        [
+          -2.47269,
+          1.20324
+        ],
+        [
+          -1.88769,
+          1.20324
+        ],
+        [
+          -1.88769,
+          0.90324
+        ],
+        [
+          -3.08769,
+          0.90324
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0171",
+      "source_edge_id": "179E_0",
+      "source_handle": "179E",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -5.26269,
+          1.05324
+        ],
+        [
+          -4.06269,
+          1.05324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -4.06269,
+          0.90324
+        ],
+        [
+          -5.26269,
+          0.90324
+        ],
+        [
+          -5.26269,
+          1.20324
+        ],
+        [
+          -4.06269,
+          1.20324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0172",
+      "source_edge_id": "179F_0",
+      "source_handle": "179F",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -4.06269,
+          1.05324
+        ],
+        [
+          -5.26269,
+          1.05324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -5.26269,
+          1.20324
+        ],
+        [
+          -4.06269,
+          1.20324
+        ],
+        [
+          -4.06269,
+          0.90324
+        ],
+        [
+          -5.26269,
+          0.90324
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0173",
+      "source_edge_id": "17BF_0",
+      "source_handle": "17BF",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -6.23769,
+          1.05324
+        ],
+        [
+          -7.43769,
+          1.05324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -7.43769,
+          1.20324
+        ],
+        [
+          -7.43769,
+          1.20324
+        ],
+        [
+          -7.43769,
+          1.05324
+        ],
+        [
+          -6.82269,
+          1.05324
+        ],
+        [
+          -6.82269,
+          1.20324
+        ],
+        [
+          -6.23769,
+          1.20324
+        ],
+        [
+          -6.23769,
+          0.90324
+        ],
+        [
+          -7.43769,
+          0.90324
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0174",
+      "source_edge_id": "17DF_0",
+      "source_handle": "17DF",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -8.41269,
+          1.05324
+        ],
+        [
+          -9.61269,
+          1.05324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -9.61269,
+          1.20324
+        ],
+        [
+          -9.61269,
+          1.20324
+        ],
+        [
+          -9.61269,
+          1.05324
+        ],
+        [
+          -8.99769,
+          1.05324
+        ],
+        [
+          -8.99769,
+          1.20324
+        ],
+        [
+          -8.41269,
+          1.20324
+        ],
+        [
+          -8.41269,
+          0.90324
+        ],
+        [
+          -9.61269,
+          0.90324
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0175",
+      "source_edge_id": "17FF_0",
+      "source_handle": "17FF",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -10.58769,
+          1.05324
+        ],
+        [
+          -11.78769,
+          1.05324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -11.78769,
+          1.20324
+        ],
+        [
+          -11.78769,
+          1.20324
+        ],
+        [
+          -11.78769,
+          1.05324
+        ],
+        [
+          -11.17269,
+          1.05324
+        ],
+        [
+          -11.17269,
+          1.20324
+        ],
+        [
+          -10.58769,
+          1.20324
+        ],
+        [
+          -10.58769,
+          0.90324
+        ],
+        [
+          -11.78769,
+          0.90324
+        ]
+      ],
+      "area_m2": 0.26775,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0176",
+      "source_edge_id": "181F_0",
+      "source_handle": "181F",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -12.76269,
+          1.05324
+        ],
+        [
+          -13.96269,
+          1.05324
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -13.96269,
+          1.20324
+        ],
+        [
+          -13.96269,
+          1.20324
+        ],
+        [
+          -13.96269,
+          1.05324
+        ],
+        [
+          -12.76269,
+          1.05324
+        ],
+        [
+          -12.76269,
+          0.90324
+        ],
+        [
+          -13.96269,
+          0.90324
+        ]
+      ],
+      "area_m2": 0.18001,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0177",
+      "source_edge_id": "183E_0",
+      "source_handle": "183E",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -16.02019,
+          2.78574
+        ],
+        [
+          -16.02019,
+          1.58574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -16.17019,
+          1.58574
+        ],
+        [
+          -16.17019,
+          2.78574
+        ],
+        [
+          -15.87019,
+          2.78574
+        ],
+        [
+          -15.87019,
+          1.58574
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0178",
+      "source_edge_id": "183F_0",
+      "source_handle": "183F",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -16.02019,
+          1.58574
+        ],
+        [
+          -16.02019,
+          2.78574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -15.87019,
+          2.78574
+        ],
+        [
+          -15.87019,
+          1.58574
+        ],
+        [
+          -16.17019,
+          1.58574
+        ],
+        [
+          -16.17019,
+          2.78574
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0179",
+      "source_edge_id": "185E_0",
+      "source_handle": "185E",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -16.02019,
+          4.96074
+        ],
+        [
+          -16.02019,
+          3.76074
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -16.17019,
+          3.76074
+        ],
+        [
+          -16.17019,
+          4.96074
+        ],
+        [
+          -15.87019,
+          4.96074
+        ],
+        [
+          -15.87019,
+          3.76074
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0180",
+      "source_edge_id": "185F_0",
+      "source_handle": "185F",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -16.02019,
+          3.76074
+        ],
+        [
+          -16.02019,
+          4.96074
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -15.87019,
+          4.96074
+        ],
+        [
+          -15.87019,
+          3.76074
+        ],
+        [
+          -16.17019,
+          3.76074
+        ],
+        [
+          -16.17019,
+          4.96074
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0181",
+      "source_edge_id": "187E_0",
+      "source_handle": "187E",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -16.02019,
+          7.13574
+        ],
+        [
+          -16.02019,
+          5.93574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -16.17019,
+          5.93574
+        ],
+        [
+          -16.17019,
+          7.13574
+        ],
+        [
+          -15.87019,
+          7.13574
+        ],
+        [
+          -15.87019,
+          5.93574
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "RECOVERY_0182",
+      "source_edge_id": "187F_0",
+      "source_handle": "187F",
+      "layer": "010 Aussenwände",
+      "source_line_xy": [
+        [
+          -16.02019,
+          5.93574
+        ],
+        [
+          -16.02019,
+          7.13574
+        ]
+      ],
+      "width_m": 0.3,
+      "width_basis": "LAYER_PAIRED_WALL_MEDIAN",
+      "outline_xy": [
+        [
+          -15.87019,
+          7.13574
+        ],
+        [
+          -15.87019,
+          5.93574
+        ],
+        [
+          -16.17019,
+          5.93574
+        ],
+        [
+          -16.17019,
+          7.13574
+        ]
+      ],
+      "area_m2": 0.36,
+      "status": "INFERRED_FROM_UNPAIRED_CAD_EDGE",
+      "boundary_side_unverified": true,
+      "safe_to_cut": false,
+      "automatic_integration_approved": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "cad-normalization-1.0",
+  "source_dxf": "C:\\Users\\Nidhi\\OneDrive\\Desktop\\BuildProgress\\data\\floorplans\\floor_2.dxf",
+  "units": "meters",
+  "top_level_insert_count": 30,
+  "normalized_segment_count": 951,
+  "noded_segment_count": 950,
+  "connectivity": {
+    "endpoint_count": 1902,
+    "endpoint_endpoint_connected": 1723,
+    "endpoint_segment_connected": 29,
+    "unmatched_endpoints": 150
+  },
+  "category_counts": {
+    "interior": 492,
+    "lining": 72,
+    "exterior": 323,
+    "partition": 64
+  },
+  "limitations": [
+    "No gap closing performed",
+    "No wall thickness inferred",
+    "Noded network lacks direct per-edge provenance",
+    "Near-coincident endpoints are not snapped"
+  ]
+}

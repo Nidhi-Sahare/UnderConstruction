@@ -1,0 +1,41 @@
+{
+  "dxf": "C:\\Users\\Nidhi\\OneDrive\\Desktop\\BuildProgress\\data\\floorplans\\floor_2.dxf",
+  "entity_counts_by_layer": {
+    "015 Innenw\u00e4nde": 400,
+    "010 T\u00fcren": 820,
+    "019 Vormauerungen": 76,
+    "010 Aussenw\u00e4nde": 323,
+    "016 Trennw\u00e4nde": 64,
+    "020 St\u00fctzen": 5,
+    "012 Vorhangfassade": 252,
+    "011 Fassadensystem": 2268,
+    "010 Fenster": 1893
+  },
+  "closed_polylines_by_layer": {
+    "020 St\u00fctzen": 5,
+    "011 Fassadensystem": 630,
+    "015 Innenw\u00e4nde": 2
+  },
+  "open_polylines_by_layer": {
+    "015 Innenw\u00e4nde": 260,
+    "019 Vormauerungen": 64,
+    "010 Aussenw\u00e4nde": 323,
+    "016 Trennw\u00e4nde": 48,
+    "012 Vorhangfassade": 252,
+    "011 Fassadensystem": 1008
+  },
+  "unsupported_entity_types": {
+    "INSERT": 31
+  },
+  "segments_by_layer": {
+    "015 Innenw\u00e4nde": 484,
+    "010 T\u00fcren": 875,
+    "019 Vormauerungen": 72,
+    "010 Aussenw\u00e4nde": 323,
+    "016 Trennw\u00e4nde": 64,
+    "020 St\u00fctzen": 20,
+    "012 Vorhangfassade": 1182,
+    "011 Fassadensystem": 92320,
+    "010 Fenster": 1643
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "source_exterior_segments": 323,
+  "snapped_segments": 323,
+  "endpoints_moved": 0,
+  "closed_regions": 0,
+  "dangles": 0,
+  "cuts": 260,
+  "invalid_rings": 0,
+  "snap_tolerance_m": 0.015
+}

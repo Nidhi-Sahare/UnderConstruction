@@ -1,0 +1,16 @@
+{
+  "input_footprints": 60,
+  "selected_footprints": 48,
+  "excluded_footprints": 12,
+  "unresolved_overlap_entries": 0,
+  "pair_classifications": {
+    "shared_source_only": 11,
+    "competing_parallel_footprints": 24
+  },
+  "unmatched_chains_preserved": 533,
+  "selected_categories": {
+    "interior": 44,
+    "lining": 4
+  },
+  "selection_id": "SELECTION_982a1f863f7a4b6f"
+}

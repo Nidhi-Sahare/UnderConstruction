@@ -1,0 +1,383 @@
+{
+  "schema_version": "cad-block-audit-1.0",
+  "source": "C:\\Users\\Nidhi\\OneDrive\\Desktop\\BuildProgress\\data\\floorplans\\floor_2.dxf",
+  "block_reference_count": 31,
+  "block_events": [
+    {
+      "block_name": "*X4",
+      "insert_handle": "FA",
+      "root_handle": "FA",
+      "effective_layer": "019 Vormauerungen",
+      "depth": 0,
+      "block_path": [
+        "*X4"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X5",
+      "insert_handle": "105",
+      "root_handle": "105",
+      "effective_layer": "019 Vormauerungen",
+      "depth": 0,
+      "block_path": [
+        "*X5"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X6",
+      "insert_handle": "110",
+      "root_handle": "110",
+      "effective_layer": "019 Vormauerungen",
+      "depth": 0,
+      "block_path": [
+        "*X6"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X7",
+      "insert_handle": "349",
+      "root_handle": "349",
+      "effective_layer": "019 Vormauerungen",
+      "depth": 0,
+      "block_path": [
+        "*X7"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X8",
+      "insert_handle": "508",
+      "root_handle": "508",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X8"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X9",
+      "insert_handle": "514",
+      "root_handle": "514",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X9"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X10",
+      "insert_handle": "51B",
+      "root_handle": "51B",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X10"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X11",
+      "insert_handle": "525",
+      "root_handle": "525",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X11"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X12",
+      "insert_handle": "528",
+      "root_handle": "528",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X12"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X13",
+      "insert_handle": "533",
+      "root_handle": "533",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X13"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X14",
+      "insert_handle": "534",
+      "root_handle": "534",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X14"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X15",
+      "insert_handle": "535",
+      "root_handle": "535",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X15"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X16",
+      "insert_handle": "59B",
+      "root_handle": "59B",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X16"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X17",
+      "insert_handle": "5A3",
+      "root_handle": "5A3",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X17"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X18",
+      "insert_handle": "5AB",
+      "root_handle": "5AB",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X18"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X19",
+      "insert_handle": "5B3",
+      "root_handle": "5B3",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X19"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X20",
+      "insert_handle": "5BB",
+      "root_handle": "5BB",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X20"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X21",
+      "insert_handle": "5BE",
+      "root_handle": "5BE",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X21"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X22",
+      "insert_handle": "5CB",
+      "root_handle": "5CB",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X22"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X23",
+      "insert_handle": "5CC",
+      "root_handle": "5CC",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X23"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X24",
+      "insert_handle": "5CD",
+      "root_handle": "5CD",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X24"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X25",
+      "insert_handle": "630",
+      "root_handle": "630",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X25"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X26",
+      "insert_handle": "633",
+      "root_handle": "633",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X26"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X27",
+      "insert_handle": "63F",
+      "root_handle": "63F",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X27"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X28",
+      "insert_handle": "646",
+      "root_handle": "646",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X28"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X29",
+      "insert_handle": "650",
+      "root_handle": "650",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X29"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X30",
+      "insert_handle": "653",
+      "root_handle": "653",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X30"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X31",
+      "insert_handle": "65E",
+      "root_handle": "65E",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X31"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X32",
+      "insert_handle": "65F",
+      "root_handle": "65F",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X32"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X33",
+      "insert_handle": "660",
+      "root_handle": "660",
+      "effective_layer": "015 Innenw\u00e4nde",
+      "depth": 0,
+      "block_path": [
+        "*X33"
+      ],
+      "expanded_children": 0,
+      "error": null
+    },
+    {
+      "block_name": "*X975",
+      "insert_handle": "189E",
+      "root_handle": "189E",
+      "effective_layer": "010 Fenster",
+      "depth": 0,
+      "block_path": [
+        "*X975"
+      ],
+      "expanded_children": 0,
+      "error": null
+    }
+  ],
+  "expanded_entity_types": {},
+  "expanded_effective_layers": {},
+  "expanded_entities_on_wall_layers": 0,
+  "expanded_entities_on_opening_layers": 0
+}

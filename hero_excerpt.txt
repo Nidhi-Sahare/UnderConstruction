@@ -1,0 +1,609 @@
+﻿=========== LINES 1-12 ===========
+1: 
+2: """
+3: Under-construction â€” Step 109
+4: Spatial Studio: Dark Edition
+5: 
+6: Run backend:
+7:     .\\.venv\\Scripts\\python.exe src\\cad_progress_api.py
+8: 
+9: Run dashboard:
+10:     .\\.venv\\Scripts\\python.exe src\\construction_dashboard.py
+11: 
+12: Open:
+=========== LINES 330-445 ===========
+330:   text-transform:uppercase;color:var(--violet)
+331: }
+332: .topbar{
+333:   height:72px;display:flex;align-items:center;
+334:   justify-content:space-between;padding:0 5%;
+335:   border-bottom:1px solid #292a34
+336: }
+337: .brand{display:flex;align-items:center;gap:12px;font-weight:750}
+338: .brand-mark{
+339:   width:36px;height:36px;border:2px dashed var(--violet);
+340:   border-radius:50%;display:grid;place-items:center;
+341:   color:var(--violet);font-size:20px
+342: }
+343: .nav-right{display:flex;gap:20px;align-items:center}
+344: .nav-right a{font-size:13px;color:#c8c5d2}
+345: .primary{
+346:   background:var(--violet);color:#17131f;
+347:   border:0;border-radius:9px;padding:12px 17px;
+348:   font-weight:700
+349: }
+350: .secondary{
+351:   background:transparent;color:var(--ink);
+352:   border:1px solid #646272;border-radius:9px;
+353:   padding:12px 17px
+354: }
+355: .primary:hover{background:#cab4ff}
+356: .secondary:hover{background:#272733}
+357: .hero{
+358:   min-height:580px;
+359:   display:grid;grid-template-columns:40% 60%;
+360:   align-items:center;padding:65px 5% 70px;
+361:   overflow:hidden;
+362:   background:
+363:     radial-gradient(ellipse at 82% 58%,#35232e 0%,transparent 43%),
+364:     radial-gradient(ellipse at 53% 38%,#25213a 0%,transparent 42%);
+365: }
+366: .hero-copy{position:relative;z-index:1}
+367: .hero h1{
+368:   font-size:clamp(49px,5.6vw,89px);
+369:   line-height:1.01;letter-spacing:-.065em;
+370:   font-weight:680;margin:23px 0
+371: }
+372: .hero h1 em{font-style:normal;color:var(--violet)}
+373: .hero p{
+374:   max-width:410px;color:#b9b6c5;
+375:   font-size:16px;line-height:1.75
+376: }
+377: .actions{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+378: .hero-art{
+379:   height:450px;position:relative;
+380:   display:grid;place-items:center;
+381:   perspective:1000px
+382: }
+383: .hero-grid{
+384:   position:absolute;inset:7%;
+385:   transform:rotateX(60deg) rotateZ(-30deg);
+386:   background-image:
+387:     linear-gradient(#6d618733 1px,transparent 1px),
+388:     linear-gradient(90deg,#6d618733 1px,transparent 1px);
+389:   background-size:32px 32px;
+390:   mask-image:radial-gradient(ellipse,#000 35%,transparent 75%)
+391: }
+392: .model{
+393:   position:relative;width:360px;height:320px;
+394:   transform-style:preserve-3d;
+395:   transform:rotateX(54deg) rotateZ(-38deg);
+396:   transition:transform .3s ease-out
+397: }
+398: .floor{
+399:   position:absolute;width:270px;height:195px;
+400:   left:45px;top:50px;
+401:   border:2px solid #c2adff;
+402:   background:linear-gradient(130deg,#9a76e42b,#f0784b18);
+403:   box-shadow:0 18px 42px #0005;
+404:   transform-style:preserve-3d
+405: }
+406: .floor:nth-child(1){transform:translateZ(0px)}
+407: .floor:nth-child(2){transform:translateZ(65px)}
+408: .floor:nth-child(3){transform:translateZ(130px)}
+409: .floor:nth-child(4){transform:translateZ(195px)}
+410: .floor:before{
+411:   content:"";position:absolute;
+412:   left:35%;top:0;height:100%;width:2px;
+413:   background:#b89affad
+414: }
+415: .floor:after{
+416:   content:"";position:absolute;
+417:   top:45%;left:0;width:100%;height:2px;
+418:   background:#f0784b99
+419: }
+420: .wall{
+421:   position:absolute;width:120px;height:65px;
+422:   border:2px solid #bda5ff;
+423:   background:#b89aff25;
+424:   transform-origin:bottom;
+425:   transform:rotateX(-90deg)
+426: }
+427: .wall.one{left:0;bottom:0}
+428: .wall.two{right:0;top:0;border-color:var(--orange)}
+429: .model-label{
+430:   position:absolute;right:3%;top:18%;
+431:   color:var(--violet);font-size:11px
+432: }
+433: .model-caption{
+434:   position:absolute;bottom:0;right:5%;
+435:   color:var(--muted);font-size:11px;
+436:   text-align:right;line-height:1.8
+437: }
+438: .hero-divider{
+439:   border-top:1px solid #34303c;
+440:   padding:14px 5%;display:flex;
+441:   justify-content:space-between;color:var(--muted);
+442:   font-size:11px
+443: }
+444: .workspace{
+445:   min-height:780px;
+=========== LINES 650-730 ===========
+650: }
+651: </style>
+652: </head>
+653: <body>
+654: 
+655: <header class="topbar">
+656:   <div class="brand">
+657:     <div class="brand-mark">â—’</div>
+658:     <span>under-construction</span>
+659:   </div>
+660:   <nav class="nav-right">
+661:     <a href="#studio">Workspace</a>
+662:     <a href="#studio" id="nav-samples">Samples</a>
+663:     <a href="#studio" class="primary">Get started â†’</a>
+664:   </nav>
+665: </header>
+666: 
+667: <section class="hero">
+668:   <div class="hero-copy">
+669:   <div class="eyebrow mono">
+670:     UNDER-CONSTRUCTION / FOLLOW THE BUILD
+671:   </div>
+672: 
+673:   <h1>
+674:     Be there<br>
+675:     as it <em>takes shape.</em>
+676:   </h1>
+677: 
+678:   <p>
+679:     Bring your floor plans and site walkthroughs together.
+680:     Explore the building, follow its progress, and see
+681:     how the plans take shape on site.
+682:   </p>
+683: 
+684:   <div class="actions">
+685:     <button class="primary" id="hero-sample">
+686:       Explore a sample â†’
+687:     </button>
+688: 
+689:     <button class="secondary" id="hero-own">
+690:       Start your project
+691:     </button>
+692:   </div>
+693: </div>
+694: 
+695:   <div class="hero-art" id="hero-art"
+696:        aria-label="Illustrative layered architectural model">
+697:     <div class="hero-grid"></div>
+698:     <div class="model" id="hero-model">
+699:       <div class="floor">
+700:         <div class="wall one"></div>
+701:         <div class="wall two"></div>
+702:       </div>
+703:       <div class="floor">
+704:         <div class="wall one"></div>
+705:         <div class="wall two"></div>
+706:       </div>
+707:       <div class="floor">
+708:         <div class="wall one"></div>
+709:         <div class="wall two"></div>
+710:       </div>
+711:       <div class="floor">
+712:         <div class="wall one"></div>
+713:         <div class="wall two"></div>
+714:       </div>
+715:     </div>
+716:     <div class="model-label mono">ILLUSTRATIVE / SPATIAL STUDY</div>
+717:     <div class="model-caption mono">
+718:       MOVE TO EXPLORE<br>
+719:       A BUILDING, NOT A CLAIM
+720:     </div>
+721:   </div>
+722: </section>
+723: 
+724: <div class="hero-divider mono">
+725:   <span>01 / THE IDEA</span>
+726:   <span>â†“ OPEN THE WORKSPACE</span>
+727: </div>
+728: 
+729: <section class="workspace" id="studio">
+730:   <aside class="sidebar">
+=========== LINES 1435-1470 ===========
+1435:   scrollToStudio();
+1436: }
+1437: 
+1438: 
+1439: function setupHero(){
+1440:   const art=$("hero-art");
+1441:   const model=$("hero-model");
+1442:   if(matchMedia("(prefers-reduced-motion:reduce)").matches){
+1443:     return;
+1444:   }
+1445: 
+1446:   art.addEventListener("pointermove",event=>{
+1447:     const r=art.getBoundingClientRect();
+1448:     const x=(event.clientX-r.left)/r.width-.5;
+1449:     const y=(event.clientY-r.top)/r.height-.5;
+1450:     model.style.transform=
+1451:       `rotateX(${54-y*13}deg) rotateZ(${-38+x*16}deg)`;
+1452:   });
+1453: 
+1454:   art.addEventListener("pointerleave",()=>{
+1455:     model.style.transform=
+1456:       "rotateX(54deg) rotateZ(-38deg)";
+1457:   });
+1458: }
+1459: 
+1460: function initialize(){
+1461:   setupHero();
+1462:   setupCAD();
+1463: 
+1464:   bindDrop("plan-drop","plan-input","plan");
+1465:   bindDrop("video-drop","video-input","video");
+1466: 
+1467:   $("hero-sample").onclick=openSampleOne;
+1468:   $("hero-own").onclick=showUpload;
+1469:   $("sample-one").onclick=openSampleOne;
+1470:   $("sample-two").onclick=openSampleTwo;
+=========== LINES 1495-1660 ===========
+1495: 
+1496: 
+1497: 
+1498: 
+1499: 
+1500: 
+1501: 
+1502: <!-- UC_STEP114_START -->
+1503: 
+1504: <style>
+1505: /* THE LIVING FLOOR PLAN */
+1506: 
+1507: .hero-art {
+1508:   position: relative !important;
+1509:   min-height: 590px;
+1510:   height: 590px;
+1511:   overflow: hidden !important;
+1512:   perspective: none !important;
+1513: }
+1514: 
+1515: .hero-art > :not(.living-stage) {
+1516:   display: none !important;
+1517: }
+1518: 
+1519: .living-stage {
+1520:   position: absolute;
+1521:   inset: 0;
+1522:   overflow: hidden;
+1523:   isolation: isolate;
+1524:   background:
+1525:     radial-gradient(
+1526:       ellipse at 52% 55%,
+1527:       rgba(133, 104, 184, .08),
+1528:       transparent 65%
+1529:     );
+1530: }
+1531: 
+1532: .living-stage canvas {
+1533:   position: absolute;
+1534:   inset: 0;
+1535:   display: block;
+1536:   width: 100%;
+1537:   height: 100%;
+1538: }
+1539: 
+1540: .living-card {
+1541:   position: absolute;
+1542:   z-index: 3;
+1543:   width: 166px;
+1544:   background: #1d1c24;
+1545:   border: 1px solid #6e617e;
+1546:   border-radius: 9px;
+1547:   padding: 7px;
+1548:   box-shadow: 0 14px 32px #0008;
+1549:   opacity: 0;
+1550:   transform: translateY(10px) scale(.96);
+1551:   transition:
+1552:     opacity .4s ease,
+1553:     transform .4s ease;
+1554:   pointer-events: none;
+1555: }
+1556: 
+1557: .living-card.active {
+1558:   opacity: 1;
+1559:   transform: translateY(0) scale(1);
+1560: }
+1561: 
+1562: .living-card-one {
+1563:   top: 12%;
+1564:   right: 5%;
+1565: }
+1566: 
+1567: .living-card-two {
+1568:   bottom: 16%;
+1569:   right: 3%;
+1570: }
+1571: 
+1572: .living-card-label {
+1573:   display: flex;
+1574:   justify-content: space-between;
+1575:   align-items: center;
+1576:   margin-bottom: 6px;
+1577:   color: #c7b7e7;
+1578:   font: 9px/1.4 Consolas, monospace;
+1579:   letter-spacing: .08em;
+1580: }
+1581: 
+1582: .living-card-label span:last-child {
+1583:   color: #ff9b68;
+1584: }
+1585: 
+1586: .living-card svg {
+1587:   width: 100%;
+1588:   display: block;
+1589:   border-radius: 4px;
+1590:   background: #34343a;
+1591: }
+1592: 
+1593: .living-caption {
+1594:   position: absolute;
+1595:   z-index: 3;
+1596:   bottom: 6%;
+1597:   left: 7%;
+1598:   color: #a99bbb;
+1599:   font: 10px/1.7 Consolas, monospace;
+1600:   letter-spacing: .1em;
+1601:   text-transform: uppercase;
+1602:   pointer-events: none;
+1603: }
+1604: 
+1605: .living-caption strong {
+1606:   color: #ff9b68;
+1607:   font-weight: normal;
+1608: }
+1609: 
+1610: .living-error {
+1611:   display: none;
+1612:   position: absolute;
+1613:   inset: 28% 10%;
+1614:   align-items: center;
+1615:   justify-content: center;
+1616:   text-align: center;
+1617:   color: #c9bce0;
+1618:   font: 13px/1.7 Consolas, monospace;
+1619: }
+1620: 
+1621: @media (max-width: 900px) {
+1622:   .hero-art {
+1623:     height: 450px;
+1624:     min-height: 450px;
+1625:   }
+1626: 
+1627:   .living-card {
+1628:     width: 135px;
+1629:   }
+1630: }
+1631: 
+1632: @media (max-width: 560px) {
+1633:   .hero-art {
+1634:     height: 330px;
+1635:     min-height: 330px;
+1636:   }
+1637: 
+1638:   .living-card {
+1639:     width: 100px;
+1640:     padding: 5px;
+1641:   }
+1642: 
+1643:   .living-card-label {
+1644:     font-size: 7px;
+1645:   }
+1646: 
+1647:   .living-caption {
+1648:     font-size: 8px;
+1649:   }
+1650: }
+1651: </style>
+1652: 
+1653: <script type="module">
+1654: import * as THREE from
+1655:   "https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.module.js";
+1656: 
+1657: const host = document.getElementById("hero-art");
+1658: 
+1659: if (host) {
+1660: 
+=========== LINES 1660-1760 ===========
+1660: 
+1661:   // Remove an existing scene if this script is injected again.
+1662:   host.querySelectorAll(".living-stage").forEach(
+1663:     el => el.remove()
+1664:   );
+1665: 
+1666:   const stage = document.createElement("div");
+1667:   stage.className = "living-stage";
+1668: 
+1669:   stage.innerHTML = `
+1670:     <div class="living-card living-card-one">
+1671:       <div class="living-card-label">
+1672:         <span>SITE VIEW / 01</span>
+1673:         <span>â—</span>
+1674:       </div>
+1675:       <svg viewBox="0 0 160 100" aria-hidden="true">
+1676:         <rect width="160" height="100" fill="#45444A"/>
+1677:         <polygon points="0,0 160,0 130,25 28,25"
+1678:                  fill="#77737A"/>
+1679:         <polygon points="0,100 160,100 129,72 28,72"
+1680:                  fill="#656167"/>
+1681:         <polygon points="0,0 28,25 28,72 0,100"
+1682:                  fill="#8C8585"/>
+1683:         <polygon points="160,0 130,25 130,72 160,100"
+1684:                  fill="#A29A96"/>
+1685:         <rect x="55" y="25" width="51" height="47"
+1686:               fill="#858083"/>
+1687:         <rect x="66" y="33" width="29" height="39"
+1688:               fill="#454149"/>
+1689:         <path d="M28 25V72M130 25V72
+1690:                  M0 100L28 72M160 100L130 72"
+1691:               stroke="#C0B4AA" stroke-width="3"/>
+1692:         <path d="M28 72L130 72"
+1693:               stroke="#D4C6B9" stroke-width="2"/>
+1694:         <path d="M42 100L69 72M118 100L94 72"
+1695:               stroke="#938B8A" stroke-width="1"/>
+1696:       </svg>
+1697:     </div>
+1698: 
+1699:     <div class="living-card living-card-two">
+1700:       <div class="living-card-label">
+1701:         <span>SITE VIEW / 02</span>
+1702:         <span>â—</span>
+1703:       </div>
+1704:       <svg viewBox="0 0 160 100" aria-hidden="true">
+1705:         <rect width="160" height="100" fill="#444249"/>
+1706:         <polygon points="0,0 160,0 160,32 0,32"
+1707:                  fill="#77737B"/>
+1708:         <polygon points="0,32 60,32 60,100 0,100"
+1709:                  fill="#9A9291"/>
+1710:         <polygon points="100,32 160,32 160,100 100,100"
+1711:                  fill="#79767B"/>
+1712:         <rect x="65" y="32" width="30" height="68"
+1713:               fill="#3A3841"/>
+1714:         <path d="M60 32V100M100 32V100"
+1715:               stroke="#C7B8B1" stroke-width="4"/>
+1716:         <path d="M0 86H160M0 95H160"
+1717:               stroke="#777078" stroke-width="2"/>
+1718:         <path d="M18 32V100M142 32V100"
+1719:               stroke="#B5A9A6" stroke-width="2"/>
+1720:       </svg>
+1721:     </div>
+1722: 
+1723:     <div class="living-caption">
+1724:       PLAN â†’ WALKTHROUGH â†’ <strong>EXPLORE</strong>
+1725:       <div>ILLUSTRATIVE SPATIAL STUDY</div>
+1726:     </div>
+1727: 
+1728:     <div class="living-error">
+1729:       3D animation unavailable.<br>
+1730:       Check your internet connection and refresh.
+1731:     </div>
+1732:   `;
+1733: 
+1734:   host.appendChild(stage);
+1735: 
+1736:   const cardOne = stage.querySelector(".living-card-one");
+1737:   const cardTwo = stage.querySelector(".living-card-two");
+1738: 
+1739:   let renderer;
+1740: 
+1741:   try {
+1742:     renderer = new THREE.WebGLRenderer({
+1743:       antialias: true,
+1744:       alpha: true,
+1745:       powerPreference: "default"
+1746:     });
+1747:   } catch (error) {
+1748:     stage.querySelector(".living-error").style.display = "flex";
+1749:     throw error;
+1750:   }
+1751: 
+1752:   renderer.setPixelRatio(
+1753:     Math.min(window.devicePixelRatio || 1, 1.5)
+1754:   );
+1755: 
+1756:   renderer.outputColorSpace = THREE.SRGBColorSpace;
+1757:   renderer.toneMapping = THREE.ACESFilmicToneMapping;
+1758:   renderer.toneMappingExposure = 1.18;
+1759: 
+1760:   stage.prepend(renderer.domElement);
+=========== LINES 2250-2340 ===========
+2250:         target *= 1-smooth(t-13);
+2251:       }
+2252: 
+2253:       wall.group.scale.y = Math.max(
+2254:         .001,target
+2255:       );
+2256:     });
+2257: 
+2258:     // Only one preview appears at a time.
+2259:     cardOne.classList.toggle(
+2260:       "active",
+2261:       progress>.08 && progress<.35
+2262:     );
+2263: 
+2264:     cardTwo.classList.toggle(
+2265:       "active",
+2266:       progress>.43 && progress<.92
+2267:     );
+2268: 
+2269:     // Gentle marker pulse.
+2270:     const pulse = reducedMotion
+2271:       ? 1
+2272:       : 1+.09*Math.sin(elapsed*4);
+2273: 
+2274:     ring.scale.set(
+2275:       pulse,pulse,pulse
+2276:     );
+2277: 
+2278:     renderer.render(scene,camera);
+2279: 
+2280:     if(!reducedMotion) {
+2281:       requestAnimationFrame(animate);
+2282:     }
+2283:   }
+2284: 
+2285:   // ------------------------------------------------
+2286:   // RESPONSIVE CAMERA
+2287:   // ------------------------------------------------
+2288: 
+2289:   function resize() {
+2290:     const width=stage.clientWidth;
+2291:     const height=stage.clientHeight;
+2292: 
+2293:     if(!width || !height) return;
+2294: 
+2295:     renderer.setSize(
+2296:       width,height,false
+2297:     );
+2298: 
+2299:     const aspect=width/height;
+2300:     const halfHeight=6.4;
+2301: 
+2302:     camera.left=-halfHeight*aspect;
+2303:     camera.right=halfHeight*aspect;
+2304:     camera.top=halfHeight;
+2305:     camera.bottom=-halfHeight;
+2306: 
+2307:     camera.updateProjectionMatrix();
+2308:   }
+2309: 
+2310:   const observer = new ResizeObserver(resize);
+2311:   observer.observe(stage);
+2312: 
+2313:   resize();
+2314:   animate();
+2315: }
+2316: </script>
+2317: 
+2318: <!-- UC_STEP114_END -->
+2319: 
+2320: </body>
+2321: </html>
+2322: """
+2323: 
+2324: 
+2325: @app.get("/")
+2326: def index():
+2327:     return Response(HTML, mimetype="text/html")
+2328: 
+2329: 
+2330: if __name__ == "__main__":
+2331:     print("\nUnder-construction â€” Step 109")
+2332:     print("Backend:", BACKEND)
+2333:     print(f"Dashboard: http://127.0.0.1:{PORT}")
+2334:     app.run(
+2335:         host="127.0.0.1",
+2336:         port=PORT,
+2337:         debug=False,
+2338:         use_reloader=False,
+2339:     )

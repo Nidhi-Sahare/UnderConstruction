@@ -1,0 +1,1254 @@
+{
+  "source_dxf": "data/floorplans/floor_2.dxf",
+  "source_matches": "floor_2_wall_opening_matches.json",
+  "units": "metres",
+  "method": "noded_CAD_edges_polygonization_with_thin_footprint_filter",
+  "geometry_status": "PROVISIONAL_CLOSED_CAD_REGIONS",
+  "wall_cuts_authorized": 0,
+  "input_wall_edge_count": 851,
+  "input_edge_layers": {
+    "015 Innenwände": 392,
+    "019 Vormauerungen": 72,
+    "010 Aussenwände": 323,
+    "016 Trennwände": 64
+  },
+  "skipped_curved_polylines": 0,
+  "closed_regions_found": 25,
+  "candidate_wall_footprint_count": 7,
+  "rejected_regions": {
+    "area_out_of_range": 18
+  },
+  "window_match_counts": {
+    "NO_CANDIDATE_FOOTPRINT": 57
+  },
+  "wall_footprints": [
+    {
+      "id": "WALL_0001",
+      "area_m2": 4.71,
+      "outline_xy": [
+        [
+          -15.30019,
+          18.45324
+        ],
+        [
+          -31.00019,
+          18.45324
+        ],
+        [
+          -31.00019,
+          18.75324
+        ],
+        [
+          -15.30019,
+          18.75324
+        ],
+        [
+          -15.30019,
+          18.75324
+        ]
+      ],
+      "holes_xy": [],
+      "status": "PROVISIONAL_WALL_FOOTPRINT"
+    },
+    {
+      "id": "WALL_0002",
+      "area_m2": 0.7425,
+      "outline_xy": [
+        [
+          -27.87519,
+          25.39824
+        ],
+        [
+          -27.86269,
+          25.39824
+        ],
+        [
+          -27.85019,
+          25.39824
+        ],
+        [
+          -27.73019,
+          25.39824
+        ],
+        [
+          -27.65274,
+          25.39824
+        ],
+        [
+          -27.65019,
+          25.39824
+        ],
+        [
+          -27.65019,
+          24.44824
+        ],
+        [
+          -27.65019,
+          22.09824
+        ],
+        [
+          -27.73019,
+          22.09824
+        ],
+        [
+          -27.85019,
+          22.09824
+        ],
+        [
+          -27.86269,
+          22.09824
+        ],
+        [
+          -27.87519,
+          22.09824
+        ],
+        [
+          -27.87519,
+          22.90824
+        ],
+        [
+          -27.87518,
+          22.90824
+        ],
+        [
+          -27.87518,
+          22.93824
+        ],
+        [
+          -27.87519,
+          22.93824
+        ],
+        [
+          -27.87519,
+          23.73324
+        ],
+        [
+          -27.87519,
+          23.76324
+        ],
+        [
+          -27.87519,
+          24.55823
+        ],
+        [
+          -27.87519,
+          24.58823
+        ]
+      ],
+      "holes_xy": [],
+      "status": "PROVISIONAL_WALL_FOOTPRINT"
+    },
+    {
+      "id": "WALL_0003",
+      "area_m2": 0.495,
+      "outline_xy": [
+        [
+          -30.55019,
+          25.39824
+        ],
+        [
+          -30.55019,
+          22.09824
+        ],
+        [
+          -30.56269,
+          22.09824
+        ],
+        [
+          -30.57519,
+          22.09824
+        ],
+        [
+          -30.65019,
+          22.09824
+        ],
+        [
+          -30.70019,
+          22.09824
+        ],
+        [
+          -30.70019,
+          25.39824
+        ],
+        [
+          -30.57064,
+          25.39824
+        ],
+        [
+          -30.56269,
+          25.39824
+        ]
+      ],
+      "holes_xy": [],
+      "status": "PROVISIONAL_WALL_FOOTPRINT"
+    },
+    {
+      "id": "WALL_0004",
+      "area_m2": 0.7425,
+      "outline_xy": [
+        [
+          -18.42519,
+          22.90824
+        ],
+        [
+          -18.42519,
+          22.09824
+        ],
+        [
+          -18.43769,
+          22.09824
+        ],
+        [
+          -18.45019,
+          22.09824
+        ],
+        [
+          -18.57019,
+          22.09824
+        ],
+        [
+          -18.65019,
+          22.09824
+        ],
+        [
+          -18.65019,
+          24.44824
+        ],
+        [
+          -18.65019,
+          25.39823
+        ],
+        [
+          -18.57019,
+          25.39823
+        ],
+        [
+          -18.45019,
+          25.39823
+        ],
+        [
+          -18.44147,
+          25.39823
+        ],
+        [
+          -18.43284,
+          25.39823
+        ],
+        [
+          -18.42519,
+          25.39823
+        ],
+        [
+          -18.42519,
+          24.58823
+        ],
+        [
+          -18.42519,
+          24.55823
+        ],
+        [
+          -18.42519,
+          23.76324
+        ],
+        [
+          -18.42519,
+          23.73324
+        ],
+        [
+          -18.42519,
+          22.93824
+        ],
+        [
+          -18.42521,
+          22.93824
+        ],
+        [
+          -18.42521,
+          22.90824
+        ]
+      ],
+      "holes_xy": [],
+      "status": "PROVISIONAL_WALL_FOOTPRINT"
+    },
+    {
+      "id": "WALL_0005",
+      "area_m2": 0.76499,
+      "outline_xy": [
+        [
+          -25.38769,
+          33.99324
+        ],
+        [
+          -25.37519,
+          33.99324
+        ],
+        [
+          -25.36269,
+          33.99324
+        ],
+        [
+          -25.28769,
+          33.99324
+        ],
+        [
+          -25.27519,
+          33.99324
+        ],
+        [
+          -25.26269,
+          33.99324
+        ],
+        [
+          -25.26269,
+          27.87334
+        ],
+        [
+          -25.27519,
+          27.87334
+        ],
+        [
+          -25.28769,
+          27.87334
+        ],
+        [
+          -25.36269,
+          27.87334
+        ],
+        [
+          -25.37519,
+          27.87334
+        ],
+        [
+          -25.38769,
+          27.87334
+        ]
+      ],
+      "holes_xy": [],
+      "status": "PROVISIONAL_WALL_FOOTPRINT"
+    },
+    {
+      "id": "WALL_0006",
+      "area_m2": 0.495,
+      "outline_xy": [
+        [
+          -15.60019,
+          22.09824
+        ],
+        [
+          -15.65019,
+          22.09824
+        ],
+        [
+          -15.72519,
+          22.09824
+        ],
+        [
+          -15.73769,
+          22.09824
+        ],
+        [
+          -15.75019,
+          22.09824
+        ],
+        [
+          -15.75019,
+          25.39823
+        ],
+        [
+          -15.74009,
+          25.39823
+        ],
+        [
+          -15.7337,
+          25.39823
+        ],
+        [
+          -15.72519,
+          25.39823
+        ],
+        [
+          -15.65019,
+          25.39823
+        ],
+        [
+          -15.60019,
+          25.39823
+        ],
+        [
+          -15.60019,
+          25.39823
+        ],
+        [
+          -15.60019,
+          22.09824
+        ]
+      ],
+      "holes_xy": [],
+      "status": "PROVISIONAL_WALL_FOOTPRINT"
+    },
+    {
+      "id": "WALL_0007",
+      "area_m2": 0.1,
+      "outline_xy": [
+        [
+          -25.27519,
+          27.87334
+        ],
+        [
+          -25.26269,
+          27.87334
+        ],
+        [
+          -24.92519,
+          27.87334
+        ],
+        [
+          -24.92519,
+          27.84834
+        ],
+        [
+          -24.92519,
+          27.77334
+        ],
+        [
+          -24.92519,
+          27.74834
+        ],
+        [
+          -25.72519,
+          27.74834
+        ],
+        [
+          -25.72519,
+          27.77334
+        ],
+        [
+          -25.72519,
+          27.84834
+        ],
+        [
+          -25.72519,
+          27.87334
+        ],
+        [
+          -25.38769,
+          27.87334
+        ],
+        [
+          -25.37519,
+          27.87334
+        ],
+        [
+          -25.36269,
+          27.87334
+        ],
+        [
+          -25.28769,
+          27.87334
+        ]
+      ],
+      "holes_xy": [],
+      "status": "PROVISIONAL_WALL_FOOTPRINT"
+    }
+  ],
+  "window_candidates": [
+    {
+      "id": "WINDOWS_002",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -16.9927,
+        34.29324
+      ],
+      "end": [
+        -18.4327,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_003",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -19.1677,
+        34.29324
+      ],
+      "end": [
+        -20.6077,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_004",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -21.3427,
+        34.29324
+      ],
+      "end": [
+        -22.7827,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_005",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -23.5177,
+        34.29324
+      ],
+      "end": [
+        -24.9577,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_006",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -25.6927,
+        34.29324
+      ],
+      "end": [
+        -27.1327,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_007",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -27.8677,
+        34.29324
+      ],
+      "end": [
+        -29.3077,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_008",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -30.0427,
+        34.29324
+      ],
+      "end": [
+        -31.4827,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_009",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -32.2177,
+        34.29324
+      ],
+      "end": [
+        -33.6577,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_010",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -34.3927,
+        34.29324
+      ],
+      "end": [
+        -35.8327,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_011",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -36.5677,
+        34.29324
+      ],
+      "end": [
+        -38.0077,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_012",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -38.7427,
+        34.29324
+      ],
+      "end": [
+        -40.1827,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_013",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -40.9177,
+        34.29324
+      ],
+      "end": [
+        -42.3577,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_014",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -43.0927,
+        34.29324
+      ],
+      "end": [
+        -44.5327,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_015",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -1.7677,
+        34.29324
+      ],
+      "end": [
+        -3.2077,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_016",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -3.9427,
+        34.29324
+      ],
+      "end": [
+        -5.3827,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_017",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -6.1177,
+        34.29324
+      ],
+      "end": [
+        -7.5577,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_018",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -8.2927,
+        34.29324
+      ],
+      "end": [
+        -9.7327,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_019",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -10.4677,
+        34.29324
+      ],
+      "end": [
+        -11.9077,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_020",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -12.6427,
+        34.29324
+      ],
+      "end": [
+        -14.0827,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_021",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -14.8177,
+        34.29324
+      ],
+      "end": [
+        -16.2577,
+        34.29324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_022",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -32.2177,
+        9.75324
+      ],
+      "end": [
+        -33.6577,
+        9.75324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_024",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -44.94519,
+        20.3057
+      ],
+      "end": [
+        -44.94519,
+        18.8657
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_025",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -44.94519,
+        22.4807
+      ],
+      "end": [
+        -44.94519,
+        21.0407
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_026",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -44.94519,
+        27.0932
+      ],
+      "end": [
+        -44.94519,
+        25.6532
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_027",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -44.94519,
+        31.7057
+      ],
+      "end": [
+        -44.94519,
+        30.2657
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_028",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -44.94519,
+        33.8807
+      ],
+      "end": [
+        -44.94519,
+        32.4407
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_029",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -1.35519,
+        20.3057
+      ],
+      "end": [
+        -1.35519,
+        18.8657
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_030",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -1.35519,
+        22.4807
+      ],
+      "end": [
+        -1.35519,
+        21.0407
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_031",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -1.35519,
+        27.0932
+      ],
+      "end": [
+        -1.35519,
+        25.6532
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_032",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -1.35519,
+        31.7057
+      ],
+      "end": [
+        -1.35519,
+        30.2657
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_033",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -1.35519,
+        33.8807
+      ],
+      "end": [
+        -1.35519,
+        32.4407
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_034",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -1.35519,
+        24.6557
+      ],
+      "end": [
+        -1.35519,
+        23.2157
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_035",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -1.35519,
+        29.5307
+      ],
+      "end": [
+        -1.35519,
+        28.0907
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_036",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -34.3927,
+        9.75324
+      ],
+      "end": [
+        -35.8327,
+        9.75324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_037",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -30.0427,
+        9.75324
+      ],
+      "end": [
+        -31.4827,
+        9.75324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_038",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -27.8677,
+        9.75324
+      ],
+      "end": [
+        -29.3077,
+        9.75324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_039",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -25.6927,
+        9.75324
+      ],
+      "end": [
+        -27.1327,
+        9.75324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_040",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -23.5177,
+        9.75324
+      ],
+      "end": [
+        -24.9577,
+        9.75324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_041",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -21.3427,
+        9.75324
+      ],
+      "end": [
+        -22.7827,
+        9.75324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_042",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -19.1677,
+        9.75324
+      ],
+      "end": [
+        -20.6077,
+        9.75324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_043",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -16.9927,
+        9.75324
+      ],
+      "end": [
+        -18.4327,
+        9.75324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_044",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -1.35519,
+        18.1307
+      ],
+      "end": [
+        -1.35519,
+        16.6907
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_045",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -1.35519,
+        15.9557
+      ],
+      "end": [
+        -1.35519,
+        14.5157
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_046",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -1.35519,
+        13.7807
+      ],
+      "end": [
+        -1.35519,
+        12.3407
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_047",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -1.35519,
+        11.6057
+      ],
+      "end": [
+        -1.35519,
+        10.1657
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_048",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -1.35519,
+        9.4307
+      ],
+      "end": [
+        -1.35519,
+        7.9907
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_049",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -1.35519,
+        7.2557
+      ],
+      "end": [
+        -1.35519,
+        5.8157
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_050",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -1.35519,
+        5.0807
+      ],
+      "end": [
+        -1.35519,
+        3.6407
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_051",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -1.35519,
+        2.9057
+      ],
+      "end": [
+        -1.35519,
+        1.4657
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_056",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -5.3827,
+        1.05324
+      ],
+      "end": [
+        -3.9427,
+        1.05324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_057",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -7.5577,
+        1.05324
+      ],
+      "end": [
+        -6.1177,
+        1.05324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_058",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -9.7327,
+        1.05324
+      ],
+      "end": [
+        -8.2927,
+        1.05324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_059",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -11.9077,
+        1.05324
+      ],
+      "end": [
+        -10.4677,
+        1.05324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_060",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -14.0827,
+        1.05324
+      ],
+      "end": [
+        -12.6427,
+        1.05324
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_061",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -16.02019,
+        2.9057
+      ],
+      "end": [
+        -16.02019,
+        1.4657
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_062",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -16.02019,
+        5.0807
+      ],
+      "end": [
+        -16.02019,
+        3.6407
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    },
+    {
+      "id": "WINDOWS_063",
+      "status": "NO_CANDIDATE_FOOTPRINT",
+      "start": [
+        -16.02019,
+        7.2557
+      ],
+      "end": [
+        -16.02019,
+        5.8157
+      ],
+      "candidate_footprint_ids": [],
+      "safe_to_cut": false
+    }
+  ]
+}

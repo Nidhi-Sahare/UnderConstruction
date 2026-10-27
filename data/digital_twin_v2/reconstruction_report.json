@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "source_selection_id": "SELECTION_982a1f863f7a4b6f",
+  "selected_wall_footprints": 48,
+  "excluded_alternatives": 12,
+  "selected_categories": {
+    "interior": 44,
+    "lining": 4
+  },
+  "exterior_reference_segments": 323,
+  "assumed_height_m": 3.0,
+  "geometry_status": "provisional_not_verified_BIM",
+  "exterior_representation": "source_CAD_wireframe_not_solid_walls",
+  "openings_modeled": false,
+  "floor_slab_modeled": false,
+  "progress_status_estimated": false,
+  "limitations": [
+    "Only selected footprints are solid.",
+    "Exterior wall thickness is not reconstructed.",
+    "Wall height is an explicit assumption.",
+    "Unmatched CAD chains remain unmodeled.",
+    "No site imagery is registered to this model.",
+    "No construction completion claims are made."
+  ]
+}

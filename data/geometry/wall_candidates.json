@@ -1,0 +1,1389 @@
+{
+  "schema_version": "wall-candidates-1.0",
+  "source_dxf": "C:\\Users\\Nidhi\\OneDrive\\Desktop\\BuildProgress\\data\\floorplans\\floor_2.dxf",
+  "coordinate_units": "meters",
+  "method": "layerwise_polygonization",
+  "curve_tolerance_m": 0.01,
+  "minimum_area_m2": 0.0001,
+  "source_tolerance_m": 1e-06,
+  "category_statistics": {
+    "exterior": {
+      "input_lines": 323,
+      "dangles": 260,
+      "cut_edges": 0,
+      "invalid_rings": 0,
+      "candidate_count": 0
+    },
+    "interior": {
+      "input_lines": 408,
+      "dangles": 456,
+      "cut_edges": 2,
+      "invalid_rings": 0,
+      "candidate_count": 8
+    },
+    "partition": {
+      "input_lines": 64,
+      "dangles": 70,
+      "cut_edges": 0,
+      "invalid_rings": 0,
+      "candidate_count": 2
+    },
+    "lining": {
+      "input_lines": 72,
+      "dangles": 32,
+      "cut_edges": 0,
+      "invalid_rings": 0,
+      "candidate_count": 4
+    }
+  },
+  "unsupported_entity_types": {
+    "INSERT": 30
+  },
+  "candidates": [
+    {
+      "category": "interior",
+      "area_m2": 4.71,
+      "perimeter_m": 32.0,
+      "bounds": [
+        -31.000193,
+        18.453236,
+        -15.300193,
+        18.753236
+      ],
+      "exterior": [
+        [
+          -15.300193,
+          18.453236
+        ],
+        [
+          -31.000193,
+          18.453236
+        ],
+        [
+          -31.000193,
+          18.753236
+        ],
+        [
+          -15.300193,
+          18.753236
+        ],
+        [
+          -15.300193,
+          18.753236
+        ],
+        [
+          -15.300193,
+          18.453236
+        ]
+      ],
+      "holes": [],
+      "sources": [
+        {
+          "handle": "46C",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "46D",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "46E",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "46F",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "470",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "4BA",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "4BB",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "4BC",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "4BD",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "4BE",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "CA",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "CB",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "CC",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "CD",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        }
+      ],
+      "status": "candidate_unverified",
+      "id": "WALL_CANDIDATE_00001"
+    },
+    {
+      "category": "interior",
+      "area_m2": 0.764988,
+      "perimeter_m": 12.4898,
+      "bounds": [
+        -25.387693,
+        27.873336,
+        -25.262693,
+        33.993236
+      ],
+      "exterior": [
+        [
+          -25.387693,
+          27.873336
+        ],
+        [
+          -25.387693,
+          33.993236
+        ],
+        [
+          -25.375193,
+          33.993236
+        ],
+        [
+          -25.362693,
+          33.993236
+        ],
+        [
+          -25.287693,
+          33.993236
+        ],
+        [
+          -25.275193,
+          33.993236
+        ],
+        [
+          -25.262693,
+          33.993236
+        ],
+        [
+          -25.262693,
+          27.873336
+        ],
+        [
+          -25.275193,
+          27.873336
+        ],
+        [
+          -25.287693,
+          27.873336
+        ],
+        [
+          -25.362693,
+          27.873336
+        ],
+        [
+          -25.375193,
+          27.873336
+        ],
+        [
+          -25.387693,
+          27.873336
+        ]
+      ],
+      "holes": [],
+      "sources": [
+        {
+          "handle": "5BF",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5C0",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5C1",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5C2",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5C3",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5C4",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5C5",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5C6",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5C7",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5C8",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5C9",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5CA",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5DE",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        }
+      ],
+      "status": "candidate_unverified",
+      "id": "WALL_CANDIDATE_00002"
+    },
+    {
+      "category": "interior",
+      "area_m2": 0.1,
+      "perimeter_m": 1.85,
+      "bounds": [
+        -25.725193,
+        27.748336,
+        -24.925193,
+        27.873336
+      ],
+      "exterior": [
+        [
+          -25.275193,
+          27.873336
+        ],
+        [
+          -25.262693,
+          27.873336
+        ],
+        [
+          -24.925193,
+          27.873336
+        ],
+        [
+          -24.925193,
+          27.848336
+        ],
+        [
+          -24.925193,
+          27.773336
+        ],
+        [
+          -24.925193,
+          27.748336
+        ],
+        [
+          -25.725193,
+          27.748336
+        ],
+        [
+          -25.725193,
+          27.773336
+        ],
+        [
+          -25.725193,
+          27.848336
+        ],
+        [
+          -25.725193,
+          27.873336
+        ],
+        [
+          -25.387693,
+          27.873336
+        ],
+        [
+          -25.375193,
+          27.873336
+        ],
+        [
+          -25.362693,
+          27.873336
+        ],
+        [
+          -25.287693,
+          27.873336
+        ],
+        [
+          -25.275193,
+          27.873336
+        ]
+      ],
+      "holes": [],
+      "sources": [
+        {
+          "handle": "5BF",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5C0",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5C1",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5C2",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5C3",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5C4",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5C5",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5CE",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "5CF",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "5D0",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "5D4",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "5D5",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "5D6",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "5DB",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "5DE",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        }
+      ],
+      "status": "candidate_unverified",
+      "id": "WALL_CANDIDATE_00003"
+    },
+    {
+      "category": "interior",
+      "area_m2": 0.012,
+      "perimeter_m": 1.629958,
+      "bounds": [
+        -23.617175,
+        27.858035,
+        -22.817193,
+        27.873336
+      ],
+      "exterior": [
+        [
+          -22.817193,
+          27.858035
+        ],
+        [
+          -23.617175,
+          27.858336
+        ],
+        [
+          -23.61717,
+          27.873336
+        ],
+        [
+          -22.817193,
+          27.873035
+        ],
+        [
+          -22.817193,
+          27.858035
+        ]
+      ],
+      "holes": [],
+      "sources": [
+        {
+          "handle": "61B",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "61C",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "61F",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "E39",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        }
+      ],
+      "status": "candidate_unverified",
+      "id": "WALL_CANDIDATE_00004"
+    },
+    {
+      "category": "interior",
+      "area_m2": 0.012,
+      "perimeter_m": 1.629965,
+      "bounds": [
+        -27.833178,
+        27.748082,
+        -27.033193,
+        27.763336
+      ],
+      "exterior": [
+        [
+          -27.833178,
+          27.763082
+        ],
+        [
+          -27.033193,
+          27.763336
+        ],
+        [
+          -27.033193,
+          27.748336
+        ],
+        [
+          -27.833173,
+          27.748082
+        ],
+        [
+          -27.833178,
+          27.763082
+        ]
+      ],
+      "holes": [],
+      "sources": [
+        {
+          "handle": "625",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "627",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "62D",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "E3B",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        }
+      ],
+      "status": "candidate_unverified",
+      "id": "WALL_CANDIDATE_00005"
+    },
+    {
+      "category": "interior",
+      "area_m2": 0.00648,
+      "perimeter_m": 0.894,
+      "bounds": [
+        -15.845178,
+        14.823236,
+        -15.830178,
+        15.255236
+      ],
+      "exterior": [
+        [
+          -15.830178,
+          15.255236
+        ],
+        [
+          -15.830178,
+          14.823236
+        ],
+        [
+          -15.845178,
+          14.823236
+        ],
+        [
+          -15.845178,
+          15.255236
+        ],
+        [
+          -15.830178,
+          15.255236
+        ]
+      ],
+      "holes": [],
+      "sources": [
+        {
+          "handle": "6AE",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "6AF",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "6B2",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "E44",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "E45",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        }
+      ],
+      "status": "candidate_unverified",
+      "id": "WALL_CANDIDATE_00006"
+    },
+    {
+      "category": "interior",
+      "area_m2": 0.006,
+      "perimeter_m": 0.346,
+      "bounds": [
+        -39.443188,
+        25.528236,
+        -39.395188,
+        25.653236
+      ],
+      "exterior": [
+        [
+          -39.443188,
+          25.653236
+        ],
+        [
+          -39.443188,
+          25.653236
+        ],
+        [
+          -39.395188,
+          25.653236
+        ],
+        [
+          -39.395188,
+          25.653236
+        ],
+        [
+          -39.395188,
+          25.638236
+        ],
+        [
+          -39.395188,
+          25.543236
+        ],
+        [
+          -39.395188,
+          25.528236
+        ],
+        [
+          -39.443188,
+          25.528236
+        ],
+        [
+          -39.443188,
+          25.638236
+        ],
+        [
+          -39.443188,
+          25.653236
+        ]
+      ],
+      "holes": [],
+      "sources": [
+        {
+          "handle": "582",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "584",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "586",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "587",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "588",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "589",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "58B",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "58C",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "E2E",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        }
+      ],
+      "status": "candidate_unverified",
+      "id": "WALL_CANDIDATE_00007"
+    },
+    {
+      "category": "interior",
+      "area_m2": 0.006,
+      "perimeter_m": 0.346,
+      "bounds": [
+        -15.845178,
+        15.255236,
+        -15.720178,
+        15.303236
+      ],
+      "exterior": [
+        [
+          -15.720178,
+          15.255236
+        ],
+        [
+          -15.720178,
+          15.255236
+        ],
+        [
+          -15.735178,
+          15.255236
+        ],
+        [
+          -15.845178,
+          15.255236
+        ],
+        [
+          -15.845178,
+          15.303236
+        ],
+        [
+          -15.735178,
+          15.303236
+        ],
+        [
+          -15.720178,
+          15.303236
+        ],
+        [
+          -15.720178,
+          15.303236
+        ],
+        [
+          -15.720178,
+          15.255236
+        ]
+      ],
+      "holes": [],
+      "sources": [
+        {
+          "handle": "6AD",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "6B0",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "6B1",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "6B2",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "6B4",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "6B5",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "6B7",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "6B8",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "E45",
+          "layer": "015 Innenw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        }
+      ],
+      "status": "candidate_unverified",
+      "id": "WALL_CANDIDATE_00008"
+    },
+    {
+      "category": "partition",
+      "area_m2": 0.001875,
+      "perimeter_m": 0.185,
+      "bounds": [
+        -29.190193,
+        22.098236,
+        -29.160193,
+        22.160736
+      ],
+      "exterior": [
+        [
+          -29.190193,
+          22.160736
+        ],
+        [
+          -29.160193,
+          22.160736
+        ],
+        [
+          -29.160193,
+          22.098236
+        ],
+        [
+          -29.190193,
+          22.098236
+        ],
+        [
+          -29.190193,
+          22.160736
+        ]
+      ],
+      "holes": [],
+      "sources": [
+        {
+          "handle": "2E5",
+          "layer": "016 Trennw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "2ED",
+          "layer": "016 Trennw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "2EE",
+          "layer": "016 Trennw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "2EF",
+          "layer": "016 Trennw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        }
+      ],
+      "status": "candidate_unverified",
+      "id": "WALL_CANDIDATE_00009"
+    },
+    {
+      "category": "partition",
+      "area_m2": 0.001875,
+      "perimeter_m": 0.185,
+      "bounds": [
+        -17.140193,
+        22.098236,
+        -17.110193,
+        22.160736
+      ],
+      "exterior": [
+        [
+          -17.140193,
+          22.160736
+        ],
+        [
+          -17.110193,
+          22.160736
+        ],
+        [
+          -17.110193,
+          22.098236
+        ],
+        [
+          -17.140193,
+          22.098236
+        ],
+        [
+          -17.140193,
+          22.160736
+        ]
+      ],
+      "holes": [],
+      "sources": [
+        {
+          "handle": "358",
+          "layer": "016 Trennw\u00e4nde",
+          "entity_type": "LINE"
+        },
+        {
+          "handle": "363",
+          "layer": "016 Trennw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "364",
+          "layer": "016 Trennw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "365",
+          "layer": "016 Trennw\u00e4nde",
+          "entity_type": "LWPOLYLINE"
+        }
+      ],
+      "status": "candidate_unverified",
+      "id": "WALL_CANDIDATE_00010"
+    },
+    {
+      "category": "lining",
+      "area_m2": 0.7425,
+      "perimeter_m": 7.049999,
+      "bounds": [
+        -27.875193,
+        22.098236,
+        -27.650193,
+        25.398236
+      ],
+      "exterior": [
+        [
+          -27.650193,
+          25.398236
+        ],
+        [
+          -27.650193,
+          22.098236
+        ],
+        [
+          -27.730193,
+          22.098236
+        ],
+        [
+          -27.850193,
+          22.098236
+        ],
+        [
+          -27.862693,
+          22.098236
+        ],
+        [
+          -27.875193,
+          22.098236
+        ],
+        [
+          -27.875193,
+          25.398236
+        ],
+        [
+          -27.862693,
+          25.398236
+        ],
+        [
+          -27.850193,
+          25.398236
+        ],
+        [
+          -27.730193,
+          25.398236
+        ],
+        [
+          -27.650193,
+          25.398236
+        ]
+      ],
+      "holes": [],
+      "sources": [
+        {
+          "handle": "100",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "101",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "102",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "103",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "104",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "FB",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "FC",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "FD",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "FE",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "FF",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        }
+      ],
+      "status": "candidate_unverified",
+      "id": "WALL_CANDIDATE_00011"
+    },
+    {
+      "category": "lining",
+      "area_m2": 0.495,
+      "perimeter_m": 6.9,
+      "bounds": [
+        -30.700193,
+        22.098236,
+        -30.550193,
+        25.398236
+      ],
+      "exterior": [
+        [
+          -30.550193,
+          25.398236
+        ],
+        [
+          -30.550193,
+          22.098236
+        ],
+        [
+          -30.562693,
+          22.098236
+        ],
+        [
+          -30.575193,
+          22.098236
+        ],
+        [
+          -30.650193,
+          22.098236
+        ],
+        [
+          -30.700193,
+          22.098236
+        ],
+        [
+          -30.700193,
+          25.398236
+        ],
+        [
+          -30.650193,
+          25.398236
+        ],
+        [
+          -30.575193,
+          25.398236
+        ],
+        [
+          -30.562693,
+          25.398236
+        ],
+        [
+          -30.550193,
+          25.398236
+        ]
+      ],
+      "holes": [],
+      "sources": [
+        {
+          "handle": "106",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "107",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "108",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "109",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "10A",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "10B",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "10C",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "10D",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "10E",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "10F",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        }
+      ],
+      "status": "candidate_unverified",
+      "id": "WALL_CANDIDATE_00012"
+    },
+    {
+      "category": "lining",
+      "area_m2": 0.7425,
+      "perimeter_m": 7.049996,
+      "bounds": [
+        -18.650193,
+        22.098236,
+        -18.425193,
+        25.398234
+      ],
+      "exterior": [
+        [
+          -18.425193,
+          25.398234
+        ],
+        [
+          -18.425193,
+          22.098236
+        ],
+        [
+          -18.437693,
+          22.098236
+        ],
+        [
+          -18.450193,
+          22.098236
+        ],
+        [
+          -18.570193,
+          22.098236
+        ],
+        [
+          -18.650193,
+          22.098236
+        ],
+        [
+          -18.650193,
+          25.398234
+        ],
+        [
+          -18.570193,
+          25.398234
+        ],
+        [
+          -18.450193,
+          25.398234
+        ],
+        [
+          -18.437693,
+          25.398234
+        ],
+        [
+          -18.425193,
+          25.398234
+        ]
+      ],
+      "holes": [],
+      "sources": [
+        {
+          "handle": "111",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "112",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "113",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "114",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "115",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "116",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "117",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "118",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "119",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "11A",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        }
+      ],
+      "status": "candidate_unverified",
+      "id": "WALL_CANDIDATE_00013"
+    },
+    {
+      "category": "lining",
+      "area_m2": 0.495,
+      "perimeter_m": 6.899995,
+      "bounds": [
+        -15.750193,
+        22.098236,
+        -15.600193,
+        25.398234
+      ],
+      "exterior": [
+        [
+          -15.600193,
+          25.398234
+        ],
+        [
+          -15.600193,
+          22.098236
+        ],
+        [
+          -15.650193,
+          22.098236
+        ],
+        [
+          -15.725193,
+          22.098236
+        ],
+        [
+          -15.737693,
+          22.098236
+        ],
+        [
+          -15.750193,
+          22.098236
+        ],
+        [
+          -15.750193,
+          25.398234
+        ],
+        [
+          -15.737693,
+          25.398234
+        ],
+        [
+          -15.725193,
+          25.398234
+        ],
+        [
+          -15.650193,
+          25.398234
+        ],
+        [
+          -15.600193,
+          25.398234
+        ]
+      ],
+      "holes": [],
+      "sources": [
+        {
+          "handle": "34A",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "34B",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "34C",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "34D",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "34E",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "34F",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "350",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "351",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "352",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        },
+        {
+          "handle": "353",
+          "layer": "019 Vormauerungen",
+          "entity_type": "LWPOLYLINE"
+        }
+      ],
+      "status": "candidate_unverified",
+      "id": "WALL_CANDIDATE_00014"
+    }
+  ]
+}

@@ -1,0 +1,3047 @@
+{
+  "step": "137_EXPERIMENTAL",
+  "units": "metres",
+  "source_dxf": "data/floorplans/floor_2.dxf",
+  "source_baseline": "floor_2_paired_wall_reconstruction.json",
+  "method": "connected_collinear_boundary_chains_followed_by_conservative_parallel_pairing",
+  "geometry_status": "EXPERIMENTAL_PROVISIONAL_CAD_WALLS",
+  "automatic_integration_approved": false,
+  "wall_cuts_authorized": 0,
+  "construction_progress_verified": false,
+  "parameters": {
+    "minimum_wall_length_m": 0.35,
+    "minimum_wall_thickness_m": 0.075,
+    "maximum_wall_thickness_m": 0.45,
+    "minimum_pair_overlap_m": 0.35,
+    "minimum_overlap_ratio": 0.65,
+    "merge_angle_degrees": 0.1,
+    "merge_line_distance_m": 0.003,
+    "merge_endpoint_gap_m": 0.005
+  },
+  "summary": {
+    "original_source_edges": 851,
+    "short_source_edges_retained": 515,
+    "merged_boundary_chains": 551,
+    "multi_edge_chains": 149,
+    "geometric_pair_candidates": 88,
+    "selected_wall_pairs": 58,
+    "selected_wall_layers": {
+      "015 Innenwände": 31,
+      "010 Aussenwände": 27
+    },
+    "baseline_wall_pairs": 77,
+    "baseline_total_wall_length_m": 109.531,
+    "experimental_total_wall_length_m": 83.861,
+    "pair_count_difference": -19,
+    "total_length_difference_m": -25.67
+  },
+  "walls": [
+    {
+      "id": "EXPERIMENTAL_WALL_0001",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "46C",
+        "46D",
+        "46E",
+        "46F",
+        "470",
+        "4BA",
+        "4BB",
+        "4BC",
+        "4BD",
+        "4BE",
+        "CA",
+        "CC"
+      ],
+      "source_edge_ids": [
+        "46C_0",
+        "46D_0",
+        "46E_0",
+        "46F_0",
+        "470_0",
+        "4BA_0",
+        "4BB_0",
+        "4BC_0",
+        "4BD_0",
+        "4BE_0",
+        "CA_0",
+        "CC_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00297",
+        "MERGED_EDGE_00299"
+      ],
+      "length_m": 15.7,
+      "thickness_m": 0.3,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -31.00019,
+        18.60324
+      ],
+      "centre_end": [
+        -15.30019,
+        18.60324
+      ],
+      "outline_xy": [
+        [
+          -31.00019,
+          18.45324
+        ],
+        [
+          -15.30019,
+          18.45324
+        ],
+        [
+          -15.30019,
+          18.75324
+        ],
+        [
+          -31.00019,
+          18.75324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0002",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "2D0",
+        "CF",
+        "D0"
+      ],
+      "source_edge_ids": [
+        "2D0_0",
+        "CF_0",
+        "D0_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00432",
+        "MERGED_EDGE_00434"
+      ],
+      "length_m": 6.25,
+      "thickness_m": 0.3,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -5.96769,
+        1.35324
+      ],
+      "centre_end": [
+        -5.96769,
+        7.60324
+      ],
+      "outline_xy": [
+        [
+          -6.11769,
+          1.35324
+        ],
+        [
+          -6.11769,
+          7.60324
+        ],
+        [
+          -5.81769,
+          7.60324
+        ],
+        [
+          -5.81769,
+          1.35324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0003",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "205",
+        "208",
+        "20B"
+      ],
+      "source_edge_ids": [
+        "205_0",
+        "208_0",
+        "20B_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00302",
+        "MERGED_EDGE_00304"
+      ],
+      "length_m": 3.05,
+      "thickness_m": 0.3,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -30.70019,
+        25.54824
+      ],
+      "centre_end": [
+        -27.65019,
+        25.54824
+      ],
+      "outline_xy": [
+        [
+          -30.70019,
+          25.69824
+        ],
+        [
+          -27.65019,
+          25.69824
+        ],
+        [
+          -27.65019,
+          25.39824
+        ],
+        [
+          -30.70019,
+          25.39824
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0004",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "287",
+        "288"
+      ],
+      "source_edge_ids": [
+        "287_0",
+        "288_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00389",
+        "MERGED_EDGE_00428"
+      ],
+      "length_m": 3.05,
+      "thickness_m": 0.3,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -18.65019,
+        25.54823
+      ],
+      "centre_end": [
+        -15.60019,
+        25.54823
+      ],
+      "outline_xy": [
+        [
+          -18.65019,
+          25.39823
+        ],
+        [
+          -15.60019,
+          25.39823
+        ],
+        [
+          -15.60019,
+          25.69823
+        ],
+        [
+          -18.65019,
+          25.69823
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0005",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "51C",
+        "51F"
+      ],
+      "source_edge_ids": [
+        "51C_0",
+        "51F_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00260",
+        "MERGED_EDGE_00274"
+      ],
+      "length_m": 3.04751,
+      "thickness_m": 0.125,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -44.64519,
+        22.54323
+      ],
+      "centre_end": [
+        -41.59769,
+        22.54323
+      ],
+      "outline_xy": [
+        [
+          -44.64519,
+          22.48073
+        ],
+        [
+          -41.59769,
+          22.48073
+        ],
+        [
+          -41.59769,
+          22.60573
+        ],
+        [
+          -44.64519,
+          22.60573
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0006",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "654",
+        "658"
+      ],
+      "source_edge_ids": [
+        "654_0",
+        "658_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00385",
+        "MERGED_EDGE_00401"
+      ],
+      "length_m": 2.8925,
+      "thickness_m": 0.125,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -18.73769,
+        13.16324
+      ],
+      "centre_end": [
+        -15.84519,
+        13.16324
+      ],
+      "outline_xy": [
+        [
+          -18.73769,
+          13.10074
+        ],
+        [
+          -15.84519,
+          13.10074
+        ],
+        [
+          -15.84519,
+          13.22574
+        ],
+        [
+          -18.73769,
+          13.22574
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0007",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "18E",
+        "18F",
+        "281"
+      ],
+      "source_edge_ids": [
+        "18E_0",
+        "18F_0",
+        "281_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00326",
+        "MERGED_EDGE_00351"
+      ],
+      "length_m": 2.8,
+      "thickness_m": 0.3,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -24.60019,
+        24.29824
+      ],
+      "centre_end": [
+        -21.80019,
+        24.29824
+      ],
+      "outline_xy": [
+        [
+          -24.60019,
+          24.44824
+        ],
+        [
+          -21.80019,
+          24.44824
+        ],
+        [
+          -21.80019,
+          24.14824
+        ],
+        [
+          -24.60019,
+          24.14824
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0008",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "5A4",
+        "5AA",
+        "5DA",
+        "5DF",
+        "627",
+        "62B",
+        "E3B",
+        "E3C"
+      ],
+      "source_edge_ids": [
+        "5A4_0",
+        "5AA_0",
+        "5DA_0",
+        "5DF_0",
+        "627_0",
+        "62B_0",
+        "E3B_0",
+        "E3B_2",
+        "E3C_1",
+        "E3C_3"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00316",
+        "MERGED_EDGE_00317"
+      ],
+      "length_m": 2.47657,
+      "thickness_m": 0.125,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -29.23778,
+        27.81072
+      ],
+      "centre_end": [
+        -26.7612,
+        27.81025
+      ],
+      "outline_xy": [
+        [
+          -29.23779,
+          27.74822
+        ],
+        [
+          -26.76122,
+          27.74775
+        ],
+        [
+          -26.76119,
+          27.87275
+        ],
+        [
+          -29.23776,
+          27.87322
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0009",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "CE",
+        "D5",
+        "D6"
+      ],
+      "source_edge_ids": [
+        "CE_0",
+        "D5_0",
+        "D6_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00433",
+        "MERGED_EDGE_00435"
+      ],
+      "length_m": 2.4625,
+      "thickness_m": 0.3,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -5.81769,
+        7.75324
+      ],
+      "centre_end": [
+        -3.35519,
+        7.75324
+      ],
+      "outline_xy": [
+        [
+          -5.81769,
+          7.90324
+        ],
+        [
+          -3.35519,
+          7.90324
+        ],
+        [
+          -3.35519,
+          7.60324
+        ],
+        [
+          -5.81769,
+          7.60324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0010",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "515",
+        "516",
+        "593",
+        "594",
+        "E32"
+      ],
+      "source_edge_ids": [
+        "515_0",
+        "516_0",
+        "593_0",
+        "594_0",
+        "E32_0",
+        "E32_2"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00291",
+        "MERGED_EDGE_00295"
+      ],
+      "length_m": 2.17251,
+      "thickness_m": 0.125,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -38.38769,
+        22.98073
+      ],
+      "centre_end": [
+        -38.38769,
+        25.15324
+      ],
+      "outline_xy": [
+        [
+          -38.45019,
+          22.98073
+        ],
+        [
+          -38.45019,
+          25.15324
+        ],
+        [
+          -38.32519,
+          25.15324
+        ],
+        [
+          -38.32519,
+          22.98073
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0011",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "640",
+        "641",
+        "6BF",
+        "6C0",
+        "E3F"
+      ],
+      "source_edge_ids": [
+        "640_0",
+        "641_0",
+        "6BF_0",
+        "6C0_0",
+        "E3F_0",
+        "E3F_2"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00390",
+        "MERGED_EDGE_00391"
+      ],
+      "length_m": 2.14251,
+      "thickness_m": 0.125,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -18.36269,
+        16.34074
+      ],
+      "centre_end": [
+        -16.22018,
+        16.34071
+      ],
+      "outline_xy": [
+        [
+          -18.36269,
+          16.27824
+        ],
+        [
+          -16.22018,
+          16.27821
+        ],
+        [
+          -16.22018,
+          16.40321
+        ],
+        [
+          -18.36269,
+          16.40324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0012",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "18B",
+        "18C",
+        "20D"
+      ],
+      "source_edge_ids": [
+        "18B_0",
+        "18C_0",
+        "20D_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00322",
+        "MERGED_EDGE_00323"
+      ],
+      "length_m": 2.05,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.95349,
+      "centre_start": [
+        -27.50019,
+        22.09824
+      ],
+      "centre_end": [
+        -27.50019,
+        24.14824
+      ],
+      "outline_xy": [
+        [
+          -27.65019,
+          22.09824
+        ],
+        [
+          -27.65019,
+          24.14824
+        ],
+        [
+          -27.35019,
+          24.14824
+        ],
+        [
+          -27.35019,
+          22.09824
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0013",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "634",
+        "639",
+        "66D",
+        "672",
+        "6C3",
+        "6C4",
+        "E3E",
+        "E41"
+      ],
+      "source_edge_ids": [
+        "634_0",
+        "639_0",
+        "66D_0",
+        "672_0",
+        "6C3_0",
+        "6C4_0",
+        "E3E_0",
+        "E3E_2",
+        "E41_0",
+        "E41_2"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00402",
+        "MERGED_EDGE_00422"
+      ],
+      "length_m": 1.72201,
+      "thickness_m": 0.125,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -15.78268,
+        10.05323
+      ],
+      "centre_end": [
+        -15.78268,
+        11.77524
+      ],
+      "outline_xy": [
+        [
+          -15.84518,
+          10.05323
+        ],
+        [
+          -15.84518,
+          11.77524
+        ],
+        [
+          -15.72018,
+          11.77524
+        ],
+        [
+          -15.72018,
+          10.05323
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0014",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "509",
+        "50E",
+        "542",
+        "547",
+        "597",
+        "598",
+        "E34",
+        "E36"
+      ],
+      "source_edge_ids": [
+        "509_0",
+        "50E_0",
+        "542_0",
+        "547_0",
+        "597_0",
+        "598_0",
+        "E34_0",
+        "E34_2",
+        "E36_0",
+        "E36_2"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00262",
+        "MERGED_EDGE_00264"
+      ],
+      "length_m": 1.72201,
+      "thickness_m": 0.125,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -44.64519,
+        25.59074
+      ],
+      "centre_end": [
+        -42.92319,
+        25.59074
+      ],
+      "outline_xy": [
+        [
+          -44.64519,
+          25.52824
+        ],
+        [
+          -42.92319,
+          25.52824
+        ],
+        [
+          -42.92319,
+          25.65324
+        ],
+        [
+          -44.64519,
+          25.65324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0015",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "218",
+        "21B"
+      ],
+      "source_edge_ids": [
+        "218_0",
+        "21B_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00375",
+        "MERGED_EDGE_00393"
+      ],
+      "length_m": 1.67,
+      "thickness_m": 0.3,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -18.65019,
+        21.94824
+      ],
+      "centre_end": [
+        -16.98019,
+        21.94824
+      ],
+      "outline_xy": [
+        [
+          -18.65019,
+          21.79824
+        ],
+        [
+          -16.98019,
+          21.79824
+        ],
+        [
+          -16.98019,
+          22.09824
+        ],
+        [
+          -18.65019,
+          22.09824
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0016",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "18A",
+        "19B",
+        "25C",
+        "25F"
+      ],
+      "source_edge_ids": [
+        "18A_0",
+        "19B_0",
+        "25C_0",
+        "25F_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00314",
+        "MERGED_EDGE_00321"
+      ],
+      "length_m": 1.67,
+      "thickness_m": 0.3,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -29.32019,
+        21.94824
+      ],
+      "centre_end": [
+        -27.65019,
+        21.94824
+      ],
+      "outline_xy": [
+        [
+          -29.32019,
+          21.79824
+        ],
+        [
+          -27.65019,
+          21.79824
+        ],
+        [
+          -27.65019,
+          22.09824
+        ],
+        [
+          -29.32019,
+          22.09824
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0017",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "5AC",
+        "5AD",
+        "5DC",
+        "620",
+        "E37",
+        "E39"
+      ],
+      "source_edge_ids": [
+        "5AC_0",
+        "5AD_0",
+        "5DC_0",
+        "620_0",
+        "E37_0",
+        "E39_3"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00352",
+        "MERGED_EDGE_00369"
+      ],
+      "length_m": 1.35649,
+      "thickness_m": 0.125,
+      "overlap_ratio": 0.99999,
+      "centre_start": [
+        -22.76919,
+        27.81042
+      ],
+      "centre_end": [
+        -21.4127,
+        27.81072
+      ],
+      "outline_xy": [
+        [
+          -22.76918,
+          27.74792
+        ],
+        [
+          -21.41269,
+          27.74822
+        ],
+        [
+          -21.41271,
+          27.87322
+        ],
+        [
+          -22.76921,
+          27.87292
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0018",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "66F",
+        "670",
+        "6AF",
+        "6B0",
+        "6B5",
+        "6B6",
+        "E44",
+        "E45"
+      ],
+      "source_edge_ids": [
+        "66F_0",
+        "670_0",
+        "6AF_0",
+        "6B0_0",
+        "6B5_0",
+        "6B6_0",
+        "E44_0",
+        "E44_2",
+        "E45_0",
+        "E45_2"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00411",
+        "MERGED_EDGE_00424"
+      ],
+      "length_m": 1.35198,
+      "thickness_m": 0.125,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -15.78268,
+        14.55124
+      ],
+      "centre_end": [
+        -15.78268,
+        15.90322
+      ],
+      "outline_xy": [
+        [
+          -15.84518,
+          14.55124
+        ],
+        [
+          -15.84518,
+          15.90322
+        ],
+        [
+          -15.72018,
+          15.90322
+        ],
+        [
+          -15.72018,
+          14.55124
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0019",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "544",
+        "545",
+        "584",
+        "585",
+        "58A",
+        "58B",
+        "E2E",
+        "E30"
+      ],
+      "source_edge_ids": [
+        "544_0",
+        "545_0",
+        "584_0",
+        "585_0",
+        "58A_0",
+        "58B_0",
+        "E2E_0",
+        "E2E_2",
+        "E30_0",
+        "E30_2"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00281",
+        "MERGED_EDGE_00282"
+      ],
+      "length_m": 1.322,
+      "thickness_m": 0.125,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -40.14719,
+        25.59074
+      ],
+      "centre_end": [
+        -38.82519,
+        25.59074
+      ],
+      "outline_xy": [
+        [
+          -40.14719,
+          25.52824
+        ],
+        [
+          -38.82519,
+          25.52824
+        ],
+        [
+          -38.82519,
+          25.65324
+        ],
+        [
+          -40.14719,
+          25.65324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0020",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "181E",
+        "181F",
+        "2CA",
+        "2DA"
+      ],
+      "source_edge_ids": [
+        "181E_0",
+        "181F_0",
+        "2CA_0",
+        "2DA_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00142",
+        "MERGED_EDGE_00155"
+      ],
+      "length_m": 1.2,
+      "thickness_m": 0.3,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -13.96269,
+        1.20324
+      ],
+      "centre_end": [
+        -12.76269,
+        1.20324
+      ],
+      "outline_xy": [
+        [
+          -13.96269,
+          1.35324
+        ],
+        [
+          -12.76269,
+          1.35324
+        ],
+        [
+          -12.76269,
+          1.05324
+        ],
+        [
+          -13.96269,
+          1.05324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0021",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "5C0",
+        "5C1",
+        "5C2",
+        "5C3",
+        "5C4",
+        "5DB",
+        "5DE"
+      ],
+      "source_edge_ids": [
+        "5C0_0",
+        "5C1_0",
+        "5C2_0",
+        "5C3_0",
+        "5C4_0",
+        "5DB_0",
+        "5DE_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00335",
+        "MERGED_EDGE_00337"
+      ],
+      "length_m": 0.8,
+      "thickness_m": 0.125,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -25.72519,
+        27.81084
+      ],
+      "centre_end": [
+        -24.92519,
+        27.81084
+      ],
+      "outline_xy": [
+        [
+          -25.72519,
+          27.74834
+        ],
+        [
+          -24.92519,
+          27.74834
+        ],
+        [
+          -24.92519,
+          27.87334
+        ],
+        [
+          -25.72519,
+          27.87334
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0022",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "5DD",
+        "61A",
+        "61C",
+        "E37",
+        "E39"
+      ],
+      "source_edge_ids": [
+        "5DD_0",
+        "61A_0",
+        "61C_0",
+        "E37_2",
+        "E39_1"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00354",
+        "MERGED_EDGE_00359"
+      ],
+      "length_m": 0.79998,
+      "thickness_m": 0.11015,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -23.61719,
+        27.81826
+      ],
+      "centre_end": [
+        -22.81721,
+        27.81826
+      ],
+      "outline_xy": [
+        [
+          -23.61719,
+          27.87334
+        ],
+        [
+          -22.81721,
+          27.87334
+        ],
+        [
+          -22.81721,
+          27.76319
+        ],
+        [
+          -23.61719,
+          27.76319
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0023",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "625",
+        "626"
+      ],
+      "source_edge_ids": [
+        "625_0",
+        "626_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00320",
+        "MERGED_EDGE_00329"
+      ],
+      "length_m": 0.79997,
+      "thickness_m": 0.095,
+      "overlap_ratio": 0.99998,
+      "centre_start": [
+        -27.83318,
+        27.81058
+      ],
+      "centre_end": [
+        -27.03321,
+        27.81084
+      ],
+      "outline_xy": [
+        [
+          -27.83316,
+          27.76308
+        ],
+        [
+          -27.03319,
+          27.76334
+        ],
+        [
+          -27.03322,
+          27.85834
+        ],
+        [
+          -27.83319,
+          27.85808
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0024",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "14DC",
+        "14DD",
+        "15E"
+      ],
+      "source_edge_ids": [
+        "14DC_0",
+        "14DD_0",
+        "15E_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00223",
+        "MERGED_EDGE_00255"
+      ],
+      "length_m": 0.8775,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.8797,
+      "centre_start": [
+        -1.50519,
+        28.21074
+      ],
+      "centre_end": [
+        -1.50519,
+        29.08824
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          28.21074
+        ],
+        [
+          -1.65519,
+          29.08824
+        ],
+        [
+          -1.35519,
+          29.08824
+        ],
+        [
+          -1.35519,
+          28.21074
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0025",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "145C",
+        "145D",
+        "161"
+      ],
+      "source_edge_ids": [
+        "145C_0",
+        "145D_0",
+        "161_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00221",
+        "MERGED_EDGE_00253"
+      ],
+      "length_m": 0.8775,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.8797,
+      "centre_start": [
+        -1.50519,
+        25.77324
+      ],
+      "centre_end": [
+        -1.50519,
+        26.65074
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          25.77324
+        ],
+        [
+          -1.65519,
+          26.65074
+        ],
+        [
+          -1.35519,
+          26.65074
+        ],
+        [
+          -1.35519,
+          25.77324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0026",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "198",
+        "19C"
+      ],
+      "source_edge_ids": [
+        "198_0",
+        "19C_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00338",
+        "MERGED_EDGE_00356"
+      ],
+      "length_m": 0.714,
+      "thickness_m": 0.2,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -24.60019,
+        21.89824
+      ],
+      "centre_end": [
+        -23.88619,
+        21.89824
+      ],
+      "outline_xy": [
+        [
+          -24.60019,
+          21.79824
+        ],
+        [
+          -23.88619,
+          21.79824
+        ],
+        [
+          -23.88619,
+          21.99824
+        ],
+        [
+          -24.60019,
+          21.99824
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0027",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "52E",
+        "52F",
+        "530",
+        "531",
+        "532",
+        "543",
+        "546"
+      ],
+      "source_edge_ids": [
+        "52E_0",
+        "52F_0",
+        "530_0",
+        "531_0",
+        "532_0",
+        "543_0",
+        "546_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00272",
+        "MERGED_EDGE_00279"
+      ],
+      "length_m": 0.704,
+      "thickness_m": 0.12502,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -41.88719,
+        25.59073
+      ],
+      "centre_end": [
+        -41.18319,
+        25.59073
+      ],
+      "outline_xy": [
+        [
+          -41.88719,
+          25.52822
+        ],
+        [
+          -41.18319,
+          25.52822
+        ],
+        [
+          -41.18319,
+          25.65324
+        ],
+        [
+          -41.88719,
+          25.65324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0028",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "659",
+        "65A",
+        "65B",
+        "65C",
+        "65D",
+        "66E",
+        "671"
+      ],
+      "source_edge_ids": [
+        "659_0",
+        "65A_0",
+        "65B_0",
+        "65C_0",
+        "65D_0",
+        "66E_0",
+        "671_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00400",
+        "MERGED_EDGE_00423"
+      ],
+      "length_m": 0.704,
+      "thickness_m": 0.12502,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -15.78269,
+        12.81124
+      ],
+      "centre_end": [
+        -15.78269,
+        13.51524
+      ],
+      "outline_xy": [
+        [
+          -15.84519,
+          12.81124
+        ],
+        [
+          -15.84519,
+          13.51524
+        ],
+        [
+          -15.72018,
+          13.51524
+        ],
+        [
+          -15.72018,
+          12.81124
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0029",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "190",
+        "197",
+        "19D",
+        "217"
+      ],
+      "source_edge_ids": [
+        "190_0",
+        "197_0",
+        "19D_0",
+        "217_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00363",
+        "MERGED_EDGE_00365"
+      ],
+      "length_m": 0.606,
+      "thickness_m": 0.2,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -22.40619,
+        21.89824
+      ],
+      "centre_end": [
+        -21.80019,
+        21.89824
+      ],
+      "outline_xy": [
+        [
+          -22.40619,
+          21.79824
+        ],
+        [
+          -21.80019,
+          21.79824
+        ],
+        [
+          -21.80019,
+          21.99824
+        ],
+        [
+          -22.40619,
+          21.99824
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0030",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "582",
+        "588",
+        "589"
+      ],
+      "source_edge_ids": [
+        "582_0",
+        "588_0",
+        "589_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00286",
+        "MERGED_EDGE_00288"
+      ],
+      "length_m": 0.57,
+      "thickness_m": 0.095,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -39.39519,
+        25.59074
+      ],
+      "centre_end": [
+        -38.82519,
+        25.59074
+      ],
+      "outline_xy": [
+        [
+          -39.39519,
+          25.63824
+        ],
+        [
+          -38.82519,
+          25.63824
+        ],
+        [
+          -38.82519,
+          25.54324
+        ],
+        [
+          -39.39519,
+          25.54324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0031",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "149C",
+        "149D",
+        "158"
+      ],
+      "source_edge_ids": [
+        "149C_0",
+        "149D_0",
+        "158_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00227",
+        "MERGED_EDGE_00259"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -1.50519,
+        32.56074
+      ],
+      "centre_end": [
+        -1.50519,
+        33.17574
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          32.56074
+        ],
+        [
+          -1.65519,
+          33.17574
+        ],
+        [
+          -1.35519,
+          33.17574
+        ],
+        [
+          -1.35519,
+          32.56074
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0032",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "147C",
+        "147D",
+        "15B"
+      ],
+      "source_edge_ids": [
+        "147C_0",
+        "147D_0",
+        "15B_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00225",
+        "MERGED_EDGE_00257"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -1.50519,
+        30.38574
+      ],
+      "centre_end": [
+        -1.50519,
+        31.00074
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          30.38574
+        ],
+        [
+          -1.65519,
+          31.00074
+        ],
+        [
+          -1.35519,
+          31.00074
+        ],
+        [
+          -1.35519,
+          30.38574
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0033",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "14BC",
+        "14BD",
+        "164"
+      ],
+      "source_edge_ids": [
+        "14BC_0",
+        "14BD_0",
+        "164_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00219",
+        "MERGED_EDGE_00251"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -1.50519,
+        23.33574
+      ],
+      "centre_end": [
+        -1.50519,
+        23.95074
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          23.33574
+        ],
+        [
+          -1.65519,
+          23.95074
+        ],
+        [
+          -1.35519,
+          23.95074
+        ],
+        [
+          -1.35519,
+          23.33574
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0034",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "143C",
+        "143D",
+        "167"
+      ],
+      "source_edge_ids": [
+        "143C_0",
+        "143D_0",
+        "167_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00217",
+        "MERGED_EDGE_00249"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -1.50519,
+        21.16074
+      ],
+      "centre_end": [
+        -1.50519,
+        21.77574
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          21.16074
+        ],
+        [
+          -1.65519,
+          21.77574
+        ],
+        [
+          -1.35519,
+          21.77574
+        ],
+        [
+          -1.35519,
+          21.16074
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0035",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "141C",
+        "141D",
+        "2A5"
+      ],
+      "source_edge_ids": [
+        "141C_0",
+        "141D_0",
+        "2A5_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00215",
+        "MERGED_EDGE_00247"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -1.50519,
+        18.98574
+      ],
+      "centre_end": [
+        -1.50519,
+        19.60074
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          18.98574
+        ],
+        [
+          -1.65519,
+          19.60074
+        ],
+        [
+          -1.35519,
+          19.60074
+        ],
+        [
+          -1.35519,
+          18.98574
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0036",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "163C",
+        "163D",
+        "2AE"
+      ],
+      "source_edge_ids": [
+        "163C_0",
+        "163D_0",
+        "2AE_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00209",
+        "MERGED_EDGE_00241"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -1.50519,
+        12.46074
+      ],
+      "centre_end": [
+        -1.50519,
+        13.07574
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          12.46074
+        ],
+        [
+          -1.65519,
+          13.07574
+        ],
+        [
+          -1.35519,
+          13.07574
+        ],
+        [
+          -1.35519,
+          12.46074
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0037",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "167C",
+        "167D",
+        "2B4"
+      ],
+      "source_edge_ids": [
+        "167C_0",
+        "167D_0",
+        "2B4_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00205",
+        "MERGED_EDGE_00237"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -1.50519,
+        8.11074
+      ],
+      "centre_end": [
+        -1.50519,
+        8.72574
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          8.11074
+        ],
+        [
+          -1.65519,
+          8.72574
+        ],
+        [
+          -1.35519,
+          8.72574
+        ],
+        [
+          -1.35519,
+          8.11074
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0038",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "165C",
+        "165D",
+        "2B1"
+      ],
+      "source_edge_ids": [
+        "165C_0",
+        "165D_0",
+        "2B1_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00207",
+        "MERGED_EDGE_00239"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -1.50519,
+        10.28574
+      ],
+      "centre_end": [
+        -1.50519,
+        10.90074
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          10.28574
+        ],
+        [
+          -1.65519,
+          10.90074
+        ],
+        [
+          -1.35519,
+          10.90074
+        ],
+        [
+          -1.35519,
+          10.28574
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0039",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "16BC",
+        "16BD",
+        "2BA"
+      ],
+      "source_edge_ids": [
+        "16BC_0",
+        "16BD_0",
+        "2BA_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00201",
+        "MERGED_EDGE_00233"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -1.50519,
+        3.76074
+      ],
+      "centre_end": [
+        -1.50519,
+        4.37574
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          3.76074
+        ],
+        [
+          -1.65519,
+          4.37574
+        ],
+        [
+          -1.35519,
+          4.37574
+        ],
+        [
+          -1.35519,
+          3.76074
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0040",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "169C",
+        "169D",
+        "2B7"
+      ],
+      "source_edge_ids": [
+        "169C_0",
+        "169D_0",
+        "2B7_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00203",
+        "MERGED_EDGE_00235"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -1.50519,
+        5.93574
+      ],
+      "centre_end": [
+        -1.50519,
+        6.55074
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          5.93574
+        ],
+        [
+          -1.65519,
+          6.55074
+        ],
+        [
+          -1.35519,
+          6.55074
+        ],
+        [
+          -1.35519,
+          5.93574
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0041",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "177C",
+        "177D",
+        "2CE"
+      ],
+      "source_edge_ids": [
+        "177C_0",
+        "177D_0",
+        "2CE_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00191",
+        "MERGED_EDGE_00193"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -3.08769,
+        1.20324
+      ],
+      "centre_end": [
+        -2.47269,
+        1.20324
+      ],
+      "outline_xy": [
+        [
+          -3.08769,
+          1.35324
+        ],
+        [
+          -2.47269,
+          1.35324
+        ],
+        [
+          -2.47269,
+          1.05324
+        ],
+        [
+          -3.08769,
+          1.05324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0042",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "17BE",
+        "17BF",
+        "2D4"
+      ],
+      "source_edge_ids": [
+        "17BE_0",
+        "17BF_0",
+        "2D4_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00176",
+        "MERGED_EDGE_00178"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -7.43769,
+        1.20324
+      ],
+      "centre_end": [
+        -6.82269,
+        1.20324
+      ],
+      "outline_xy": [
+        [
+          -7.43769,
+          1.35324
+        ],
+        [
+          -6.82269,
+          1.35324
+        ],
+        [
+          -6.82269,
+          1.05324
+        ],
+        [
+          -7.43769,
+          1.05324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0043",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "17DE",
+        "17DF",
+        "2D7"
+      ],
+      "source_edge_ids": [
+        "17DE_0",
+        "17DF_0",
+        "2D7_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00168",
+        "MERGED_EDGE_00170"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -9.61269,
+        1.20324
+      ],
+      "centre_end": [
+        -8.99769,
+        1.20324
+      ],
+      "outline_xy": [
+        [
+          -9.61269,
+          1.35324
+        ],
+        [
+          -8.99769,
+          1.35324
+        ],
+        [
+          -8.99769,
+          1.05324
+        ],
+        [
+          -9.61269,
+          1.05324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0044",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "161C",
+        "161D",
+        "2AB"
+      ],
+      "source_edge_ids": [
+        "161C_0",
+        "161D_0",
+        "2AB_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00211",
+        "MERGED_EDGE_00243"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -1.50519,
+        14.63574
+      ],
+      "centre_end": [
+        -1.50519,
+        15.25074
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          14.63574
+        ],
+        [
+          -1.65519,
+          15.25074
+        ],
+        [
+          -1.35519,
+          15.25074
+        ],
+        [
+          -1.35519,
+          14.63574
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0045",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "153C",
+        "153D",
+        "28D"
+      ],
+      "source_edge_ids": [
+        "153C_0",
+        "153D_0",
+        "28D_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00086",
+        "MERGED_EDGE_00088"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -29.18769,
+        9.90324
+      ],
+      "centre_end": [
+        -28.57269,
+        9.90324
+      ],
+      "outline_xy": [
+        [
+          -29.18769,
+          10.05324
+        ],
+        [
+          -28.57269,
+          10.05324
+        ],
+        [
+          -28.57269,
+          9.75324
+        ],
+        [
+          -29.18769,
+          9.75324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0046",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "151C",
+        "151D",
+        "28A"
+      ],
+      "source_edge_ids": [
+        "151C_0",
+        "151D_0",
+        "28A_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00078",
+        "MERGED_EDGE_00080"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -31.36269,
+        9.90324
+      ],
+      "centre_end": [
+        -30.74769,
+        9.90324
+      ],
+      "outline_xy": [
+        [
+          -31.36269,
+          10.05324
+        ],
+        [
+          -30.74769,
+          10.05324
+        ],
+        [
+          -30.74769,
+          9.75324
+        ],
+        [
+          -31.36269,
+          9.75324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0047",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "15BC",
+        "15BD",
+        "299"
+      ],
+      "source_edge_ids": [
+        "15BC_0",
+        "15BD_0",
+        "299_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00118",
+        "MERGED_EDGE_00120"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -20.48769,
+        9.90324
+      ],
+      "centre_end": [
+        -19.87269,
+        9.90324
+      ],
+      "outline_xy": [
+        [
+          -20.48769,
+          10.05324
+        ],
+        [
+          -19.87269,
+          10.05324
+        ],
+        [
+          -19.87269,
+          9.75324
+        ],
+        [
+          -20.48769,
+          9.75324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0048",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "15FC",
+        "15FD",
+        "2A8"
+      ],
+      "source_edge_ids": [
+        "15FC_0",
+        "15FD_0",
+        "2A8_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00213",
+        "MERGED_EDGE_00245"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -1.50519,
+        16.81074
+      ],
+      "centre_end": [
+        -1.50519,
+        17.42574
+      ],
+      "outline_xy": [
+        [
+          -1.65519,
+          16.81074
+        ],
+        [
+          -1.65519,
+          17.42574
+        ],
+        [
+          -1.35519,
+          17.42574
+        ],
+        [
+          -1.35519,
+          16.81074
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0049",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "155C",
+        "155D",
+        "290"
+      ],
+      "source_edge_ids": [
+        "155C_0",
+        "155D_0",
+        "290_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00094",
+        "MERGED_EDGE_00096"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -27.01269,
+        9.90324
+      ],
+      "centre_end": [
+        -26.39769,
+        9.90324
+      ],
+      "outline_xy": [
+        [
+          -27.01269,
+          10.05324
+        ],
+        [
+          -26.39769,
+          10.05324
+        ],
+        [
+          -26.39769,
+          9.75324
+        ],
+        [
+          -27.01269,
+          9.75324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0050",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "157C",
+        "157D",
+        "293"
+      ],
+      "source_edge_ids": [
+        "157C_0",
+        "157D_0",
+        "293_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00102",
+        "MERGED_EDGE_00104"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -24.83769,
+        9.90324
+      ],
+      "centre_end": [
+        -24.22269,
+        9.90324
+      ],
+      "outline_xy": [
+        [
+          -24.83769,
+          10.05324
+        ],
+        [
+          -24.22269,
+          10.05324
+        ],
+        [
+          -24.22269,
+          9.75324
+        ],
+        [
+          -24.83769,
+          9.75324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0051",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "159C",
+        "159D",
+        "296"
+      ],
+      "source_edge_ids": [
+        "159C_0",
+        "159D_0",
+        "296_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00110",
+        "MERGED_EDGE_00112"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -22.66269,
+        9.90324
+      ],
+      "centre_end": [
+        -22.04769,
+        9.90324
+      ],
+      "outline_xy": [
+        [
+          -22.66269,
+          10.05324
+        ],
+        [
+          -22.04769,
+          10.05324
+        ],
+        [
+          -22.04769,
+          9.75324
+        ],
+        [
+          -22.66269,
+          9.75324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0052",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "15DC",
+        "15DD",
+        "29C"
+      ],
+      "source_edge_ids": [
+        "15DC_0",
+        "15DD_0",
+        "29C_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00126",
+        "MERGED_EDGE_00128"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -18.31269,
+        9.90324
+      ],
+      "centre_end": [
+        -17.69769,
+        9.90324
+      ],
+      "outline_xy": [
+        [
+          -18.31269,
+          10.05324
+        ],
+        [
+          -17.69769,
+          10.05324
+        ],
+        [
+          -17.69769,
+          9.75324
+        ],
+        [
+          -18.31269,
+          9.75324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0053",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "133C",
+        "133D",
+        "172"
+      ],
+      "source_edge_ids": [
+        "133C_0",
+        "133D_0",
+        "172_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00070",
+        "MERGED_EDGE_00072"
+      ],
+      "length_m": 0.615,
+      "thickness_m": 0.3,
+      "overlap_ratio": 0.83673,
+      "centre_start": [
+        -33.53769,
+        9.90324
+      ],
+      "centre_end": [
+        -32.92269,
+        9.90324
+      ],
+      "outline_xy": [
+        [
+          -33.53769,
+          10.05324
+        ],
+        [
+          -32.92269,
+          10.05324
+        ],
+        [
+          -32.92269,
+          9.75324
+        ],
+        [
+          -33.53769,
+          9.75324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0054",
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "2DC",
+        "2DE"
+      ],
+      "source_edge_ids": [
+        "2DC_0",
+        "2DE_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00059",
+        "MERGED_EDGE_00063"
+      ],
+      "length_m": 0.48171,
+      "thickness_m": 0.3,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -36.3143,
+        9.90359
+      ],
+      "centre_end": [
+        -35.83258,
+        9.90324
+      ],
+      "outline_xy": [
+        [
+          -36.31441,
+          9.75359
+        ],
+        [
+          -35.83269,
+          9.75324
+        ],
+        [
+          -35.83248,
+          10.05324
+        ],
+        [
+          -36.31419,
+          10.05359
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0055",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "595",
+        "596"
+      ],
+      "source_edge_ids": [
+        "595_0",
+        "596_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00267",
+        "MERGED_EDGE_00268"
+      ],
+      "length_m": 0.432,
+      "thickness_m": 0.095,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -43.62719,
+        25.59074
+      ],
+      "centre_end": [
+        -43.19519,
+        25.59074
+      ],
+      "outline_xy": [
+        [
+          -43.62719,
+          25.54324
+        ],
+        [
+          -43.19519,
+          25.54324
+        ],
+        [
+          -43.19519,
+          25.63824
+        ],
+        [
+          -43.62719,
+          25.63824
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0056",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "6C1",
+        "6C2"
+      ],
+      "source_edge_ids": [
+        "6C1_0",
+        "6C2_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00414",
+        "MERGED_EDGE_00419"
+      ],
+      "length_m": 0.432,
+      "thickness_m": 0.095,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -15.78268,
+        11.50324
+      ],
+      "centre_end": [
+        -15.78268,
+        11.07124
+      ],
+      "outline_xy": [
+        [
+          -15.83018,
+          11.50324
+        ],
+        [
+          -15.83018,
+          11.07124
+        ],
+        [
+          -15.73518,
+          11.07124
+        ],
+        [
+          -15.73518,
+          11.50324
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0057",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "6AD",
+        "6AE"
+      ],
+      "source_edge_ids": [
+        "6AD_0",
+        "6AE_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00415",
+        "MERGED_EDGE_00420"
+      ],
+      "length_m": 0.432,
+      "thickness_m": 0.095,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -15.78268,
+        15.25524
+      ],
+      "centre_end": [
+        -15.78268,
+        14.82324
+      ],
+      "outline_xy": [
+        [
+          -15.83018,
+          15.25524
+        ],
+        [
+          -15.83018,
+          14.82324
+        ],
+        [
+          -15.73518,
+          14.82324
+        ],
+        [
+          -15.73518,
+          15.25524
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    },
+    {
+      "id": "EXPERIMENTAL_WALL_0058",
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "6BD",
+        "6BE"
+      ],
+      "source_edge_ids": [
+        "6BD_0",
+        "6BE_0"
+      ],
+      "merged_boundary_ids": [
+        "MERGED_EDGE_00396",
+        "MERGED_EDGE_00397"
+      ],
+      "length_m": 0.377,
+      "thickness_m": 0.095,
+      "overlap_ratio": 1.0,
+      "centre_start": [
+        -16.59718,
+        16.34072
+      ],
+      "centre_end": [
+        -16.22018,
+        16.34072
+      ],
+      "outline_xy": [
+        [
+          -16.59718,
+          16.29322
+        ],
+        [
+          -16.22018,
+          16.29322
+        ],
+        [
+          -16.22018,
+          16.38822
+        ],
+        [
+          -16.59718,
+          16.38822
+        ]
+      ],
+      "status": "EXPERIMENTAL_PROVISIONAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false
+    }
+  ],
+  "warning": "These are provisional CAD boundary interpretations. Increased wall length does not establish correctness. No wall cuts, heights, or construction progress have been verified."
+}

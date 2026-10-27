@@ -1,0 +1,332 @@
+{
+  "file": "C:\\Users\\Nidhi\\OneDrive\\Desktop\\BuildProgress\\data\\floorplans\\floor_2.dxf",
+  "dxf_version": "AC1021",
+  "units_code": 6,
+  "units_name": "Meters",
+  "layers": [
+    {
+      "name": "0",
+      "color": 7,
+      "is_off": false,
+      "is_frozen": true
+    },
+    {
+      "name": "010 Aussenwände",
+      "color": 7,
+      "is_off": false,
+      "is_frozen": false
+    },
+    {
+      "name": "010 Fenster",
+      "color": 7,
+      "is_off": false,
+      "is_frozen": false
+    },
+    {
+      "name": "010 Türen",
+      "color": 7,
+      "is_off": false,
+      "is_frozen": false
+    },
+    {
+      "name": "011 Fassadensystem",
+      "color": 7,
+      "is_off": false,
+      "is_frozen": false
+    },
+    {
+      "name": "012 Vorhangfassade",
+      "color": 7,
+      "is_off": false,
+      "is_frozen": false
+    },
+    {
+      "name": "015 Innenwände",
+      "color": 7,
+      "is_off": false,
+      "is_frozen": false
+    },
+    {
+      "name": "016 Trennwände",
+      "color": 7,
+      "is_off": false,
+      "is_frozen": false
+    },
+    {
+      "name": "019 Vormauerungen",
+      "color": 7,
+      "is_off": false,
+      "is_frozen": false
+    },
+    {
+      "name": "020 Stützen",
+      "color": 7,
+      "is_off": false,
+      "is_frozen": false
+    },
+    {
+      "name": "Defpoints",
+      "color": 7,
+      "is_off": false,
+      "is_frozen": false
+    }
+  ],
+  "entities": {
+    "entity_types": {
+      "LWPOLYLINE": 2592,
+      "LINE": 3140,
+      "ARC": 48,
+      "MTEXT": 290,
+      "INSERT": 31
+    },
+    "entities_per_layer": {
+      "015 Innenwände": 400,
+      "010 Türen": 820,
+      "019 Vormauerungen": 76,
+      "010 Aussenwände": 323,
+      "016 Trennwände": 64,
+      "020 Stützen": 5,
+      "012 Vorhangfassade": 252,
+      "011 Fassadensystem": 2268,
+      "010 Fenster": 1893
+    },
+    "examples": [
+      {
+        "type": "LWPOLYLINE",
+        "layer": "015 Innenwände",
+        "handle": "CA"
+      },
+      {
+        "type": "LWPOLYLINE",
+        "layer": "015 Innenwände",
+        "handle": "CB"
+      },
+      {
+        "type": "LWPOLYLINE",
+        "layer": "015 Innenwände",
+        "handle": "CC"
+      },
+      {
+        "type": "LWPOLYLINE",
+        "layer": "015 Innenwände",
+        "handle": "CD"
+      },
+      {
+        "type": "LWPOLYLINE",
+        "layer": "015 Innenwände",
+        "handle": "CE"
+      },
+      {
+        "type": "LWPOLYLINE",
+        "layer": "015 Innenwände",
+        "handle": "CF"
+      },
+      {
+        "type": "LWPOLYLINE",
+        "layer": "015 Innenwände",
+        "handle": "D0"
+      },
+      {
+        "type": "LINE",
+        "layer": "015 Innenwände",
+        "handle": "D1"
+      },
+      {
+        "type": "LINE",
+        "layer": "015 Innenwände",
+        "handle": "D2"
+      },
+      {
+        "type": "LINE",
+        "layer": "015 Innenwände",
+        "handle": "D3"
+      },
+      {
+        "type": "LINE",
+        "layer": "015 Innenwände",
+        "handle": "D4"
+      },
+      {
+        "type": "LWPOLYLINE",
+        "layer": "015 Innenwände",
+        "handle": "D5"
+      }
+    ],
+    "total_entities": 6101
+  },
+  "blocks": [
+    {
+      "name": "*Model_Space",
+      "entity_count": 6101
+    },
+    {
+      "name": "*Paper_Space",
+      "entity_count": 0
+    },
+    {
+      "name": "*X0",
+      "entity_count": 0
+    },
+    {
+      "name": "*X1",
+      "entity_count": 0
+    },
+    {
+      "name": "*X2",
+      "entity_count": 0
+    },
+    {
+      "name": "*X3",
+      "entity_count": 0
+    },
+    {
+      "name": "*X4",
+      "entity_count": 0
+    },
+    {
+      "name": "*X5",
+      "entity_count": 0
+    },
+    {
+      "name": "*X6",
+      "entity_count": 0
+    },
+    {
+      "name": "*X7",
+      "entity_count": 0
+    },
+    {
+      "name": "*X8",
+      "entity_count": 0
+    },
+    {
+      "name": "*X9",
+      "entity_count": 0
+    },
+    {
+      "name": "*X10",
+      "entity_count": 0
+    },
+    {
+      "name": "*X11",
+      "entity_count": 0
+    },
+    {
+      "name": "*X12",
+      "entity_count": 0
+    },
+    {
+      "name": "*X13",
+      "entity_count": 0
+    },
+    {
+      "name": "*X14",
+      "entity_count": 0
+    },
+    {
+      "name": "*X15",
+      "entity_count": 0
+    },
+    {
+      "name": "*X16",
+      "entity_count": 0
+    },
+    {
+      "name": "*X17",
+      "entity_count": 0
+    },
+    {
+      "name": "*X18",
+      "entity_count": 0
+    },
+    {
+      "name": "*X19",
+      "entity_count": 0
+    },
+    {
+      "name": "*X20",
+      "entity_count": 0
+    },
+    {
+      "name": "*X21",
+      "entity_count": 0
+    },
+    {
+      "name": "*X22",
+      "entity_count": 0
+    },
+    {
+      "name": "*X23",
+      "entity_count": 0
+    },
+    {
+      "name": "*X24",
+      "entity_count": 0
+    },
+    {
+      "name": "*X25",
+      "entity_count": 0
+    },
+    {
+      "name": "*X26",
+      "entity_count": 0
+    },
+    {
+      "name": "*X27",
+      "entity_count": 0
+    },
+    {
+      "name": "*X28",
+      "entity_count": 0
+    },
+    {
+      "name": "*X29",
+      "entity_count": 0
+    },
+    {
+      "name": "*X30",
+      "entity_count": 0
+    },
+    {
+      "name": "*X31",
+      "entity_count": 0
+    },
+    {
+      "name": "*X32",
+      "entity_count": 0
+    },
+    {
+      "name": "*X33",
+      "entity_count": 0
+    },
+    {
+      "name": "ARROWHEAD_6",
+      "entity_count": 2
+    },
+    {
+      "name": "ARROWHEAD_5",
+      "entity_count": 2
+    },
+    {
+      "name": "*X975",
+      "entity_count": 0
+    }
+  ],
+  "bounds": {
+    "minimum": [
+      -45.61376446727044,
+      0.3724140940860405,
+      0.0
+    ],
+    "maximum": [
+      -0.6743711458470301,
+      34.96180748718687,
+      0.0
+    ],
+    "size": [
+      44.93939332142341,
+      34.58939339310083,
+      0.0
+    ]
+  }
+}

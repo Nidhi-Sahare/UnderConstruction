@@ -1,0 +1,5366 @@
+{
+  "schema_version": "1.0",
+  "floor": 1,
+  "source": "Hilti reference trajectory",
+  "source_file": "data/hilti_groundtruth/floor_1.txt",
+  "source_header": [
+    "# timestamp tx ty tz qx qy qz qw"
+  ],
+  "reference_rows": 3923,
+  "reference_columns": 8,
+  "timestamp_unit": "seconds",
+  "selected_camera_clock": "camera_header",
+  "clock_scores": {
+    "camera_header": {
+      "median_error_seconds": 0.0,
+      "maximum_error_seconds": 3.2032060000001366,
+      "matched_count": 262
+    },
+    "rosbag_timestamp": {
+      "median_error_seconds": 0.0,
+      "maximum_error_seconds": 3.2032060000001366,
+      "matched_count": 262
+    }
+  },
+  "maximum_allowed_match_error_seconds": 0.1,
+  "total_frames": 270,
+  "matched_frames": 262,
+  "unmatched_frames": 8,
+  "coordinate_system": {
+    "reference": "Hilti trajectory reference frame",
+    "cad_registered": false,
+    "horizontal_axes_verified": false,
+    "camera_extrinsics_applied": false,
+    "construction_progress_verified": false
+  },
+  "samples": [
+    {
+      "frame_index": 0,
+      "filename": "frame_0001.jpg",
+      "time_seconds": 0.0,
+      "camera_timestamp_ns": 10000000000000,
+      "pose_available": false,
+      "pose_timestamp_seconds": null,
+      "time_error_seconds": 3.203206,
+      "position": null,
+      "orientation_xyzw": null
+    },
+    {
+      "frame_index": 1,
+      "filename": "frame_0002.jpg",
+      "time_seconds": 0.500543,
+      "camera_timestamp_ns": 10000500543000,
+      "pose_available": false,
+      "pose_timestamp_seconds": null,
+      "time_error_seconds": 2.702663,
+      "position": null,
+      "orientation_xyzw": null
+    },
+    {
+      "frame_index": 2,
+      "filename": "frame_0003.jpg",
+      "time_seconds": 1.001021,
+      "camera_timestamp_ns": 10001001021000,
+      "pose_available": false,
+      "pose_timestamp_seconds": null,
+      "time_error_seconds": 2.202185,
+      "position": null,
+      "orientation_xyzw": null
+    },
+    {
+      "frame_index": 3,
+      "filename": "frame_0004.jpg",
+      "time_seconds": 1.501519,
+      "camera_timestamp_ns": 10001501519000,
+      "pose_available": false,
+      "pose_timestamp_seconds": null,
+      "time_error_seconds": 1.701687,
+      "position": null,
+      "orientation_xyzw": null
+    },
+    {
+      "frame_index": 4,
+      "filename": "frame_0005.jpg",
+      "time_seconds": 2.002014,
+      "camera_timestamp_ns": 10002002014000,
+      "pose_available": false,
+      "pose_timestamp_seconds": null,
+      "time_error_seconds": 1.201192,
+      "position": null,
+      "orientation_xyzw": null
+    },
+    {
+      "frame_index": 5,
+      "filename": "frame_0006.jpg",
+      "time_seconds": 2.502515,
+      "camera_timestamp_ns": 10002502515000,
+      "pose_available": false,
+      "pose_timestamp_seconds": null,
+      "time_error_seconds": 0.700691,
+      "position": null,
+      "orientation_xyzw": null
+    },
+    {
+      "frame_index": 6,
+      "filename": "frame_0007.jpg",
+      "time_seconds": 3.003022,
+      "camera_timestamp_ns": 10003003022000,
+      "pose_available": false,
+      "pose_timestamp_seconds": null,
+      "time_error_seconds": 0.200184,
+      "position": null,
+      "orientation_xyzw": null
+    },
+    {
+      "frame_index": 7,
+      "filename": "frame_0008.jpg",
+      "time_seconds": 3.503513,
+      "camera_timestamp_ns": 10003503513000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10003.503513,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 36.65479140308148,
+        "y": 20.259714734888323,
+        "z": 1.0818219231008084
+      },
+      "orientation_xyzw": {
+        "x": 0.5371533995337547,
+        "y": -0.008825555379923635,
+        "z": -0.13993671515250267,
+        "w": 0.8317487906176322
+      }
+    },
+    {
+      "frame_index": 8,
+      "filename": "frame_0009.jpg",
+      "time_seconds": 4.004007,
+      "camera_timestamp_ns": 10004004007000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10004.004007,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 36.729311208715714,
+        "y": 19.668421333234807,
+        "z": 1.0742156841274675
+      },
+      "orientation_xyzw": {
+        "x": 0.5293522290249293,
+        "y": -0.014802366210468074,
+        "z": -0.15503441186965317,
+        "w": 0.8339852748802828
+      }
+    },
+    {
+      "frame_index": 9,
+      "filename": "frame_0010.jpg",
+      "time_seconds": 4.504512,
+      "camera_timestamp_ns": 10004504512000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10004.504511,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 36.8364430220251,
+        "y": 19.162251935886218,
+        "z": 1.0334111708986897
+      },
+      "orientation_xyzw": {
+        "x": 0.49141421661866513,
+        "y": 0.03911834830372487,
+        "z": -0.10603810930645144,
+        "w": 0.863561081745678
+      }
+    },
+    {
+      "frame_index": 10,
+      "filename": "frame_0011.jpg",
+      "time_seconds": 5.005009,
+      "camera_timestamp_ns": 10005005009000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10005.005009,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 36.952608753435065,
+        "y": 18.606614300581644,
+        "z": 1.0408429923451123
+      },
+      "orientation_xyzw": {
+        "x": 0.46251479709727356,
+        "y": -0.011384243369991002,
+        "z": -0.12650541294958845,
+        "w": 0.8774661486139594
+      }
+    },
+    {
+      "frame_index": 11,
+      "filename": "frame_0012.jpg",
+      "time_seconds": 5.505513,
+      "camera_timestamp_ns": 10005505513000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10005.505513,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 36.95700195053986,
+        "y": 18.011127969203304,
+        "z": 1.064225258613009
+      },
+      "orientation_xyzw": {
+        "x": 0.47761042715393154,
+        "y": 0.012868993026554384,
+        "z": -0.047637641064068745,
+        "w": 0.8771848858970226
+      }
+    },
+    {
+      "frame_index": 12,
+      "filename": "frame_0013.jpg",
+      "time_seconds": 6.006002,
+      "camera_timestamp_ns": 10006006002000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10006.006002,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 37.11839908569717,
+        "y": 17.45415331726096,
+        "z": 1.0355946067313655
+      },
+      "orientation_xyzw": {
+        "x": 0.42967994793613123,
+        "y": 0.006762561497001104,
+        "z": -0.04467282686787939,
+        "w": 0.9018501808189846
+      }
+    },
+    {
+      "frame_index": 13,
+      "filename": "frame_0014.jpg",
+      "time_seconds": 6.50653,
+      "camera_timestamp_ns": 10006506530000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10006.50653,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 37.241084727950906,
+        "y": 16.821523961968666,
+        "z": 1.0305606797272227
+      },
+      "orientation_xyzw": {
+        "x": 0.4317977731521411,
+        "y": 0.027913125343574235,
+        "z": -0.06258510675923681,
+        "w": 0.8993634665397193
+      }
+    },
+    {
+      "frame_index": 14,
+      "filename": "frame_0015.jpg",
+      "time_seconds": 7.007028,
+      "camera_timestamp_ns": 10007007028000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10007.007028,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 37.38171053411042,
+        "y": 16.210413775056058,
+        "z": 1.0231826464224025
+      },
+      "orientation_xyzw": {
+        "x": 0.4466063240695247,
+        "y": 0.011440858619378406,
+        "z": -0.07022097155184619,
+        "w": 0.8918973669708153
+      }
+    },
+    {
+      "frame_index": 15,
+      "filename": "frame_0016.jpg",
+      "time_seconds": 7.507532,
+      "camera_timestamp_ns": 10007507532000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10007.507532,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 37.52280058415606,
+        "y": 15.609586819179523,
+        "z": 1.0274300591677712
+      },
+      "orientation_xyzw": {
+        "x": 0.4465731401455071,
+        "y": 0.0023189333804505023,
+        "z": -0.10058600495998944,
+        "w": 0.889072274145779
+      }
+    },
+    {
+      "frame_index": 16,
+      "filename": "frame_0017.jpg",
+      "time_seconds": 8.008027,
+      "camera_timestamp_ns": 10008008027000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10008.008026,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 37.636763063734996,
+        "y": 15.023924915287024,
+        "z": 1.0165182952398975
+      },
+      "orientation_xyzw": {
+        "x": 0.43840720931470106,
+        "y": 0.007203747240671054,
+        "z": -0.0796901893178189,
+        "w": 0.8952076287504921
+      }
+    },
+    {
+      "frame_index": 17,
+      "filename": "frame_0018.jpg",
+      "time_seconds": 8.508529,
+      "camera_timestamp_ns": 10008508529000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10008.508529,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 37.782918039798915,
+        "y": 14.421483371394519,
+        "z": 1.040414296820358
+      },
+      "orientation_xyzw": {
+        "x": 0.43082029118560544,
+        "y": -0.07291538989009066,
+        "z": -0.10643468826930905,
+        "w": 0.8931678900144927
+      }
+    },
+    {
+      "frame_index": 18,
+      "filename": "frame_0019.jpg",
+      "time_seconds": 9.009034,
+      "camera_timestamp_ns": 10009009034000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10009.009034,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 37.88617086513312,
+        "y": 13.79319361509345,
+        "z": 1.0349635250566005
+      },
+      "orientation_xyzw": {
+        "x": 0.4091522831780758,
+        "y": -0.08438895939702198,
+        "z": -0.13537764934982033,
+        "w": 0.8984129366602936
+      }
+    },
+    {
+      "frame_index": 19,
+      "filename": "frame_0020.jpg",
+      "time_seconds": 9.50953,
+      "camera_timestamp_ns": 10009509530000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10009.50953,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 38.01513699119196,
+        "y": 13.114817629143598,
+        "z": 1.016534334524271
+      },
+      "orientation_xyzw": {
+        "x": 0.37263075895684844,
+        "y": -0.13512297598426118,
+        "z": -0.19416507771889918,
+        "w": 0.8973226963778493
+      }
+    },
+    {
+      "frame_index": 20,
+      "filename": "frame_0021.jpg",
+      "time_seconds": 10.010014,
+      "camera_timestamp_ns": 10010010014000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10010.010014,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 38.07790021847146,
+        "y": 12.391421813805625,
+        "z": 1.0140805933701635
+      },
+      "orientation_xyzw": {
+        "x": 0.3907017918591838,
+        "y": -0.09783244985901633,
+        "z": -0.21977693420721206,
+        "w": 0.8885263196906915
+      }
+    },
+    {
+      "frame_index": 21,
+      "filename": "frame_0022.jpg",
+      "time_seconds": 10.510515,
+      "camera_timestamp_ns": 10010510515000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10010.510515,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 38.21156414971185,
+        "y": 11.68421415646662,
+        "z": 1.022310610077769
+      },
+      "orientation_xyzw": {
+        "x": 0.4585298142043196,
+        "y": -0.05496458797935774,
+        "z": -0.18271005816585806,
+        "w": 0.8679552627866487
+      }
+    },
+    {
+      "frame_index": 22,
+      "filename": "frame_0023.jpg",
+      "time_seconds": 11.011008,
+      "camera_timestamp_ns": 10011011008000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10011.011007,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 38.38833812048175,
+        "y": 11.002950919601387,
+        "z": 1.0281848836936163
+      },
+      "orientation_xyzw": {
+        "x": 0.5341716756441391,
+        "y": 0.028003716710129113,
+        "z": -0.09706325802569321,
+        "w": 0.8393182571178761
+      }
+    },
+    {
+      "frame_index": 23,
+      "filename": "frame_0024.jpg",
+      "time_seconds": 11.511512,
+      "camera_timestamp_ns": 10011511512000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10011.511511,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 38.65799788370625,
+        "y": 10.50058790554485,
+        "z": 1.0243886503962647
+      },
+      "orientation_xyzw": {
+        "x": 0.5120073856527235,
+        "y": 0.08552848757402928,
+        "z": 0.01635485451389684,
+        "w": 0.8545559277099374
+      }
+    },
+    {
+      "frame_index": 24,
+      "filename": "frame_0025.jpg",
+      "time_seconds": 12.012021,
+      "camera_timestamp_ns": 10012012021000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10012.012021,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 39.078995313934406,
+        "y": 10.09855794425709,
+        "z": 1.0269371906103908
+      },
+      "orientation_xyzw": {
+        "x": 0.4819900339245335,
+        "y": 0.13701136079886406,
+        "z": 0.0922486370541356,
+        "w": 0.8604671307906683
+      }
+    },
+    {
+      "frame_index": 25,
+      "filename": "frame_0026.jpg",
+      "time_seconds": 12.512513,
+      "camera_timestamp_ns": 10012512513000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10012.512513,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 39.527796500297654,
+        "y": 9.79940458310175,
+        "z": 1.0375342206581617
+      },
+      "orientation_xyzw": {
+        "x": 0.4362298540529023,
+        "y": 0.2638386753287337,
+        "z": 0.2827187663167334,
+        "w": 0.8125040104553989
+      }
+    },
+    {
+      "frame_index": 26,
+      "filename": "frame_0027.jpg",
+      "time_seconds": 13.013004,
+      "camera_timestamp_ns": 10013013004000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10013.013004,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 40.03941578453219,
+        "y": 9.726347762567203,
+        "z": 1.0309757843718892
+      },
+      "orientation_xyzw": {
+        "x": 0.3761212138056041,
+        "y": 0.30067721821002497,
+        "z": 0.4337368116729993,
+        "w": 0.7615762740360426
+      }
+    },
+    {
+      "frame_index": 27,
+      "filename": "frame_0028.jpg",
+      "time_seconds": 13.513507,
+      "camera_timestamp_ns": 10013513507000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10013.513507,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 40.64596591076984,
+        "y": 9.766745376755539,
+        "z": 1.0399771487000404
+      },
+      "orientation_xyzw": {
+        "x": 0.30966479944039854,
+        "y": 0.38565436748436005,
+        "z": 0.570459911912424,
+        "w": 0.6557087079859819
+      }
+    },
+    {
+      "frame_index": 28,
+      "filename": "frame_0029.jpg",
+      "time_seconds": 14.014007,
+      "camera_timestamp_ns": 10014014007000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10014.014007,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 41.212976327846974,
+        "y": 10.003389884825607,
+        "z": 1.0310095376705752
+      },
+      "orientation_xyzw": {
+        "x": 0.29232000011908854,
+        "y": 0.37879655144881363,
+        "z": 0.6446514563661127,
+        "w": 0.5962270456343897
+      }
+    },
+    {
+      "frame_index": 29,
+      "filename": "frame_0030.jpg",
+      "time_seconds": 14.514509,
+      "camera_timestamp_ns": 10014514509000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10014.514509,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 41.849723371787135,
+        "y": 10.327823010468197,
+        "z": 1.0337294941742254
+      },
+      "orientation_xyzw": {
+        "x": 0.28815201971106713,
+        "y": 0.40056861492017165,
+        "z": 0.6772210802302411,
+        "w": 0.5457882435241288
+      }
+    },
+    {
+      "frame_index": 30,
+      "filename": "frame_0031.jpg",
+      "time_seconds": 15.015017,
+      "camera_timestamp_ns": 10015015017000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10015.015017,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 42.427206335323476,
+        "y": 10.74358963226453,
+        "z": 1.0136891652034625
+      },
+      "orientation_xyzw": {
+        "x": 0.28943881097781454,
+        "y": 0.3955894541075257,
+        "z": 0.6888833149711963,
+        "w": 0.5340167945420394
+      }
+    },
+    {
+      "frame_index": 31,
+      "filename": "frame_0032.jpg",
+      "time_seconds": 15.515504,
+      "camera_timestamp_ns": 10015515504000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10015.515504,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 43.06096046233124,
+        "y": 11.141623809021969,
+        "z": 1.013909164859633
+      },
+      "orientation_xyzw": {
+        "x": 0.31002702490210193,
+        "y": 0.37926546680549666,
+        "z": 0.6557080718557375,
+        "w": 0.5745327440819987
+      }
+    },
+    {
+      "frame_index": 32,
+      "filename": "frame_0033.jpg",
+      "time_seconds": 16.016008,
+      "camera_timestamp_ns": 10016016008000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10016.016008,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 43.697200621956995,
+        "y": 11.474521606781463,
+        "z": 1.0045573421726177
+      },
+      "orientation_xyzw": {
+        "x": 0.33096363438394727,
+        "y": 0.33977789567308586,
+        "z": 0.6251760486912051,
+        "w": 0.6198136514067679
+      }
+    },
+    {
+      "frame_index": 33,
+      "filename": "frame_0034.jpg",
+      "time_seconds": 16.516506,
+      "camera_timestamp_ns": 10016516506000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10016.516506,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 44.38527274955651,
+        "y": 11.710812519949185,
+        "z": 1.000700390614643
+      },
+      "orientation_xyzw": {
+        "x": 0.3512167237051089,
+        "y": 0.3061102704759287,
+        "z": 0.5990163656304458,
+        "w": 0.6512470414565391
+      }
+    },
+    {
+      "frame_index": 34,
+      "filename": "frame_0035.jpg",
+      "time_seconds": 17.01701,
+      "camera_timestamp_ns": 10017017010000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10017.01701,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 45.00859665708778,
+        "y": 11.87652106802272,
+        "z": 0.9903955026067277
+      },
+      "orientation_xyzw": {
+        "x": 0.32724652862289344,
+        "y": 0.30809929714083256,
+        "z": 0.6415628974778933,
+        "w": 0.6215959951490688
+      }
+    },
+    {
+      "frame_index": 35,
+      "filename": "frame_0036.jpg",
+      "time_seconds": 17.517523,
+      "camera_timestamp_ns": 10017517523000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10017.517523,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 45.67607327737605,
+        "y": 12.097083177626306,
+        "z": 1.0123653169990199
+      },
+      "orientation_xyzw": {
+        "x": 0.3872340920622914,
+        "y": 0.2706664362951025,
+        "z": 0.5621886887544315,
+        "w": 0.6787733910846646
+      }
+    },
+    {
+      "frame_index": 36,
+      "filename": "frame_0037.jpg",
+      "time_seconds": 18.018044,
+      "camera_timestamp_ns": 10018018044000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10018.018044,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.36350255923856,
+        "y": 12.18891252313701,
+        "z": 1.0255414707047228
+      },
+      "orientation_xyzw": {
+        "x": 0.4178837606490633,
+        "y": 0.23584762237347665,
+        "z": 0.4826219020202717,
+        "w": 0.7326835342062149
+      }
+    },
+    {
+      "frame_index": 37,
+      "filename": "frame_0038.jpg",
+      "time_seconds": 18.518546,
+      "camera_timestamp_ns": 10018518546000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10018.518545,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 47.03307473669208,
+        "y": 12.208840904465939,
+        "z": 1.0375723826841203
+      },
+      "orientation_xyzw": {
+        "x": 0.46568042083244576,
+        "y": 0.12092486651201471,
+        "z": 0.31875653567403966,
+        "w": 0.8166475330749812
+      }
+    },
+    {
+      "frame_index": 38,
+      "filename": "frame_0039.jpg",
+      "time_seconds": 19.019021,
+      "camera_timestamp_ns": 10019019021000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10019.019021,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 47.615187284124325,
+        "y": 11.928918138835881,
+        "z": 1.03229528931
+      },
+      "orientation_xyzw": {
+        "x": 0.49751994091899837,
+        "y": 0.02507778521519036,
+        "z": 0.1531369273114331,
+        "w": 0.8534600720421958
+      }
+    },
+    {
+      "frame_index": 39,
+      "filename": "frame_0040.jpg",
+      "time_seconds": 19.519541,
+      "camera_timestamp_ns": 10019519541000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10019.519541,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 48.08615116490622,
+        "y": 11.485857081866012,
+        "z": 1.0216258384811838
+      },
+      "orientation_xyzw": {
+        "x": 0.4901223490156222,
+        "y": -0.07084649913281643,
+        "z": -0.03550724037265946,
+        "w": 0.868043830942396
+      }
+    },
+    {
+      "frame_index": 40,
+      "filename": "frame_0041.jpg",
+      "time_seconds": 20.020041,
+      "camera_timestamp_ns": 10020020041000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10020.020041,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 48.27927067498421,
+        "y": 10.874192724093204,
+        "z": 1.0194841569236788
+      },
+      "orientation_xyzw": {
+        "x": 0.4790750433140478,
+        "y": -0.16629062869711403,
+        "z": -0.21065141332959908,
+        "w": 0.8357394999300943
+      }
+    },
+    {
+      "frame_index": 41,
+      "filename": "frame_0042.jpg",
+      "time_seconds": 20.520526,
+      "camera_timestamp_ns": 10020520526000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10020.520526,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 48.338606175582136,
+        "y": 10.319707175606906,
+        "z": 0.9951488433427494
+      },
+      "orientation_xyzw": {
+        "x": 0.4444549606499827,
+        "y": -0.18316322362515064,
+        "z": -0.2366367923552602,
+        "w": 0.8443423772195016
+      }
+    },
+    {
+      "frame_index": 42,
+      "filename": "frame_0043.jpg",
+      "time_seconds": 21.021008,
+      "camera_timestamp_ns": 10021021008000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10021.021008,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 48.298941441428596,
+        "y": 9.727325106290808,
+        "z": 0.9994895054358561
+      },
+      "orientation_xyzw": {
+        "x": 0.43737690902596793,
+        "y": -0.21694206674156655,
+        "z": -0.2708632252207888,
+        "w": 0.8296208123906851
+      }
+    },
+    {
+      "frame_index": 43,
+      "filename": "frame_0044.jpg",
+      "time_seconds": 21.521518,
+      "camera_timestamp_ns": 10021521518000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10021.521518,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 48.20291431696177,
+        "y": 9.180126019669252,
+        "z": 1.0156741927154878
+      },
+      "orientation_xyzw": {
+        "x": 0.4575504711258618,
+        "y": -0.16457893358973189,
+        "z": -0.23152353909012188,
+        "w": 0.8425901683725923
+      }
+    },
+    {
+      "frame_index": 44,
+      "filename": "frame_0045.jpg",
+      "time_seconds": 22.022013,
+      "camera_timestamp_ns": 10022022013000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10022.022013,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 48.18423408829801,
+        "y": 8.803463277034318,
+        "z": 1.0099427757180781
+      },
+      "orientation_xyzw": {
+        "x": 0.4630823358147782,
+        "y": -0.052054403439530134,
+        "z": -0.08537324446102068,
+        "w": 0.8806568562550813
+      }
+    },
+    {
+      "frame_index": 45,
+      "filename": "frame_0046.jpg",
+      "time_seconds": 22.522504,
+      "camera_timestamp_ns": 10022522504000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10022.522504,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 48.06429973676428,
+        "y": 8.596204484650906,
+        "z": 1.0304213171441121
+      },
+      "orientation_xyzw": {
+        "x": 0.44151278863619714,
+        "y": 0.2364608031824169,
+        "z": 0.34193153276631694,
+        "w": 0.7951324247753275
+      }
+    },
+    {
+      "frame_index": 46,
+      "filename": "frame_0047.jpg",
+      "time_seconds": 23.023011,
+      "camera_timestamp_ns": 10023023011000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10023.023011,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 47.994016620902705,
+        "y": 8.708152227687531,
+        "z": 1.005879881818499
+      },
+      "orientation_xyzw": {
+        "x": 0.2755670471692258,
+        "y": 0.3709982539872402,
+        "z": 0.6904254864310739,
+        "w": 0.556539078357727
+      }
+    },
+    {
+      "frame_index": 47,
+      "filename": "frame_0048.jpg",
+      "time_seconds": 23.523517,
+      "camera_timestamp_ns": 10023523517000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10023.523517,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 48.19692696391542,
+        "y": 9.030045656042148,
+        "z": 0.9963691645374986
+      },
+      "orientation_xyzw": {
+        "x": 0.19117163350328045,
+        "y": 0.47577493626199907,
+        "z": 0.8227346896656644,
+        "w": 0.24535534840170312
+      }
+    },
+    {
+      "frame_index": 48,
+      "filename": "frame_0049.jpg",
+      "time_seconds": 24.024003,
+      "camera_timestamp_ns": 10024024003000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10024.024003,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 48.31869638559242,
+        "y": 9.592343380425872,
+        "z": 0.9857572568035868
+      },
+      "orientation_xyzw": {
+        "x": 0.1201547152990514,
+        "y": 0.4871871710105585,
+        "z": 0.861855333781231,
+        "w": 0.07359951376860788
+      }
+    },
+    {
+      "frame_index": 49,
+      "filename": "frame_0050.jpg",
+      "time_seconds": 24.524505,
+      "camera_timestamp_ns": 10024524505000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10024.524505,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 48.28488544612031,
+        "y": 10.285473293433116,
+        "z": 1.0038097933409902
+      },
+      "orientation_xyzw": {
+        "x": 0.14059982263108273,
+        "y": 0.48638574765701875,
+        "z": 0.8554237217769287,
+        "w": 0.10913684333687938
+      }
+    },
+    {
+      "frame_index": 50,
+      "filename": "frame_0051.jpg",
+      "time_seconds": 25.025008,
+      "camera_timestamp_ns": 10025025008000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10025.025008,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 48.268366022554325,
+        "y": 10.945212172145355,
+        "z": 1.0157052012948302
+      },
+      "orientation_xyzw": {
+        "x": 0.067303805778824,
+        "y": 0.49157868332409055,
+        "z": 0.8676730292592386,
+        "w": 0.03105012278778042
+      }
+    },
+    {
+      "frame_index": 51,
+      "filename": "frame_0052.jpg",
+      "time_seconds": 25.525503,
+      "camera_timestamp_ns": 10025525503000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10025.525503,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 48.09078854146533,
+        "y": 11.60153174192641,
+        "z": 1.0208732746368925
+      },
+      "orientation_xyzw": {
+        "x": 0.05506295187197671,
+        "y": 0.4993060352195389,
+        "z": 0.864645883930909,
+        "w": -0.007003565222514843
+      }
+    },
+    {
+      "frame_index": 52,
+      "filename": "frame_0053.jpg",
+      "time_seconds": 26.026006,
+      "camera_timestamp_ns": 10026026006000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10026.026006,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 47.92582616185235,
+        "y": 12.296458978471236,
+        "z": 1.0287430676888143
+      },
+      "orientation_xyzw": {
+        "x": 0.044025256763787685,
+        "y": 0.5073669129338856,
+        "z": 0.8595255524608117,
+        "w": -0.043086158958050014
+      }
+    },
+    {
+      "frame_index": 53,
+      "filename": "frame_0054.jpg",
+      "time_seconds": 26.526515,
+      "camera_timestamp_ns": 10026526515000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10026.526515,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 47.65340908185023,
+        "y": 12.959491452098998,
+        "z": 1.0202253415926759
+      },
+      "orientation_xyzw": {
+        "x": 0.08038120201078328,
+        "y": 0.4882956450386027,
+        "z": 0.8687752585809435,
+        "w": 0.018324177396310128
+      }
+    },
+    {
+      "frame_index": 54,
+      "filename": "frame_0055.jpg",
+      "time_seconds": 27.027027,
+      "camera_timestamp_ns": 10027027027000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10027.027026,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 47.47528446906156,
+        "y": 13.69822584885882,
+        "z": 1.0169351158538353
+      },
+      "orientation_xyzw": {
+        "x": 0.11498539546503989,
+        "y": 0.495249338926423,
+        "z": 0.8580754092267023,
+        "w": 0.07220140721008995
+      }
+    },
+    {
+      "frame_index": 55,
+      "filename": "frame_0056.jpg",
+      "time_seconds": 27.527518,
+      "camera_timestamp_ns": 10027527518000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10027.527518,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 47.26446867543078,
+        "y": 14.355812807925824,
+        "z": 0.9749313718777985
+      },
+      "orientation_xyzw": {
+        "x": 0.04625817055813101,
+        "y": 0.4526892644926474,
+        "z": 0.8893234829543483,
+        "w": 0.04512598071696795
+      }
+    },
+    {
+      "frame_index": 56,
+      "filename": "frame_0057.jpg",
+      "time_seconds": 28.028018,
+      "camera_timestamp_ns": 10028028018000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10028.028018,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 47.19010911578104,
+        "y": 15.133471458967996,
+        "z": 0.9905077489243675
+      },
+      "orientation_xyzw": {
+        "x": 0.10760741155530608,
+        "y": 0.49948835962328253,
+        "z": 0.8564490220050773,
+        "w": 0.0736688284538052
+      }
+    },
+    {
+      "frame_index": 57,
+      "filename": "frame_0058.jpg",
+      "time_seconds": 28.528526,
+      "camera_timestamp_ns": 10028528526000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10028.528526,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 47.05616438363427,
+        "y": 15.835043133952553,
+        "z": 0.9777099413349077
+      },
+      "orientation_xyzw": {
+        "x": 0.07641954712264709,
+        "y": 0.4866298421198989,
+        "z": 0.865634415775156,
+        "w": 0.08960194083576752
+      }
+    },
+    {
+      "frame_index": 58,
+      "filename": "frame_0059.jpg",
+      "time_seconds": 29.029037,
+      "camera_timestamp_ns": 10029029037000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10029.029037,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.9861773661619,
+        "y": 16.599472863142175,
+        "z": 0.9766959881223739
+      },
+      "orientation_xyzw": {
+        "x": 0.1296290213560483,
+        "y": 0.49899168328698945,
+        "z": 0.8459095402259676,
+        "w": 0.13653082650955525
+      }
+    },
+    {
+      "frame_index": 59,
+      "filename": "frame_0060.jpg",
+      "time_seconds": 29.529517,
+      "camera_timestamp_ns": 10029529517000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10029.529517,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.89887069525774,
+        "y": 17.304310270320816,
+        "z": 0.9674232255946269
+      },
+      "orientation_xyzw": {
+        "x": 0.0885159536586318,
+        "y": 0.4874041936630353,
+        "z": 0.8625300089582044,
+        "w": 0.10317006152052705
+      }
+    },
+    {
+      "frame_index": 60,
+      "filename": "frame_0061.jpg",
+      "time_seconds": 30.030013,
+      "camera_timestamp_ns": 10030030013000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10030.030013,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.87459061687177,
+        "y": 18.05121995808182,
+        "z": 0.9733731330866834
+      },
+      "orientation_xyzw": {
+        "x": 0.12241976856787502,
+        "y": 0.4899100199813186,
+        "z": 0.8564540719402594,
+        "w": 0.1071820658629096
+      }
+    },
+    {
+      "frame_index": 61,
+      "filename": "frame_0062.jpg",
+      "time_seconds": 30.530509,
+      "camera_timestamp_ns": 10030530509000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10030.530509,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.870137503743614,
+        "y": 18.75566906456494,
+        "z": 0.9738344274081179
+      },
+      "orientation_xyzw": {
+        "x": 0.0911897096902292,
+        "y": 0.48195009228070285,
+        "z": 0.8648105877286723,
+        "w": 0.1072902267199697
+      }
+    },
+    {
+      "frame_index": 62,
+      "filename": "frame_0063.jpg",
+      "time_seconds": 31.031008,
+      "camera_timestamp_ns": 10031031008000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10031.031007,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 46.85093266673165,
+        "y": 19.506539515342705,
+        "z": 0.9922009308327882
+      },
+      "orientation_xyzw": {
+        "x": 0.11065483790110564,
+        "y": 0.4845784900767224,
+        "z": 0.8558302854252706,
+        "w": 0.14315626550362373
+      }
+    },
+    {
+      "frame_index": 63,
+      "filename": "frame_0064.jpg",
+      "time_seconds": 31.531516,
+      "camera_timestamp_ns": 10031531516000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10031.531516,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.89399431661401,
+        "y": 20.246790312900792,
+        "z": 1.0032212104247877
+      },
+      "orientation_xyzw": {
+        "x": 0.08508742046187388,
+        "y": 0.5073010234721951,
+        "z": 0.8499164813263933,
+        "w": 0.11422686738666428
+      }
+    },
+    {
+      "frame_index": 64,
+      "filename": "frame_0065.jpg",
+      "time_seconds": 32.032014,
+      "camera_timestamp_ns": 10032032014000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10032.032013,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 46.884724353899145,
+        "y": 20.99017926494433,
+        "z": 1.0111699157676957
+      },
+      "orientation_xyzw": {
+        "x": 0.11558364787265912,
+        "y": 0.49232445741405234,
+        "z": 0.8545743857537291,
+        "w": 0.11815103973323747
+      }
+    },
+    {
+      "frame_index": 65,
+      "filename": "frame_0066.jpg",
+      "time_seconds": 32.532507,
+      "camera_timestamp_ns": 10032532507000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10032.532507,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.94071779394453,
+        "y": 21.72765538270148,
+        "z": 1.0166726422136638
+      },
+      "orientation_xyzw": {
+        "x": 0.09236130166264767,
+        "y": 0.4897576240879357,
+        "z": 0.8616264849931261,
+        "w": 0.09595134163372604
+      }
+    },
+    {
+      "frame_index": 66,
+      "filename": "frame_0067.jpg",
+      "time_seconds": 33.033005,
+      "camera_timestamp_ns": 10033033005000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10033.033005,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.89366105570508,
+        "y": 22.476048041859038,
+        "z": 1.0113289382831865
+      },
+      "orientation_xyzw": {
+        "x": 0.08251997213124197,
+        "y": 0.48615197528836573,
+        "z": 0.8638307616907662,
+        "w": 0.10316552854238784
+      }
+    },
+    {
+      "frame_index": 67,
+      "filename": "frame_0068.jpg",
+      "time_seconds": 33.53351,
+      "camera_timestamp_ns": 10033533510000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10033.533509,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 46.9076028403534,
+        "y": 23.215506254879312,
+        "z": 1.016495231472687
+      },
+      "orientation_xyzw": {
+        "x": 0.07242054027393612,
+        "y": 0.49952132197479254,
+        "z": 0.8597358538623335,
+        "w": 0.07802548187990373
+      }
+    },
+    {
+      "frame_index": 68,
+      "filename": "frame_0069.jpg",
+      "time_seconds": 34.034013,
+      "camera_timestamp_ns": 10034034013000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10034.034013,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.82240235345811,
+        "y": 23.9301948641704,
+        "z": 0.9957306938672419
+      },
+      "orientation_xyzw": {
+        "x": 0.05649837329425567,
+        "y": 0.4847406968695789,
+        "z": 0.8695160942515638,
+        "w": 0.07600100296050989
+      }
+    },
+    {
+      "frame_index": 69,
+      "filename": "frame_0070.jpg",
+      "time_seconds": 34.534506,
+      "camera_timestamp_ns": 10034534506000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10034.534506,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.813297798258475,
+        "y": 24.707247467890834,
+        "z": 0.9999657942021828
+      },
+      "orientation_xyzw": {
+        "x": 0.10644366081326559,
+        "y": 0.5071389850576237,
+        "z": 0.8483794791225998,
+        "w": 0.10831461725482897
+      }
+    },
+    {
+      "frame_index": 70,
+      "filename": "frame_0071.jpg",
+      "time_seconds": 35.035021,
+      "camera_timestamp_ns": 10035035021000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10035.035021,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.73618775619069,
+        "y": 25.418276881760683,
+        "z": 0.9743992313399552
+      },
+      "orientation_xyzw": {
+        "x": 0.07657352243247728,
+        "y": 0.48093984416499963,
+        "z": 0.8654989389756106,
+        "w": 0.11723885272775818
+      }
+    },
+    {
+      "frame_index": 71,
+      "filename": "frame_0072.jpg",
+      "time_seconds": 35.535505,
+      "camera_timestamp_ns": 10035535505000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10035.535505,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.78007681548476,
+        "y": 26.190198186845343,
+        "z": 0.9855266811441744
+      },
+      "orientation_xyzw": {
+        "x": 0.12986635181480852,
+        "y": 0.49714759778611045,
+        "z": 0.845854002502916,
+        "w": 0.14321313882325634
+      }
+    },
+    {
+      "frame_index": 72,
+      "filename": "frame_0073.jpg",
+      "time_seconds": 36.036015,
+      "camera_timestamp_ns": 10036036015000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10036.036015,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.73762473866553,
+        "y": 26.880135346054672,
+        "z": 0.9629310223193375
+      },
+      "orientation_xyzw": {
+        "x": 0.04867859659004092,
+        "y": 0.48274947530574613,
+        "z": 0.8660839592718087,
+        "w": 0.12034082357254616
+      }
+    },
+    {
+      "frame_index": 73,
+      "filename": "frame_0074.jpg",
+      "time_seconds": 36.536505,
+      "camera_timestamp_ns": 10036536505000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10036.536505,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.741618041961665,
+        "y": 27.64877426694911,
+        "z": 0.9734393636746337
+      },
+      "orientation_xyzw": {
+        "x": 0.09551529151222629,
+        "y": 0.49950217821433873,
+        "z": 0.8498051432831448,
+        "w": 0.13858434794730276
+      }
+    },
+    {
+      "frame_index": 74,
+      "filename": "frame_0075.jpg",
+      "time_seconds": 37.037005,
+      "camera_timestamp_ns": 10037037005000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10037.037005,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.6755279682655,
+        "y": 28.324591278011265,
+        "z": 0.9681301650185388
+      },
+      "orientation_xyzw": {
+        "x": 0.04388043359133733,
+        "y": 0.4909747015894955,
+        "z": 0.8654751486232918,
+        "w": 0.08928111257389837
+      }
+    },
+    {
+      "frame_index": 75,
+      "filename": "frame_0076.jpg",
+      "time_seconds": 37.537523,
+      "camera_timestamp_ns": 10037537523000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10037.537523,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.580752240392314,
+        "y": 29.06567359976868,
+        "z": 0.9726483624121411
+      },
+      "orientation_xyzw": {
+        "x": 0.08753493514084543,
+        "y": 0.49913624580671695,
+        "z": 0.8573360880426446,
+        "w": 0.09041833548345929
+      }
+    },
+    {
+      "frame_index": 76,
+      "filename": "frame_0077.jpg",
+      "time_seconds": 38.038029,
+      "camera_timestamp_ns": 10038038029000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10038.038029,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.48225871500078,
+        "y": 29.795757253913173,
+        "z": 0.9856631639082387
+      },
+      "orientation_xyzw": {
+        "x": 0.05693529017761845,
+        "y": 0.5176025235922624,
+        "z": 0.8499096664032715,
+        "w": 0.08061984406826685
+      }
+    },
+    {
+      "frame_index": 77,
+      "filename": "frame_0078.jpg",
+      "time_seconds": 38.538545,
+      "camera_timestamp_ns": 10038538545000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10038.538545,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.294952541673084,
+        "y": 30.47582992372802,
+        "z": 0.9942013563985428
+      },
+      "orientation_xyzw": {
+        "x": 0.03224876323195243,
+        "y": 0.5075709454654918,
+        "z": 0.8589286700907107,
+        "w": 0.05977702138346733
+      }
+    },
+    {
+      "frame_index": 78,
+      "filename": "frame_0079.jpg",
+      "time_seconds": 39.039022,
+      "camera_timestamp_ns": 10039039022000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10039.039022,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 46.08514671064799,
+        "y": 31.082266345562367,
+        "z": 1.0007514348214888
+      },
+      "orientation_xyzw": {
+        "x": -0.04551021270402321,
+        "y": 0.5002950237192181,
+        "z": 0.862957385914473,
+        "w": -0.05420571812162323
+      }
+    },
+    {
+      "frame_index": 79,
+      "filename": "frame_0080.jpg",
+      "time_seconds": 39.539531,
+      "camera_timestamp_ns": 10039539531000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10039.539531,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 45.712672797204426,
+        "y": 31.59235446507465,
+        "z": 0.9925338880089968
+      },
+      "orientation_xyzw": {
+        "x": -0.10422802074754617,
+        "y": 0.4801011093383771,
+        "z": 0.8564301040523662,
+        "w": -0.1586408565785052
+      }
+    },
+    {
+      "frame_index": 80,
+      "filename": "frame_0081.jpg",
+      "time_seconds": 40.040057,
+      "camera_timestamp_ns": 10040040057000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10040.040057,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 45.286281338957544,
+        "y": 32.066178780299225,
+        "z": 1.0039437070003667
+      },
+      "orientation_xyzw": {
+        "x": -0.20933995813367193,
+        "y": 0.4654004082997318,
+        "z": 0.796553792884195,
+        "w": -0.32416245452679854
+      }
+    },
+    {
+      "frame_index": 81,
+      "filename": "frame_0082.jpg",
+      "time_seconds": 40.54052,
+      "camera_timestamp_ns": 10040540520000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10040.54052,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 44.74443053602167,
+        "y": 32.27545312156856,
+        "z": 0.9887809910979989
+      },
+      "orientation_xyzw": {
+        "x": -0.2841797218808609,
+        "y": 0.4079062702669355,
+        "z": 0.744292979274937,
+        "w": -0.44596224206839813
+      }
+    },
+    {
+      "frame_index": 82,
+      "filename": "frame_0083.jpg",
+      "time_seconds": 41.041023,
+      "camera_timestamp_ns": 10041041023000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10041.041023,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 44.11397808916855,
+        "y": 32.39352540464178,
+        "z": 0.9983671425346398
+      },
+      "orientation_xyzw": {
+        "x": 0.3367656505053224,
+        "y": -0.3979833327667241,
+        "z": -0.6644655146750437,
+        "w": 0.5354285603955468
+      }
+    },
+    {
+      "frame_index": 83,
+      "filename": "frame_0084.jpg",
+      "time_seconds": 41.541511,
+      "camera_timestamp_ns": 10041541511000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10041.541511,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 43.531547518345995,
+        "y": 32.23732918953087,
+        "z": 0.9826713599029633
+      },
+      "orientation_xyzw": {
+        "x": 0.4014234573094732,
+        "y": -0.32227025678844873,
+        "z": -0.5851640336143511,
+        "w": 0.6265653543529198
+      }
+    },
+    {
+      "frame_index": 84,
+      "filename": "frame_0085.jpg",
+      "time_seconds": 42.042027,
+      "camera_timestamp_ns": 10042042027000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10042.042027,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 42.87123940965373,
+        "y": 32.01800717807498,
+        "z": 0.9862035948177468
+      },
+      "orientation_xyzw": {
+        "x": 0.4193938185526071,
+        "y": -0.3325670627299705,
+        "z": -0.532843718092373,
+        "w": 0.6554277579081607
+      }
+    },
+    {
+      "frame_index": 85,
+      "filename": "frame_0086.jpg",
+      "time_seconds": 42.542515,
+      "camera_timestamp_ns": 10042542515000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10042.542515,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 42.34400678970514,
+        "y": 31.7010583308098,
+        "z": 0.9746887762597057
+      },
+      "orientation_xyzw": {
+        "x": 0.4368433213120746,
+        "y": -0.256871154630194,
+        "z": -0.4813634944526235,
+        "w": 0.715174320534753
+      }
+    },
+    {
+      "frame_index": 86,
+      "filename": "frame_0087.jpg",
+      "time_seconds": 43.043003,
+      "camera_timestamp_ns": 10043043003000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10043.043003,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 41.74666952578094,
+        "y": 31.315264668317575,
+        "z": 0.98445920454913
+      },
+      "orientation_xyzw": {
+        "x": 0.4327912864120359,
+        "y": -0.29594458898222276,
+        "z": -0.4833886625568314,
+        "w": 0.7010306010221498
+      }
+    },
+    {
+      "frame_index": 87,
+      "filename": "frame_0088.jpg",
+      "time_seconds": 43.543502,
+      "camera_timestamp_ns": 10043543502000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10043.543502,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 41.22394479446446,
+        "y": 30.934034774201525,
+        "z": 0.996036788432742
+      },
+      "orientation_xyzw": {
+        "x": 0.44526757850884496,
+        "y": -0.2647875074819795,
+        "z": -0.4602393698540277,
+        "w": 0.7209743974973857
+      }
+    },
+    {
+      "frame_index": 88,
+      "filename": "frame_0089.jpg",
+      "time_seconds": 44.044008,
+      "camera_timestamp_ns": 10044044008000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10044.044008,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 40.74740759545428,
+        "y": 30.48250365275873,
+        "z": 1.0111717550905508
+      },
+      "orientation_xyzw": {
+        "x": 0.43277771826424355,
+        "y": -0.2653697271417694,
+        "z": -0.4462609253592087,
+        "w": 0.7369759432900379
+      }
+    },
+    {
+      "frame_index": 89,
+      "filename": "frame_0090.jpg",
+      "time_seconds": 44.544503,
+      "camera_timestamp_ns": 10044544503000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10044.544503,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 40.26718145981837,
+        "y": 30.039517150857865,
+        "z": 1.0199690391451826
+      },
+      "orientation_xyzw": {
+        "x": 0.45692768040836385,
+        "y": -0.2152201139481489,
+        "z": -0.38768672183485303,
+        "w": 0.7711007736617332
+      }
+    },
+    {
+      "frame_index": 90,
+      "filename": "frame_0091.jpg",
+      "time_seconds": 45.045001,
+      "camera_timestamp_ns": 10045045001000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10045.045001,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 39.86078168563047,
+        "y": 29.484406936388027,
+        "z": 1.0286008098661599
+      },
+      "orientation_xyzw": {
+        "x": 0.4588010293738888,
+        "y": -0.24932090553336064,
+        "z": -0.4065126957819848,
+        "w": 0.7497253695037596
+      }
+    },
+    {
+      "frame_index": 91,
+      "filename": "frame_0092.jpg",
+      "time_seconds": 45.545537,
+      "camera_timestamp_ns": 10045545537000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10045.545537,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 39.37513108752899,
+        "y": 29.01314596948626,
+        "z": 1.0329357995077812
+      },
+      "orientation_xyzw": {
+        "x": 0.4531289163205605,
+        "y": -0.2978817004220985,
+        "z": -0.41371878415756713,
+        "w": 0.7312847908872291
+      }
+    },
+    {
+      "frame_index": 92,
+      "filename": "frame_0093.jpg",
+      "time_seconds": 46.046018,
+      "camera_timestamp_ns": 10046046018000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10046.046018,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 38.94226905327814,
+        "y": 28.565112518082806,
+        "z": 1.010556644709379
+      },
+      "orientation_xyzw": {
+        "x": 0.408607787328695,
+        "y": -0.31666884399484996,
+        "z": -0.4873675459160402,
+        "w": 0.703728210721362
+      }
+    },
+    {
+      "frame_index": 93,
+      "filename": "frame_0094.jpg",
+      "time_seconds": 46.546518,
+      "camera_timestamp_ns": 10046546518000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10046.546518,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 38.29850140620843,
+        "y": 28.3602024413634,
+        "z": 1.0123586088853667
+      },
+      "orientation_xyzw": {
+        "x": 0.31740824639205534,
+        "y": -0.4581976970139051,
+        "z": -0.6187471725252408,
+        "w": 0.553587221732488
+      }
+    },
+    {
+      "frame_index": 94,
+      "filename": "frame_0095.jpg",
+      "time_seconds": 47.047036,
+      "camera_timestamp_ns": 10047047036000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10047.047036,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 37.67925016957838,
+        "y": 28.334520313616043,
+        "z": 0.9925040788594641
+      },
+      "orientation_xyzw": {
+        "x": -0.2609466617640929,
+        "y": 0.45417048240546587,
+        "z": 0.7405014407508822,
+        "w": -0.42106249995888984
+      }
+    },
+    {
+      "frame_index": 95,
+      "filename": "frame_0096.jpg",
+      "time_seconds": 47.54751,
+      "camera_timestamp_ns": 10047547510000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10047.54751,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 37.05815703562205,
+        "y": 28.664339158990664,
+        "z": 1.0063826496372659
+      },
+      "orientation_xyzw": {
+        "x": -0.11844969185883517,
+        "y": 0.5494643149209925,
+        "z": 0.7956320771879211,
+        "w": -0.22589430023040788
+      }
+    },
+    {
+      "frame_index": 96,
+      "filename": "frame_0097.jpg",
+      "time_seconds": 48.048014,
+      "camera_timestamp_ns": 10048048014000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10048.048014,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 36.61650863545445,
+        "y": 29.12651188010479,
+        "z": 1.0169613387787206
+      },
+      "orientation_xyzw": {
+        "x": -0.08254501243744648,
+        "y": 0.5491787527817115,
+        "z": 0.8083571677866461,
+        "w": -0.19531438171004653
+      }
+    },
+    {
+      "frame_index": 97,
+      "filename": "frame_0098.jpg",
+      "time_seconds": 48.548522,
+      "camera_timestamp_ns": 10048548522000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10048.548522,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 36.14475743720371,
+        "y": 29.59634074906272,
+        "z": 1.0250818304477292
+      },
+      "orientation_xyzw": {
+        "x": -0.07890192319569023,
+        "y": 0.5279964425470922,
+        "z": 0.8228553689988378,
+        "w": -0.19468765981289868
+      }
+    },
+    {
+      "frame_index": 98,
+      "filename": "frame_0099.jpg",
+      "time_seconds": 49.049027,
+      "camera_timestamp_ns": 10049049027000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10049.049027,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.72360290296703,
+        "y": 30.133424368810026,
+        "z": 1.03213793961417
+      },
+      "orientation_xyzw": {
+        "x": -0.1278407358253902,
+        "y": 0.5215697274829416,
+        "z": 0.8061807371914219,
+        "w": -0.24838354337292246
+      }
+    },
+    {
+      "frame_index": 99,
+      "filename": "frame_0100.jpg",
+      "time_seconds": 49.549505,
+      "camera_timestamp_ns": 10049549505000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10049.549505,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.29822537475318,
+        "y": 30.53323649243336,
+        "z": 1.0110324941053934
+      },
+      "orientation_xyzw": {
+        "x": -0.17398141021290692,
+        "y": 0.4758377959164452,
+        "z": 0.8110928601498302,
+        "w": -0.29229648149041415
+      }
+    },
+    {
+      "frame_index": 100,
+      "filename": "frame_0101.jpg",
+      "time_seconds": 50.050012,
+      "camera_timestamp_ns": 10050050012000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10050.050012,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 34.9783858718866,
+        "y": 30.947096061863284,
+        "z": 1.0204113665321528
+      },
+      "orientation_xyzw": {
+        "x": -0.2183637966169806,
+        "y": 0.49412092831215676,
+        "z": 0.7608567691795407,
+        "w": -0.35952571163217445
+      }
+    },
+    {
+      "frame_index": 101,
+      "filename": "frame_0102.jpg",
+      "time_seconds": 50.55051,
+      "camera_timestamp_ns": 10050550510000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10050.55051,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 34.57031869570052,
+        "y": 31.235380200788832,
+        "z": 0.9907165364996711
+      },
+      "orientation_xyzw": {
+        "x": -0.25324262339851367,
+        "y": 0.4892381873263781,
+        "z": 0.7493713499444,
+        "w": -0.3673646004153721
+      }
+    },
+    {
+      "frame_index": 102,
+      "filename": "frame_0103.jpg",
+      "time_seconds": 51.051007,
+      "camera_timestamp_ns": 10051051007000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10051.051007,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 34.10673312092633,
+        "y": 31.491577937603065,
+        "z": 1.010092392523756
+      },
+      "orientation_xyzw": {
+        "x": -0.21667295133129108,
+        "y": 0.4822365243345531,
+        "z": 0.7733246357809833,
+        "w": -0.34995681798377243
+      }
+    },
+    {
+      "frame_index": 103,
+      "filename": "frame_0104.jpg",
+      "time_seconds": 51.551509,
+      "camera_timestamp_ns": 10051551509000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10051.551509,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 33.65577896952453,
+        "y": 31.794817504475205,
+        "z": 1.0207273589003287
+      },
+      "orientation_xyzw": {
+        "x": -0.2377223635212512,
+        "y": 0.46858919023045364,
+        "z": 0.7637964944175948,
+        "w": -0.3748695290316766
+      }
+    },
+    {
+      "frame_index": 104,
+      "filename": "frame_0105.jpg",
+      "time_seconds": 52.052008,
+      "camera_timestamp_ns": 10052052008000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10052.052008,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 33.08705186263308,
+        "y": 32.03200236872425,
+        "z": 1.013870221640156
+      },
+      "orientation_xyzw": {
+        "x": -0.2316126566300923,
+        "y": 0.47299485300590105,
+        "z": 0.77446035816804,
+        "w": -0.3504890867700568
+      }
+    },
+    {
+      "frame_index": 105,
+      "filename": "frame_0106.jpg",
+      "time_seconds": 52.552509,
+      "camera_timestamp_ns": 10052552509000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10052.552509,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 32.540368811797535,
+        "y": 32.35488362863359,
+        "z": 1.010180085167646
+      },
+      "orientation_xyzw": {
+        "x": -0.2007675111447425,
+        "y": 0.4933791406694825,
+        "z": 0.7748778477925605,
+        "w": -0.340343577905267
+      }
+    },
+    {
+      "frame_index": 106,
+      "filename": "frame_0107.jpg",
+      "time_seconds": 53.053004,
+      "camera_timestamp_ns": 10053053004000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10053.053004,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 31.966210801563875,
+        "y": 32.57534722735799,
+        "z": 0.9801061795051939
+      },
+      "orientation_xyzw": {
+        "x": -0.25420341505211586,
+        "y": 0.4400888517533832,
+        "z": 0.7729378959137136,
+        "w": -0.3798281656206024
+      }
+    },
+    {
+      "frame_index": 107,
+      "filename": "frame_0108.jpg",
+      "time_seconds": 53.553504,
+      "camera_timestamp_ns": 10053553504000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10053.553504,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 31.311508303326395,
+        "y": 32.87614886321958,
+        "z": 0.9848982666549846
+      },
+      "orientation_xyzw": {
+        "x": -0.21886654197887415,
+        "y": 0.4963042428670022,
+        "z": 0.7695015671899382,
+        "w": -0.3371155193797076
+      }
+    },
+    {
+      "frame_index": 108,
+      "filename": "frame_0109.jpg",
+      "time_seconds": 54.054009,
+      "camera_timestamp_ns": 10054054009000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10054.054009,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 30.71524010077435,
+        "y": 33.100917138121716,
+        "z": 0.9834294141307791
+      },
+      "orientation_xyzw": {
+        "x": -0.2419905674392389,
+        "y": 0.4615670611031625,
+        "z": 0.7690232884186581,
+        "w": -0.37013456369917425
+      }
+    },
+    {
+      "frame_index": 109,
+      "filename": "frame_0110.jpg",
+      "time_seconds": 54.554503,
+      "camera_timestamp_ns": 10054554503000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10054.554503,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 30.06223155196036,
+        "y": 33.308867201464004,
+        "z": 1.0069640084383742
+      },
+      "orientation_xyzw": {
+        "x": -0.20949872699933766,
+        "y": 0.4880863127592989,
+        "z": 0.7748107200304234,
+        "w": -0.34285621302322367
+      }
+    },
+    {
+      "frame_index": 110,
+      "filename": "frame_0111.jpg",
+      "time_seconds": 55.055004,
+      "camera_timestamp_ns": 10055055004000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10055.055004,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 29.465098589646193,
+        "y": 33.5428028742571,
+        "z": 1.012541017524617
+      },
+      "orientation_xyzw": {
+        "x": -0.23978710811549434,
+        "y": 0.4511782462005529,
+        "z": 0.7633095991494946,
+        "w": -0.39534641617604155
+      }
+    },
+    {
+      "frame_index": 111,
+      "filename": "frame_0112.jpg",
+      "time_seconds": 55.555508,
+      "camera_timestamp_ns": 10055555508000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10055.555508,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 28.79744726153824,
+        "y": 33.73657428625129,
+        "z": 1.0119565291741146
+      },
+      "orientation_xyzw": {
+        "x": -0.23738988462939645,
+        "y": 0.46054393221113404,
+        "z": 0.767027209511165,
+        "w": -0.37843703445707305
+      }
+    },
+    {
+      "frame_index": 112,
+      "filename": "frame_0113.jpg",
+      "time_seconds": 56.056005,
+      "camera_timestamp_ns": 10056056005000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10056.056005,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 28.197724986881255,
+        "y": 34.0002802509701,
+        "z": 1.0157719644733498
+      },
+      "orientation_xyzw": {
+        "x": -0.2829594267051487,
+        "y": 0.4529601709039636,
+        "z": 0.7381358121670326,
+        "w": -0.4122093754511913
+      }
+    },
+    {
+      "frame_index": 113,
+      "filename": "frame_0114.jpg",
+      "time_seconds": 56.556509,
+      "camera_timestamp_ns": 10056556509000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10056.556509,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 27.712731563671632,
+        "y": 34.02287295455715,
+        "z": 0.9778320614710737
+      },
+      "orientation_xyzw": {
+        "x": 0.3445554301574306,
+        "y": -0.3561339893616143,
+        "z": -0.6881113219247699,
+        "w": 0.5300499465233015
+      }
+    },
+    {
+      "frame_index": 114,
+      "filename": "frame_0115.jpg",
+      "time_seconds": 57.05701,
+      "camera_timestamp_ns": 10057057010000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10057.05701,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 27.224764728560842,
+        "y": 33.934344097088626,
+        "z": 0.9791123330380396
+      },
+      "orientation_xyzw": {
+        "x": 0.4199353262859405,
+        "y": -0.2927550103918913,
+        "z": -0.5442905010867968,
+        "w": 0.6646026452356687
+      }
+    },
+    {
+      "frame_index": 115,
+      "filename": "frame_0116.jpg",
+      "time_seconds": 57.557513,
+      "camera_timestamp_ns": 10057557513000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10057.557513,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 26.887828221911633,
+        "y": 33.598412410575776,
+        "z": 0.9624079362608272
+      },
+      "orientation_xyzw": {
+        "x": 0.4922360201104975,
+        "y": -0.13370028593036185,
+        "z": -0.34556734966290364,
+        "w": 0.7876618188631933
+      }
+    },
+    {
+      "frame_index": 116,
+      "filename": "frame_0117.jpg",
+      "time_seconds": 58.058033,
+      "camera_timestamp_ns": 10058058033000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10058.058033,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 26.561380790259108,
+        "y": 33.053084348451144,
+        "z": 0.9768460797667389
+      },
+      "orientation_xyzw": {
+        "x": 0.506916286083475,
+        "y": -0.17156736519125187,
+        "z": -0.2989020283159281,
+        "w": 0.790100054153455
+      }
+    },
+    {
+      "frame_index": 117,
+      "filename": "frame_0118.jpg",
+      "time_seconds": 58.558528,
+      "camera_timestamp_ns": 10058558528000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10058.558528,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 26.312124083641898,
+        "y": 32.47731318826883,
+        "z": 0.9889225839337593
+      },
+      "orientation_xyzw": {
+        "x": 0.505559502521798,
+        "y": -0.15517813029341873,
+        "z": -0.2900778916617337,
+        "w": 0.7976115307953081
+      }
+    },
+    {
+      "frame_index": 118,
+      "filename": "frame_0119.jpg",
+      "time_seconds": 59.059027,
+      "camera_timestamp_ns": 10059059027000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10059.059027,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 26.070867359509887,
+        "y": 31.860761834832942,
+        "z": 1.003286342639562
+      },
+      "orientation_xyzw": {
+        "x": 0.4757233598269594,
+        "y": -0.238205048994701,
+        "z": -0.3826481233126644,
+        "w": 0.755331750473709
+      }
+    },
+    {
+      "frame_index": 119,
+      "filename": "frame_0120.jpg",
+      "time_seconds": 59.559526,
+      "camera_timestamp_ns": 10059559526000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10059.559526,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 25.61095162083246,
+        "y": 31.441219749424917,
+        "z": 1.0091029169553425
+      },
+      "orientation_xyzw": {
+        "x": 0.4362677973781623,
+        "y": -0.31329141006993644,
+        "z": -0.4624154770421021,
+        "w": 0.705472060353295
+      }
+    },
+    {
+      "frame_index": 120,
+      "filename": "frame_0121.jpg",
+      "time_seconds": 60.06003,
+      "camera_timestamp_ns": 10060060030000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10060.06003,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 25.045220282907703,
+        "y": 31.143819522637337,
+        "z": 1.0091054303090317
+      },
+      "orientation_xyzw": {
+        "x": 0.3551768602447046,
+        "y": -0.4024667881384783,
+        "z": -0.6357889601108455,
+        "w": 0.5546551005745656
+      }
+    },
+    {
+      "frame_index": 121,
+      "filename": "frame_0122.jpg",
+      "time_seconds": 60.560522,
+      "camera_timestamp_ns": 10060560522000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10060.560522,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 24.37561714583697,
+        "y": 31.297251323346206,
+        "z": 1.0016222397596917
+      },
+      "orientation_xyzw": {
+        "x": -0.2293808011987756,
+        "y": 0.5198760258748817,
+        "z": 0.7453590303264858,
+        "w": -0.34864492205209047
+      }
+    },
+    {
+      "frame_index": 122,
+      "filename": "frame_0123.jpg",
+      "time_seconds": 61.061015,
+      "camera_timestamp_ns": 10061061015000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10061.061015,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 23.793128693900137,
+        "y": 31.61705260399323,
+        "z": 0.9989538454910714
+      },
+      "orientation_xyzw": {
+        "x": -0.18922396681851447,
+        "y": 0.5235754513060865,
+        "z": 0.7891388270111136,
+        "w": -0.25946666235687693
+      }
+    },
+    {
+      "frame_index": 123,
+      "filename": "frame_0124.jpg",
+      "time_seconds": 61.561508,
+      "camera_timestamp_ns": 10061561508000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10061.561508,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 23.298747893732262,
+        "y": 32.0940178963263,
+        "z": 0.9962072456593716
+      },
+      "orientation_xyzw": {
+        "x": -0.15387857286080692,
+        "y": 0.5520717431980707,
+        "z": 0.7892198803906539,
+        "w": -0.22061313553985593
+      }
+    },
+    {
+      "frame_index": 124,
+      "filename": "frame_0125.jpg",
+      "time_seconds": 62.062007,
+      "camera_timestamp_ns": 10062062007000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10062.062007,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 22.82914656888341,
+        "y": 32.45509647528163,
+        "z": 0.9797700912052392
+      },
+      "orientation_xyzw": {
+        "x": -0.18267703455288115,
+        "y": 0.5066285485691862,
+        "z": 0.8064687768940763,
+        "w": -0.24405885912340505
+      }
+    },
+    {
+      "frame_index": 125,
+      "filename": "frame_0126.jpg",
+      "time_seconds": 62.562507,
+      "camera_timestamp_ns": 10062562507000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10062.562507,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 22.275848557640312,
+        "y": 32.821154651295025,
+        "z": 0.9973467639065886
+      },
+      "orientation_xyzw": {
+        "x": -0.14556297861433498,
+        "y": 0.523850792613694,
+        "z": 0.8043748108965858,
+        "w": -0.2395264702073852
+      }
+    },
+    {
+      "frame_index": 126,
+      "filename": "frame_0127.jpg",
+      "time_seconds": 63.06302,
+      "camera_timestamp_ns": 10063063020000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10063.06302,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 21.747365498683585,
+        "y": 33.06975366167295,
+        "z": 1.000067630752085
+      },
+      "orientation_xyzw": {
+        "x": -0.23473495580734957,
+        "y": 0.46614862956136477,
+        "z": 0.7843310319167431,
+        "w": -0.33530551449774854
+      }
+    },
+    {
+      "frame_index": 127,
+      "filename": "frame_0128.jpg",
+      "time_seconds": 63.563504,
+      "camera_timestamp_ns": 10063563504000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10063.563504,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 21.11465780950453,
+        "y": 33.18735728274537,
+        "z": 1.0098997738118334
+      },
+      "orientation_xyzw": {
+        "x": -0.259051834481167,
+        "y": 0.4635279961472907,
+        "z": 0.7655231467486159,
+        "w": -0.3633294037532835
+      }
+    },
+    {
+      "frame_index": 128,
+      "filename": "frame_0129.jpg",
+      "time_seconds": 64.064008,
+      "camera_timestamp_ns": 10064064008000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10064.064008,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 20.48390523588658,
+        "y": 33.296768645671825,
+        "z": 1.0104677483759206
+      },
+      "orientation_xyzw": {
+        "x": -0.30063862805871167,
+        "y": 0.45101046698741776,
+        "z": 0.7340080081018288,
+        "w": -0.40919215294180894
+      }
+    },
+    {
+      "frame_index": 129,
+      "filename": "frame_0130.jpg",
+      "time_seconds": 64.564502,
+      "camera_timestamp_ns": 10064564502000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10064.564502,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 19.84582284210945,
+        "y": 33.30466341157428,
+        "z": 0.9952423722317558
+      },
+      "orientation_xyzw": {
+        "x": -0.2877103284656116,
+        "y": 0.4325489556412036,
+        "z": 0.7364226484064009,
+        "w": -0.4333657240507334
+      }
+    },
+    {
+      "frame_index": 130,
+      "filename": "frame_0131.jpg",
+      "time_seconds": 65.065012,
+      "camera_timestamp_ns": 10065065012000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10065.065011,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 19.156802693106165,
+        "y": 33.43455557903464,
+        "z": 0.999040942557556
+      },
+      "orientation_xyzw": {
+        "x": -0.26145920263042055,
+        "y": 0.4783652150684614,
+        "z": 0.7329658666943418,
+        "w": -0.4068990595140052
+      }
+    },
+    {
+      "frame_index": 131,
+      "filename": "frame_0132.jpg",
+      "time_seconds": 65.565518,
+      "camera_timestamp_ns": 10065565518000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10065.565518,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 18.521121055411147,
+        "y": 33.50650996729685,
+        "z": 0.9667882470835146
+      },
+      "orientation_xyzw": {
+        "x": -0.29037701268910665,
+        "y": 0.4192111212792393,
+        "z": 0.7506838749179816,
+        "w": -0.42002017360559907
+      }
+    },
+    {
+      "frame_index": 132,
+      "filename": "frame_0133.jpg",
+      "time_seconds": 66.066006,
+      "camera_timestamp_ns": 10066066006000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10066.066006,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 17.86211684398447,
+        "y": 33.715703949521334,
+        "z": 0.9770209279164742
+      },
+      "orientation_xyzw": {
+        "x": -0.21350723041832337,
+        "y": 0.46632522414425664,
+        "z": 0.7731187975855557,
+        "w": -0.3731524791633717
+      }
+    },
+    {
+      "frame_index": 133,
+      "filename": "frame_0134.jpg",
+      "time_seconds": 66.56651,
+      "camera_timestamp_ns": 10066566510000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10066.56651,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 17.255769988551716,
+        "y": 33.86631193938938,
+        "z": 0.9611159312659376
+      },
+      "orientation_xyzw": {
+        "x": -0.2498053883449548,
+        "y": 0.41945635482011034,
+        "z": 0.7690761298633151,
+        "w": -0.4125233821607171
+      }
+    },
+    {
+      "frame_index": 134,
+      "filename": "frame_0135.jpg",
+      "time_seconds": 67.067011,
+      "camera_timestamp_ns": 10067067011000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10067.06701,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 16.573414050382887,
+        "y": 34.04690551503316,
+        "z": 0.9898210153855881
+      },
+      "orientation_xyzw": {
+        "x": -0.22652491096841534,
+        "y": 0.45723380156957355,
+        "z": 0.7675176174015039,
+        "w": -0.38799538965212765
+      }
+    },
+    {
+      "frame_index": 135,
+      "filename": "frame_0136.jpg",
+      "time_seconds": 67.567527,
+      "camera_timestamp_ns": 10067567527000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10067.567527,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 15.91975570819341,
+        "y": 34.23297690990942,
+        "z": 1.0082119188112169
+      },
+      "orientation_xyzw": {
+        "x": -0.2918293910544613,
+        "y": 0.44902601275521997,
+        "z": 0.7290490118409464,
+        "w": -0.42626140421069236
+      }
+    },
+    {
+      "frame_index": 136,
+      "filename": "frame_0137.jpg",
+      "time_seconds": 68.068012,
+      "camera_timestamp_ns": 10068068012000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10068.068012,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 15.233866288253946,
+        "y": 34.30333639437265,
+        "z": 1.0206439094437922
+      },
+      "orientation_xyzw": {
+        "x": -0.284739507683757,
+        "y": 0.4580330896035064,
+        "z": 0.7299017982382965,
+        "w": -0.4199672207694064
+      }
+    },
+    {
+      "frame_index": 137,
+      "filename": "frame_0138.jpg",
+      "time_seconds": 68.568512,
+      "camera_timestamp_ns": 10068568512000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10068.568512,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 14.56144098713822,
+        "y": 34.407059396079234,
+        "z": 1.030321766565894
+      },
+      "orientation_xyzw": {
+        "x": -0.3074469375993654,
+        "y": 0.45410930996204424,
+        "z": 0.7063326100520645,
+        "w": -0.4476107227755006
+      }
+    },
+    {
+      "frame_index": 138,
+      "filename": "frame_0139.jpg",
+      "time_seconds": 69.069038,
+      "camera_timestamp_ns": 10069069038000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10069.069038,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 13.890171626116196,
+        "y": 34.353054495188616,
+        "z": 1.011992026892263
+      },
+      "orientation_xyzw": {
+        "x": -0.3122505101753167,
+        "y": 0.4265528563766322,
+        "z": 0.7121316241469927,
+        "w": -0.46197492302283816
+      }
+    },
+    {
+      "frame_index": 139,
+      "filename": "frame_0140.jpg",
+      "time_seconds": 69.56951,
+      "camera_timestamp_ns": 10069569510000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10069.56951,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 13.219688418981345,
+        "y": 34.312750440671,
+        "z": 1.0033145525253866
+      },
+      "orientation_xyzw": {
+        "x": 0.3523458613478054,
+        "y": -0.4135571719974827,
+        "z": -0.6676624133570196,
+        "w": 0.50896931270048
+      }
+    },
+    {
+      "frame_index": 140,
+      "filename": "frame_0141.jpg",
+      "time_seconds": 70.07001,
+      "camera_timestamp_ns": 10070070010000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10070.07001,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 12.606207499364949,
+        "y": 34.11170338362897,
+        "z": 0.985768286381696
+      },
+      "orientation_xyzw": {
+        "x": 0.40077758575990813,
+        "y": -0.3490647074687224,
+        "z": -0.6142148700026834,
+        "w": 0.5833277382568243
+      }
+    },
+    {
+      "frame_index": 141,
+      "filename": "frame_0142.jpg",
+      "time_seconds": 70.570505,
+      "camera_timestamp_ns": 10070570505000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10070.570505,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 11.963152386240772,
+        "y": 33.89607212901699,
+        "z": 0.9849996240931611
+      },
+      "orientation_xyzw": {
+        "x": 0.42567563186089563,
+        "y": -0.36380925673975817,
+        "z": -0.5703768394435694,
+        "w": 0.600927068933209
+      }
+    },
+    {
+      "frame_index": 142,
+      "filename": "frame_0143.jpg",
+      "time_seconds": 71.071008,
+      "camera_timestamp_ns": 10071071008000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10071.071008,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 11.539291653049734,
+        "y": 33.54418335400797,
+        "z": 0.95846703649235
+      },
+      "orientation_xyzw": {
+        "x": 0.46694214520035726,
+        "y": -0.234364347474181,
+        "z": -0.49090697407609885,
+        "w": 0.6971719504341367
+      }
+    },
+    {
+      "frame_index": 143,
+      "filename": "frame_0144.jpg",
+      "time_seconds": 71.571509,
+      "camera_timestamp_ns": 10071571509000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10071.571509,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 11.152413013907488,
+        "y": 33.085160018711605,
+        "z": 0.96034123707217
+      },
+      "orientation_xyzw": {
+        "x": 0.505827452953006,
+        "y": -0.18489966249078496,
+        "z": -0.37638378935393874,
+        "w": 0.7538474287025445
+      }
+    },
+    {
+      "frame_index": 144,
+      "filename": "frame_0145.jpg",
+      "time_seconds": 72.072006,
+      "camera_timestamp_ns": 10072072006000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10072.072006,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 10.873459159744094,
+        "y": 32.59039420123554,
+        "z": 0.9742612521065018
+      },
+      "orientation_xyzw": {
+        "x": 0.5215915742287917,
+        "y": -0.08562005684985304,
+        "z": -0.208113935108449,
+        "w": 0.8229823968787153
+      }
+    },
+    {
+      "frame_index": 145,
+      "filename": "frame_0146.jpg",
+      "time_seconds": 72.572506,
+      "camera_timestamp_ns": 10072572506000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10072.572506,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 10.742079032101763,
+        "y": 31.958330474434042,
+        "z": 0.9896847755291004
+      },
+      "orientation_xyzw": {
+        "x": 0.5151201660557323,
+        "y": -0.07870066327608631,
+        "z": -0.1783863857018629,
+        "w": 0.8346470616487217
+      }
+    },
+    {
+      "frame_index": 146,
+      "filename": "frame_0147.jpg",
+      "time_seconds": 73.073003,
+      "camera_timestamp_ns": 10073073003000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10073.073003,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 10.607327924397328,
+        "y": 31.308437219345905,
+        "z": 1.003109413792377
+      },
+      "orientation_xyzw": {
+        "x": 0.5285907507004055,
+        "y": -0.05052530937331379,
+        "z": -0.13809449101921611,
+        "w": 0.8360436130590653
+      }
+    },
+    {
+      "frame_index": 147,
+      "filename": "frame_0148.jpg",
+      "time_seconds": 73.573506,
+      "camera_timestamp_ns": 10073573506000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10073.573506,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 10.562337843423823,
+        "y": 30.636322114198293,
+        "z": 0.9976326935105287
+      },
+      "orientation_xyzw": {
+        "x": 0.5220670966593834,
+        "y": -0.05927519176768254,
+        "z": -0.1621119136512882,
+        "w": 0.8352557247207973
+      }
+    },
+    {
+      "frame_index": 148,
+      "filename": "frame_0149.jpg",
+      "time_seconds": 74.074002,
+      "camera_timestamp_ns": 10074074002000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10074.074002,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 10.530189889086483,
+        "y": 29.987590588656943,
+        "z": 0.9889028438043856
+      },
+      "orientation_xyzw": {
+        "x": 0.5449024869124236,
+        "y": 0.01788178832558273,
+        "z": -0.09691951539801331,
+        "w": 0.8326872936090413
+      }
+    },
+    {
+      "frame_index": 149,
+      "filename": "frame_0150.jpg",
+      "time_seconds": 74.574505,
+      "camera_timestamp_ns": 10074574505000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10074.574505,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 10.71136336023411,
+        "y": 29.45287970604872,
+        "z": 0.9741252408437157
+      },
+      "orientation_xyzw": {
+        "x": 0.516480963516129,
+        "y": 0.08531644604625944,
+        "z": 0.016808146490696455,
+        "w": 0.8518720588040402
+      }
+    },
+    {
+      "frame_index": 150,
+      "filename": "frame_0151.jpg",
+      "time_seconds": 75.075004,
+      "camera_timestamp_ns": 10075075004000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10075.075004,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 10.972847787245374,
+        "y": 28.903024037208983,
+        "z": 0.9800300560062736
+      },
+      "orientation_xyzw": {
+        "x": 0.524382364902653,
+        "y": 0.07311791476045383,
+        "z": 0.06602979482859375,
+        "w": 0.8457641350371141
+      }
+    },
+    {
+      "frame_index": 151,
+      "filename": "frame_0152.jpg",
+      "time_seconds": 75.575502,
+      "camera_timestamp_ns": 10075575502000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10075.575502,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 11.30651092241203,
+        "y": 28.33850607853911,
+        "z": 0.9634241030333415
+      },
+      "orientation_xyzw": {
+        "x": 0.5185603246771998,
+        "y": 0.0888412754072705,
+        "z": 0.03095772087506898,
+        "w": 0.8498494201756615
+      }
+    },
+    {
+      "frame_index": 152,
+      "filename": "frame_0153.jpg",
+      "time_seconds": 76.076004,
+      "camera_timestamp_ns": 10076076004000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10076.076004,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 11.460448736801624,
+        "y": 27.603143788240537,
+        "z": 0.9766771564835705
+      },
+      "orientation_xyzw": {
+        "x": 0.5510285082112085,
+        "y": -0.04751120627332817,
+        "z": -0.10846498084082232,
+        "w": 0.8260421395716949
+      }
+    },
+    {
+      "frame_index": 153,
+      "filename": "frame_0154.jpg",
+      "time_seconds": 76.576503,
+      "camera_timestamp_ns": 10076576503000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10076.576503,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 11.50263994714194,
+        "y": 26.91020406135569,
+        "z": 0.9668834721964202
+      },
+      "orientation_xyzw": {
+        "x": 0.5342479561559161,
+        "y": -0.07413232102889136,
+        "z": -0.17995086065953053,
+        "w": 0.8226185070067354
+      }
+    },
+    {
+      "frame_index": 154,
+      "filename": "frame_0155.jpg",
+      "time_seconds": 77.077015,
+      "camera_timestamp_ns": 10077077015000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10077.077015,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 11.460852328487103,
+        "y": 26.19600303240847,
+        "z": 0.9944862898609147
+      },
+      "orientation_xyzw": {
+        "x": 0.5389761159568798,
+        "y": -0.13629463713513584,
+        "z": -0.2389392311706851,
+        "w": 0.7961385319928935
+      }
+    },
+    {
+      "frame_index": 155,
+      "filename": "frame_0156.jpg",
+      "time_seconds": 77.577511,
+      "camera_timestamp_ns": 10077577511000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10077.577511,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 11.377625494029544,
+        "y": 25.553412351702757,
+        "z": 0.9984228968245642
+      },
+      "orientation_xyzw": {
+        "x": 0.5355448668951347,
+        "y": -0.09321425378863966,
+        "z": -0.20367283962582264,
+        "w": 0.8142605067370354
+      }
+    },
+    {
+      "frame_index": 156,
+      "filename": "frame_0157.jpg",
+      "time_seconds": 78.078033,
+      "camera_timestamp_ns": 10078078033000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10078.078033,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 11.372397510738068,
+        "y": 24.86173800881152,
+        "z": 1.0055092355038708
+      },
+      "orientation_xyzw": {
+        "x": 0.5317286362997974,
+        "y": -0.0959127594265549,
+        "z": -0.1987804440550526,
+        "w": 0.8176501299328568
+      }
+    },
+    {
+      "frame_index": 157,
+      "filename": "frame_0158.jpg",
+      "time_seconds": 78.57854,
+      "camera_timestamp_ns": 10078578540000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10078.57854,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 11.331978279669805,
+        "y": 24.193799079541932,
+        "z": 1.0109310482295337
+      },
+      "orientation_xyzw": {
+        "x": 0.5512828368350368,
+        "y": -0.04482832307830649,
+        "z": -0.14399116752713118,
+        "w": 0.8205755290863083
+      }
+    },
+    {
+      "frame_index": 158,
+      "filename": "frame_0159.jpg",
+      "time_seconds": 79.079038,
+      "camera_timestamp_ns": 10079079038000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10079.079038,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 11.44062175944989,
+        "y": 23.58121826164033,
+        "z": 0.9995884890224407
+      },
+      "orientation_xyzw": {
+        "x": 0.5312827206616159,
+        "y": -0.029134326393707118,
+        "z": -0.10965351198118929,
+        "w": 0.8395629631315138
+      }
+    },
+    {
+      "frame_index": 159,
+      "filename": "frame_0160.jpg",
+      "time_seconds": 79.579525,
+      "camera_timestamp_ns": 10079579525000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10079.579525,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 11.585891191683249,
+        "y": 22.9598036407107,
+        "z": 0.9998066565163695
+      },
+      "orientation_xyzw": {
+        "x": 0.5546415649753731,
+        "y": 0.0207564012299399,
+        "z": -0.02194027032738151,
+        "w": 0.8315410577642046
+      }
+    },
+    {
+      "frame_index": 160,
+      "filename": "frame_0161.jpg",
+      "time_seconds": 80.080022,
+      "camera_timestamp_ns": 10080080022000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10080.080022,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 11.929230882513028,
+        "y": 22.458477657039314,
+        "z": 0.9735048535039343
+      },
+      "orientation_xyzw": {
+        "x": 0.5323812654293987,
+        "y": 0.12707024743348772,
+        "z": 0.08305268613359892,
+        "w": 0.8327818392370109
+      }
+    },
+    {
+      "frame_index": 161,
+      "filename": "frame_0162.jpg",
+      "time_seconds": 80.580543,
+      "camera_timestamp_ns": 10080580543000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10080.580543,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 12.316982794703499,
+        "y": 21.92145518439239,
+        "z": 0.9850687206396535
+      },
+      "orientation_xyzw": {
+        "x": 0.5528735661990579,
+        "y": 0.12808928786298468,
+        "z": 0.13644114148632552,
+        "w": 0.8119776899909247
+      }
+    },
+    {
+      "frame_index": 162,
+      "filename": "frame_0163.jpg",
+      "time_seconds": 81.081007,
+      "camera_timestamp_ns": 10081081007000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10081.081007,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 12.754530305638966,
+        "y": 21.558714428313838,
+        "z": 0.965041009898417
+      },
+      "orientation_xyzw": {
+        "x": 0.4793693771738566,
+        "y": 0.20514348599520515,
+        "z": 0.267221154484431,
+        "w": 0.8103789267852983
+      }
+    },
+    {
+      "frame_index": 163,
+      "filename": "frame_0164.jpg",
+      "time_seconds": 81.581508,
+      "camera_timestamp_ns": 10081581508000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10081.581508,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 13.300815024015147,
+        "y": 21.20699187207453,
+        "z": 0.9772398314118055
+      },
+      "orientation_xyzw": {
+        "x": 0.49049644453744246,
+        "y": 0.22005551692388817,
+        "z": 0.32808157409559574,
+        "w": 0.7767569041253797
+      }
+    },
+    {
+      "frame_index": 164,
+      "filename": "frame_0165.jpg",
+      "time_seconds": 82.082014,
+      "camera_timestamp_ns": 10082082014000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10082.082014,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 13.846976180368916,
+        "y": 20.955303081062002,
+        "z": 0.9927016751772021
+      },
+      "orientation_xyzw": {
+        "x": 0.42666000701258805,
+        "y": 0.30155415112659123,
+        "z": 0.45358049549157226,
+        "w": 0.7220048936565175
+      }
+    },
+    {
+      "frame_index": 165,
+      "filename": "frame_0166.jpg",
+      "time_seconds": 82.582506,
+      "camera_timestamp_ns": 10082582506000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10082.582506,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 14.473187175610583,
+        "y": 20.953078879240376,
+        "z": 1.0032566760990655
+      },
+      "orientation_xyzw": {
+        "x": 0.4127270484275708,
+        "y": 0.3299364754054241,
+        "z": 0.49115539353812193,
+        "w": 0.6925060902921535
+      }
+    },
+    {
+      "frame_index": 166,
+      "filename": "frame_0167.jpg",
+      "time_seconds": 83.083004,
+      "camera_timestamp_ns": 10083083004000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10083.083004,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 15.04469745262817,
+        "y": 21.03815688775999,
+        "z": 1.0089461090066176
+      },
+      "orientation_xyzw": {
+        "x": 0.3223758997104381,
+        "y": 0.39619250770344716,
+        "z": 0.6201572373502162,
+        "w": 0.5954076562219263
+      }
+    },
+    {
+      "frame_index": 167,
+      "filename": "frame_0168.jpg",
+      "time_seconds": 83.5835,
+      "camera_timestamp_ns": 10083583500000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10083.5835,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 15.598801501127966,
+        "y": 21.342147914926482,
+        "z": 1.009929763682411
+      },
+      "orientation_xyzw": {
+        "x": 0.291446446157912,
+        "y": 0.44440003470432515,
+        "z": 0.680672806025994,
+        "w": 0.5042341810244699
+      }
+    },
+    {
+      "frame_index": 168,
+      "filename": "frame_0169.jpg",
+      "time_seconds": 84.084003,
+      "camera_timestamp_ns": 10084084003000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10084.084003,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 16.141311762139786,
+        "y": 21.700094757308953,
+        "z": 1.0058457335919009
+      },
+      "orientation_xyzw": {
+        "x": 0.2786144817978874,
+        "y": 0.45940872763122803,
+        "z": 0.7129080149595803,
+        "w": 0.45064371039119316
+      }
+    },
+    {
+      "frame_index": 169,
+      "filename": "frame_0170.jpg",
+      "time_seconds": 84.584505,
+      "camera_timestamp_ns": 10084584505000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10084.584505,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 16.573212384864686,
+        "y": 22.121885422560638,
+        "z": 0.9890409735853787
+      },
+      "orientation_xyzw": {
+        "x": 0.21838906656269985,
+        "y": 0.4742746488089461,
+        "z": 0.7464506264211527,
+        "w": 0.4125302842440689
+      }
+    },
+    {
+      "frame_index": 170,
+      "filename": "frame_0171.jpg",
+      "time_seconds": 85.085002,
+      "camera_timestamp_ns": 10085085002000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10085.085002,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 17.035477861444768,
+        "y": 22.5765072137035,
+        "z": 0.9965532370447409
+      },
+      "orientation_xyzw": {
+        "x": 0.24286243632073098,
+        "y": 0.5084070350379011,
+        "z": 0.7361102464826146,
+        "w": 0.3750757640419254
+      }
+    },
+    {
+      "frame_index": 171,
+      "filename": "frame_0172.jpg",
+      "time_seconds": 85.585506,
+      "camera_timestamp_ns": 10085585506000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10085.585506,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 17.33355954399432,
+        "y": 23.044627896614177,
+        "z": 1.0011672661857893
+      },
+      "orientation_xyzw": {
+        "x": 0.17159426351562612,
+        "y": 0.5264503246113468,
+        "z": 0.7804766347379979,
+        "w": 0.2902786369562657
+      }
+    },
+    {
+      "frame_index": 172,
+      "filename": "frame_0173.jpg",
+      "time_seconds": 86.086013,
+      "camera_timestamp_ns": 10086086013000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10086.086013,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 17.56509655476067,
+        "y": 23.58135767672809,
+        "z": 1.0191421735397082
+      },
+      "orientation_xyzw": {
+        "x": 0.17638431017302753,
+        "y": 0.5062293651628437,
+        "z": 0.8010948643354442,
+        "w": 0.2662093599161866
+      }
+    },
+    {
+      "frame_index": 173,
+      "filename": "frame_0174.jpg",
+      "time_seconds": 86.586509,
+      "camera_timestamp_ns": 10086586509000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10086.586509,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 17.894150707440883,
+        "y": 24.067092902358816,
+        "z": 1.0223962117092822
+      },
+      "orientation_xyzw": {
+        "x": 0.24754555914037432,
+        "y": 0.4601592922695989,
+        "z": 0.7687814619256595,
+        "w": 0.36871355506309644
+      }
+    },
+    {
+      "frame_index": 174,
+      "filename": "frame_0175.jpg",
+      "time_seconds": 87.087023,
+      "camera_timestamp_ns": 10087087023000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10087.087023,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 18.397640278824415,
+        "y": 24.469715885754255,
+        "z": 1.0286339191927014
+      },
+      "orientation_xyzw": {
+        "x": 0.3762262188248095,
+        "y": 0.37522950603198635,
+        "z": 0.6246656390505131,
+        "w": 0.5722320241487647
+      }
+    },
+    {
+      "frame_index": 175,
+      "filename": "frame_0176.jpg",
+      "time_seconds": 87.587529,
+      "camera_timestamp_ns": 10087587529000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10087.587529,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 19.07771975843258,
+        "y": 24.53142200887288,
+        "z": 1.030061262601902
+      },
+      "orientation_xyzw": {
+        "x": 0.4777764755681586,
+        "y": 0.29460652082724587,
+        "z": 0.48100079223948633,
+        "w": 0.6734796768609435
+      }
+    },
+    {
+      "frame_index": 176,
+      "filename": "frame_0177.jpg",
+      "time_seconds": 88.088032,
+      "camera_timestamp_ns": 10088088032000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10088.088032,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 19.721320111020134,
+        "y": 24.52022826570206,
+        "z": 1.0023100139844716
+      },
+      "orientation_xyzw": {
+        "x": 0.46448851368365707,
+        "y": 0.28327234436638804,
+        "z": 0.44013513686933337,
+        "w": 0.7143446373188019
+      }
+    },
+    {
+      "frame_index": 177,
+      "filename": "frame_0178.jpg",
+      "time_seconds": 88.588506,
+      "camera_timestamp_ns": 10088588506000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10088.588506,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 20.34895640784695,
+        "y": 24.423736869996343,
+        "z": 1.0079427849342102
+      },
+      "orientation_xyzw": {
+        "x": 0.4653556236851351,
+        "y": 0.2787245668644104,
+        "z": 0.4678398157619601,
+        "w": 0.6977697801701367
+      }
+    },
+    {
+      "frame_index": 178,
+      "filename": "frame_0179.jpg",
+      "time_seconds": 89.089031,
+      "camera_timestamp_ns": 10089089031000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10089.089031,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 20.948441883783907,
+        "y": 24.417378706540035,
+        "z": 0.9976862216736737
+      },
+      "orientation_xyzw": {
+        "x": 0.41398433748917446,
+        "y": 0.32983869770283764,
+        "z": 0.5303722668560107,
+        "w": 0.6622149653710357
+      }
+    },
+    {
+      "frame_index": 179,
+      "filename": "frame_0180.jpg",
+      "time_seconds": 89.589525,
+      "camera_timestamp_ns": 10089589525000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10089.589525,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 21.588091681747827,
+        "y": 24.44401560702678,
+        "z": 1.0077666552818323
+      },
+      "orientation_xyzw": {
+        "x": 0.42860274445009683,
+        "y": 0.31731633637147816,
+        "z": 0.5282861242750406,
+        "w": 0.6606994785983142
+      }
+    },
+    {
+      "frame_index": 180,
+      "filename": "frame_0181.jpg",
+      "time_seconds": 90.090029,
+      "camera_timestamp_ns": 10090090029000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10090.090029,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 22.217061733130734,
+        "y": 24.47827472436804,
+        "z": 1.0196754250469664
+      },
+      "orientation_xyzw": {
+        "x": 0.39966928509256844,
+        "y": 0.35107428954256537,
+        "z": 0.5525338689182255,
+        "w": 0.641652265229412
+      }
+    },
+    {
+      "frame_index": 181,
+      "filename": "frame_0182.jpg",
+      "time_seconds": 90.590514,
+      "camera_timestamp_ns": 10090590514000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10090.590514,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 22.85695315944394,
+        "y": 24.5926740796302,
+        "z": 1.0209687973228232
+      },
+      "orientation_xyzw": {
+        "x": 0.41395375597872447,
+        "y": 0.32389118043514553,
+        "z": 0.5287113012149292,
+        "w": 0.6664841716913097
+      }
+    },
+    {
+      "frame_index": 182,
+      "filename": "frame_0183.jpg",
+      "time_seconds": 91.091011,
+      "camera_timestamp_ns": 10091091011000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10091.091011,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 23.508888217152823,
+        "y": 24.604560134511154,
+        "z": 1.021463611673786
+      },
+      "orientation_xyzw": {
+        "x": 0.40421931169663594,
+        "y": 0.3526687903879498,
+        "z": 0.5499574360104088,
+        "w": 0.6401392746228398
+      }
+    },
+    {
+      "frame_index": 183,
+      "filename": "frame_0184.jpg",
+      "time_seconds": 91.591508,
+      "camera_timestamp_ns": 10091591508000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10091.591508,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 24.179577641353767,
+        "y": 24.68468657208178,
+        "z": 1.0050764880753744
+      },
+      "orientation_xyzw": {
+        "x": 0.42384597772540733,
+        "y": 0.3389146147850203,
+        "z": 0.519757385458652,
+        "w": 0.6598058284922175
+      }
+    },
+    {
+      "frame_index": 184,
+      "filename": "frame_0185.jpg",
+      "time_seconds": 92.092006,
+      "camera_timestamp_ns": 10092092006000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10092.092006,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 24.85627773059857,
+        "y": 24.649362643111075,
+        "z": 1.002035190944213
+      },
+      "orientation_xyzw": {
+        "x": 0.46011326667237057,
+        "y": 0.3187715979441881,
+        "z": 0.48581568065626074,
+        "w": 0.671314810357021
+      }
+    },
+    {
+      "frame_index": 185,
+      "filename": "frame_0186.jpg",
+      "time_seconds": 92.592504,
+      "camera_timestamp_ns": 10092592504000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10092.592504,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 25.49325808335462,
+        "y": 24.671939238173206,
+        "z": 0.9838719091169205
+      },
+      "orientation_xyzw": {
+        "x": 0.42454727388286495,
+        "y": 0.34913748247025095,
+        "z": 0.5130886641834824,
+        "w": 0.6592440013070825
+      }
+    },
+    {
+      "frame_index": 186,
+      "filename": "frame_0187.jpg",
+      "time_seconds": 93.093004,
+      "camera_timestamp_ns": 10093093004000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10093.093004,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 26.152852424845545,
+        "y": 24.661254844352623,
+        "z": 0.9904406739772348
+      },
+      "orientation_xyzw": {
+        "x": 0.44853366098494757,
+        "y": 0.34100028982657643,
+        "z": 0.5154789417604739,
+        "w": 0.6456142949959622
+      }
+    },
+    {
+      "frame_index": 187,
+      "filename": "frame_0188.jpg",
+      "time_seconds": 93.593506,
+      "camera_timestamp_ns": 10093593506000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10093.593506,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 26.797178014462432,
+        "y": 24.656935190191945,
+        "z": 0.9915007317974968
+      },
+      "orientation_xyzw": {
+        "x": 0.4263702322123975,
+        "y": 0.35126846673031453,
+        "z": 0.5263530706749979,
+        "w": 0.646352329890657
+      }
+    },
+    {
+      "frame_index": 188,
+      "filename": "frame_0189.jpg",
+      "time_seconds": 94.094004,
+      "camera_timestamp_ns": 10094094004000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10094.094004,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 27.464835470796906,
+        "y": 24.697619617958086,
+        "z": 1.0127137797875436
+      },
+      "orientation_xyzw": {
+        "x": 0.4462875380181408,
+        "y": 0.31123906944937535,
+        "z": 0.4839011478034069,
+        "w": 0.6854176494755143
+      }
+    },
+    {
+      "frame_index": 189,
+      "filename": "frame_0190.jpg",
+      "time_seconds": 94.594503,
+      "camera_timestamp_ns": 10094594503000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10094.594503,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 28.124364745905723,
+        "y": 24.663621726953632,
+        "z": 1.0196277252139043
+      },
+      "orientation_xyzw": {
+        "x": 0.4320825361578336,
+        "y": 0.3300148917280764,
+        "z": 0.4934085724314023,
+        "w": 0.67892770884412
+      }
+    },
+    {
+      "frame_index": 190,
+      "filename": "frame_0191.jpg",
+      "time_seconds": 95.09503,
+      "camera_timestamp_ns": 10095095030000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10095.09503,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 28.811987062488335,
+        "y": 24.670379196939617,
+        "z": 1.0186396797034158
+      },
+      "orientation_xyzw": {
+        "x": 0.44108974676729823,
+        "y": 0.3281166246425962,
+        "z": 0.4846894030929946,
+        "w": 0.6803348428966924
+      }
+    },
+    {
+      "frame_index": 191,
+      "filename": "frame_0192.jpg",
+      "time_seconds": 95.595504,
+      "camera_timestamp_ns": 10095595504000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10095.595504,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 29.47189503843354,
+        "y": 24.599522551827384,
+        "z": 1.0112489352754657
+      },
+      "orientation_xyzw": {
+        "x": 0.4376781231282589,
+        "y": 0.3397429600751728,
+        "z": 0.5059242961900436,
+        "w": 0.6610999834661118
+      }
+    },
+    {
+      "frame_index": 192,
+      "filename": "frame_0193.jpg",
+      "time_seconds": 96.096005,
+      "camera_timestamp_ns": 10096096005000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10096.096005,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 30.12085668841122,
+        "y": 24.633137561646926,
+        "z": 0.9904534661314992
+      },
+      "orientation_xyzw": {
+        "x": 0.40661982459661133,
+        "y": 0.35500057957099324,
+        "z": 0.5187751374287425,
+        "w": 0.6629534399451213
+      }
+    },
+    {
+      "frame_index": 193,
+      "filename": "frame_0194.jpg",
+      "time_seconds": 96.596507,
+      "camera_timestamp_ns": 10096596507000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10096.596507,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 30.840730734913155,
+        "y": 24.564787780489013,
+        "z": 0.9878472964672266
+      },
+      "orientation_xyzw": {
+        "x": 0.45841366538886186,
+        "y": 0.3242152551700771,
+        "z": 0.48339038649078137,
+        "w": 0.6716212578142859
+      }
+    },
+    {
+      "frame_index": 194,
+      "filename": "frame_0195.jpg",
+      "time_seconds": 97.097003,
+      "camera_timestamp_ns": 10097097003000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10097.097003,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 31.483634755034394,
+        "y": 24.537771819324252,
+        "z": 0.9745419572698977
+      },
+      "orientation_xyzw": {
+        "x": 0.4118969787824091,
+        "y": 0.3298635302120961,
+        "z": 0.49935547152198034,
+        "w": 0.6871499424194096
+      }
+    },
+    {
+      "frame_index": 195,
+      "filename": "frame_0196.jpg",
+      "time_seconds": 97.597515,
+      "camera_timestamp_ns": 10097597515000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10097.597515,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 32.178351476425284,
+        "y": 24.48020996362827,
+        "z": 0.9837995734357388
+      },
+      "orientation_xyzw": {
+        "x": 0.4409012697224874,
+        "y": 0.27903190534944794,
+        "z": 0.4668890119446019,
+        "w": 0.71397613172959
+      }
+    },
+    {
+      "frame_index": 196,
+      "filename": "frame_0197.jpg",
+      "time_seconds": 98.098021,
+      "camera_timestamp_ns": 10098098021000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10098.098021,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 32.84997472086543,
+        "y": 24.392191066764628,
+        "z": 0.9936964916557246
+      },
+      "orientation_xyzw": {
+        "x": 0.43126445704949107,
+        "y": 0.3049081616478466,
+        "z": 0.47624588233712617,
+        "w": 0.7030162449070937
+      }
+    },
+    {
+      "frame_index": 197,
+      "filename": "frame_0198.jpg",
+      "time_seconds": 98.598543,
+      "camera_timestamp_ns": 10098598543000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10098.598543,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 33.543786412034294,
+        "y": 24.354875896767368,
+        "z": 1.0075537339478893
+      },
+      "orientation_xyzw": {
+        "x": 0.4479295480148073,
+        "y": 0.2881284650053743,
+        "z": 0.42907425403116156,
+        "w": 0.7295453325164241
+      }
+    },
+    {
+      "frame_index": 198,
+      "filename": "frame_0199.jpg",
+      "time_seconds": 99.09903,
+      "camera_timestamp_ns": 10099099030000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10099.09903,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 34.19143404932995,
+        "y": 24.157638983828452,
+        "z": 1.0195068394818623
+      },
+      "orientation_xyzw": {
+        "x": 0.46474204854754075,
+        "y": 0.27576775863175135,
+        "z": 0.4286688178827665,
+        "w": 0.7240234914600817
+      }
+    },
+    {
+      "frame_index": 199,
+      "filename": "frame_0200.jpg",
+      "time_seconds": 99.599533,
+      "camera_timestamp_ns": 10099599533000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10099.599533,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 34.85935406613522,
+        "y": 23.95764789606499,
+        "z": 1.009129400732153
+      },
+      "orientation_xyzw": {
+        "x": 0.4761158910850417,
+        "y": 0.2392473785112751,
+        "z": 0.3583587703722425,
+        "w": 0.766585508491436
+      }
+    },
+    {
+      "frame_index": 200,
+      "filename": "frame_0201.jpg",
+      "time_seconds": 100.100031,
+      "camera_timestamp_ns": 10100100031000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10100.100031,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.436971904877424,
+        "y": 23.52098230276461,
+        "z": 0.9989099659884405
+      },
+      "orientation_xyzw": {
+        "x": 0.5238335065766496,
+        "y": 0.16293126285845191,
+        "z": 0.2696406008482226,
+        "w": 0.7914201206345279
+      }
+    },
+    {
+      "frame_index": 201,
+      "filename": "frame_0202.jpg",
+      "time_seconds": 100.600514,
+      "camera_timestamp_ns": 10100600514000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10100.600514,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.920832540848785,
+        "y": 23.04871464883693,
+        "z": 0.975932358158752
+      },
+      "orientation_xyzw": {
+        "x": 0.5144368758156733,
+        "y": 0.12211990926971636,
+        "z": 0.1656919823439257,
+        "w": 0.8324587650736257
+      }
+    },
+    {
+      "frame_index": 202,
+      "filename": "frame_0203.jpg",
+      "time_seconds": 101.101019,
+      "camera_timestamp_ns": 10101101019000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10101.101019,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 36.18956259946008,
+        "y": 22.388877480263574,
+        "z": 0.9798145821606608
+      },
+      "orientation_xyzw": {
+        "x": 0.5486870506478191,
+        "y": -0.011427961250250073,
+        "z": -0.005253898937026509,
+        "w": 0.8359332022949084
+      }
+    },
+    {
+      "frame_index": 203,
+      "filename": "frame_0204.jpg",
+      "time_seconds": 101.60151,
+      "camera_timestamp_ns": 10101601510000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10101.60151,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 36.27667362747195,
+        "y": 21.72156696361443,
+        "z": 0.9700644379515093
+      },
+      "orientation_xyzw": {
+        "x": 0.5431760876825239,
+        "y": -0.08299438329806529,
+        "z": -0.16880156371748914,
+        "w": 0.8182772770873032
+      }
+    },
+    {
+      "frame_index": 204,
+      "filename": "frame_0205.jpg",
+      "time_seconds": 102.102015,
+      "camera_timestamp_ns": 10102102015000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10102.102015,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 36.046520565092166,
+        "y": 21.073242988639432,
+        "z": 0.9864556492748867
+      },
+      "orientation_xyzw": {
+        "x": 0.486290101852982,
+        "y": -0.27746874869421784,
+        "z": -0.4169135228744088,
+        "w": 0.7160419993145175
+      }
+    },
+    {
+      "frame_index": 205,
+      "filename": "frame_0206.jpg",
+      "time_seconds": 102.602522,
+      "camera_timestamp_ns": 10102602522000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10102.602522,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.596992931017716,
+        "y": 20.618079855075592,
+        "z": 0.9907776193192975
+      },
+      "orientation_xyzw": {
+        "x": 0.44354028736888534,
+        "y": -0.33439285986102546,
+        "z": -0.5270043868548919,
+        "w": 0.6432105448376849
+      }
+    },
+    {
+      "frame_index": 206,
+      "filename": "frame_0207.jpg",
+      "time_seconds": 103.103008,
+      "camera_timestamp_ns": 10103103008000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10103.103008,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.02650221780748,
+        "y": 20.252319025831145,
+        "z": 1.0090634783966563
+      },
+      "orientation_xyzw": {
+        "x": 0.3697669126705834,
+        "y": -0.39860949759411346,
+        "z": -0.62793730446518,
+        "w": 0.556846155040005
+      }
+    },
+    {
+      "frame_index": 207,
+      "filename": "frame_0208.jpg",
+      "time_seconds": 103.603506,
+      "camera_timestamp_ns": 10103603506000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10103.603506,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 34.361605099334405,
+        "y": 20.07231085586454,
+        "z": 1.011395460214322
+      },
+      "orientation_xyzw": {
+        "x": 0.34209740366636876,
+        "y": -0.42079365082221654,
+        "z": -0.6574745075323437,
+        "w": 0.5230959202455534
+      }
+    },
+    {
+      "frame_index": 208,
+      "filename": "frame_0209.jpg",
+      "time_seconds": 104.104004,
+      "camera_timestamp_ns": 10104104004000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10104.104004,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 33.699638232736895,
+        "y": 19.887302254643348,
+        "z": 0.9933686382440099
+      },
+      "orientation_xyzw": {
+        "x": 0.31584692715077617,
+        "y": -0.404186206018071,
+        "z": -0.6950893251548979,
+        "w": 0.5037112858869042
+      }
+    },
+    {
+      "frame_index": 209,
+      "filename": "frame_0210.jpg",
+      "time_seconds": 104.604505,
+      "camera_timestamp_ns": 10104604505000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10104.604505,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 32.96482822585427,
+        "y": 19.895038965968673,
+        "z": 0.9922002166003261
+      },
+      "orientation_xyzw": {
+        "x": -0.27595001525502943,
+        "y": 0.46334546051501574,
+        "z": 0.7009729688301696,
+        "w": -0.46668990804419047
+      }
+    },
+    {
+      "frame_index": 210,
+      "filename": "frame_0211.jpg",
+      "time_seconds": 105.105003,
+      "camera_timestamp_ns": 10105105003000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10105.105003,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 32.256333581522966,
+        "y": 19.847140656421896,
+        "z": 0.9616895707341119
+      },
+      "orientation_xyzw": {
+        "x": -0.32767484506728667,
+        "y": 0.4153047943150176,
+        "z": 0.7050128018478339,
+        "w": -0.47234317287302613
+      }
+    },
+    {
+      "frame_index": 211,
+      "filename": "frame_0212.jpg",
+      "time_seconds": 105.605509,
+      "camera_timestamp_ns": 10105605509000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10105.605509,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 31.51430443462686,
+        "y": 19.93712086388355,
+        "z": 0.9696946915067567
+      },
+      "orientation_xyzw": {
+        "x": -0.28843445740989115,
+        "y": 0.4601361087760596,
+        "z": 0.7263876928393403,
+        "w": -0.42123775337762465
+      }
+    },
+    {
+      "frame_index": 212,
+      "filename": "frame_0213.jpg",
+      "time_seconds": 106.106006,
+      "camera_timestamp_ns": 10106106006000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10106.106006,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 30.85634983559187,
+        "y": 19.980509922256548,
+        "z": 0.9596764080277377
+      },
+      "orientation_xyzw": {
+        "x": -0.32225812644670737,
+        "y": 0.41803902258222086,
+        "z": 0.7176777039228818,
+        "w": -0.4542375907270781
+      }
+    },
+    {
+      "frame_index": 213,
+      "filename": "frame_0214.jpg",
+      "time_seconds": 106.606509,
+      "camera_timestamp_ns": 10106606509000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10106.606508,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 30.11880362849477,
+        "y": 20.032824713934403,
+        "z": 0.9724138212316565
+      },
+      "orientation_xyzw": {
+        "x": -0.29156220112184716,
+        "y": 0.4563928170488912,
+        "z": 0.7333294379678483,
+        "w": -0.4110048841959428
+      }
+    },
+    {
+      "frame_index": 214,
+      "filename": "frame_0215.jpg",
+      "time_seconds": 107.107027,
+      "camera_timestamp_ns": 10107107027000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10107.107027,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 29.44346003150438,
+        "y": 20.105968535942804,
+        "z": 0.9854421127722678
+      },
+      "orientation_xyzw": {
+        "x": -0.3243882134849107,
+        "y": 0.41379510897809674,
+        "z": 0.7014294955066276,
+        "w": -0.48118869227278244
+      }
+    },
+    {
+      "frame_index": 215,
+      "filename": "frame_0216.jpg",
+      "time_seconds": 107.607515,
+      "camera_timestamp_ns": 10107607515000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10107.607515,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 28.711431397608226,
+        "y": 20.111143789408313,
+        "z": 1.0022192502881961
+      },
+      "orientation_xyzw": {
+        "x": -0.3099094987712272,
+        "y": 0.4425905040095989,
+        "z": 0.7048666283718213,
+        "w": -0.4596006794377453
+      }
+    },
+    {
+      "frame_index": 216,
+      "filename": "frame_0217.jpg",
+      "time_seconds": 108.108023,
+      "camera_timestamp_ns": 10108108023000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10108.108023,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 27.999757336669354,
+        "y": 20.186484050233794,
+        "z": 1.0119161177876916
+      },
+      "orientation_xyzw": {
+        "x": -0.3400326206934646,
+        "y": 0.4358817333491779,
+        "z": 0.6828572366509525,
+        "w": -0.47758865747657314
+      }
+    },
+    {
+      "frame_index": 217,
+      "filename": "frame_0218.jpg",
+      "time_seconds": 108.608521,
+      "camera_timestamp_ns": 10108608521000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10108.608521,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 27.29375823043552,
+        "y": 20.17033490604361,
+        "z": 1.0061427794554185
+      },
+      "orientation_xyzw": {
+        "x": -0.320220165581161,
+        "y": 0.4367470502331581,
+        "z": 0.715878074242256,
+        "w": -0.44071492201536383
+      }
+    },
+    {
+      "frame_index": 218,
+      "filename": "frame_0219.jpg",
+      "time_seconds": 109.109011,
+      "camera_timestamp_ns": 10109109011000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10109.109011,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 26.585678051263844,
+        "y": 20.26512739171364,
+        "z": 1.007667103906179
+      },
+      "orientation_xyzw": {
+        "x": -0.31716784652986074,
+        "y": 0.454813306334259,
+        "z": 0.7011624718522297,
+        "w": -0.44824167764162876
+      }
+    },
+    {
+      "frame_index": 219,
+      "filename": "frame_0220.jpg",
+      "time_seconds": 109.609512,
+      "camera_timestamp_ns": 10109609512000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10109.609512,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 25.890912919834363,
+        "y": 20.233765680181968,
+        "z": 0.984999914099601
+      },
+      "orientation_xyzw": {
+        "x": -0.32352828605861356,
+        "y": 0.4266879078049371,
+        "z": 0.7109839418131709,
+        "w": -0.4558165331982014
+      }
+    },
+    {
+      "frame_index": 220,
+      "filename": "frame_0221.jpg",
+      "time_seconds": 110.110022,
+      "camera_timestamp_ns": 10110110022000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10110.110022,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 25.169607902764774,
+        "y": 20.27611385201807,
+        "z": 0.983816698971548
+      },
+      "orientation_xyzw": {
+        "x": -0.29816306876046195,
+        "y": 0.4665301097280188,
+        "z": 0.7133987949384094,
+        "w": -0.42954697126732505
+      }
+    },
+    {
+      "frame_index": 221,
+      "filename": "frame_0222.jpg",
+      "time_seconds": 110.61051,
+      "camera_timestamp_ns": 10110610510000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10110.61051,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 24.514409962695844,
+        "y": 20.21400860748394,
+        "z": 0.9550411172243809
+      },
+      "orientation_xyzw": {
+        "x": -0.3326434701802578,
+        "y": 0.4059911135312677,
+        "z": 0.7144974652280233,
+        "w": -0.46261529337323776
+      }
+    },
+    {
+      "frame_index": 222,
+      "filename": "frame_0223.jpg",
+      "time_seconds": 111.111009,
+      "camera_timestamp_ns": 10111111009000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10111.111009,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 23.80362636110414,
+        "y": 20.215735286611256,
+        "z": 0.9529937615812702
+      },
+      "orientation_xyzw": {
+        "x": -0.3266241795735168,
+        "y": 0.44098260622804425,
+        "z": 0.7139905615333395,
+        "w": -0.43482003675492614
+      }
+    },
+    {
+      "frame_index": 223,
+      "filename": "frame_0224.jpg",
+      "time_seconds": 111.611506,
+      "camera_timestamp_ns": 10111611506000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10111.611505,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 23.227213945104836,
+        "y": 20.151762382124684,
+        "z": 0.9445184217711238
+      },
+      "orientation_xyzw": {
+        "x": 0.3796428312044371,
+        "y": -0.3629872528143929,
+        "z": -0.665468967435767,
+        "w": 0.5303419919158903
+      }
+    },
+    {
+      "frame_index": 224,
+      "filename": "frame_0225.jpg",
+      "time_seconds": 112.112008,
+      "camera_timestamp_ns": 10112112008000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10112.112008,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 22.619698287341908,
+        "y": 19.913199363789115,
+        "z": 0.981014017656793
+      },
+      "orientation_xyzw": {
+        "x": -0.3865601413712175,
+        "y": 0.38425943743539903,
+        "z": 0.6747398826323466,
+        "w": -0.49763644624382325
+      }
+    },
+    {
+      "frame_index": 225,
+      "filename": "frame_0226.jpg",
+      "time_seconds": 112.612505,
+      "camera_timestamp_ns": 10112612505000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10112.612505,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 22.051893176942613,
+        "y": 19.688886422837165,
+        "z": 0.9905249334458118
+      },
+      "orientation_xyzw": {
+        "x": 0.38427967099458626,
+        "y": -0.36836380951688585,
+        "z": -0.6504386526124821,
+        "w": 0.5418180483207989
+      }
+    },
+    {
+      "frame_index": 226,
+      "filename": "frame_0227.jpg",
+      "time_seconds": 113.11301,
+      "camera_timestamp_ns": 10113113010000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10113.11301,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 21.45195960481852,
+        "y": 19.375746070174213,
+        "z": 0.9954124020135116
+      },
+      "orientation_xyzw": {
+        "x": 0.3613158188799995,
+        "y": -0.3873236722822352,
+        "z": -0.6685789682764616,
+        "w": 0.5219515447771579
+      }
+    },
+    {
+      "frame_index": 227,
+      "filename": "frame_0228.jpg",
+      "time_seconds": 113.613506,
+      "camera_timestamp_ns": 10113613506000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10113.613506,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 20.85341208076266,
+        "y": 19.159395579604677,
+        "z": 0.9920848375382728
+      },
+      "orientation_xyzw": {
+        "x": 0.4023723241006185,
+        "y": -0.3565793229528175,
+        "z": -0.6224572538897325,
+        "w": 0.5687659152238562
+      }
+    },
+    {
+      "frame_index": 228,
+      "filename": "frame_0229.jpg",
+      "time_seconds": 114.114005,
+      "camera_timestamp_ns": 10114114005000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10114.114005,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 20.512069056987322,
+        "y": 18.820871575415076,
+        "z": 0.9558154653418075
+      },
+      "orientation_xyzw": {
+        "x": 0.4179287883696149,
+        "y": -0.2625325569504349,
+        "z": -0.5428185823574467,
+        "w": 0.6795293746707533
+      }
+    },
+    {
+      "frame_index": 229,
+      "filename": "frame_0230.jpg",
+      "time_seconds": 114.614518,
+      "camera_timestamp_ns": 10114614518000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10114.614518,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 20.282032977495795,
+        "y": 18.429725601465265,
+        "z": 0.9527882621047394
+      },
+      "orientation_xyzw": {
+        "x": 0.49169979675599407,
+        "y": -0.15860384640894554,
+        "z": -0.3420856994410349,
+        "w": 0.7848907592858638
+      }
+    },
+    {
+      "frame_index": 230,
+      "filename": "frame_0231.jpg",
+      "time_seconds": 115.115006,
+      "camera_timestamp_ns": 10115115006000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10115.115006,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 20.30805001478437,
+        "y": 18.063028863060946,
+        "z": 0.9397965861341784
+      },
+      "orientation_xyzw": {
+        "x": 0.5035910673502569,
+        "y": 0.07330918633445997,
+        "z": -0.01687733075769564,
+        "w": 0.8606607669636767
+      }
+    },
+    {
+      "frame_index": 231,
+      "filename": "frame_0232.jpg",
+      "time_seconds": 115.615502,
+      "camera_timestamp_ns": 10115615502000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10115.615502,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 20.537510196927983,
+        "y": 17.660722645921282,
+        "z": 0.9536412818896953
+      },
+      "orientation_xyzw": {
+        "x": 0.4837072431130453,
+        "y": 0.1393620471467188,
+        "z": 0.1513006897521292,
+        "w": 0.8507135969617408
+      }
+    },
+    {
+      "frame_index": 232,
+      "filename": "frame_0233.jpg",
+      "time_seconds": 116.116004,
+      "camera_timestamp_ns": 10116116004000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10116.116004,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 20.902393821392707,
+        "y": 17.261659712575582,
+        "z": 0.9769423936896414
+      },
+      "orientation_xyzw": {
+        "x": 0.43543812377899693,
+        "y": 0.23833874477596673,
+        "z": 0.3284214747660747,
+        "w": 0.803571787714651
+      }
+    },
+    {
+      "frame_index": 233,
+      "filename": "frame_0234.jpg",
+      "time_seconds": 116.616507,
+      "camera_timestamp_ns": 10116616507000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10116.616507,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 21.497907795791424,
+        "y": 16.998068441116047,
+        "z": 0.989564169760724
+      },
+      "orientation_xyzw": {
+        "x": 0.44793192030386764,
+        "y": 0.27802417490122056,
+        "z": 0.38174540294727594,
+        "w": 0.7591640140786491
+      }
+    },
+    {
+      "frame_index": 234,
+      "filename": "frame_0235.jpg",
+      "time_seconds": 117.117007,
+      "camera_timestamp_ns": 10117117007000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10117.117007,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 22.12443905556795,
+        "y": 16.80250869477356,
+        "z": 0.992128654332463
+      },
+      "orientation_xyzw": {
+        "x": 0.42246414849867403,
+        "y": 0.3249135255589041,
+        "z": 0.44878523065752984,
+        "w": 0.7173193576684248
+      }
+    },
+    {
+      "frame_index": 235,
+      "filename": "frame_0236.jpg",
+      "time_seconds": 117.617517,
+      "camera_timestamp_ns": 10117617517000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10117.617516,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 22.795724889186026,
+        "y": 16.790010909307764,
+        "z": 0.9687529664075951
+      },
+      "orientation_xyzw": {
+        "x": 0.4031530062287311,
+        "y": 0.35196529349000016,
+        "z": 0.47748404649744564,
+        "w": 0.6968479540672126
+      }
+    },
+    {
+      "frame_index": 236,
+      "filename": "frame_0237.jpg",
+      "time_seconds": 118.118043,
+      "camera_timestamp_ns": 10118118043000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10118.118043,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 23.496193879453926,
+        "y": 16.726382774494393,
+        "z": 0.9771139338961694
+      },
+      "orientation_xyzw": {
+        "x": 0.43973840793716357,
+        "y": 0.32423282284380656,
+        "z": 0.4704701784206502,
+        "w": 0.6929365197422253
+      }
+    },
+    {
+      "frame_index": 237,
+      "filename": "frame_0238.jpg",
+      "time_seconds": 118.618547,
+      "camera_timestamp_ns": 10118618547000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10118.618546,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 24.163655946882848,
+        "y": 16.82415646971611,
+        "z": 0.9493168967300021
+      },
+      "orientation_xyzw": {
+        "x": 0.39012429108768926,
+        "y": 0.38115743734841684,
+        "z": 0.5136077833390897,
+        "w": 0.6623662811094948
+      }
+    },
+    {
+      "frame_index": 238,
+      "filename": "frame_0239.jpg",
+      "time_seconds": 119.119023,
+      "camera_timestamp_ns": 10119119023000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10119.119023,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 24.872051048128682,
+        "y": 16.925108755922565,
+        "z": 0.9556600706437127
+      },
+      "orientation_xyzw": {
+        "x": 0.42280589388089723,
+        "y": 0.3734028822743833,
+        "z": 0.5047146516809138,
+        "w": 0.6535048461850705
+      }
+    },
+    {
+      "frame_index": 239,
+      "filename": "frame_0240.jpg",
+      "time_seconds": 119.619549,
+      "camera_timestamp_ns": 10119619549000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10119.619548,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 25.5044764993215,
+        "y": 17.085650197635378,
+        "z": 0.9494998977130412
+      },
+      "orientation_xyzw": {
+        "x": 0.3672478108686633,
+        "y": 0.3849952709523652,
+        "z": 0.5497789307426771,
+        "w": 0.6439338584574725
+      }
+    },
+    {
+      "frame_index": 240,
+      "filename": "frame_0241.jpg",
+      "time_seconds": 120.120052,
+      "camera_timestamp_ns": 10120120052000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10120.120052,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 26.19945817220541,
+        "y": 17.294532253161673,
+        "z": 0.9743513584313259
+      },
+      "orientation_xyzw": {
+        "x": 0.40779427280029434,
+        "y": 0.3631127652424762,
+        "z": 0.5171202473919184,
+        "w": 0.6591203232540799
+      }
+    },
+    {
+      "frame_index": 241,
+      "filename": "frame_0242.jpg",
+      "time_seconds": 120.620538,
+      "camera_timestamp_ns": 10120620538000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10120.620538,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 26.8647873212302,
+        "y": 17.44739741449728,
+        "z": 0.9864322604039235
+      },
+      "orientation_xyzw": {
+        "x": 0.3840922787222775,
+        "y": 0.38306260987085994,
+        "z": 0.5644671805915156,
+        "w": 0.6221840245296556
+      }
+    },
+    {
+      "frame_index": 242,
+      "filename": "frame_0243.jpg",
+      "time_seconds": 121.121042,
+      "camera_timestamp_ns": 10121121042000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10121.121042,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 27.550829208272397,
+        "y": 17.670423297621124,
+        "z": 0.9934859099286345
+      },
+      "orientation_xyzw": {
+        "x": 0.40009746372453736,
+        "y": 0.3627479528352125,
+        "z": 0.5360686185895672,
+        "w": 0.6488192185798201
+      }
+    },
+    {
+      "frame_index": 243,
+      "filename": "frame_0244.jpg",
+      "time_seconds": 121.621527,
+      "camera_timestamp_ns": 10121621527000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10121.621527,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 28.240501561657652,
+        "y": 17.80539617364419,
+        "z": 1.0062477697463494
+      },
+      "orientation_xyzw": {
+        "x": 0.39906209747827215,
+        "y": 0.3718130653200661,
+        "z": 0.5446222995403563,
+        "w": 0.6370957837381385
+      }
+    },
+    {
+      "frame_index": 244,
+      "filename": "frame_0245.jpg",
+      "time_seconds": 122.122007,
+      "camera_timestamp_ns": 10122122007000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10122.122007,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 28.884263233749657,
+        "y": 18.05165305013142,
+        "z": 0.9943035997822569
+      },
+      "orientation_xyzw": {
+        "x": 0.3843681436973212,
+        "y": 0.37103893827554274,
+        "z": 0.5478072188649775,
+        "w": 0.6438155693624162
+      }
+    },
+    {
+      "frame_index": 245,
+      "filename": "frame_0246.jpg",
+      "time_seconds": 122.622502,
+      "camera_timestamp_ns": 10122622502000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10122.622502,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 29.563711609499503,
+        "y": 18.233006569307317,
+        "z": 0.9959407993384978
+      },
+      "orientation_xyzw": {
+        "x": 0.41556575913120164,
+        "y": 0.3614315636990608,
+        "z": 0.5475189915171512,
+        "w": 0.6299962527886984
+      }
+    },
+    {
+      "frame_index": 246,
+      "filename": "frame_0247.jpg",
+      "time_seconds": 123.123006,
+      "camera_timestamp_ns": 10123123006000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10123.123005,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 30.175154253512694,
+        "y": 18.52082843446869,
+        "z": 0.9669248604455959
+      },
+      "orientation_xyzw": {
+        "x": 0.36456033610642086,
+        "y": 0.38281604523963664,
+        "z": 0.5607198212129729,
+        "w": 0.6372918632337541
+      }
+    },
+    {
+      "frame_index": 247,
+      "filename": "frame_0248.jpg",
+      "time_seconds": 123.623506,
+      "camera_timestamp_ns": 10123623506000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10123.623505,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 30.87543636353254,
+        "y": 18.684296409485782,
+        "z": 0.97403670262858
+      },
+      "orientation_xyzw": {
+        "x": 0.42949500632546206,
+        "y": 0.35999873832577595,
+        "z": 0.5111428533247672,
+        "w": 0.651665505792931
+      }
+    },
+    {
+      "frame_index": 248,
+      "filename": "frame_0249.jpg",
+      "time_seconds": 124.124009,
+      "camera_timestamp_ns": 10124124009000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10124.124008,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 31.48227996178441,
+        "y": 18.85328259820165,
+        "z": 0.952249277564058
+      },
+      "orientation_xyzw": {
+        "x": 0.36999051323659177,
+        "y": 0.3710810674971403,
+        "z": 0.5463645125002781,
+        "w": 0.6533694827128367
+      }
+    },
+    {
+      "frame_index": 249,
+      "filename": "frame_0250.jpg",
+      "time_seconds": 124.624503,
+      "camera_timestamp_ns": 10124624503000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10124.624502,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 32.163631516700406,
+        "y": 18.996702452113198,
+        "z": 0.9658738083173727
+      },
+      "orientation_xyzw": {
+        "x": 0.40466171570134535,
+        "y": 0.35290529894061623,
+        "z": 0.5019928022935095,
+        "w": 0.678019153321488
+      }
+    },
+    {
+      "frame_index": 250,
+      "filename": "frame_0251.jpg",
+      "time_seconds": 125.125004,
+      "camera_timestamp_ns": 10125125004000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10125.125004,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 32.7913341516908,
+        "y": 19.109064229099655,
+        "z": 0.9810559550309234
+      },
+      "orientation_xyzw": {
+        "x": 0.3682522535321199,
+        "y": 0.3892274586109332,
+        "z": 0.5403498361834659,
+        "w": 0.648779097820122
+      }
+    },
+    {
+      "frame_index": 251,
+      "filename": "frame_0252.jpg",
+      "time_seconds": 125.625504,
+      "camera_timestamp_ns": 10125625504000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10125.625504,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 33.394107672600704,
+        "y": 19.341691415530505,
+        "z": 0.9909222735792638
+      },
+      "orientation_xyzw": {
+        "x": 0.36043002372188765,
+        "y": 0.3893632661913862,
+        "z": 0.548321670349082,
+        "w": 0.6463975485459456
+      }
+    },
+    {
+      "frame_index": 252,
+      "filename": "frame_0253.jpg",
+      "time_seconds": 126.126004,
+      "camera_timestamp_ns": 10126126004000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10126.126004,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 33.98374526747807,
+        "y": 19.552092528877026,
+        "z": 1.0006069078310618
+      },
+      "orientation_xyzw": {
+        "x": 0.33320327873003736,
+        "y": 0.430770126208426,
+        "z": 0.591187212015054,
+        "w": 0.5949036508207001
+      }
+    },
+    {
+      "frame_index": 253,
+      "filename": "frame_0254.jpg",
+      "time_seconds": 126.626511,
+      "camera_timestamp_ns": 10126626511000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10126.626511,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 34.50778643568594,
+        "y": 19.878957330543017,
+        "z": 0.9818963581088292
+      },
+      "orientation_xyzw": {
+        "x": 0.292678290070936,
+        "y": 0.4431860848545871,
+        "z": 0.6211441937540135,
+        "w": 0.5762858694069226
+      }
+    },
+    {
+      "frame_index": 254,
+      "filename": "frame_0255.jpg",
+      "time_seconds": 127.12702,
+      "camera_timestamp_ns": 10127127020000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10127.12702,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.072191755007644,
+        "y": 20.193955499378596,
+        "z": 0.9901341621386388
+      },
+      "orientation_xyzw": {
+        "x": 0.26387773248601687,
+        "y": 0.49009357849705415,
+        "z": 0.6432509639127584,
+        "w": 0.5257423551886395
+      }
+    },
+    {
+      "frame_index": 255,
+      "filename": "frame_0256.jpg",
+      "time_seconds": 127.627537,
+      "camera_timestamp_ns": 10127627537000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10127.627537,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.444056487905506,
+        "y": 20.594052159364914,
+        "z": 0.9944264538806277
+      },
+      "orientation_xyzw": {
+        "x": 0.11163010870591024,
+        "y": 0.568421430345157,
+        "z": 0.705840917906838,
+        "w": 0.4077062606376129
+      }
+    },
+    {
+      "frame_index": 256,
+      "filename": "frame_0257.jpg",
+      "time_seconds": 128.128012,
+      "camera_timestamp_ns": 10128128012000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10128.128012,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.75221070347099,
+        "y": 21.08817814475243,
+        "z": 1.0143644587487044
+      },
+      "orientation_xyzw": {
+        "x": 0.003025105417615807,
+        "y": 0.6518600778110176,
+        "z": 0.699984149179549,
+        "w": 0.29170443704340476
+      }
+    },
+    {
+      "frame_index": 257,
+      "filename": "frame_0258.jpg",
+      "time_seconds": 128.628525,
+      "camera_timestamp_ns": 10128628525000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10128.628525,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.90604793008622,
+        "y": 21.541046202841645,
+        "z": 0.9924918488001047
+      },
+      "orientation_xyzw": {
+        "x": -0.21047819800819548,
+        "y": 0.7102689928765303,
+        "z": 0.6695884238164963,
+        "w": 0.05355584573435769
+      }
+    },
+    {
+      "frame_index": 258,
+      "filename": "frame_0259.jpg",
+      "time_seconds": 129.129008,
+      "camera_timestamp_ns": 10129129008000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10129.129008,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.87343269579304,
+        "y": 21.840912649066993,
+        "z": 0.864559328403701
+      },
+      "orientation_xyzw": {
+        "x": -0.38787260493825393,
+        "y": 0.6835662957149055,
+        "z": 0.5965674307100424,
+        "w": -0.162478498014459
+      }
+    },
+    {
+      "frame_index": 259,
+      "filename": "frame_0260.jpg",
+      "time_seconds": 129.629508,
+      "camera_timestamp_ns": 10129629508000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10129.629508,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.903397473267795,
+        "y": 21.96572452322487,
+        "z": 0.771123935841095
+      },
+      "orientation_xyzw": {
+        "x": -0.5224108169823279,
+        "y": 0.5766463327348996,
+        "z": 0.4704382139410155,
+        "w": -0.41623771105851953
+      }
+    },
+    {
+      "frame_index": 260,
+      "filename": "frame_0261.jpg",
+      "time_seconds": 130.130007,
+      "camera_timestamp_ns": 10130130007000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10130.130007,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.8069513301713,
+        "y": 21.9123076315083,
+        "z": 0.6813758664831016
+      },
+      "orientation_xyzw": {
+        "x": 0.5910225717671649,
+        "y": -0.5413988856373689,
+        "z": -0.40274260208446,
+        "w": 0.4420157946935608
+      }
+    },
+    {
+      "frame_index": 261,
+      "filename": "frame_0262.jpg",
+      "time_seconds": 130.630512,
+      "camera_timestamp_ns": 10130630512000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10130.630512,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.78363654954091,
+        "y": 21.91763386333896,
+        "z": 0.635436040071737
+      },
+      "orientation_xyzw": {
+        "x": 0.5908050855357597,
+        "y": -0.5327882306138052,
+        "z": -0.3997923566501655,
+        "w": 0.45524951816405174
+      }
+    },
+    {
+      "frame_index": 262,
+      "filename": "frame_0263.jpg",
+      "time_seconds": 131.131007,
+      "camera_timestamp_ns": 10131131007000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10131.131007,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.71169265268662,
+        "y": 21.924477595623678,
+        "z": 0.6058315320584649
+      },
+      "orientation_xyzw": {
+        "x": 0.5910327725579366,
+        "y": -0.5546539099822575,
+        "z": -0.39740608310861114,
+        "w": 0.4302414519919533
+      }
+    },
+    {
+      "frame_index": 263,
+      "filename": "frame_0264.jpg",
+      "time_seconds": 131.631507,
+      "camera_timestamp_ns": 10131631507000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10131.631507,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.683998492588074,
+        "y": 21.925029368518455,
+        "z": 0.5950876237843008
+      },
+      "orientation_xyzw": {
+        "x": 0.5942380999487921,
+        "y": -0.5599193893886075,
+        "z": -0.3925164038680392,
+        "w": 0.4234409411599694
+      }
+    },
+    {
+      "frame_index": 264,
+      "filename": "frame_0265.jpg",
+      "time_seconds": 132.132006,
+      "camera_timestamp_ns": 10132132006000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10132.132005,
+      "time_error_seconds": 1e-06,
+      "position": {
+        "x": 35.67845517586209,
+        "y": 21.921073652831424,
+        "z": 0.5929386782331394
+      },
+      "orientation_xyzw": {
+        "x": 0.5931492436322324,
+        "y": -0.5628098901329758,
+        "z": -0.39620000331671507,
+        "w": 0.4176656075365236
+      }
+    },
+    {
+      "frame_index": 265,
+      "filename": "frame_0266.jpg",
+      "time_seconds": 132.632508,
+      "camera_timestamp_ns": 10132632508000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10132.632508,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.668565610844155,
+        "y": 21.91164608212955,
+        "z": 0.5888047342567599
+      },
+      "orientation_xyzw": {
+        "x": 0.5993008689213883,
+        "y": -0.559535957544546,
+        "z": -0.39064888097798367,
+        "w": 0.4185109706034316
+      }
+    },
+    {
+      "frame_index": 266,
+      "filename": "frame_0267.jpg",
+      "time_seconds": 133.133007,
+      "camera_timestamp_ns": 10133133007000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10133.133007,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.6638404496116,
+        "y": 21.93087458532668,
+        "z": 0.5869392086221215
+      },
+      "orientation_xyzw": {
+        "x": 0.5950685016053108,
+        "y": -0.565181480152053,
+        "z": -0.38876541438936923,
+        "w": 0.4187180739650566
+      }
+    },
+    {
+      "frame_index": 267,
+      "filename": "frame_0268.jpg",
+      "time_seconds": 133.633505,
+      "camera_timestamp_ns": 10133633505000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10133.633505,
+      "time_error_seconds": 0.0,
+      "position": {
+        "x": 35.65683278463193,
+        "y": 21.931755658484008,
+        "z": 0.5843379537887318
+      },
+      "orientation_xyzw": {
+        "x": 0.5989227958806232,
+        "y": -0.5628896146916219,
+        "z": -0.3818298508926731,
+        "w": 0.4226733150012355
+      }
+    },
+    {
+      "frame_index": 268,
+      "filename": "frame_0269.jpg",
+      "time_seconds": 134.134007,
+      "camera_timestamp_ns": 10134134007000,
+      "pose_available": true,
+      "pose_timestamp_seconds": 10134.067298,
+      "time_error_seconds": 0.066709,
+      "position": {
+        "x": 35.655169843660246,
+        "y": 21.93219064854102,
+        "z": 0.5861366153825205
+      },
+      "orientation_xyzw": {
+        "x": 0.5998983322225655,
+        "y": -0.5622838440385464,
+        "z": -0.38064698720430223,
+        "w": 0.4231627829359624
+      }
+    },
+    {
+      "frame_index": 269,
+      "filename": "frame_0270.jpg",
+      "time_seconds": 134.63451,
+      "camera_timestamp_ns": 10134634510000,
+      "pose_available": false,
+      "pose_timestamp_seconds": null,
+      "time_error_seconds": 0.567212,
+      "position": null,
+      "orientation_xyzw": null
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "camera": "cam0",
+  "source": "camera_calibration/kalibr_imucam_chain.yaml",
+  "status": "RECTIFICATION_GENERATED",
+  "calibration": {
+    "camera_model": "pinhole",
+    "distortion_model": "equidistant",
+    "intrinsics": [
+      465.3015482593691,
+      465.32303798346413,
+      730.0455886686005,
+      720.1427007671206
+    ],
+    "distortion_coefficients": [
+      0.025800718903376804,
+      -0.010909240777406872,
+      -0.0016899537986031076,
+      0.00014766801645260894
+    ],
+    "resolution": [
+      1472,
+      1440
+    ],
+    "supported": true
+  },
+  "frames_saved": 20,
+  "balance": 0.0,
+  "rectified_K": [
+    [
+      36.81652898568042,
+      0.0,
+      737.5481513289059
+    ],
+    [
+      0.0,
+      36.81822933903836,
+      747.7691221117872
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ]
+}

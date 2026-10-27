@@ -1,0 +1,115 @@
+{
+  "project": "Under-construction",
+  "dataset": "Hilti–Trimble–Oxford",
+  "opencv_version": "5.0.0",
+  "pixels_per_metre": 100,
+  "bounds_m": {
+    "xmin": -45.94519311037641,
+    "xmax": -0.35519307452968696,
+    "ymin": 0.053236034849106995,
+    "ymax": 35.29323605861544
+  },
+  "image_width": 4561,
+  "image_height": 3526,
+  "pixel_coordinate_convention": "column=(x-xmin)*pixels_per_metre; row=(ymax-y)*pixels_per_metre",
+  "shared_coordinate_frame": true,
+  "external_reference_registration_verified": false,
+  "camera_to_cad_registration_verified": false,
+  "construction_progress_verified": false,
+  "map_semantics": "White pixels represent rasterized CAD wall segments, not observed physical construction. Black pixels are not proof of free space.",
+  "category_ids": {
+    "exterior": 1,
+    "interior": 2,
+    "partition": 3,
+    "lining": 4
+  },
+  "floors": [
+    {
+      "floor": 1,
+      "source": "data\\floorplans\\floor_1.dxf",
+      "segment_count": 1057,
+      "layer_counts": {
+        "015 Innenwände": 600,
+        "010 Aussenwände": 323,
+        "019 Vormauerungen": 70,
+        "016 Trennwände": 64
+      },
+      "skipped_entities": {
+        "INSERT": 41,
+        "invalid_segment": 5,
+        "ARC": 18
+      },
+      "wall_map": "floor_1_walls.png",
+      "category_map": "floor_1_categories.png",
+      "segments_file": "floor_1_segments.json"
+    },
+    {
+      "floor": 2,
+      "source": "data\\floorplans\\floor_2.dxf",
+      "segment_count": 847,
+      "layer_counts": {
+        "015 Innenwände": 390,
+        "019 Vormauerungen": 70,
+        "010 Aussenwände": 323,
+        "016 Trennwände": 64
+      },
+      "skipped_entities": {
+        "INSERT": 30,
+        "invalid_segment": 4,
+        "ARC": 16
+      },
+      "wall_map": "floor_2_walls.png",
+      "category_map": "floor_2_categories.png",
+      "segments_file": "floor_2_segments.json"
+    },
+    {
+      "floor": 3,
+      "source": "data\\floorplans\\floor_3.dxf",
+      "segment_count": 690,
+      "layer_counts": {
+        "019 Vormauerungen": 75,
+        "010 Aussenwände": 253,
+        "015 Innenwände": 362
+      },
+      "skipped_entities": {
+        "INSERT": 32,
+        "invalid_segment": 5,
+        "POINT": 2,
+        "ARC": 4
+      },
+      "wall_map": "floor_3_walls.png",
+      "category_map": "floor_3_categories.png",
+      "segments_file": "floor_3_segments.json"
+    }
+  ],
+  "reference_candidates": [
+    {
+      "path": "floorplans\\floor_2.png",
+      "bytes": 2854213
+    },
+    {
+      "path": "floorplans\\floor_2_report.json",
+      "bytes": 6090
+    },
+    {
+      "path": "floorplans\\visualizations\\floor_2_full.png",
+      "bytes": 145711
+    },
+    {
+      "path": "floorplans\\visualizations\\floor_2_walls.png",
+      "bytes": 74104
+    },
+    {
+      "path": "floorplans\\visualizations\\geometry_statistics.json",
+      "bytes": 1138
+    },
+    {
+      "path": "hilti_calibration\\kalibr_imucam_chain.yaml",
+      "bytes": 3131
+    },
+    {
+      "path": "real_samples\\floor_2_camera_trajectory.json",
+      "bytes": 92929
+    }
+  ]
+}

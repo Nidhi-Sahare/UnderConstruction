@@ -1,0 +1,18 @@
+{
+  "source_chains": 627,
+  "input_candidates": 60,
+  "resolved_footprints": 60,
+  "rejected_candidates": 0,
+  "conflict_pairs": 35,
+  "footprints_with_conflicts": 35,
+  "adjacency_groups": 34,
+  "unmatched_chains": 533,
+  "categories": {
+    "interior": 56,
+    "lining": 4
+  },
+  "parameters": {
+    "area_tolerance_m2": 0.0025,
+    "touch_tolerance_m": 0.015
+  }
+}

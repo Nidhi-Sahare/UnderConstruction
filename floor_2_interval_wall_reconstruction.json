@@ -1,0 +1,2517 @@
+{
+  "step": "INTERVAL_WALL_RECONSTRUCTION",
+  "source_dxf": "data/floorplans/floor_2.dxf",
+  "units": "metres",
+  "method": "interval_based_parallel_boundary_pairing",
+  "geometry_status": "PROVISIONAL",
+  "automatic_integration_approved": false,
+  "wall_cuts_authorized": 0,
+  "source_edge_count": 851,
+  "candidate_pair_count": 107,
+  "selected_wall_count": 71,
+  "selected_layers": {
+    "015 Innenwände": 62,
+    "019 Vormauerungen": 8,
+    "010 Aussenwände": 1
+  },
+  "comparison": {
+    "status": "COMPLETED",
+    "baseline_wall_count": 77,
+    "interval_wall_count": 71,
+    "baseline_total_length_m": 109.531,
+    "interval_total_length_m": 130.151,
+    "baseline_union_area_m2": 26.365,
+    "interval_union_area_m2": 28.051,
+    "shared_area_m2": 20.12,
+    "baseline_area_covered_percent": 76.31,
+    "new_area_outside_baseline_m2": 7.931
+  },
+  "walls": [
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "CA",
+        "CC"
+      ],
+      "source_edge_ids": [
+        "CA_0",
+        "CC_0"
+      ],
+      "length_m": 15.7,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -31.00019,
+          18.45324
+        ],
+        [
+          -15.30019,
+          18.45324
+        ],
+        [
+          -15.30019,
+          18.75324
+        ],
+        [
+          -31.00019,
+          18.75324
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0001"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "CF",
+        "D0"
+      ],
+      "source_edge_ids": [
+        "CF_0",
+        "D0_0"
+      ],
+      "length_m": 6.25,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -5.81769,
+          1.35324
+        ],
+        [
+          -5.81769,
+          7.60324
+        ],
+        [
+          -6.11769,
+          7.60324
+        ],
+        [
+          -6.11769,
+          1.35324
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0002"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "5BF",
+        "5C5"
+      ],
+      "source_edge_ids": [
+        "5BF_0",
+        "5C5_0"
+      ],
+      "length_m": 6.1199,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -25.38769,
+          27.87334
+        ],
+        [
+          -25.38769,
+          33.99324
+        ],
+        [
+          -25.26269,
+          33.99324
+        ],
+        [
+          -25.26269,
+          27.87334
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0003"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "5B4",
+        "5BA"
+      ],
+      "source_edge_ids": [
+        "5B4_0",
+        "5BA_0"
+      ],
+      "length_m": 5.74502,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -20.91269,
+          28.24822
+        ],
+        [
+          -20.91269,
+          33.99324
+        ],
+        [
+          -21.03769,
+          33.99324
+        ],
+        [
+          -21.03769,
+          28.24822
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0004"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "59C",
+        "59D"
+      ],
+      "source_edge_ids": [
+        "59C_0",
+        "59D_0"
+      ],
+      "length_m": 5.74502,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -29.73769,
+          28.24822
+        ],
+        [
+          -29.73769,
+          33.99324
+        ],
+        [
+          -29.61269,
+          33.99324
+        ],
+        [
+          -29.61269,
+          28.24822
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0005"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "206",
+        "207"
+      ],
+      "source_edge_ids": [
+        "206_0",
+        "207_0"
+      ],
+      "length_m": 3.3,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -30.70019,
+          22.09824
+        ],
+        [
+          -30.70019,
+          25.39824
+        ],
+        [
+          -31.00019,
+          25.39824
+        ],
+        [
+          -31.00019,
+          22.09824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0006"
+    },
+    {
+      "layer": "019 Vormauerungen",
+      "source_handles": [
+        "106",
+        "10B"
+      ],
+      "source_edge_ids": [
+        "106_0",
+        "10B_0"
+      ],
+      "length_m": 3.3,
+      "thickness_m": 0.15,
+      "outline_xy": [
+        [
+          -30.55019,
+          22.09824
+        ],
+        [
+          -30.55019,
+          25.39824
+        ],
+        [
+          -30.70019,
+          25.39824
+        ],
+        [
+          -30.70019,
+          22.09824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0007"
+    },
+    {
+      "layer": "019 Vormauerungen",
+      "source_handles": [
+        "FB",
+        "100"
+      ],
+      "source_edge_ids": [
+        "FB_0",
+        "100_0"
+      ],
+      "length_m": 3.3,
+      "thickness_m": 0.225,
+      "outline_xy": [
+        [
+          -27.65019,
+          22.09824
+        ],
+        [
+          -27.65019,
+          25.39824
+        ],
+        [
+          -27.87519,
+          25.39824
+        ],
+        [
+          -27.87519,
+          22.09824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0008"
+    },
+    {
+      "layer": "019 Vormauerungen",
+      "source_handles": [
+        "111",
+        "116"
+      ],
+      "source_edge_ids": [
+        "111_0",
+        "116_0"
+      ],
+      "length_m": 3.3,
+      "thickness_m": 0.225,
+      "outline_xy": [
+        [
+          -18.42519,
+          22.09824
+        ],
+        [
+          -18.42519,
+          25.39823
+        ],
+        [
+          -18.65019,
+          25.39823
+        ],
+        [
+          -18.65019,
+          22.09824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0009"
+    },
+    {
+      "layer": "019 Vormauerungen",
+      "source_handles": [
+        "34A",
+        "34F"
+      ],
+      "source_edge_ids": [
+        "34A_0",
+        "34F_0"
+      ],
+      "length_m": 3.3,
+      "thickness_m": 0.15,
+      "outline_xy": [
+        [
+          -15.60019,
+          22.09824
+        ],
+        [
+          -15.60019,
+          25.39823
+        ],
+        [
+          -15.75019,
+          25.39823
+        ],
+        [
+          -15.75019,
+          22.09824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0010"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "284",
+        "285"
+      ],
+      "source_edge_ids": [
+        "284_0",
+        "285_0"
+      ],
+      "length_m": 3.3,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -15.30019,
+          22.09824
+        ],
+        [
+          -15.30019,
+          25.39823
+        ],
+        [
+          -15.60019,
+          25.39823
+        ],
+        [
+          -15.60019,
+          22.09824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0011"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "208",
+        "20B"
+      ],
+      "source_edge_ids": [
+        "208_0",
+        "20B_0"
+      ],
+      "length_m": 3.05,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -30.70019,
+          25.39824
+        ],
+        [
+          -27.65019,
+          25.39824
+        ],
+        [
+          -27.65019,
+          25.69824
+        ],
+        [
+          -30.70019,
+          25.69824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0012"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "287",
+        "288"
+      ],
+      "source_edge_ids": [
+        "287_0",
+        "288_0"
+      ],
+      "length_m": 3.05,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -18.65019,
+          25.39823
+        ],
+        [
+          -15.60019,
+          25.39823
+        ],
+        [
+          -15.60019,
+          25.69823
+        ],
+        [
+          -18.65019,
+          25.69823
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0013"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "51C",
+        "51F"
+      ],
+      "source_edge_ids": [
+        "51C_0",
+        "51F_0"
+      ],
+      "length_m": 3.04751,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -44.64519,
+          22.48073
+        ],
+        [
+          -41.59769,
+          22.48073
+        ],
+        [
+          -41.59769,
+          22.60573
+        ],
+        [
+          -44.64519,
+          22.60573
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0014"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "647",
+        "64A"
+      ],
+      "source_edge_ids": [
+        "647_0",
+        "64A_0"
+      ],
+      "length_m": 3.0475,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -18.73769,
+          10.05324
+        ],
+        [
+          -18.73769,
+          13.10074
+        ],
+        [
+          -18.86269,
+          13.10074
+        ],
+        [
+          -18.86269,
+          10.05324
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0015"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "529",
+        "52D"
+      ],
+      "source_edge_ids": [
+        "529_0",
+        "52D_0"
+      ],
+      "length_m": 2.92249,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -41.59769,
+          22.60573
+        ],
+        [
+          -41.59769,
+          25.52822
+        ],
+        [
+          -41.47269,
+          25.52822
+        ],
+        [
+          -41.47269,
+          22.60573
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0016"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "654",
+        "658"
+      ],
+      "source_edge_ids": [
+        "654_0",
+        "658_0"
+      ],
+      "length_m": 2.8925,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -18.73769,
+          13.22574
+        ],
+        [
+          -15.84519,
+          13.22574
+        ],
+        [
+          -15.84519,
+          13.10074
+        ],
+        [
+          -18.73769,
+          13.10074
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0017"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "18E",
+        "18F"
+      ],
+      "source_edge_ids": [
+        "18E_0",
+        "18F_0"
+      ],
+      "length_m": 2.8,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -24.60019,
+          24.14824
+        ],
+        [
+          -21.80019,
+          24.14824
+        ],
+        [
+          -21.80019,
+          24.44824
+        ],
+        [
+          -24.60019,
+          24.44824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0018"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "649",
+        "64A"
+      ],
+      "source_edge_ids": [
+        "649_0",
+        "64A_0"
+      ],
+      "length_m": 2.6775,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -18.73769,
+          13.22574
+        ],
+        [
+          -18.73769,
+          15.90324
+        ],
+        [
+          -18.86269,
+          15.90324
+        ],
+        [
+          -18.86269,
+          13.22574
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0019"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "51C",
+        "51D"
+      ],
+      "source_edge_ids": [
+        "51C_0",
+        "51D_0"
+      ],
+      "length_m": 2.6475,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -41.47269,
+          22.48073
+        ],
+        [
+          -38.82519,
+          22.48073
+        ],
+        [
+          -38.82519,
+          22.60573
+        ],
+        [
+          -41.47269,
+          22.60573
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0020"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "281",
+        "282"
+      ],
+      "source_edge_ids": [
+        "281_0",
+        "282_0"
+      ],
+      "length_m": 2.55,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -21.50019,
+          24.44824
+        ],
+        [
+          -18.95019,
+          24.44824
+        ],
+        [
+          -18.95019,
+          24.14824
+        ],
+        [
+          -21.50019,
+          24.14824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0021"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "D5",
+        "D6"
+      ],
+      "source_edge_ids": [
+        "D5_0",
+        "D6_0"
+      ],
+      "length_m": 2.4625,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -5.81769,
+          7.60324
+        ],
+        [
+          -3.35519,
+          7.60324
+        ],
+        [
+          -3.35519,
+          7.90324
+        ],
+        [
+          -5.81769,
+          7.90324
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0022"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "18D",
+        "18F"
+      ],
+      "source_edge_ids": [
+        "18D_0",
+        "18F_0"
+      ],
+      "length_m": 2.45,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -27.35019,
+          24.14824
+        ],
+        [
+          -24.90019,
+          24.14824
+        ],
+        [
+          -24.90019,
+          24.44824
+        ],
+        [
+          -27.35019,
+          24.44824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0023"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "202",
+        "203"
+      ],
+      "source_edge_ids": [
+        "202_0",
+        "203_0"
+      ],
+      "length_m": 2.15,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -24.90019,
+          21.99824
+        ],
+        [
+          -24.90019,
+          24.14824
+        ],
+        [
+          -24.60019,
+          24.14824
+        ],
+        [
+          -24.60019,
+          21.99824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0024"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "191",
+        "192"
+      ],
+      "source_edge_ids": [
+        "191_0",
+        "192_0"
+      ],
+      "length_m": 2.05,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -21.80019,
+          22.09824
+        ],
+        [
+          -21.80019,
+          24.14824
+        ],
+        [
+          -21.50019,
+          24.14824
+        ],
+        [
+          -21.50019,
+          22.09824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0025"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "18B",
+        "18C"
+      ],
+      "source_edge_ids": [
+        "18B_0",
+        "18C_0"
+      ],
+      "length_m": 2.05,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -27.35019,
+          22.09824
+        ],
+        [
+          -27.35019,
+          24.14824
+        ],
+        [
+          -27.65019,
+          24.14824
+        ],
+        [
+          -27.65019,
+          22.09824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0026"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "27F",
+        "280"
+      ],
+      "source_edge_ids": [
+        "27F_0",
+        "280_0"
+      ],
+      "length_m": 2.05,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -18.65019,
+          22.09824
+        ],
+        [
+          -18.65019,
+          24.14824
+        ],
+        [
+          -18.95019,
+          24.14824
+        ],
+        [
+          -18.95019,
+          22.09824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0027"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "515",
+        "516"
+      ],
+      "source_edge_ids": [
+        "515_0",
+        "516_0"
+      ],
+      "length_m": 1.74751,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -38.45019,
+          22.98073
+        ],
+        [
+          -38.45019,
+          24.72824
+        ],
+        [
+          -38.32519,
+          24.72824
+        ],
+        [
+          -38.32519,
+          22.98073
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0028"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "640",
+        "641"
+      ],
+      "source_edge_ids": [
+        "640_0",
+        "641_0"
+      ],
+      "length_m": 1.71751,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -18.36269,
+          16.40324
+        ],
+        [
+          -16.64518,
+          16.40322
+        ],
+        [
+          -16.64518,
+          16.27822
+        ],
+        [
+          -18.36269,
+          16.27824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0029"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "218",
+        "21B"
+      ],
+      "source_edge_ids": [
+        "218_0",
+        "21B_0"
+      ],
+      "length_m": 1.67,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -18.65019,
+          21.79824
+        ],
+        [
+          -16.98019,
+          21.79824
+        ],
+        [
+          -16.98019,
+          22.09824
+        ],
+        [
+          -18.65019,
+          22.09824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0030"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "25C",
+        "25F"
+      ],
+      "source_edge_ids": [
+        "25C_0",
+        "25F_0"
+      ],
+      "length_m": 1.67,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -29.32019,
+          22.09824
+        ],
+        [
+          -27.65019,
+          22.09824
+        ],
+        [
+          -27.65019,
+          21.79824
+        ],
+        [
+          -29.32019,
+          21.79824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0031"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "5A4",
+        "5AA"
+      ],
+      "source_edge_ids": [
+        "5A4_0",
+        "5AA_0"
+      ],
+      "length_m": 1.35658,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -29.23779,
+          27.74822
+        ],
+        [
+          -27.8812,
+          27.74796
+        ],
+        [
+          -27.88118,
+          27.87296
+        ],
+        [
+          -29.23776,
+          27.87322
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0032"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "5AC",
+        "5AD"
+      ],
+      "source_edge_ids": [
+        "5AC_0",
+        "5AD_0"
+      ],
+      "length_m": 1.35649,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -22.76918,
+          27.74792
+        ],
+        [
+          -21.41269,
+          27.74822
+        ],
+        [
+          -21.41271,
+          27.87322
+        ],
+        [
+          -22.76921,
+          27.87292
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0033"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "634",
+        "639"
+      ],
+      "source_edge_ids": [
+        "634_0",
+        "639_0"
+      ],
+      "length_m": 0.97001,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -15.72018,
+          10.05323
+        ],
+        [
+          -15.72018,
+          11.02324
+        ],
+        [
+          -15.84518,
+          11.02324
+        ],
+        [
+          -15.84518,
+          10.05323
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0034"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "509",
+        "50E"
+      ],
+      "source_edge_ids": [
+        "509_0",
+        "50E_0"
+      ],
+      "length_m": 0.97001,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -44.64519,
+          25.52824
+        ],
+        [
+          -43.67519,
+          25.52824
+        ],
+        [
+          -43.67519,
+          25.65324
+        ],
+        [
+          -44.64519,
+          25.65324
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0035"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "20C",
+        "20D"
+      ],
+      "source_edge_ids": [
+        "20C_0",
+        "20D_0"
+      ],
+      "length_m": 0.95,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -27.35019,
+          24.44824
+        ],
+        [
+          -27.35019,
+          25.39824
+        ],
+        [
+          -27.65019,
+          25.39824
+        ],
+        [
+          -27.65019,
+          24.44824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0036"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "27D",
+        "27E"
+      ],
+      "source_edge_ids": [
+        "27D_0",
+        "27E_0"
+      ],
+      "length_m": 0.95,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -18.65019,
+          24.44824
+        ],
+        [
+          -18.65019,
+          25.39823
+        ],
+        [
+          -18.95019,
+          25.39823
+        ],
+        [
+          -18.95019,
+          24.44824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0037"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "218",
+        "21C"
+      ],
+      "source_edge_ids": [
+        "218_0",
+        "21C_0"
+      ],
+      "length_m": 0.85,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -19.80019,
+          21.79824
+        ],
+        [
+          -18.95019,
+          21.79824
+        ],
+        [
+          -18.95019,
+          22.09824
+        ],
+        [
+          -19.80019,
+          22.09824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0038"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "5DB",
+        "5DE"
+      ],
+      "source_edge_ids": [
+        "5DB_0",
+        "5DE_0"
+      ],
+      "length_m": 0.8,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -25.72519,
+          27.74834
+        ],
+        [
+          -24.92519,
+          27.74834
+        ],
+        [
+          -24.92519,
+          27.87334
+        ],
+        [
+          -25.72519,
+          27.87334
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0039"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "61C",
+        "620"
+      ],
+      "source_edge_ids": [
+        "61C_0",
+        "620_0"
+      ],
+      "length_m": 0.8,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -23.61717,
+          27.87334
+        ],
+        [
+          -22.81717,
+          27.87303
+        ],
+        [
+          -22.81722,
+          27.74803
+        ],
+        [
+          -23.61722,
+          27.74834
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0040"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "625",
+        "626"
+      ],
+      "source_edge_ids": [
+        "625_0",
+        "626_0"
+      ],
+      "length_m": 0.79997,
+      "thickness_m": 0.095,
+      "outline_xy": [
+        [
+          -27.83316,
+          27.76308
+        ],
+        [
+          -27.03319,
+          27.76334
+        ],
+        [
+          -27.03322,
+          27.85834
+        ],
+        [
+          -27.83319,
+          27.85808
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0041"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "198",
+        "19C"
+      ],
+      "source_edge_ids": [
+        "198_0",
+        "19C_0"
+      ],
+      "length_m": 0.714,
+      "thickness_m": 0.2,
+      "outline_xy": [
+        [
+          -24.60019,
+          21.99824
+        ],
+        [
+          -23.88619,
+          21.99824
+        ],
+        [
+          -23.88619,
+          21.79824
+        ],
+        [
+          -24.60019,
+          21.79824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0042"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "543",
+        "546"
+      ],
+      "source_edge_ids": [
+        "543_0",
+        "546_0"
+      ],
+      "length_m": 0.704,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -41.88719,
+          25.52824
+        ],
+        [
+          -41.18319,
+          25.52824
+        ],
+        [
+          -41.18319,
+          25.65324
+        ],
+        [
+          -41.88719,
+          25.65324
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0043"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "66E",
+        "671"
+      ],
+      "source_edge_ids": [
+        "66E_0",
+        "671_0"
+      ],
+      "length_m": 0.704,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -15.72018,
+          12.81124
+        ],
+        [
+          -15.72018,
+          13.51524
+        ],
+        [
+          -15.84518,
+          13.51524
+        ],
+        [
+          -15.84518,
+          12.81124
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0044"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "199",
+        "19C"
+      ],
+      "source_edge_ids": [
+        "199_0",
+        "19C_0"
+      ],
+      "length_m": 0.653,
+      "thickness_m": 0.2,
+      "outline_xy": [
+        [
+          -25.55319,
+          21.99824
+        ],
+        [
+          -24.90019,
+          21.99824
+        ],
+        [
+          -24.90019,
+          21.79824
+        ],
+        [
+          -25.55319,
+          21.79824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0045"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "197",
+        "19D"
+      ],
+      "source_edge_ids": [
+        "197_0",
+        "19D_0"
+      ],
+      "length_m": 0.606,
+      "thickness_m": 0.2,
+      "outline_xy": [
+        [
+          -22.40619,
+          21.99824
+        ],
+        [
+          -21.80019,
+          21.99824
+        ],
+        [
+          -21.80019,
+          21.79824
+        ],
+        [
+          -22.40619,
+          21.79824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0046"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "217",
+        "21D"
+      ],
+      "source_edge_ids": [
+        "217_0",
+        "21D_0"
+      ],
+      "length_m": 0.6,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -21.50019,
+          21.79824
+        ],
+        [
+          -20.90019,
+          21.79824
+        ],
+        [
+          -20.90019,
+          22.09824
+        ],
+        [
+          -21.50019,
+          22.09824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0047"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "6B5",
+        "6B6"
+      ],
+      "source_edge_ids": [
+        "6B5_0",
+        "6B6_0"
+      ],
+      "length_m": 0.59998,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -15.72018,
+          15.30324
+        ],
+        [
+          -15.72018,
+          15.90322
+        ],
+        [
+          -15.84518,
+          15.90322
+        ],
+        [
+          -15.84518,
+          15.30324
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0048"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "58A",
+        "58B"
+      ],
+      "source_edge_ids": [
+        "58A_0",
+        "58B_0"
+      ],
+      "length_m": 0.57,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -39.39519,
+          25.52824
+        ],
+        [
+          -38.82519,
+          25.52824
+        ],
+        [
+          -38.82519,
+          25.65324
+        ],
+        [
+          -39.39519,
+          25.65324
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0049"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "19A",
+        "19B"
+      ],
+      "source_edge_ids": [
+        "19A_0",
+        "19B_0"
+      ],
+      "length_m": 0.517,
+      "thickness_m": 0.2,
+      "outline_xy": [
+        [
+          -27.35019,
+          21.99824
+        ],
+        [
+          -26.83319,
+          21.99824
+        ],
+        [
+          -26.83319,
+          21.79824
+        ],
+        [
+          -27.35019,
+          21.79824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0050"
+    },
+    {
+      "layer": "010 Aussenwände",
+      "source_handles": [
+        "2DC",
+        "2DE"
+      ],
+      "source_edge_ids": [
+        "2DC_0",
+        "2DE_0"
+      ],
+      "length_m": 0.48171,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -36.31441,
+          9.75359
+        ],
+        [
+          -35.83269,
+          9.75324
+        ],
+        [
+          -35.83248,
+          10.05324
+        ],
+        [
+          -36.31419,
+          10.05359
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0051"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "584",
+        "585"
+      ],
+      "source_edge_ids": [
+        "584_0",
+        "585_0"
+      ],
+      "length_m": 0.432,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -39.87519,
+          25.65324
+        ],
+        [
+          -39.44319,
+          25.65324
+        ],
+        [
+          -39.44319,
+          25.52824
+        ],
+        [
+          -39.87519,
+          25.52824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0052"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "6C3",
+        "6C4"
+      ],
+      "source_edge_ids": [
+        "6C3_0",
+        "6C4_0"
+      ],
+      "length_m": 0.432,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -15.72018,
+          11.50324
+        ],
+        [
+          -15.72018,
+          11.07124
+        ],
+        [
+          -15.84518,
+          11.07124
+        ],
+        [
+          -15.84518,
+          11.50324
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0053"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "597",
+        "598"
+      ],
+      "source_edge_ids": [
+        "597_0",
+        "598_0"
+      ],
+      "length_m": 0.432,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -43.62719,
+          25.52824
+        ],
+        [
+          -43.19519,
+          25.52824
+        ],
+        [
+          -43.19519,
+          25.65324
+        ],
+        [
+          -43.62719,
+          25.65324
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0054"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "6AF",
+        "6B0"
+      ],
+      "source_edge_ids": [
+        "6AF_0",
+        "6B0_0"
+      ],
+      "length_m": 0.432,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -15.84518,
+          15.25524
+        ],
+        [
+          -15.84518,
+          14.82324
+        ],
+        [
+          -15.72018,
+          14.82324
+        ],
+        [
+          -15.72018,
+          15.25524
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0055"
+    },
+    {
+      "layer": "019 Vormauerungen",
+      "source_handles": [
+        "458",
+        "459"
+      ],
+      "source_edge_ids": [
+        "458_0",
+        "459_0"
+      ],
+      "length_m": 0.4,
+      "thickness_m": 0.075,
+      "outline_xy": [
+        [
+          -35.60019,
+          25.34824
+        ],
+        [
+          -35.60019,
+          25.74824
+        ],
+        [
+          -35.67519,
+          25.74824
+        ],
+        [
+          -35.67519,
+          25.34824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0056"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "593",
+        "594"
+      ],
+      "source_edge_ids": [
+        "593_0",
+        "594_0"
+      ],
+      "length_m": 0.377,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -38.45019,
+          24.77624
+        ],
+        [
+          -38.45019,
+          25.15324
+        ],
+        [
+          -38.32519,
+          25.15324
+        ],
+        [
+          -38.32519,
+          24.77624
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0057"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "6BF",
+        "6C0"
+      ],
+      "source_edge_ids": [
+        "6BF_0",
+        "6C0_0"
+      ],
+      "length_m": 0.377,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -16.59718,
+          16.40322
+        ],
+        [
+          -16.22018,
+          16.40322
+        ],
+        [
+          -16.22018,
+          16.27822
+        ],
+        [
+          -16.59718,
+          16.27822
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0058"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "286",
+        "288"
+      ],
+      "source_edge_ids": [
+        "286_0",
+        "288_0"
+      ],
+      "length_m": 0.3,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -19.25019,
+          25.39823
+        ],
+        [
+          -18.95019,
+          25.39823
+        ],
+        [
+          -18.95019,
+          25.69823
+        ],
+        [
+          -19.25019,
+          25.69823
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0059"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "209",
+        "20B"
+      ],
+      "source_edge_ids": [
+        "209_0",
+        "20B_0"
+      ],
+      "length_m": 0.3,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -27.35019,
+          25.39824
+        ],
+        [
+          -27.05019,
+          25.39824
+        ],
+        [
+          -27.05019,
+          25.69824
+        ],
+        [
+          -27.35019,
+          25.69824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0060"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "219",
+        "21A"
+      ],
+      "source_edge_ids": [
+        "219_0",
+        "21A_0"
+      ],
+      "length_m": 0.28,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -15.88019,
+          21.79824
+        ],
+        [
+          -15.60019,
+          21.79824
+        ],
+        [
+          -15.60019,
+          22.09824
+        ],
+        [
+          -15.88019,
+          22.09824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0061"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "25D",
+        "25E"
+      ],
+      "source_edge_ids": [
+        "25D_0",
+        "25E_0"
+      ],
+      "length_m": 0.28,
+      "thickness_m": 0.3,
+      "outline_xy": [
+        [
+          -30.70019,
+          22.09824
+        ],
+        [
+          -30.42019,
+          22.09824
+        ],
+        [
+          -30.42019,
+          21.79824
+        ],
+        [
+          -30.70019,
+          21.79824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0062"
+    },
+    {
+      "layer": "019 Vormauerungen",
+      "source_handles": [
+        "45A",
+        "45B"
+      ],
+      "source_edge_ids": [
+        "45A_0",
+        "45B_0"
+      ],
+      "length_m": 0.25,
+      "thickness_m": 0.075,
+      "outline_xy": [
+        [
+          -35.92519,
+          25.82324
+        ],
+        [
+          -35.67519,
+          25.82324
+        ],
+        [
+          -35.67519,
+          25.74824
+        ],
+        [
+          -35.92519,
+          25.74824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0063"
+    },
+    {
+      "layer": "019 Vormauerungen",
+      "source_handles": [
+        "45D",
+        "462"
+      ],
+      "source_edge_ids": [
+        "45D_0",
+        "462_0"
+      ],
+      "length_m": 0.25,
+      "thickness_m": 0.4,
+      "outline_xy": [
+        [
+          -10.62519,
+          25.34824
+        ],
+        [
+          -10.37519,
+          25.34824
+        ],
+        [
+          -10.37519,
+          25.74824
+        ],
+        [
+          -10.62519,
+          25.74824
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0064"
+    },
+    {
+      "layer": "019 Vormauerungen",
+      "source_handles": [
+        "46A",
+        "46B"
+      ],
+      "source_edge_ids": [
+        "46A_0",
+        "46B_0"
+      ],
+      "length_m": 0.25,
+      "thickness_m": 0.075,
+      "outline_xy": [
+        [
+          -9.82519,
+          10.17824
+        ],
+        [
+          -9.57519,
+          10.17824
+        ],
+        [
+          -9.57519,
+          10.10324
+        ],
+        [
+          -9.82519,
+          10.10324
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0065"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "5DA",
+        "5DF"
+      ],
+      "source_edge_ids": [
+        "5DA_0",
+        "5DF_0"
+      ],
+      "length_m": 0.224,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -26.98519,
+          27.74834
+        ],
+        [
+          -26.76119,
+          27.74834
+        ],
+        [
+          -26.76119,
+          27.87334
+        ],
+        [
+          -26.98519,
+          27.87334
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0066"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "5DC",
+        "5DD"
+      ],
+      "source_edge_ids": [
+        "5DC_0",
+        "5DD_0"
+      ],
+      "length_m": 0.224,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -23.88919,
+          27.74834
+        ],
+        [
+          -23.66519,
+          27.74834
+        ],
+        [
+          -23.66519,
+          27.87334
+        ],
+        [
+          -23.88919,
+          27.87334
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0067"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "544",
+        "545"
+      ],
+      "source_edge_ids": [
+        "544_0",
+        "545_0"
+      ],
+      "length_m": 0.224,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -40.14719,
+          25.52824
+        ],
+        [
+          -39.92319,
+          25.52824
+        ],
+        [
+          -39.92319,
+          25.65324
+        ],
+        [
+          -40.14719,
+          25.65324
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0068"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "66F",
+        "670"
+      ],
+      "source_edge_ids": [
+        "66F_0",
+        "670_0"
+      ],
+      "length_m": 0.224,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -15.72018,
+          14.55124
+        ],
+        [
+          -15.72018,
+          14.77524
+        ],
+        [
+          -15.84518,
+          14.77524
+        ],
+        [
+          -15.84518,
+          14.55124
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0069"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "66D",
+        "672"
+      ],
+      "source_edge_ids": [
+        "66D_0",
+        "672_0"
+      ],
+      "length_m": 0.224,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -15.72018,
+          11.55124
+        ],
+        [
+          -15.72018,
+          11.77524
+        ],
+        [
+          -15.84518,
+          11.77524
+        ],
+        [
+          -15.84518,
+          11.55124
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0070"
+    },
+    {
+      "layer": "015 Innenwände",
+      "source_handles": [
+        "542",
+        "547"
+      ],
+      "source_edge_ids": [
+        "542_0",
+        "547_0"
+      ],
+      "length_m": 0.224,
+      "thickness_m": 0.125,
+      "outline_xy": [
+        [
+          -43.14719,
+          25.52824
+        ],
+        [
+          -42.92319,
+          25.52824
+        ],
+        [
+          -42.92319,
+          25.65324
+        ],
+        [
+          -43.14719,
+          25.65324
+        ]
+      ],
+      "status": "PROVISIONAL_INTERVAL_PAIRED_WALL",
+      "safe_for_automatic_cut": false,
+      "automatic_integration_approved": false,
+      "id": "INTERVAL_WALL_0071"
+    }
+  ],
+  "warning": "CAD boundary pairing is provisional. No openings, wall heights, or physical construction status have been verified."
+}

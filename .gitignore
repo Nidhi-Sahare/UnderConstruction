@@ -1,0 +1,100 @@
+
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials.json
+service-account*.json
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated Python build files
+build/
+dist/
+*.egg-info/
+
+# Large generated outputs and caches
+.cache/
+cache/
+video_cache/
+deployment_cache/
+outputs/
+checkpoints/
+runs/
+wandb/
+
+# Machine learning weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Large recordings and archives
+*.bag
+*.db3
+*.mcap
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local testing and coverage
+.coverage
+htmlcov/
+
+# Historical backups and experiments
+_archive/
+experiments/
+
+# Training datasets and raw recordings
+data/datasets/
+data/hilti_recordings/
+
+# Experimental generated data
+data/dataset_audit/
+data/dataset_discovery_report.json
+data/dataset_inventory.json
+
+# Project inventory
+project_inventory.csv
+project_structure.txt
+data/model_training/

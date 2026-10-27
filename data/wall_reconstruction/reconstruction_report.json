@@ -1,0 +1,22 @@
+{
+  "original_segments": 951,
+  "merged_chains": 627,
+  "parallel_boundary_hypotheses": 60,
+  "chains_with_multiple_sources": 161,
+  "category_counts": {
+    "interior": 268,
+    "lining": 36,
+    "exterior": 259,
+    "partition": 64
+  },
+  "parameters": {
+    "merge_angle_degrees": 1.0,
+    "merge_distance_m": 0.015,
+    "endpoint_tolerance_m": 0.015,
+    "parallel_angle_degrees": 2.0,
+    "min_thickness_m": 0.06,
+    "max_thickness_m": 0.45,
+    "min_overlap_m": 0.5,
+    "min_overlap_ratio": 0.5
+  }
+}
